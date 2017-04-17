@@ -28,7 +28,7 @@ This collection, in addition to providing insight into the history of *Shenandoa
 
 ## Participants 
 * Mackenzie Brooks, Assistant Professor and Digital Humanities Librarian
-* Laurel Myers '18, English major
+* Laurel Myers '19, English major
 * Julie Kane, Associate Professor and Head of Collection Services 
 * Tom Camden, Associate Professor and Head of Special Collections and Archives 
 
