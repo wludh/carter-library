@@ -1,5 +1,6 @@
 # Carter Library Project README	
 
+## Description
 This repo contains project materials for the Thomas Henry Carter Library. Carter was a Washington and Lee University student in the 1950s whose correspondence with Ezra Pound contributed to the early development of the literary magazine *Shenandoah*. In 2015, Leyburn Library acquired Carter's personal papers and library from Patrick Henry Community College.  
 
 This collection, in addition to providing insight into the history of *Shenandoah*, also presents a snapshot of the personal library of a young, Southern literary scholar. From this collection of books, pamphlets, and zines, we hope to learn more about the collector as well as the literary scene in the mid-20th century (Carter died in 1963). Since this is a collection of bibliographic data, we hope to use this project as a vehicle to explore linked data possibilities. As librarians, we understand the challenges in organizing, preserving, and providing access to a distinct personal library within the context of a larger library and special collections. Personal libraries are just that - personal, requiring a measured application of cataloging procedures. 
