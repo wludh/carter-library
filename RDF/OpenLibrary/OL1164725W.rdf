@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#'
+  xmlns:rdrel='http://RDVocab.info/RDARelationshipsWEMI/'
+  xmlns:dcterms='http://purl.org/dc/terms/'
+  xmlns:dcam='http://purl.org/dc/dcam/'
+  xmlns:ov='http://open.vocab.org/terms/'
+  xmlns:frbr='http://purl.org/vocab/frbr/core#'
+  xmlns:foaf='http://xmlns.com/foaf/0.1/'
+>
+
+
+    
+    <frbr:Work rdf:about="https://openlibrary.org/works/OL1164725W">
+            <dcterms:title>Honey and salt</dcterms:title>
+    
+
+
+      <dcterms:creator>
+          <rdf:Description rdf:about="https://openlibrary.org/authors/OL117830A">
+              <foaf:name>Carl Sandburg</foaf:name>
+          </rdf:Description>
+      </dcterms:creator>
+      
+          <dcterms:subject>American poetry</dcterms:subject>
+
+      
+      
+      
+      
+    </frbr:Work>
+
+    
+    <rdf:Description rdf:about="https://openlibrary.org/books/OL13537456M">
+        <rdrel:workManifested rdf:resource="https://openlibrary.org/works/OL1164725W" />
+        <dcterms:title>Honey and salt</dcterms:title>
+        <dcterms:date>1963</dcterms:date>
+    </rdf:Description>
+    
+    
+    <rdf:Description rdf:about="https://openlibrary.org/books/OL5879255M">
+        <rdrel:workManifested rdf:resource="https://openlibrary.org/works/OL1164725W" />
+        <dcterms:title>Honey and salt.</dcterms:title>
+        <dcterms:date>1963</dcterms:date>
+    </rdf:Description>
+    
+    
+    <rdf:Description rdf:about="https://openlibrary.org/books/OL7365978M">
+        <rdrel:workManifested rdf:resource="https://openlibrary.org/works/OL1164725W" />
+        <dcterms:title>Honey and Salt</dcterms:title>
+        <dcterms:date>April 12, 1967</dcterms:date>
+    </rdf:Description>
+    
+    
+    <rdf:Description rdf:about="https://openlibrary.org/books/OL17730347M">
+        <rdrel:workManifested rdf:resource="https://openlibrary.org/works/OL1164725W" />
+        <dcterms:title>Honey and salt</dcterms:title>
+        <dcterms:date>1963</dcterms:date>
+    </rdf:Description>
+    
+    
+    <rdf:Description rdf:about="https://openlibrary.org/books/OL18319226M">
+        <rdrel:workManifested rdf:resource="https://openlibrary.org/works/OL1164725W" />
+        <dcterms:title>Honey and salt</dcterms:title>
+        <dcterms:date>1986</dcterms:date>
+    </rdf:Description>
+    
+    
+    <rdf:Description rdf:about="https://openlibrary.org/books/OL23249581M">
+        <rdrel:workManifested rdf:resource="https://openlibrary.org/works/OL1164725W" />
+        <dcterms:title>Honey and salt.</dcterms:title>
+        <dcterms:date>1963</dcterms:date>
+    </rdf:Description>
+    
+    <!-- administrative -->
+    <rdf:Description rdf:about="">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-04-28T07:23:32.955928</dcterms:modified>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-12-09T20:37:26.247023</dcterms:created>
+        <ov:versionnumber>3</ov:versionnumber>
+    </rdf:Description>
+
+</rdf:RDF>

@@ -37,3 +37,5 @@ This collection, in addition to providing insight into the history of *Shenandoa
 * Camden, Tom. “WLU’s Leyburn Library Celebrates ‘Thomas H. Carter, SHENANDOAH, and Ezra Pound’ in Fall Issue of FOLIOS | Shenandoah.” N.p., n.d. Web. 17 Apr. 2017. http://shenandoahliterary.org/blog/2015/11/wlus-leyburn-library-celebrates-thomas-h-carter-shenandoah-and-ezra-pound-in-fall-issue-of-folios/
 * Kappel, Andrew J. “Ezra Pound, Thomas Carter, and the Making of an American Literary Magazine.” Shenandoah: The Washington & Lee University Review 31.3 (1980): 3–22. 
 * Nicholson, Joseph R. “Making Personal Libraries More Public: A Study of the Technical Processing of Personal Libraries in ARL Institutions.” RBM: A Journal of Rare Books, Manuscripts and Cultural Heritage 11.2 (2010): 106–133. http://rbm.acrl.org/content/11/2/106.full.pdf+html
+* Thomale, Jason. “Interpreting MARC: Where’s the Bibliographic Data?” The Code4Lib Journal 11 (2010): n. pag. Code4Lib Journal. Web. 4 May 2017. http://journal.code4lib.org/articles/3832
+

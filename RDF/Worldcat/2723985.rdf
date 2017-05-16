@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2723985">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2723985"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5966143#Person/wakefield_charles_frank">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wakefield</schema:familyName>
+    <schema:givenName>Charles Frank</schema:givenName>
+    <schema:name>Charles Frank Wakefield</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/920725">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Fantasy fiction, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/17229636">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Smith</schema:familyName>
+    <schema:givenName>Clark Ashton</schema:givenName>
+    <schema:name>Clark Ashton Smith</schema:name>
+    <schema:birthDate>1893</schema:birthDate>
+    <schema:deathDate>1961,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/960399">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Horror tales, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1117043">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Short stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2723985">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>2723985</schema:productID>
+    <schema:description xml:lang="en">Genius loci.--The willow landscape.--The ninth skeleton.--The phantoms of the fire.--The eternal world.--Vulthoom--A star-change.--The primal city.--The disinterment of Venus.--The colossus of Ylourgne.--The satyr.--The garden of Adompha.--The charnel god.--The black abbot of Puthuum.--The weaver in the vault.</schema:description>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2723985"/>
+    <schema:illustrator rdf:resource="http://experiment.worldcat.org/entity/work/data/5966143#Person/wakefield_charles_frank"/>
+    <schema:datePublished>1948</schema:datePublished>
+    <schema:genre xml:lang="en">Science fiction</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/920725"/>
+    <schema:genre xml:lang="en">Fantasy fiction</schema:genre>
+    <schema:author rdf:resource="http://viaf.org/viaf/17229636"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/5966143"/>
+    <schema:genre xml:lang="en">Horror fiction</schema:genre>
+    <library:oclcnum>2723985</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/960399"/>
+    <schema:name xml:lang="en">Genius loci, and other tales</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1117043"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/wiu"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/wiu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>wiu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>
