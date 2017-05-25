@@ -1,0 +1,69 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2640447#Agent/bantam_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Bantam Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5667642#PublicationEvent/new_york_bantam_books_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2640447#Agent/bantam_books"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1117064">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Short stories, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5667642">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/5667642"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/5667642">
+    <library:oclcnum>5667642</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>5667642</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1117064"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/12429524"/>
+    <schema:name xml:lang="en">The great short stories of John O'Hara : stories from The Doctor's Son and other stories and Files on Parade.</schema:name>
+    <schema:description xml:lang="en">The doctor's son -- Early afternoon -- Pleasure -- New day -- The man who had to talk to somebody -- Mary -- Ella and the Chinee -- Ten Eyck or Pershing? Pershing or Ten Eyck? -- Alone -- Coffee pot -- The girl who had been presented -- Mort and Mary -- On his hands -- It wouldn't break your arm -- I never seen anything like it -- Lombard's kick -- Frankie -- Mr. Cass and the ten thousand dollars -- Of thee I sing, baby -- Screen test -- Mr. Sidney Gainsborough: quality pictures -- Mr. Cowley and the young -- Never a dull moment -- Master of ceremonies -- Mrs. Galt and Edwin -- Hotel kid -- Dr. Wyeth's son -- Except in my memory -- The public career of Mr. Seymour Harrisburg -- Straight pool -- Back in New Haven -- Salute a thoroughbred -- All the girls he wanted -- Sportsmanship -- In the morning sun -- It must have been spring -- Over the river and through the wood -- Price's always open -- Trouble in 1949 -- The cold house -- Days -- Are we leaving tomorrow? -- Portistan on the portis -- Lunch Tuesday -- Shave -- Sidesaddle -- No mistakes -- Brother -- Saffercisco -- Ice cream -- Peggy -- And you want a mountain -- Pal Joey -- Ex-pal -- How I am now in Chi -- Bow wow -- Give and take -- The gentleman in the tan suit -- Good-by, Herman -- I could have had a yacht -- Richard Wagner: public domain? -- Olive -- My girls -- No sooner said -- Invite -- By way of Yonkers -- Most gorgeous thing -- A day like today -- The ideal man -- Do you like it here?</schema:description>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/5667642#PublicationEvent/new_york_bantam_books_1956"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2640447#Agent/bantam_books"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2640447"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/5667642"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:datePublished>1956</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/12429524">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>O'Hara</schema:familyName>
+    <schema:givenName>John</schema:givenName>
+    <schema:name>John O'Hara</schema:name>
+    <schema:birthDate>1905</schema:birthDate>
+    <schema:deathDate>1970</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

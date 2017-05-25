@@ -1,0 +1,69 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2800163121#Agent/convention_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Convention Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2800163121#Person/means_elwyn_lee">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Means</schema:familyName>
+    <schema:givenName>Elwyn Lee</schema:givenName>
+    <schema:name>Elwyn Lee Means</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/tnu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>tnu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/929651186#PublicationEvent/nashville_tennessee_convention_press_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2800163121#Place/nashville_tennessee"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2800163121#Agent/convention_press"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/210/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/929651186">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/929651186"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2800163121#Place/nashville_tennessee">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Nashville ;Tennessee</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2800163121#Thing/islam_religion">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Islam religion</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/929651186">
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/2800163121#Person/means_elwyn_lee"/>
+    <schema:about rdf:resource="http://dewey.info/class/210/"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/tnu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/929651186#PublicationEvent/nashville_tennessee_convention_press_1955"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2800163121#Place/nashville_tennessee"/>
+    <schema:name>World within a world</schema:name>
+    <schema:productID>929651186</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/929651186"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2800163121"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2800163121#Thing/islam_religion"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2800163121#Agent/convention_press"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>929651186</library:oclcnum>
+  </rdf:Description>
+</rdf:RDF>

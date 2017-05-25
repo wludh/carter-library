@@ -1,0 +1,73 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1293174#Series/pocket_poets_series">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/313036161"/>
+    <schema:name>Pocket poets series ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1293174#Series/the_pocket_poets_series">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/313036161"/>
+    <schema:name>The pocket poets series ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/313036161#PublicationEvent/san_francisco_city_lights_books_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1293174#Place/san_francisco"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1293174#Agent/city_lights_books"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/313036161">
+    <schema:productID>313036161</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/cau"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/313036161#PublicationEvent/san_francisco_city_lights_books_1960"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1293174"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1293174#Series/the_pocket_poets_series"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1293174#Agent/city_lights_books"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name>Poems of humor &amp; protest</schema:name>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1293174#Place/san_francisco"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1293174#Person/patchen_kenneth"/>
+    <schema:bookEdition>7. print.</schema:bookEdition>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>313036161</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/313036161"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1293174#Series/pocket_poets_series"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1293174#Place/san_francisco">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>San Francisco</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/313036161">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/313036161"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/cau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>cau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1293174#Agent/city_lights_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>City Lights Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1293174#Person/patchen_kenneth">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Patchen</schema:familyName>
+    <schema:givenName>Kenneth</schema:givenName>
+    <schema:name>Kenneth Patchen</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,91 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3897022535#Agent/new_american_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New American Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/422211364">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/422211364"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3897022535#Topic/litterature_grecque_histoire_et_critique"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3897022535#Series/a_mentor_book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3897022535#Topic/hellenisme"/>
+    <schema:numberOfPages>190</schema:numberOfPages>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/422211364#PublicationEvent/new_york_new_american_library_1953_1942"/>
+    <schema:copyrightYear>1942</schema:copyrightYear>
+    <library:oclcnum>422211364</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3897022535"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3897022535#Agent/new_american_library"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name>The Greek way to Western civilization.</schema:name>
+    <schema:productID>422211364</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3897022535#Place/grece"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3897022535#Person/hamilton_edith_1867_1963"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3897022535#Series/mentor_book"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1953</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/422211364">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/422211364"/>
+    <schema:dateModified>2017-04-21</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3897022535#Series/a_mentor_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/422211364"/>
+    <schema:name>A Mentor book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3897022535#Topic/litterature_grecque_histoire_et_critique">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Littérature grecque--Histoire et critique</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3897022535#Person/hamilton_edith_1867_1963">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hamilton</schema:familyName>
+    <schema:givenName>Edith</schema:givenName>
+    <schema:name>Edith Hamilton</schema:name>
+    <schema:birthDate>1867</schema:birthDate>
+    <schema:deathDate>1963</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/422211364#PublicationEvent/new_york_new_american_library_1953_1942">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3897022535#Agent/new_american_library"/>
+    <schema:startDate>1953</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3897022535#Place/grece">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Grèce</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3897022535#Series/mentor_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/422211364"/>
+    <schema:name>Mentor book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3897022535#Topic/hellenisme">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Hellénisme</schema:name>
+  </rdf:Description>
+</rdf:RDF>

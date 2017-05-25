@@ -1,0 +1,101 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3788541#Agent/broadman_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Broadman Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3788541#Person/gill_everett_1901_1954">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gill</schema:familyName>
+    <schema:givenName>Everett</schema:givenName>
+    <schema:name>Everett Gill</schema:name>
+    <schema:birthDate>1901</schema:birthDate>
+    <schema:deathDate>1954</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/948333194">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/2112743"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/BV2830"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3788541#Topic/missions_latin_america"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/948333194"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3788541#Topic/baptists_missions"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3788541#Place/nashville_tn"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3788541#Place/latin_america"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>948333194</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/MediaObject"/>
+    <library:oclcnum>948333194</library:oclcnum>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3788541#Person/gill_everett_1901_1954"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3788541"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/tnu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:url rdf:resource="http://catalog.hathitrust.org/api/volumes/oclc/2112743.html"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3788541#Topic/missions"/>
+    <schema:bookFormat rdf:resource="http://schema.org/EBook"/>
+    <schema:about rdf:resource="http://dewey.info/class/278/"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/948333194#PublicationEvent/nashville_tn_broadman_press_1951"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3788541#Agent/broadman_press"/>
+    <schema:name xml:lang="en">Pilgrimage to Spanish America</schema:name>
+    <schema:datePublished>1951</schema:datePublished>
+    <schema:url rdf:resource="http://books.google.com/books?id=QjRlAAAAMAAJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3788541#Place/nashville_tn">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Nashville, TN</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/278/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3788541#Topic/baptists_missions">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Baptists--Missions</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/BV2830">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/948333194">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/948333194"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3788541#Topic/missions">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Missions</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/tnu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>tnu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3788541#Place/latin_america">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Latin America.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2112743">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/948333194"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Pilgrimage to Spanish America.</rdfs:label>
+    <schema:description>Print version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3788541#Topic/missions_latin_america">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Missions--Latin America</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/948333194#PublicationEvent/nashville_tn_broadman_press_1951">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3788541#Place/nashville_tn"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3788541#Agent/broadman_press"/>
+    <schema:startDate>1951</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>
