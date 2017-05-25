@@ -1,0 +1,63 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1437240#Person/derleth_august_1909_1971">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Derleth</schema:familyName>
+    <schema:givenName>August</schema:givenName>
+    <schema:name>August Derleth</schema:name>
+    <schema:birthDate>1909</schema:birthDate>
+    <schema:deathDate>1971</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/13690794">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/13690794"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1437240#Place/sauk_city_wisc">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Sauk City, Wisc.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1437240#Agent/stanton_and_lee">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Stanton and Lee</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/13690794#PublicationEvent/sauk_city_wisc_stanton_and_lee_1945">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1437240#Place/sauk_city_wisc"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1437240#Agent/stanton_and_lee"/>
+    <schema:startDate>1945</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/13690794">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>13690794</schema:productID>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1437240#Place/sauk_city_wisc"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1437240#Person/derleth_august_1909_1971"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/13690794#PublicationEvent/sauk_city_wisc_stanton_and_lee_1945"/>
+    <library:oclcnum>13690794</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/13690794"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/wiu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1437240"/>
+    <schema:name xml:lang="en">Evening in spring</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1437240#Agent/stanton_and_lee"/>
+    <schema:datePublished>1945</schema:datePublished>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/wiu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>wiu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,64 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1428497#Person/derleth_august_1909_1971">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Derleth</schema:familyName>
+    <schema:givenName>August</schema:givenName>
+    <schema:name>August Derleth</schema:name>
+    <schema:birthDate>1909</schema:birthDate>
+    <schema:deathDate>1971</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1428497#Place/sauk_city_wis">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Sauk City, Wis.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/36291267#PublicationEvent/sauk_city_wis_stanton_&amp;_lee_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1428497#Place/sauk_city_wis"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1428497#Agent/stanton_&amp;_lee"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/36291267">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/36291267"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1428497#Agent/stanton_&amp;_lee">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Stanton &amp; Lee</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/36291267">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/36291267"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1428497"/>
+    <schema:description xml:lang="en">Kleine Nachtmusik -- Expedition to the North -- Ellie Butts -- A little quiet in the evening -- McCrary's wife -- The sisters -- Moonlight in the apple tree -- Valse Oubliée -- Where the worm dieth not -- Now is the time for all good men-- Nella -- The night light at Vorden's -- Aunt May and the refugees -- Stuff of dreams -- Rendezvous -- The lost kiss -- "That feller Oates!" -- One against the dead -- Light again -- I was walking Helen home.</schema:description>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>36291267</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1948</schema:datePublished>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1428497#Place/sauk_city_wis"/>
+    <library:oclcnum>36291267</library:oclcnum>
+    <schema:name xml:lang="en">Sac Prairie people</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1428497#Agent/stanton_&amp;_lee"/>
+    <rdf:type rdf:resource="http://bibliograph.net/Microform"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/36291267#PublicationEvent/sauk_city_wis_stanton_&amp;_lee_1948"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/wiu"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1428497#Person/derleth_august_1909_1971"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/wiu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>wiu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>
