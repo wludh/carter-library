@@ -1,0 +1,100 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1038463#CreativeWork/jerusalem_the_golden">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Jerusalem the golden.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#Person/reznikoff_charles_1894_1976"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/956925166">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/956925166"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1038463#CreativeWork/five_groups_of_verse">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Five groups of verse.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#Person/reznikoff_charles_1894_1976"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1038463#CreativeWork/in_memoriam">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>In memoriam.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#Person/reznikoff_charles_1894_1976"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1038463#CreativeWork/inscriptions">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Inscriptions.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#Person/reznikoff_charles_1894_1976"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/956925166">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:description>From Five groups of verse (1927) -- frome Editing and gloss (1929) -- from Jerusalem the golden (1934) -- from In memoriam : 1933 (1934) -- from Separate way (1936) -- from Going to and fro and walking up and down (1941) -- from Inscriptions : 1944-1956 (1959).</schema:description>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#CreativeWork/five_groups_of_verse"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#CreativeWork/in_memoriam"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name>By the waters of Manhattan : selected verse</schema:name>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#CreativeWork/jerusalem_the_golden"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:genre xml:lang="fr">Poésie</schema:genre>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#CreativeWork/separate_way"/>
+    <schema:datePublished>1962</schema:datePublished>
+    <schema:productID>956925166</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/956925166"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#Series/nd_paperbook"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#Person/reznikoff_charles_1894_1976"/>
+    <library:oclcnum>956925166</library:oclcnum>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#CreativeWork/inscriptions"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#Person/reznikoff_charles_1894_1976"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#CreativeWork/going_to_and_fro_and_walking_up_and_down"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1038463"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#CreativeWork/editing_and_gloss"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/1038463">
+    <schema:name>Poèmes.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1038463#Series/nd_paperbook">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/956925166"/>
+    <schema:name>ND paperbook ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1038463#CreativeWork/going_to_and_fro_and_walking_up_and_down">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Going to and fro and walking up and down.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#Person/reznikoff_charles_1894_1976"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1038463#CreativeWork/separate_way">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Separate way.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#Person/reznikoff_charles_1894_1976"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1038463#CreativeWork/editing_and_gloss">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Editing and gloss.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1038463#Person/reznikoff_charles_1894_1976"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1038463#Person/reznikoff_charles_1894_1976">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Reznikoff</schema:familyName>
+    <schema:givenName>Charles</schema:givenName>
+    <schema:name>Charles Reznikoff</schema:name>
+    <schema:birthDate>1894</schema:birthDate>
+    <schema:deathDate>1976</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,75 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196110914#Place/totowa">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Totowa</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/924647155">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name>American history : before 1877 : [with questions &amp; answers]. Vol. 1</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/196110914#Person/billington_ray_allen_1903_1981"/>
+    <schema:productID>924647155</schema:productID>
+    <schema:datePublished>1966</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/924647155#PublicationEvent/totowa_littlefield_adams_&amp;_co_1966"/>
+    <library:oclcnum>924647155</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/924647155"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/196110914#Agent/littlefield_adams_&amp;_co"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/196110914#Organization/littlefield_adams_&amp;_company"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/196110914#Series/littlefield_quality_paperbacks"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/196110914"/>
+    <schema:bookEdition>Repr.</schema:bookEdition>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/196110914#Place/totowa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196110914#Series/littlefield_quality_paperbacks">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/924647155"/>
+    <schema:name>Littlefield Quality Paperbacks ;</schema:name>
+    <schema:name>Littlefield Quality Paperbacks</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196110914#Person/billington_ray_allen_1903_1981">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Billington</schema:familyName>
+    <schema:givenName>Ray Allen</schema:givenName>
+    <schema:name>Ray Allen Billington</schema:name>
+    <schema:birthDate>1903</schema:birthDate>
+    <schema:deathDate>1981</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196110914#Agent/littlefield_adams_&amp;_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Littlefield, Adams &amp; Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/924647155">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/924647155"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196110914#Organization/littlefield_adams_&amp;_company">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Littlefield, Adams &amp; Company.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/924647155#PublicationEvent/totowa_littlefield_adams_&amp;_co_1966">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/196110914#Place/totowa"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/196110914#Agent/littlefield_adams_&amp;_co"/>
+    <schema:startDate>1966</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

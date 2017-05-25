@@ -1,0 +1,85 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3771680652#Place/carthage_extinct_city">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Carthage (Extinct city)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/9846192">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Flaubert</schema:familyName>
+    <schema:givenName>Gustave</schema:givenName>
+    <schema:name>Gustave Flaubert</schema:name>
+    <schema:birthDate>1821</schema:birthDate>
+    <schema:deathDate>1880</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/12135914">
+    <schema:productID>12135914</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3771680652"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3771680652#Series/berkley_medallion_book"/>
+    <schema:name xml:lang="en">Salambo.</schema:name>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/12135914#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3771680652#Agent/berkley_pub_corp"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3771680652#Place/carthage_extinct_city"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1896920"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/12135914"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/12135914#PublicationEvent/new_york_berkley_pub_corp_1955"/>
+    <library:oclcnum>12135914</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/9846192"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3771680652#Series/berkley_medallion_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/12135914"/>
+    <schema:name>Berkley Medallion Book</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3771680652#Agent/berkley_pub_corp">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Berkley Pub. Corp.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/12135914">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/12135914"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/12135914#PublicationEvent/new_york_berkley_pub_corp_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3771680652#Agent/berkley_pub_corp"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/12135914#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:language>und</dcterms:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1896920">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Tunisia--Carthage (Extinct city)</schema:name>
+  </rdf:Description>
+</rdf:RDF>

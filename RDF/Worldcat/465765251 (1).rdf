@@ -1,0 +1,110 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dewey.info/class/811.5/e18/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/465765251">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/465765251"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/575631490#Thing/forfattere">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>forfattere.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/575631490#Thing/amerikansk_litteratur">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>amerikansk litteratur.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/575631490#Thing/amerikanske_forfattere">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>amerikanske forfattere.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/465765251">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/575631490#Thing/biografier"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/575631490#Thing/amerikansk_litteratur"/>
+    <library:oclcnum>465765251</library:oclcnum>
+    <schema:about rdf:resource="http://viaf.org/viaf/61562486"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/uik"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/465765251#PublicationEvent/edinburgh_london_oliver_and_boyd_1960"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/575631490#Thing/amerikanske_forfattere"/>
+    <schema:datePublished>(1960)</schema:datePublished>
+    <schema:name>Wallace Stevens.</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>465765251</schema:productID>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/575631490#Series/writers_and_critics"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/575631490"/>
+    <schema:about rdf:resource="http://dewey.info/class/811.5/e18/"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/465765251"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/575631490#Place/edinburgh"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/61560859"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/575631490#Agent/oliver_and_boyd"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/575631490#Thing/forfattere"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/575631490#Thing/litteratur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/61562486">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Stevens</schema:familyName>
+    <schema:givenName>Wallace</schema:givenName>
+    <schema:name>Wallace Stevens</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/61560859">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kermode</schema:familyName>
+    <schema:givenName>Frank</schema:givenName>
+    <schema:name>Frank Kermode</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/uik">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>uik</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/465765251#PublicationEvent/edinburgh_london_oliver_and_boyd_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/575631490#Place/edinburgh"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/575631490#Agent/oliver_and_boyd"/>
+    <schema:startDate>(1960)</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/575631490#Thing/biografier">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>biografier.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/575631490#Place/edinburgh">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Edinburgh</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/575631490#Agent/oliver_and_boyd">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Oliver and Boyd</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/575631490#Thing/litteratur">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>litteratur.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/575631490#Series/writers_and_critics">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/465765251"/>
+    <schema:name>Writers and critics</schema:name>
+    <schema:name>Writers and critics.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,62 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/503951698">
+    <schema:productID>503951698</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/503951698"/>
+    <library:oclcnum>503951698</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1079679097#Person/pound_ezra_1885_1972"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1079679097#Place/pp_vi_71_poetry"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1079679097#Agent/chicago"/>
+    <schema:genre xml:lang="en">Government publication</schema:genre>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/503951698#PublicationEvent/pp_vi_71_poetry_chicago_1949"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1079679097"/>
+    <schema:name xml:lang="en">The Case against the Saturday Review of Literature. The attack of the Saturday Review on modern poets and critics; answered by the Fellows in American Letters of the Library of Congress, together with articles, editorials, and letters from other writers. [A reply to the attacks on the Bollingen Award for 1948 to Ezra Pound's "Pisan Cantos."].</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1079679097#Organization/library_of_congress_committee_of_the_fellows_in_american_letters"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1949</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/503951698#PublicationEvent/pp_vi_71_poetry_chicago_1949">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1079679097#Place/pp_vi_71_poetry"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1079679097#Agent/chicago"/>
+    <schema:startDate>1949</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1079679097#Organization/library_of_congress_committee_of_the_fellows_in_american_letters">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Library of Congress. Committee of the Fellows in American Letters.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/503951698">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/503951698"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1079679097#Place/pp_vi_71_poetry">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Pp. vi. 71. Poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1079679097#Agent/chicago">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1079679097#Person/pound_ezra_1885_1972">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Pound</schema:familyName>
+    <schema:givenName>Ezra</schema:givenName>
+    <schema:name>Ezra Pound</schema:name>
+    <schema:birthDate>1885</schema:birthDate>
+    <schema:deathDate>1972</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

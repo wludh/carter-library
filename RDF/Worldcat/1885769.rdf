@@ -1,0 +1,98 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/BF145">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3165468#Place/new_york_and_london">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York and London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1016325">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Mental discipline</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3165468#Agent/funk_&amp;_wagnalls_company">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Funk &amp; Wagnalls Company</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/954181516">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1885769"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>New mental efficiency manual.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3165468#CreativeWork/mental_efficiency_manual">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Mental efficiency manual.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1885769">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/BF145"/>
+    <library:oclcnum>1885769</library:oclcnum>
+    <schema:name xml:lang="en">The new mental efficiency manual, revised and abridged from the ten-volume "Mental efficiency seres," with added contributions from the famous authorities.</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3165468#Agent/funk_&amp;_wagnalls_company"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/310730163"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/954181516"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1885769"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/3165468#CreativeWork/mental_efficiency_series"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3165468#Place/new_york_and_london"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/874563"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1885769#PublicationEvent/new_york_and_london_funk_&amp;_wagnalls_company_1934"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3165468"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1016325"/>
+    <schema:description xml:lang="en">Poise, by D. Starke.--Character, by D. Starke.--Timidity, by Yoritomo-Tashi.--Influence, by Yoritomo-Tashi.--Common sense, by Yoritomo-Tashi.--Practicality, by R. Nicolle and Willaam Mathews.--Opportunities, by L. Charley.--Perseverance, by H. Besser.--Speech, by Xanthes.--Personality, by H. Laurent, E.P. Thwing and william Mathews.</schema:description>
+    <schema:about rdf:resource="http://dewey.info/class/131.32/"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/3165468#CreativeWork/mental_efficiency_manual"/>
+    <schema:datePublished>1934</schema:datePublished>
+    <schema:productID>1885769</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/131.32/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3165468#CreativeWork/mental_efficiency_series">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Mental efficiency series.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/874563">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Conduct of life</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1885769#PublicationEvent/new_york_and_london_funk_&amp;_wagnalls_company_1934">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3165468#Place/new_york_and_london"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3165468#Agent/funk_&amp;_wagnalls_company"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/310730163">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Thwing</schema:familyName>
+    <schema:givenName>Eugene</schema:givenName>
+    <schema:name>Eugene Thwing</schema:name>
+    <schema:birthDate>1866</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1885769">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1885769"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>
