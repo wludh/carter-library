@@ -1,0 +1,73 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/61140599#Place/new_york_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/799940407#PublicationEvent/new_york_n_y_signet_c1951">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/61140599#Place/new_york_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/61140599#Agent/signet"/>
+    <schema:startDate>c1951</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/71398096">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Styron</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Styron</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/799940407">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/799940407"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.54/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/61140599#Agent/signet">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Signet</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/61140599#Series/signet_novel">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/799940407"/>
+    <schema:name>Signet novel</schema:name>
+    <schema:name>Signet novel.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/799940407">
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/61140599#Place/new_york_n_y"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/61140599#Series/signet_novel"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.54/"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/799940407"/>
+    <schema:productID>799940407</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/61140599"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1951</schema:datePublished>
+    <schema:name>Lie down in darkness</schema:name>
+    <schema:numberOfPages>382</schema:numberOfPages>
+    <schema:creator rdf:resource="http://viaf.org/viaf/71398096"/>
+    <schema:copyrightYear>1951</schema:copyrightYear>
+    <library:oclcnum>799940407</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/799940407#PublicationEvent/new_york_n_y_signet_c1951"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/61140599#Agent/signet"/>
+  </rdf:Description>
+</rdf:RDF>

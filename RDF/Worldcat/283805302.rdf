@@ -1,0 +1,74 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/283805302">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/283805302"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/283805302">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1000151"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/283805302#PublicationEvent/new_york_a_mentor_book_1958"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/283805302"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85077549"/>
+    <schema:productID>283805302</schema:productID>
+    <schema:creator rdf:resource="http://viaf.org/viaf/51774688"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/445493#Agent/a_mentor_book"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/445493"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>283805302</library:oclcnum>
+    <schema:name xml:lang="en">The Dark Ages</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/283805302#PublicationEvent/new_york_a_mentor_book_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/445493#Agent/a_mentor_book"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85077549">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Literature, Medieval--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1000151">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Literature, Medieval</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/51774688">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ker</schema:familyName>
+    <schema:givenName>W. P.</schema:givenName>
+    <schema:givenName>William Paton</schema:givenName>
+    <schema:name>William Paton Ker</schema:name>
+    <schema:birthDate>1855</schema:birthDate>
+    <schema:deathDate>1923</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/445493#Agent/a_mentor_book">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>A Mentor Book</schema:name>
+  </rdf:Description>
+</rdf:RDF>

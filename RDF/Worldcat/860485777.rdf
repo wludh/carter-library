@@ -1,0 +1,67 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/860485777#PublicationEvent/englewood_cliffs_prentice_hall_1962">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/4160198305#Place/englewood_cliffs"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4160198305#Agent/prentice_hall"/>
+    <schema:startDate>1962</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4160198305#Agent/prentice_hall">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Prentice-Hall</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/860485777">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/860485777"/>
+    <schema:dateModified>2017-04-13</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4160198305#Series/twentieth_century_views">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/860485777"/>
+    <schema:name>Twentieth century views</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4160198305#Person/demetz_peter">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Demetz</schema:familyName>
+    <schema:givenName>Peter</schema:givenName>
+    <schema:name>Peter Demetz</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4160198305#Place/englewood_cliffs">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Englewood Cliffs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/860485777">
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4160198305#Series/twentieth_century_views"/>
+    <schema:productID>860485777</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/860485777#PublicationEvent/englewood_cliffs_prentice_hall_1962"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/4160198305#Person/demetz_peter"/>
+    <schema:numberOfPages>185</schema:numberOfPages>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>860485777</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4160198305"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/4160198305#Place/englewood_cliffs"/>
+    <schema:name>Brecht : a collection of critical essay</schema:name>
+    <schema:datePublished>1962</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4160198305#Agent/prentice_hall"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/860485777"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+</rdf:RDF>

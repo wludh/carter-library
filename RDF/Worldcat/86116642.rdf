@@ -1,0 +1,97 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/86116642">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/86116642"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/375124599#Agent/anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Anchor Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/86116642#PublicationEvent/garden_city_n_y_anchor_books_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/375124599#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/375124599#Agent/anchor_books"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/86116642#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>de</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/831.082/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/375124599#Topic/english_poetry_translations_from_german">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85043932"/>
+    <schema:name xml:lang="en">English poetry--Translations from German</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/375124599#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/98522831">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Flores</schema:familyName>
+    <schema:givenName>Angel</schema:givenName>
+    <schema:name>Angel Flores</schema:name>
+    <schema:birthDate>1900</schema:birthDate>
+    <schema:deathDate>1992,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/375124599#Series/a_doubleday_anchor_original_a197">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/86116642"/>
+    <schema:name>A Doubleday Anchor original, A197</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/86116642">
+    <schema:bookEdition>1st ed.</schema:bookEdition>
+    <schema:productID>86116642</schema:productID>
+    <schema:name xml:lang="en">An anthology of German poetry from Hölderlin to Rilke in English translation with German originals</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/375124599"/>
+    <schema:about rdf:resource="http://dewey.info/class/831.082/"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/375124599#Place/garden_city_n_y"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/98522831"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/86116642"/>
+    <schema:description xml:lang="en">English and German for each poem.</schema:description>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>86116642</library:oclcnum>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/375124599#Topic/english_poetry_translations_from_german"/>
+    <schema:genre xml:lang="en">Translations</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/375124599#Topic/german_poetry_translations_into_english"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/86116642#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/941930"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/375124599#Agent/anchor_books"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/86116642#PublicationEvent/garden_city_n_y_anchor_books_1960"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/375124599#Series/a_doubleday_anchor_original_a197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/375124599#Topic/german_poetry_translations_into_english">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85054413"/>
+    <schema:name xml:lang="en">German poetry--Translations into English</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/941930">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">German poetry</schema:name>
+  </rdf:Description>
+</rdf:RDF>

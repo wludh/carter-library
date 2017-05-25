@@ -1,0 +1,64 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/10973728">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/10973728#PublicationEvent/new_york_dell_pub_co_1960_1944"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">Boston adventure</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/52424127#Agent/dell_pub_co"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/52424127"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:oclcnum>10973728</library:oclcnum>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>10973728</schema:productID>
+    <schema:creator rdf:resource="http://viaf.org/viaf/109645819"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/10973728"/>
+    <schema:copyrightYear>1944</schema:copyrightYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/109645819">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Stafford</schema:familyName>
+    <schema:givenName>Jean</schema:givenName>
+    <schema:name>Jean Stafford</schema:name>
+    <schema:birthDate>1915</schema:birthDate>
+    <schema:deathDate>1979</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/10973728">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/10973728"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/10973728#PublicationEvent/new_york_dell_pub_co_1960_1944">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/52424127#Agent/dell_pub_co"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424127#Agent/dell_pub_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Dell Pub Co.</schema:name>
+  </rdf:Description>
+</rdf:RDF>
