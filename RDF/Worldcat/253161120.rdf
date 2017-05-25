@@ -1,0 +1,100 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1356424#Series/meridian_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/253161120"/>
+    <schema:name>Meridian Library ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1356424#Person/dill_samuel">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dill</schema:familyName>
+    <schema:givenName>Samuel</schema:givenName>
+    <schema:name>Samuel Dill</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1356424#Place/romisches_reich">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Römisches Reich.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1356424#Topic/religion">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Religion</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1356424#Topic/kultur">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Kultur</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1356424#Agent/meridian_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Meridian Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/253161120#PublicationEvent/new_york_meridian_books_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1356424#Agent/meridian_books"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/253161120">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/253161120"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1356424#Series/the_meridian_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/253161120"/>
+    <schema:name>The Meridian Library ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/84036175">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Nero</schema:familyName>
+    <schema:givenName>Claudius Caesar</schema:givenName>
+    <schema:name>Claudius Caesar Nero</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1356424#Event/geschichte_54_180">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>Geschichte 54-180.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/253161120">
+    <schema:contributor rdf:resource="http://viaf.org/viaf/84036175"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1356424"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1356424#Topic/religion"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1356424#Person/dill_samuel"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1356424#Series/meridian_library"/>
+    <schema:productID>253161120</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/253161120#PublicationEvent/new_york_meridian_books_1957"/>
+    <schema:bookEdition>(2. pr.).</schema:bookEdition>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1356424#Series/the_meridian_library"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1356424#Place/romisches_reich"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1356424#Topic/kultur"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1356424#Agent/meridian_books"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/253161120"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:name>Roman Society from Nero to Marcus Aurelius.</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1356424#Event/geschichte_54_180"/>
+    <library:oclcnum>253161120</library:oclcnum>
+    <schema:datePublished>1957</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

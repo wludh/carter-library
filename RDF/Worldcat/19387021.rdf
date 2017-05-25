@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/19387021">
+    <library:oclcnum>19387021</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/19387021#PublicationEvent/new_york_pocket_books_inc_1942_1935"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">Damon Runyon favorites</schema:name>
+    <schema:productID>19387021</schema:productID>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/548779#Series/pocket_books"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:description xml:lang="en">Butch minds the baby -- Lillian -- A very honorable guy -- Madame la Gimp -- The hottest guy in the world -- Bred for battle -- A story goes with it -- Sense of humor -- Undertaker song -- That ever-loving wife of Hymie's -- The brakeman's daughter -- Little Miss Marker -- Dancing Dan's Christmas -- Princess O'Hara.</schema:description>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/548779#Agent/pocket_books_inc"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/7365839"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/548779"/>
+    <schema:datePublished>1942</schema:datePublished>
+    <schema:bookEdition>Pocket Book ed.</schema:bookEdition>
+    <schema:copyrightYear>1935</schema:copyrightYear>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/19387021"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/548779#Series/pocket_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/19387021"/>
+    <schema:name>Pocket books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/7365839">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Runyon</schema:familyName>
+    <schema:givenName>Damon</schema:givenName>
+    <schema:name>Damon Runyon</schema:name>
+    <schema:birthDate>1880</schema:birthDate>
+    <schema:deathDate>1946</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/19387021#PublicationEvent/new_york_pocket_books_inc_1942_1935">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/548779#Agent/pocket_books_inc"/>
+    <schema:startDate>1942</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/548779#Agent/pocket_books_inc">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Pocket Books, Inc.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/19387021">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/19387021"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

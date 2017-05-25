@@ -1,0 +1,91 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/934415654">
+    <schema:productID>934415654</schema:productID>
+    <schema:name>Intimate journals</schema:name>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4159875932#Series/beacon_paperback"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/934415654"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/4159875932#Person/isherwood_christopher"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/4159875932#Person/baudelaire_charles_1821_1867"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4159875932"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/4159875932#Person/auden_w_h_1907_1973"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/934415654#PublicationEvent/boston_beacon_press_1957"/>
+    <schema:numberOfPages>71</schema:numberOfPages>
+    <library:oclcnum>934415654</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/4159875932#CreativeWork/the_intimate_journals_of_charles_baudelaire"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4159875932#Agent/beacon_press"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4159875932#Series/beacon_paperback">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/934415654"/>
+    <schema:name>Beacon paperback ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4159875932#Agent/beacon_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Beacon Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/934415654#PublicationEvent/boston_beacon_press_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4159875932#Agent/beacon_press"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4159875932#CreativeWork/the_intimate_journals_of_charles_baudelaire">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>The intimate journals of Charles Baudelaire.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4159875932#Person/baudelaire_charles_1821_1867">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Baudelaire</schema:familyName>
+    <schema:givenName>Charles</schema:givenName>
+    <schema:name>Charles Baudelaire</schema:name>
+    <schema:birthDate>1821</schema:birthDate>
+    <schema:deathDate>1867</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4159875932#Person/isherwood_christopher">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Isherwood</schema:familyName>
+    <schema:givenName>Christopher</schema:givenName>
+    <schema:name>Christopher Isherwood</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/934415654">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/934415654"/>
+    <schema:dateModified>2017-04-13</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4159875932#Person/auden_w_h_1907_1973">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Auden</schema:familyName>
+    <schema:givenName>W. H.</schema:givenName>
+    <schema:name>W. H. Auden</schema:name>
+    <schema:birthDate>1907</schema:birthDate>
+    <schema:deathDate>1973</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

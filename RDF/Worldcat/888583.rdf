@@ -1,0 +1,112 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/841/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4277655#Person/villon_francois_1431_1463">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Villon</schema:familyName>
+    <schema:givenName>François</schema:givenName>
+    <schema:name>François Villon</schema:name>
+    <schema:birthDate>1431</schema:birthDate>
+    <schema:deathDate>1463</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/888583">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/888583"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/29542054">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Williams</schema:familyName>
+    <schema:givenName>William Carlos</schema:givenName>
+    <schema:name>William Carlos Williams</schema:name>
+    <schema:birthDate>1883</schema:birthDate>
+    <schema:deathDate>1963</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/4277655">
+    <schema:name>Works. 1960</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/7398349">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Villon</schema:familyName>
+    <schema:givenName>François</schema:givenName>
+    <schema:name>François Villon</schema:name>
+    <schema:birthDate>1431</schema:birthDate>
+    <schema:deathDate>1463</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/888583#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Works. 1960</schema:name>
+    <schema:inLanguage>frm</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4277655#Agent/bantam_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Bantam Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4277655#Series/bantam_classic">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/888583"/>
+    <schema:name>Bantam Classic</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4277655#Person/bonner_anthony">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bonner</schema:familyName>
+    <schema:givenName>Anthony</schema:givenName>
+    <schema:name>Anthony Bonner</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/888583#PublicationEvent/new_york_bantam_books_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4277655#Agent/bantam_books"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/888583">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4277655#Agent/bantam_books"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/888583"/>
+    <schema:name xml:lang="en">The complete works of François Villon</schema:name>
+    <schema:productID>888583</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4277655#Series/bantam_classic"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:genre xml:lang="en">Translations</schema:genre>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/888583#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/29542054"/>
+    <library:oclcnum>888583</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/888583#PublicationEvent/new_york_bantam_books_1960"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/7398349"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://dewey.info/class/841/"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/4277655#Person/bonner_anthony"/>
+    <dcterms:language>engfrm</dcterms:language>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4277655"/>
+    <schema:description xml:lang="en">Le lais/The legacy -- Le testament/The testament -- Poésies diverses/Miscellaneous poems -- Jargon et jobelin /Pems in slang.</schema:description>
+    <schema:about rdf:resource="http://viaf.org/viaf/7398349"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4277655#Person/villon_francois_1431_1463"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdfs:comment>Using dcterms:language instead of schema:inLanguage because the value doesn't map to BCP-47</rdfs:comment>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,94 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768477017#Place/italy">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Italy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204565">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Italy.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/237155942#PublicationEvent/new_york_capricorn_books_putnam_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3768477017#Agent/capricorn_books_putnam"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2010110367">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Renaissance--Italy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768477017#Event/1268_1492">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1268-1492</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768477017#CreativeWork/renaissance_in_italy_the_age_of_the_despots">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Renaissance in Italy : The age of the despots.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/39500310">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Symonds</schema:familyName>
+    <schema:givenName>John Addington</schema:givenName>
+    <schema:name>John Addington Symonds</schema:name>
+    <schema:birthDate>1840</schema:birthDate>
+    <schema:deathDate>1893</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768477017#Agent/capricorn_books_putnam">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Capricorn Books, Putnam</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/237155942">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/237155942"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1094518">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Renaissance</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/237155942">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/237155942#PublicationEvent/new_york_capricorn_books_putnam_1960"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/3768477017#CreativeWork/renaissance_in_italy_the_age_of_the_despots"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <library:oclcnum>237155942</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3768477017"/>
+    <schema:name xml:lang="en">The age of the despots</schema:name>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3768477017#Event/1268_1492"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1094518"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/39500310"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2010110367"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204565"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>237155942</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3768477017#Place/italy"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3768477017#Agent/capricorn_books_putnam"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/237155942"/>
+  </rdf:Description>
+</rdf:RDF>

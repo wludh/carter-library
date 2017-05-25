@@ -1,0 +1,137 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/863049">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Civilization, Medieval</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1246005">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1246005"/>
+    <schema:dateModified>2017-04-26</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/486626#Place/europe">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Europe</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/486626#Series/meridian_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1246005"/>
+    <schema:name>Meridian books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/862898">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Civilization</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/486626#Topic/eglise_histoire_600_1500_moyen_age">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Église--Histoire--600-1500 (Moyen Âge)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/486626#Topic/civilisation_medievale">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Civilisation médiévale</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1246005">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/486626#Topic/mentaliteitsgeschiedenis"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1246005"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/486626#Topic/cultuurgeschiedenis"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/600340493"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:name xml:lang="en">The making of Europe; an introduction to the history of European unity.</schema:name>
+    <schema:productID>1246005</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://dewey.info/class/901/"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/486626#Event/600_1500"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>1246005</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/39474358"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/486626#Topic/civilisation_medievale"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/486626#Topic/eglise_histoire_600_1500_moyen_age"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:description xml:lang="en">When most people use the expression "The Dark Ages" they are often unclear as to what they mean. For some the period described is unbelievably long -- from the fall of the Roman Empire to the beginning of the Renaissance. This is not only incorrect historically; it is dangerously misleading. As the author indicates, the "Dark Ages" from the sixth to the tenth centuries were critical in the formation of European unity and the expansion and definition of Western Christianity. As such, the "Dark Ages" were only relatively dark; for it was during this period that the full impact of Byzantine Christianity, the rise and formation of Moslem culture, the conversion of the barbarians, the Carolingian renaissance, and similar epochs was felt. It was in this period that medieval Europe and Catholic Christianity received their fundamental definition.</schema:description>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1245064"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/863049"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/486626"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85025625"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1710943"/>
+    <schema:description xml:lang="en">The Roman empire -- The Catholic Church -- The classical tradition and Christianity -- The barbarians -- The barbarian invasions and the fall of the empire in the West -- The Christian empire and the rise of the Byzantine culture -- The awakening of the East and the revolt of the subject nationalities -- The rise of Islam -- The expansion of Moslem culture -- The Byzantine renaissance and the revival of the Eastern empire -- The Western church and the conversion of the barbarians -- The restoration of the Western empire and Carolingian renaissance -- The age of the Vikings and the conversion of the North -- The rise of the mediaeval unity.</schema:description>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/486626#Place/europe"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1246005#PublicationEvent/new_york_meridian_books_1956"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/486626#Agent/meridian_books"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/862898"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/486626#Series/meridian_books"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85025625">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Church history--Middle Ages, 600-1500</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/486626#Topic/mentaliteitsgeschiedenis">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Mentaliteitsgeschiedenis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/486626#Event/600_1500">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>600-1500</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/486626#Topic/cultuurgeschiedenis">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Cultuurgeschiedenis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/600340493">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1246005"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Making of Europe.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1245064">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Europe.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1246005#PublicationEvent/new_york_meridian_books_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/486626#Agent/meridian_books"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/39474358">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dawson</schema:familyName>
+    <schema:givenName>Christopher</schema:givenName>
+    <schema:name>Christopher Dawson</schema:name>
+    <schema:birthDate>1889</schema:birthDate>
+    <schema:deathDate>1970</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/901/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1710943">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Church history--Middle Ages</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/486626#Agent/meridian_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Meridian Books</schema:name>
+  </rdf:Description>
+</rdf:RDF>

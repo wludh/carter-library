@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/813640896">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/38088765"/>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/38088765#Person/fiedler_leslie_a_1917_2003"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/813640896#PublicationEvent/boston_the_beacon_press_cop_1955"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:about rdf:resource="http://dewey.info/class/973.9204*/"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name>An end to innocence : essays on culture and politics</schema:name>
+    <schema:copyrightYear>op.</schema:copyrightYear>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/38088765#Agent/the_beacon_press"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/38088765#Thing/zdruzene_drzave_amerike"/>
+    <schema:productID>813640896</schema:productID>
+    <library:oclcnum>813640896</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/813640896"/>
+    <schema:datePublished>1955</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/38088765#Person/fiedler_leslie_a_1917_2003">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fiedler</schema:familyName>
+    <schema:givenName>Leslie A.</schema:givenName>
+    <schema:name>Leslie A. Fiedler</schema:name>
+    <schema:birthDate>1917</schema:birthDate>
+    <schema:deathDate>2003</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/813640896">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/813640896"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/38088765#Agent/the_beacon_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>The Beacon Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/813640896#PublicationEvent/boston_the_beacon_press_cop_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/38088765#Agent/the_beacon_press"/>
+    <schema:startDate>co. 1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/973.9204*/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/38088765#Thing/zdruzene_drzave_amerike">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Združene države Amerike</schema:name>
+  </rdf:Description>
+</rdf:RDF>

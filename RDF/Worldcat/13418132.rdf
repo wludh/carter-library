@@ -1,0 +1,108 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1071229">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Poor women</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/44314670">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Roberts</schema:familyName>
+    <schema:givenName>Elizabeth Madox</schema:givenName>
+    <schema:name>Elizabeth Madox Roberts</schema:name>
+    <schema:birthDate>1881</schema:birthDate>
+    <schema:deathDate>1941</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197261095#Series/signet_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/13418132"/>
+    <schema:name>Signet books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197261095#Place/kentucky">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Kentucky</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197261095#Topic/romance_norte_americano">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Romance Norte Americano</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/13418132#PublicationEvent/new_york_new_american_library_1954_1926">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/197261095#Agent/new_american_library"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197261095#Topic/poor_women_kentucky">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85147404"/>
+    <schema:name xml:lang="en">Poor women--Kentucky</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204494">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Kentucky.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/855398">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Children of migrant laborers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/13418132">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/13418132"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197261095#Agent/new_american_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New American Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/13418132">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/13418132"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44314670"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:name xml:lang="en">The time of man</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/197261095#Topic/poor_women_kentucky"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1071229"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/197261095"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/855398"/>
+    <schema:copyrightYear>1926</schema:copyrightYear>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/197261095#Place/kentucky"/>
+    <schema:productID>13418132</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204494"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/197261095#Topic/children_of_migrant_laborers_kentucky"/>
+    <schema:genre xml:lang="en">Domestic fiction</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/197261095#Topic/romance_norte_americano"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/197261095#Agent/new_american_library"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/197261095#Series/signet_books"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/13418132#PublicationEvent/new_york_new_american_library_1954_1926"/>
+    <library:oclcnum>13418132</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197261095#Topic/children_of_migrant_laborers_kentucky">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85023557"/>
+    <schema:name xml:lang="en">Children of migrant laborers--Kentucky</schema:name>
+  </rdf:Description>
+</rdf:RDF>

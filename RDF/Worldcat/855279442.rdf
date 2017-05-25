@@ -1,0 +1,88 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197391971#Topic/heros">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Héros</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197391971#Topic/histoire_philosophie">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Histoire--Philosophie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/855279442">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/855279442"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197391971#Agent/beacon_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Beacon Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/958266">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>History--Philosophy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85061223">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>History--Philosophy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/855279442#PublicationEvent/boston_beacon_press_1955_c1943">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/197391971#Agent/beacon_press"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/855279442">
+    <schema:productID>855279442</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:copyrightYear>1943</schema:copyrightYear>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/855279442"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/197391971#Topic/heros"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:numberOfPages>273</schema:numberOfPages>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/197391971#Agent/beacon_press"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/197391971"/>
+    <schema:name>The hero in history : a study in limitation and possibility</schema:name>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85061223"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/958266"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/197391971#Topic/histoire_philosophie"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/955558"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/197391971#Person/hook_sidney_1902"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/855279442#PublicationEvent/boston_beacon_press_1955_c1943"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <library:oclcnum>855279442</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/955558">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Heroes</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197391971#Person/hook_sidney_1902">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hook</schema:familyName>
+    <schema:givenName>Sidney</schema:givenName>
+    <schema:name>Sidney Hook</schema:name>
+    <schema:birthDate>1902</schema:birthDate>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,94 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2381917#Agent/simon_and_schuster">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Simon and Schuster</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204305">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Vermont.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1482943">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1482943"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2381917#Topic/physicians">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008108880"/>
+    <schema:name xml:lang="en">Physicians</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1482943#PublicationEvent/new_york_simon_and_schuster_1945">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2381917#Agent/simon_and_schuster"/>
+    <schema:startDate>1945</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2381917#Topic/murder">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008107179"/>
+    <schema:name xml:lang="en">Murder</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2381917#Place/vermont">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Vermont</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2381917#Person/rogers_joel_townsley">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Rogers</schema:familyName>
+    <schema:givenName>Joel Townsley</schema:givenName>
+    <schema:name>Joel Townsley Rogers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1029781">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Murder</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1482943">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2381917#Topic/murder"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1482943#PublicationEvent/new_york_simon_and_schuster_1945"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2381917#Person/rogers_joel_townsley"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1482943"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2381917#Place/vermont"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>1482943</library:oclcnum>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2381917#Agent/simon_and_schuster"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204305"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2381917#Topic/physicians"/>
+    <schema:productID>1482943</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1945</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2381917"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1062841"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1029781"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">The red right hand.</schema:name>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1062841">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Physicians</schema:name>
+  </rdf:Description>
+</rdf:RDF>

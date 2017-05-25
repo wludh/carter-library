@@ -1,0 +1,77 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1340069#Agent/dover">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Dover</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1340069#Person/beard_charles_a">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Beard</schema:familyName>
+    <schema:givenName>Charles A.</schema:givenName>
+    <schema:name>Charles A. Beard</schema:name>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/159057388"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/916666973">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/916666973"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1340069#Series/dover_books_on_philosophy">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/916666973"/>
+    <schema:name>Dover Books on philosophy ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/916666973#PublicationEvent/new_york_dover_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1340069#Agent/dover"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/916666973">
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1340069#Series/dover_books_on_philosophy"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1340069"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1340069#Person/beard_charles_a"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:bookEdition>New ed.</schema:bookEdition>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/916666973#PublicationEvent/new_york_dover_1955"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1340069#Person/bury_john_b_1861_1927"/>
+    <library:oclcnum>916666973</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1340069#Agent/dover"/>
+    <schema:productID>916666973</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/916666973"/>
+    <schema:name>The Idea of progress : an inquiry into its origin and growth</schema:name>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1340069#Person/bury_john_b_1861_1927">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bury</schema:familyName>
+    <schema:givenName>John B.</schema:givenName>
+    <schema:name>John B. Bury</schema:name>
+    <schema:birthDate>1861</schema:birthDate>
+    <schema:deathDate>1927</schema:deathDate>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/11717937X"/>
+  </rdf:Description>
+</rdf:RDF>

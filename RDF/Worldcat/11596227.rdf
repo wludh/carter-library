@@ -1,0 +1,110 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/11596227">
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <library:oclcnum>11596227</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/11596227"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/480492899#Agent/arrow_books"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/480492899#Topic/middeleeuwen"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1020301"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/480492899#Topic/christianity_history"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/480492899#Topic/christendom"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/480492899#Series/grey_arrow"/>
+    <schema:name xml:lang="en">The making of the Middle Ages</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/88868633"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/480492899#Topic/political_systems_history"/>
+    <schema:about rdf:resource="http://dewey.info/class/940.1/e19/"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/480492899"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/480492899#Topic/philosophy_history"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/11596227#PublicationEvent/london_arrow_books_1959"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/480492899#Topic/culture_history"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:productID>11596227</schema:productID>
+    <umbel:isLike rdf:resource="http://bnb.data.bl.uk/id/resource/GB6011236"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/480492899#Topic/philosophy_history">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Philosophy--history</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1020301">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Middle Ages</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/480492899#Agent/arrow_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Arrow Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/11596227#PublicationEvent/london_arrow_books_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/480492899#Agent/arrow_books"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/480492899#Topic/christianity_history">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Christianity--history</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/480492899#Topic/culture_history">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Culture--history</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/940.1/e19/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/11596227">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/11596227"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/480492899#Series/grey_arrow">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/11596227"/>
+    <schema:name>Grey Arrow</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/480492899#Topic/christendom">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Christendom</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/88868633">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Southern</schema:familyName>
+    <schema:givenName>R. W.</schema:givenName>
+    <schema:givenName>Richard William</schema:givenName>
+    <schema:name>Richard William Southern</schema:name>
+    <schema:birthDate>1912</schema:birthDate>
+    <schema:deathDate>2001</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/480492899#Topic/middeleeuwen">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Middeleeuwen</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/480492899#Topic/political_systems_history">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Political Systems--history</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

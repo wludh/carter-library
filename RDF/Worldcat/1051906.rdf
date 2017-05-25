@@ -1,0 +1,97 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1051906">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1416194#Topic/cultuur"/>
+    <schema:datePublished>1947</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1416194#Topic/civilisation"/>
+    <schema:description xml:lang="en">I. Introduction -- II. What civilization is not -- III. The paragons -- IV. Theri characteristics: the sense of values -- V. Their characteristics: reason enthroned -- VI. Civilization and its disseminators -- VII. How to make a civilization.</schema:description>
+    <schema:about rdf:resource="http://dewey.info/class/901/"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/862898"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1416194#Series/pelican_books"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1051906#PublicationEvent/west_drayton_middlesex_penguin_books_1947"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1416194#Agent/penguin_books"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/599913744"/>
+    <library:oclcnum>1051906</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1051906"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">Civilization : an essay.</schema:name>
+    <schema:productID>1051906</schema:productID>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1416194#Place/west_drayton_middlesex"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1416194"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/66535955"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1051906">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1051906"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1416194#Topic/civilisation">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Civilisation</schema:name>
+    <schema:name xml:lang="en">Civilisation</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/862898">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Civilization</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1416194#Series/pelican_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1051906"/>
+    <schema:name>Pelican books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1051906#PublicationEvent/west_drayton_middlesex_penguin_books_1947">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1416194#Place/west_drayton_middlesex"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1416194#Agent/penguin_books"/>
+    <schema:startDate>1947</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/66535955">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bell</schema:familyName>
+    <schema:givenName>Clive</schema:givenName>
+    <schema:name>Clive Bell</schema:name>
+    <schema:birthDate>1881</schema:birthDate>
+    <schema:deathDate>1964</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1416194#Place/west_drayton_middlesex">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>West Drayton, Middlesex</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1416194#Agent/penguin_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Penguin Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1416194#Topic/cultuur">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Cultuur</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/599913744">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1051906"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Civilization.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/901/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/805924039">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1060354"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Nine stories.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1117043">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Short stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.54/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1060354">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1060354"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>1060354</schema:productID>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/375516174#Series/signet_books"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/805924039"/>
+    <schema:description xml:lang="en">A perfect day for bananafish -- Uncle Wiggily in Connecticut -- Just before the war with the Eskimos -- The laughing man -- Down at the dinghy -- For Esmé--with love and squalor -- Pretty mouth and green my eyes -- De Daumier-Smith's blue period -- Teddy.</schema:description>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1117043"/>
+    <library:oclcnum>1060354</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:author rdf:resource="http://viaf.org/viaf/17092"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/375516174"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.54/"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name xml:lang="en">Nine stories</schema:name>
+    <schema:copyrightYear>1954</schema:copyrightYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1060354">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1060354"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/375516174#Series/signet_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1060354"/>
+    <schema:name>Signet books,</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/17092">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Salinger</schema:familyName>
+    <schema:givenName>J. D.</schema:givenName>
+    <schema:givenName>Jerome David</schema:givenName>
+    <schema:name>Jerome David Salinger</schema:name>
+    <schema:birthDate>1919</schema:birthDate>
+    <schema:deathDate>2010,</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>
