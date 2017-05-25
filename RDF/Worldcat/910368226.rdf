@@ -1,0 +1,100 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/910368226">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2487912491#Topic/grecs"/>
+    <library:oclcnum>910368226</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/910368226#PublicationEvent/new_york_new_american_library_1957"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2487912491#Place/grece"/>
+    <schema:productID>910368226</schema:productID>
+    <schema:about rdf:resource="http://dewey.info/class/913.38/"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/910368226"/>
+    <schema:name>The Greek experience.</schema:name>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2487912491#Person/bowra_c_m_cecil_maurice_1898_1971"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2487912491"/>
+    <schema:numberOfPages>223</schema:numberOfPages>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2487912491#Topic/greeks"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2487912491#Agent/new_american_library"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2487912491#Series/a_mentor_book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2487912491#Place/greece"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2487912491#Topic/civilization"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487912491#Topic/grecs">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Grecs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/910368226#PublicationEvent/new_york_new_american_library_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2487912491#Agent/new_american_library"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/910368226">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/910368226"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487912491#Agent/new_american_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New American Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487912491#Topic/civilization">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Civilization</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487912491#Place/grece">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Grèce</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487912491#Series/a_mentor_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/910368226"/>
+    <schema:name>A Mentor book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/913.38/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487912491#Person/bowra_c_m_cecil_maurice_1898_1971">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bowra</schema:familyName>
+    <schema:givenName>C. M.</schema:givenName>
+    <schema:givenName>Cecil Maurice</schema:givenName>
+    <schema:name>Cecil Maurice Bowra</schema:name>
+    <schema:birthDate>1898</schema:birthDate>
+    <schema:deathDate>1971</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487912491#Topic/greeks">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Greeks</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487912491#Place/greece">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Greece</schema:name>
+    <schema:name>Greece.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

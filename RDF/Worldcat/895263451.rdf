@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/895263451">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/895263451"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/600319#Agent/the_university_of_chicago_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>The University of Chicago Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/600319#Person/weaver_richard_m_1910_1963">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Weaver</schema:familyName>
+    <schema:givenName>Richard M.</schema:givenName>
+    <schema:name>Richard M. Weaver</schema:name>
+    <schema:birthDate>1910</schema:birthDate>
+    <schema:deathDate>1963</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/895263451">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/600319"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/895263451#PublicationEvent/chicago_the_university_of_chicago_press_1948"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <schema:productID>895263451</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:numberOfPages>190</schema:numberOfPages>
+    <library:oclcnum>895263451</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/600319#Person/weaver_richard_m_1910_1963"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/895263451"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1948</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/600319#Topic/civilizatie_filosofie"/>
+    <schema:name>Ideas have consequences</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/600319#Agent/the_university_of_chicago_press"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/600319#Topic/civilizatie_filosofie">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Civilizaţie--Filosofie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/895263451#PublicationEvent/chicago_the_university_of_chicago_press_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/600319#Agent/the_university_of_chicago_press"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

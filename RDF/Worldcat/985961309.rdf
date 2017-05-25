@@ -1,0 +1,86 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4200471927#Series/doubleday_anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/985961309"/>
+    <schema:name>Doubleday Anchor Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4200471927#Series/a_doubleday_anchor_original">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/985961309"/>
+    <schema:name>A Doubleday Anchor Original ;</schema:name>
+    <schema:name>A Doubleday Anchor Original</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/985961309">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/985961309"/>
+    <schema:dateModified>2017-05-13</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/985961309">
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/4200471927#Person/hadas_moses_1900_1966"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4200471927"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4200471927#Agent/doubleday_&amp;_company_inc"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4200471927#Series/a_doubleday_anchor_original"/>
+    <library:oclcnum>985961309</library:oclcnum>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4200471927#Series/doubleday_anchor_books"/>
+    <schema:name>A history of Rome from its origins to 529 A.D. as told by the Roman historians</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/985961309"/>
+    <schema:productID>985961309</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/985961309#PublicationEvent/garden_city_doubleday_&amp;_company_inc_cop_1956"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:copyrightYear>op.</schema:copyrightYear>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/4200471927#Place/garden_city"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4200471927#Place/rzym_panstwo"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4200471927#Organization/doubleday_&amp;_company"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4200471927#Place/rzym_panstwo">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Rzym (państwo)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/985961309#PublicationEvent/garden_city_doubleday_&amp;_company_inc_cop_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/4200471927#Place/garden_city"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4200471927#Agent/doubleday_&amp;_company_inc"/>
+    <schema:startDate>co. 1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4200471927#Organization/doubleday_&amp;_company">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Doubleday &amp; Company.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4200471927#Person/hadas_moses_1900_1966">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hadas</schema:familyName>
+    <schema:givenName>Moses</schema:givenName>
+    <schema:name>Moses Hadas</schema:name>
+    <schema:birthDate>1900</schema:birthDate>
+    <schema:deathDate>1966</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4200471927#Agent/doubleday_&amp;_company_inc">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday &amp; Company, Inc.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4200471927#Place/garden_city">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City</schema:name>
+  </rdf:Description>
+</rdf:RDF>

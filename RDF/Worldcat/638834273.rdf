@@ -1,0 +1,104 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/14955268">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lind</schema:familyName>
+    <schema:givenName>Ilse Dusoir</schema:givenName>
+    <schema:name>Ilse Dusoir Lind</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/638834273">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/638834273"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1205283">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>France--Paris.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/108589496">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Edel</schema:familyName>
+    <schema:givenName>Leon</schema:givenName>
+    <schema:name>Leon Edel</schema:name>
+    <schema:birthDate>1907</schema:birthDate>
+    <schema:deathDate>1997</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1155558">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Travel</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1747659#Person/james_henry_1843_1916">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>James</schema:familyName>
+    <schema:givenName>Henry</schema:givenName>
+    <schema:name>Henry James</schema:name>
+    <schema:birthDate>1843</schema:birthDate>
+    <schema:deathDate>1916</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/638834273">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1747659#Person/james_henry_1843_1916"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1747659"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/14955268"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/638834273"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://viaf.org/viaf/36920030"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1747659#Agent/collier_books"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1205283"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1747659#Place/new_york_n_y"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1961</schema:datePublished>
+    <library:oclcnum>638834273</library:oclcnum>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1155558"/>
+    <schema:alternateName>New York tribune</schema:alternateName>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/638834273#PublicationEvent/new_york_n_y_collier_books_1961"/>
+    <schema:bookEdition>1st Collier books ed.</schema:bookEdition>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1747659#Place/paris_france"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/108589496"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>638834273</schema:productID>
+    <schema:name xml:lang="en">Parisian sketches : letters to the New York tribune, 1875-1876</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/638834273#PublicationEvent/new_york_n_y_collier_books_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1747659#Place/new_york_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1747659#Agent/collier_books"/>
+    <schema:startDate>1961</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/36920030">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>James</schema:familyName>
+    <schema:givenName>Henry</schema:givenName>
+    <schema:name>Henry James</schema:name>
+    <schema:birthDate>1843</schema:birthDate>
+    <schema:deathDate>1916</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1747659#Place/paris_france">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Paris (France)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1747659#Place/new_york_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1747659#Agent/collier_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Collier Books</schema:name>
+  </rdf:Description>
+</rdf:RDF>

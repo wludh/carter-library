@@ -1,0 +1,93 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2260914735#Person/gassner_john_1903_1967">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gassner</schema:familyName>
+    <schema:givenName>John</schema:givenName>
+    <schema:name>John Gassner</schema:name>
+    <schema:birthDate>1903</schema:birthDate>
+    <schema:deathDate>1967</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/939605611">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/939605611"/>
+    <schema:dateModified>2017-05-18</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2260914735#Topic/art">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Art</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/939605611">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:oclcnum>939605611</library:oclcnum>
+    <schema:productID>939605611</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2260914735#Agent/dover_publications"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2260914735#Topic/art"/>
+    <schema:name xml:lang="en">Aristotle's theory of poetry and fine art : with a critical text and translation of 'the Poetics' ; with a prefatory essay 'Aristotelian Literary Criticism' by John Gassner</schema:name>
+    <schema:bookEdition>4th ed.</schema:bookEdition>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2260914735#Topic/aesthetics"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/2260914735#Person/aristotle"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2260914735#Person/butcher_s_h_samuel_henry_1850_1910"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/2260914735#Person/gassner_john_1903_1967"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/939605611#PublicationEvent/new_york_dover_publications_1951"/>
+    <schema:about rdf:resource="http://dewey.info/class/185/"/>
+    <schema:datePublished>1951</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/939605611"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2260914735"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2260914735#Topic/aesthetics">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Aesthetics</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/939605611#PublicationEvent/new_york_dover_publications_1951">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2260914735#Agent/dover_publications"/>
+    <schema:startDate>1951</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2260914735#Agent/dover_publications">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Dover publications</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2260914735#Person/aristotle">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Aristotle</schema:givenName>
+    <schema:name>Aristotle.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2260914735#Person/butcher_s_h_samuel_henry_1850_1910">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Butcher</schema:familyName>
+    <schema:givenName>S. H.</schema:givenName>
+    <schema:givenName>Samuel Henry</schema:givenName>
+    <schema:name>Samuel Henry Butcher</schema:name>
+    <schema:birthDate>1850</schema:birthDate>
+    <schema:deathDate>1910</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/185/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

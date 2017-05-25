@@ -1,0 +1,91 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1450704#Person/napoleon_i_emperor_of_the_french_1769_1821">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Napoleon</schema:givenName>
+    <schema:name>Emperor of the French Napoleon I</schema:name>
+    <schema:birthDate>1769</schema:birthDate>
+    <schema:deathDate>1821</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1450704#Place/thomson_ga">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Thomson, Ga.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/944.05/e22/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1450704#Agent/the_jeffersonian_pub_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>The Jeffersonian Pub. Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4178194">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/4178194"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/gau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>gau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/74658557">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Watson</schema:familyName>
+    <schema:givenName>Thomas E.</schema:givenName>
+    <schema:givenName>Thomas Edward</schema:givenName>
+    <schema:name>Thomas Edward Watson</schema:name>
+    <schema:birthDate>1856</schema:birthDate>
+    <schema:deathDate>1922</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/4178194">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>4178194</schema:productID>
+    <schema:about rdf:resource="http://dewey.info/class/944.05/e22/"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1450704#Place/thomson_ga"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/74658557"/>
+    <schema:datePublished>1915</schema:datePublished>
+    <library:oclcnum>4178194</library:oclcnum>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/962446726"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/4178194"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1450704"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">Napoleon; a sketch of his life, character, struggles, and achievements,</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/gau"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1450704#Agent/the_jeffersonian_pub_co"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1450704#Person/napoleon_i_emperor_of_the_french_1769_1821"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/4178194#PublicationEvent/thomson_ga_the_jeffersonian_pub_co_1915"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/106964661"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4178194#PublicationEvent/thomson_ga_the_jeffersonian_pub_co_1915">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1450704#Place/thomson_ga"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1450704#Agent/the_jeffersonian_pub_co"/>
+    <schema:startDate>1915</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/962446726">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/4178194"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Napoleon.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/106964661">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Napoleon</schema:givenName>
+    <schema:name>Emperor of the French Napoleon I</schema:name>
+    <schema:birthDate>1769</schema:birthDate>
+    <schema:deathDate>1821</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

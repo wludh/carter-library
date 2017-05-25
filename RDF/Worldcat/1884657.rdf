@@ -1,0 +1,108 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/827285">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Baptists</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/140712893">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Southern Baptist Convention</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3104461#Topic/missions_west_u_s">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85086032"/>
+    <schema:name xml:lang="en">Missions--West (U.S.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/gau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>gau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3104461#Series/1953_graded_series_of_home_mission_studies_spanish_speaking_americans">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1884657"/>
+    <schema:name>1953 graded series of home mission studies, Spanish-speaking Americans</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3104461#Organization/southern_baptist_convention">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Southern Baptist Convention.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1023771">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Missions</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/BV2799">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3104461#Agent/home_mission_board_southern_baptist_convention">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Home Mission Board, Southern Baptist Convention</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3104461#Topic/baptists_west_u_s">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85011739"/>
+    <schema:name xml:lang="en">Baptists--West (U.S.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1884657#PublicationEvent/atlanta_home_mission_board_southern_baptist_convention_1953">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3104461#Place/atlanta"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3104461#Agent/home_mission_board_southern_baptist_convention"/>
+    <schema:startDate>1953</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1884657">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">The West is big</schema:name>
+    <schema:productID>1884657</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3104461"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/gau"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/140712893"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1884657"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3104461#Place/atlanta"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3104461#Topic/baptists_west_u_s"/>
+    <library:oclcnum>1884657</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/827285"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3104461#Organization/southern_baptist_convention"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1243255"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1884657#PublicationEvent/atlanta_home_mission_board_southern_baptist_convention_1953"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3104461#Series/1953_graded_series_of_home_mission_studies_spanish_speaking_americans"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3104461#Topic/missions_west_u_s"/>
+    <schema:genre xml:lang="en">Biography</schema:genre>
+    <schema:datePublished>1953</schema:datePublished>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3104461#Person/mcclellan_albert"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/BV2799"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3104461#Agent/home_mission_board_southern_baptist_convention"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1023771"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3104461#Place/atlanta">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Atlanta</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3104461#Person/mcclellan_albert">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>McClellan</schema:familyName>
+    <schema:givenName>Albert</schema:givenName>
+    <schema:name>Albert McClellan</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1884657">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1884657"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1243255">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States, West.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/807383801">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/807383801"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/53060894#Topic/diable_en_la_literatura">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Diable en la literatura</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/53060894#Agent/meridian_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Meridian Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/807383801#PublicationEvent/new_york_meridian_books_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/53060894#Agent/meridian_books"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/53060894#Topic/romanticisme">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Romanticisme</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/53060894#Topic/literatura_moderna_s_xix_historia_i_critica">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Literatura moderna--S. XIX--Història i crítica</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/53060894#Topic/sexualitat_en_la_literatura">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Sexualitat en la literatura</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/807383801">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/53060894#Topic/diable_en_la_literatura"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/53060894#Topic/literatura_moderna_s_xix_historia_i_critica"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/807383801"/>
+    <schema:name>The Romantic agony</schema:name>
+    <schema:productID>807383801</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/53060894#Topic/sexualitat_en_la_literatura"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/807383801#PublicationEvent/new_york_meridian_books_1956"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/53060894#Topic/romanticisme"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/53060894#Agent/meridian_books"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/39382862"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/53060894"/>
+    <library:oclcnum>807383801</library:oclcnum>
+    <schema:numberOfPages>502</schema:numberOfPages>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/39382862">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Praz</schema:familyName>
+    <schema:givenName>Mario</schema:givenName>
+    <schema:name>Mario Praz</schema:name>
+    <schema:birthDate>1896</schema:birthDate>
+    <schema:deathDate>1982</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>
