@@ -1,0 +1,122 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:schema="http://schema.org/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/804418#PublicationEvent/new_york_philosophical_library1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3855263760#Agent/philosophical_library"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1031629">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Mysticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855263760#Topic/arabisch">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Arabisch</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855263760#Agent/philosophical_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Philosophical Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/804418#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Mawākib.</schema:name>
+    <schema:inLanguage>ar</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/892.71/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855263760#Topic/mysticism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008108166"/>
+    <schema:name xml:lang="en">Mysticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/88896061">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gibran</schema:familyName>
+    <schema:givenName>Kahlil</schema:givenName>
+    <schema:name>Kahlil Gibran</schema:name>
+    <schema:birthDate>1883</schema:birthDate>
+    <schema:deathDate>1931</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/654133809">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/804418"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Procession.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/3855263760">
+    <schema:name>Mawākib.</schema:name>
+    <schema:name xml:lang="en">المواكب. انكليزي</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/19541253">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kheirallah</schema:familyName>
+    <schema:givenName>G.</schema:givenName>
+    <schema:givenName>George</schema:givenName>
+    <schema:name>George Kheirallah</schema:name>
+    <schema:birthDate>1879</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/804418">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/804418"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/804418">
+    <schema:datePublished>1958</schema:datePublished>
+    <library:oclcnum>804418</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/88896061"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/804418#PublicationEvent/new_york_philosophical_library1958"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1031629"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>804418</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3855263760"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3855263760#Agent/philosophical_library"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3855263760#Topic/mysticism"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/654133809"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3855263760#Topic/arabisch"/>
+    <schema:about rdf:resource="http://dewey.info/class/892.71/"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/804418#CreativeWork/unidentifiedOriginalWork"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/804418"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3855263760#Topic/emigrantenliteratuur"/>
+    <schema:name xml:lang="en">The procession.</schema:name>
+    <umbel:isLike rdf:resource="http://bnb.data.bl.uk/id/resource/GB5911484"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3855263760#Topic/libanezen"/>
+    <schema:genre xml:lang="en">Poetry</schema:genre>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/19541253"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855263760#Topic/libanezen">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Libanezen</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855263760#Topic/emigrantenliteratuur">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Emigrantenliteratuur</schema:name>
+  </rdf:Description>
+</rdf:RDF>

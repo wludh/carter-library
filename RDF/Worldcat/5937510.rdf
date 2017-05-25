@@ -1,0 +1,137 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768365614#Person/nightingale_florence_1820_1910">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Nightingale</schema:familyName>
+    <schema:givenName>Florence</schema:givenName>
+    <schema:name>Florence Nightingale</schema:name>
+    <schema:birthDate>1820</schema:birthDate>
+    <schema:deathDate>1910</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768365614#Person/manning_henry_edward_1808_1892">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Manning</schema:familyName>
+    <schema:givenName>Henry Edward</schema:givenName>
+    <schema:name>Henry Edward Manning</schema:name>
+    <schema:birthDate>1808</schema:birthDate>
+    <schema:deathDate>1892</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768365614#Person/gordon_charles_george_1833_1885">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gordon</schema:familyName>
+    <schema:givenName>Charles George</schema:givenName>
+    <schema:name>Charles George Gordon</schema:name>
+    <schema:birthDate>1833</schema:birthDate>
+    <schema:deathDate>1885</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768365614#Person/arnold_thomas_1795_1842">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Arnold</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Arnold</schema:name>
+    <schema:birthDate>1795</schema:birthDate>
+    <schema:deathDate>1842</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/920/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/5937510">
+    <schema:about rdf:resource="http://viaf.org/viaf/69070194"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3768365614#Person/manning_henry_edward_1808_1892"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3768365614#Person/arnold_thomas_1795_1842"/>
+    <schema:name xml:lang="en">Eminent Victorians: Cardinal Manning, Florence Nightingale, Dr. Arnold, General Gordon.</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/5937510"/>
+    <schema:productID>5937510</schema:productID>
+    <schema:about rdf:resource="http://viaf.org/viaf/54172695"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3768365614#Person/gordon_charles_george_1833_1885"/>
+    <library:oclcnum>5937510</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3768365614#Person/nightingale_florence_1820_1910"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/85172959"/>
+    <schema:about rdf:resource="http://dewey.info/class/920/"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/5937510#PublicationEvent/new_york_putnamdate_of_publication_not_identified"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3768365614#Agent/putnam"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://viaf.org/viaf/36924878"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/14778656"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3768365614"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/14778656">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Arnold</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Arnold</schema:name>
+    <schema:birthDate>1795</schema:birthDate>
+    <schema:deathDate>1842</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/36924878">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Strachey</schema:familyName>
+    <schema:givenName>Lytton</schema:givenName>
+    <schema:name>Lytton Strachey</schema:name>
+    <schema:birthDate>1880</schema:birthDate>
+    <schema:deathDate>1932</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/85172959">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Manning</schema:familyName>
+    <schema:givenName>Henry Edward</schema:givenName>
+    <schema:name>Henry Edward Manning</schema:name>
+    <schema:birthDate>1808</schema:birthDate>
+    <schema:deathDate>1892</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5937510">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/5937510"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768365614#Agent/putnam">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Putnam</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/69070194">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gordon</schema:familyName>
+    <schema:givenName>Charles George</schema:givenName>
+    <schema:name>Charles George Gordon</schema:name>
+    <schema:birthDate>1833</schema:birthDate>
+    <schema:deathDate>1885</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5937510#PublicationEvent/new_york_putnamdate_of_publication_not_identified">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3768365614#Agent/putnam"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/54172695">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Nightingale</schema:familyName>
+    <schema:givenName>Florence</schema:givenName>
+    <schema:name>Florence Nightingale</schema:name>
+    <schema:birthDate>1820</schema:birthDate>
+    <schema:deathDate>1910</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

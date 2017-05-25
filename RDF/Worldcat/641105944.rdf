@@ -1,0 +1,69 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/641105944#PublicationEvent/new_york_n_y_philosophical_library_1952">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/294053756#Place/new_york_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/294053756#Agent/philosophical_library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/641105944">
+    <schema:datePublished>1952</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/294053756#Agent/philosophical_library"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/641105944#PublicationEvent/new_york_n_y_philosophical_library_1952"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:copyrightYear>1952</schema:copyrightYear>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/294053756"/>
+    <schema:productID>641105944</schema:productID>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/294053756#Place/new_york_n_y"/>
+    <schema:name xml:lang="en">Man answers death : an anthology of poetry</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>641105944</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookEdition>2d enl. ed.</schema:bookEdition>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/294053756#Series/humanist_bookshelf"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/641105944"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/294053756#Person/lamont_corliss_1902_1995"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/294053756#Place/new_york_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/641105944">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/641105944"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/294053756#Agent/philosophical_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Philosophical Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/294053756#Series/humanist_bookshelf">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/641105944"/>
+    <schema:name>Humanist Bookshelf</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/294053756#Person/lamont_corliss_1902_1995">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lamont</schema:familyName>
+    <schema:givenName>Corliss</schema:givenName>
+    <schema:name>Corliss Lamont</schema:name>
+    <schema:birthDate>1902</schema:birthDate>
+    <schema:deathDate>1995</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

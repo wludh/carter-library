@@ -1,0 +1,98 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/343523#PublicationEvent/baltimore_johns_hopkins_press_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1365791344#Place/baltimore"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1365791344#Agent/johns_hopkins_press"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/343523">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1365791344#Agent/johns_hopkins_press"/>
+    <schema:name xml:lang="en">Selected prose poems, essays, &amp; letters.</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>343523</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1365791344#Person/lamartine_alphonse_de_1790_1869"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/574225521"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/343523#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/343523#PublicationEvent/baltimore_johns_hopkins_press_1956"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mdu"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/95150108"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1365791344#Place/baltimore"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:description xml:lang="en">Autumn complaint -- The demon of analogy -- The white water-lily -- Glory -- Art for all -- Autobiography -- The evolution of literature -- The book: spiritual instrument -- Mystery in literature -- Crisis in poetry -- Music and literature -- Hamlet -- Ballets -- Solemnity -- Richard Wagner, revery of a French poet -- Verlaine -- Ideas on poetry.</schema:description>
+    <schema:creator rdf:resource="http://viaf.org/viaf/51692711"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/343523"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>343523</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1365791344"/>
+    <schema:about rdf:resource="http://dewey.info/class/840.81/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1365791344#Agent/johns_hopkins_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Johns Hopkins Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1365791344#Place/baltimore">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Baltimore</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1365791344#Person/lamartine_alphonse_de_1790_1869">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lamartine</schema:familyName>
+    <schema:givenName>Alphonse de</schema:givenName>
+    <schema:name>Alphonse de Lamartine</schema:name>
+    <schema:birthDate>1790</schema:birthDate>
+    <schema:deathDate>1869</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/840.81/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/51692711">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Mallarmé</schema:familyName>
+    <schema:givenName>Stéphane</schema:givenName>
+    <schema:name>Stéphane Mallarmé</schema:name>
+    <schema:birthDate>1842</schema:birthDate>
+    <schema:deathDate>1898</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/343523">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/343523"/>
+    <schema:dateModified>2017-04-23</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/95150108">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lamartine</schema:familyName>
+    <schema:givenName>Alphonse de</schema:givenName>
+    <schema:name>Alphonse de Lamartine</schema:name>
+    <schema:birthDate>1790</schema:birthDate>
+    <schema:deathDate>1869</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mdu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mdu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/574225521">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/343523"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Selected prose poems, essays, &amp; letters.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/343523#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:language>und</dcterms:language>
+  </rdf:Description>
+</rdf:RDF>

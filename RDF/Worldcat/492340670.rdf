@@ -1,0 +1,62 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/233527719#Agent/charles_scribner_s_sons">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Charles Scribner's Sons</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/492340670">
+    <library:oclcnum>492340670</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/233527719"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>492340670</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/233527719#Agent/charles_scribner_s_sons"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/492340670"/>
+    <schema:inLanguage>afh</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/233527719#Person/tate_allen_1899_1979"/>
+    <schema:datePublished>1948</schema:datePublished>
+    <schema:name>Poems 1922-1947</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/492340670#PublicationEvent/new_york_charles_scribner_s_sons_1948"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/233527719#Person/tate_allen_1899_1979">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Tate</schema:familyName>
+    <schema:givenName>Allen</schema:givenName>
+    <schema:name>Allen Tate</schema:name>
+    <schema:birthDate>1899</schema:birthDate>
+    <schema:deathDate>1979,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/492340670#PublicationEvent/new_york_charles_scribner_s_sons_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/233527719#Agent/charles_scribner_s_sons"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/492340670">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/492340670"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

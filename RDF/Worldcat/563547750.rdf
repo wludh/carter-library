@@ -1,0 +1,82 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/29537765">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Maupassant</schema:familyName>
+    <schema:givenName>Guy de</schema:givenName>
+    <schema:name>Guy de Maupassant</schema:name>
+    <schema:birthDate>1850</schema:birthDate>
+    <schema:deathDate>1893</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2863458095#Agent/london">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/44419646">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>M.</schema:familyName>
+    <schema:givenName>E.</schema:givenName>
+    <schema:name>E. M.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/563547750">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/563547750"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/59077275">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ford</schema:familyName>
+    <schema:givenName>Ford Madox</schema:givenName>
+    <schema:name>Ford Madox Ford</schema:name>
+    <schema:birthDate>1873</schema:birthDate>
+    <schema:deathDate>1939</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/563547750#PublicationEvent/jonathan_cape_london_1927">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2863458095#Place/jonathan_cape"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2863458095#Agent/london"/>
+    <schema:startDate>1927</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/563547750">
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2863458095#Place/jonathan_cape"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/563547750#PublicationEvent/jonathan_cape_london_1927"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/29537765"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/563547750"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>563547750</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2863458095#Agent/london"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/59077275"/>
+    <schema:name xml:lang="en">Stories from De Maupassant. Translated by E.M. With a preface by Ford Madox Ford.</schema:name>
+    <schema:productID>563547750</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2863458095#Series/travellers_library"/>
+    <schema:datePublished>1927</schema:datePublished>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/44419646"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2863458095"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2863458095#Series/travellers_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/563547750"/>
+    <schema:name>[Travellers' Library.]</schema:name>
+    <schema:name>Travellers' library.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/2863458095">
+    <schema:name>Works. 1927</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2863458095#Place/jonathan_cape">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Jonathan Cape</schema:name>
+  </rdf:Description>
+</rdf:RDF>

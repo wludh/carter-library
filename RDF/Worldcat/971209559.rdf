@@ -1,0 +1,65 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/971209559">
+    <schema:name>The Flowers of evil</schema:name>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/164762#Series/bibliotheque_de_poesie_canadienne_de_d_g_jones"/>
+    <library:oclcnum>971209559</library:oclcnum>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/164762#Person/mathews_marthiel"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ctu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/164762"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/971209559"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/164762#Person/mathews_jackson"/>
+    <schema:productID>971209559</schema:productID>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/164762#Person/baudelaire_charles_1821_1867"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/164762#Person/mathews_jackson">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Mathews</schema:familyName>
+    <schema:givenName>Jackson</schema:givenName>
+    <schema:name>Jackson Mathews</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/164762#Person/baudelaire_charles_1821_1867">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Baudelaire</schema:familyName>
+    <schema:givenName>Charles</schema:givenName>
+    <schema:name>Charles Baudelaire</schema:name>
+    <schema:birthDate>1821</schema:birthDate>
+    <schema:deathDate>1867</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/971209559">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/971209559"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/164762#Person/mathews_marthiel">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Mathews</schema:familyName>
+    <schema:givenName>Marthiel</schema:givenName>
+    <schema:name>Marthiel Mathews</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ctu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ctu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/164762#Series/bibliotheque_de_poesie_canadienne_de_d_g_jones">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/971209559"/>
+    <schema:name>[Bibliothèque de poésie canadienne de D. G. Jones]</schema:name>
+  </rdf:Description>
+</rdf:RDF>

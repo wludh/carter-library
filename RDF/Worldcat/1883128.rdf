@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2913992025#Agent/new_directions">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Directions</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/9846192">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Flaubert</schema:familyName>
+    <schema:givenName>Gustave</schema:givenName>
+    <schema:name>Gustave Flaubert</schema:name>
+    <schema:birthDate>1821</schema:birthDate>
+    <schema:deathDate>1880</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1883128">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1883128"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ctu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ctu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1883128#PublicationEvent/norfolk_conn_new_directions_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2913992025#Place/norfolk_conn"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2913992025#Agent/new_directions"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2913992025#Place/norfolk_conn">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Norfolk, Conn.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/934845">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">French wit and humor</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1883128">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2913992025"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/9846192"/>
+    <library:oclcnum>1883128</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1883128"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">Flaubert's Dictionary of accepted ideas</schema:name>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2913992025#Place/norfolk_conn"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2913992025#Agent/new_directions"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ctu"/>
+    <schema:productID>1883128</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1883128#PublicationEvent/norfolk_conn_new_directions_1954"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/934845"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+</rdf:RDF>

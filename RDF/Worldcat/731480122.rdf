@@ -1,0 +1,82 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/731480122">
+    <schema:datePublished>1950</schema:datePublished>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Series/the_modern_library"/>
+    <schema:name>Madame Bovary : provincial maners</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Person/aveling_eleanor_marx_1855_1898"/>
+    <library:oclcnum>731480122</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:productID>731480122</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://dewey.info/class/843.8/"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/9846192"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/460581"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/731480122#PublicationEvent/new_york_modern_library_1950"/>
+    <schema:numberOfPages>400</schema:numberOfPages>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/731480122"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Agent/modern_library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/9846192">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Flaubert</schema:familyName>
+    <schema:givenName>Gustave</schema:givenName>
+    <schema:name>Schriftsteller Frankreich Gustave Flaubert</schema:name>
+    <schema:birthDate>1821</schema:birthDate>
+    <schema:deathDate>1880</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/843.8/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/731480122">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/731480122"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Agent/modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Modern Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Series/the_modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/731480122"/>
+    <schema:name>The modern library ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Person/aveling_eleanor_marx_1855_1898">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Aveling</schema:familyName>
+    <schema:givenName>Eleanor Marx</schema:givenName>
+    <schema:name>Eleanor Marx Aveling</schema:name>
+    <schema:birthDate>1855</schema:birthDate>
+    <schema:deathDate>1898</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/731480122#PublicationEvent/new_york_modern_library_1950">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Agent/modern_library"/>
+    <schema:startDate>1950</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,111 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/9846192">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Flaubert</schema:familyName>
+    <schema:givenName>Gustave</schema:givenName>
+    <schema:name>Gustave Flaubert</schema:name>
+    <schema:birthDate>1821</schema:birthDate>
+    <schema:deathDate>1880,</schema:deathDate>
+    <schema:deathDate>1880</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/890818#CreativeWork/coeur_simple">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Cœur simple.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/9846192"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/890818#CreativeWork/simple_heart">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Simple heart.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2078292#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Trois contes.</schema:name>
+    <schema:inLanguage>fr</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/60321206">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>McDowall</schema:familyName>
+    <schema:givenName>Arthur</schema:givenName>
+    <schema:name>Arthur McDowall</schema:name>
+    <schema:birthDate>1877</schema:birthDate>
+    <schema:deathDate>1933,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/890818#CreativeWork/legende_de_saint_julien_l_hospitalier">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Légende de saint Julien l'Hospitalier.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/9846192"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2078292">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2078292"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/934302">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">French fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/890818#Series/borzoi_pocket_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/2078292"/>
+    <schema:name>Borzoi pocket books</schema:name>
+    <schema:name>Borzoi pocket books.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/890818#CreativeWork/legend_of_saint_julian_the_hospitaller">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Legend of Saint Julian the hospitaller.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/890818#CreativeWork/herodias">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Hérodias.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/9846192"/>
+    <schema:name>Herodias.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/890818">
+    <schema:name>Trois contes.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2078292">
+    <schema:description xml:lang="en">A simple heart -- The legend of Saint Julian the hospitaller -- Herodias.</schema:description>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2078292"/>
+    <schema:name xml:lang="en">Three tales</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/9846192"/>
+    <library:oclcnum>2078292</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/890818"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/934302"/>
+    <schema:productID>2078292</schema:productID>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/60321206"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/890818#CreativeWork/herodias"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/2078292#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:hasPart rdf:resource="http://experiment.worldcat.org/entity/work/data/890818#CreativeWork/simple_heart"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:hasPart rdf:resource="http://experiment.worldcat.org/entity/work/data/890818#CreativeWork/legend_of_saint_julian_the_hospitaller"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:copyrightYear>1924</schema:copyrightYear>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1924</schema:datePublished>
+    <schema:author rdf:resource="http://viaf.org/viaf/9846192"/>
+    <schema:hasPart rdf:resource="http://experiment.worldcat.org/entity/work/data/890818#CreativeWork/herodias"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/890818#CreativeWork/legende_de_saint_julien_l_hospitalier"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/890818#Series/borzoi_pocket_books"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/890818#CreativeWork/coeur_simple"/>
+  </rdf:Description>
+</rdf:RDF>

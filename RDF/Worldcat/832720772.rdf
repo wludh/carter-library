@@ -1,0 +1,60 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354871#Person/smith_betty">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Smith</schema:familyName>
+    <schema:givenName>Betty</schema:givenName>
+    <schema:name>Betty Smith</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354871#Agent/blakiston">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Blakiston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/832720772#PublicationEvent/philadelphiablakiston1943">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/354871#Place/philadelphia"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/354871#Agent/blakiston"/>
+    <schema:startDate>1943</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/832720772">
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/354871#Person/smith_betty"/>
+    <schema:productID>832720772</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/832720772#PublicationEvent/philadelphiablakiston1943"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/354871"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:name>A Tree Grows in Brooklyn : a novel</schema:name>
+    <library:oclcnum>832720772</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/832720772"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/354871#Agent/blakiston"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/354871#Place/philadelphia"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1943</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/832720772">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/832720772"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354871#Place/philadelphia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Philadelphia</schema:name>
+  </rdf:Description>
+</rdf:RDF>

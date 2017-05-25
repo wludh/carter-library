@@ -1,0 +1,92 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/95153547">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Montaigne</schema:familyName>
+    <schema:givenName>Michel de</schema:givenName>
+    <schema:name>Michel de Montaigne</schema:name>
+    <schema:birthDate>1533</schema:birthDate>
+    <schema:deathDate>1592</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/cau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>cau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/50699642">
+    <schema:about rdf:resource="http://dewey.info/class/844.3/"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:productID>50699642</schema:productID>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/573106784"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/50699642"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:copyrightYear>1957</schema:copyrightYear>
+    <schema:creator rdf:resource="http://viaf.org/viaf/95153547"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/609191415"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2005477#Place/stanford_calif"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/915437"/>
+    <library:oclcnum>50699642</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/cau"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">Complete works of Montaigne : essays, travel journal, letters</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2005477#Agent/stanford_university_press"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/50699642#PublicationEvent/stanford_calif_stanford_university_press_1957"/>
+    <schema:alternateName>Montaigne</schema:alternateName>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/996779"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2005477"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/573106784">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/50699642"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Complete works of Montaigne.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/844.3/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2005477#Place/stanford_calif">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Stanford, Calif.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2005477#Agent/stanford_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Stanford University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/609191415">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/50699642"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Complete works of Montaigne.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/50699642#PublicationEvent/stanford_calif_stanford_university_press_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2005477#Place/stanford_calif"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2005477#Agent/stanford_university_press"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/50699642">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/50699642"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/915437">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Essays</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/996779">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Letters</schema:name>
+  </rdf:Description>
+</rdf:RDF>

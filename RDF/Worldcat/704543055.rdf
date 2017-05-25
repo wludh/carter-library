@@ -1,0 +1,66 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/832149">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Biography</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/43758652">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ames</schema:familyName>
+    <schema:givenName>Noel</schema:givenName>
+    <schema:name>Noel Ames</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/704543055">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/704543055"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/937760843#Agent/peoples_book_club">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Peoples Book Club</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/704543055#PublicationEvent/chicago_peoples_book_club_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/937760843#Agent/peoples_book_club"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/704543055">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/704543055#PublicationEvent/chicago_peoples_book_club_1957"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/832149"/>
+    <schema:description xml:lang="en">Mayo Brothers; Joe Brown;Malvina Hoffman.</schema:description>
+    <library:oclcnum>704543055</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/704543055"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/937760843"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/937760843#Agent/peoples_book_club"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/43758652"/>
+    <schema:productID>704543055</schema:productID>
+    <schema:name xml:lang="en">These wonderful people : intimate moments in their lives.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

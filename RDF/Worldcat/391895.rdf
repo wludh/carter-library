@@ -1,0 +1,104 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1528032#Person/adams_brooks_1848_1927">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Adams</schema:familyName>
+    <schema:givenName>Brooks</schema:givenName>
+    <schema:name>Brooks Adams</schema:name>
+    <schema:birthDate>1848</schema:birthDate>
+    <schema:deathDate>1927</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/30997699">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Beringause</schema:familyName>
+    <schema:givenName>Arthur F.</schema:givenName>
+    <schema:name>Arthur F. Beringause</schema:name>
+    <schema:birthDate>1919</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1528032#Topic/historiens_etats_unis">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Historiens--États-Unis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/391895">
+    <schema:description xml:lang="en">"Peter Chardon Brooks Adams (June 24, 1848, Quincy, Massachusetts - February 13, 1927, Boston), was an American historian and a critic of capitalism."--Wikipedia.</schema:description>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/7382668"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>391895</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1528032"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1528032#Topic/historiens_etats_unis"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1528032#Agent/knopf"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1528032#Topic/adams_brooks"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/30997699"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/557690997"/>
+    <library:oclcnum>391895</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1528032#Person/adams_brooks_1848_1927"/>
+    <schema:about rdf:resource="http://dewey.info/class/928.1/"/>
+    <schema:genre xml:lang="en">Biography</schema:genre>
+    <schema:bookEdition>[1st ed.].</schema:bookEdition>
+    <schema:name xml:lang="en">Brooks Adams; a biography.</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/391895"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/391895#PublicationEvent/new_york_knopf_1955"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/391895">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/391895"/>
+    <schema:dateModified>2017-04-26</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1528032#Topic/adams_brooks">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Adams, Brooks</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/391895#PublicationEvent/new_york_knopf_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1528032#Agent/knopf"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/557690997">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/391895"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Brooks Adams; a biography.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/7382668">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Adams</schema:familyName>
+    <schema:givenName>Brooks</schema:givenName>
+    <schema:name>Brooks Adams</schema:name>
+    <schema:birthDate>1848</schema:birthDate>
+    <schema:deathDate>1927</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/928.1/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1528032#Agent/knopf">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Knopf</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,87 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/19346645#PublicationEvent/new_york_macmillan_1939">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/7750012#Agent/macmillan"/>
+    <schema:startDate>1939</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/67707561">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wayland</schema:familyName>
+    <schema:givenName>John Walter</schema:givenName>
+    <schema:name>John Walter Wayland</schema:name>
+    <schema:birthDate>1872</schema:birthDate>
+    <schema:deathDate>1962</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7750012#Person/carter_alice_e">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Carter</schema:familyName>
+    <schema:givenName>Alice E.</schema:givenName>
+    <schema:name>Alice E. Carter</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/19346645">
+    <schema:productID>19346645</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:audience rdf:resource="http://www.worldcat.org/title/-/oclc/19346645#Audience"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/7750012"/>
+    <schema:genre xml:lang="en">Juvenile works</schema:genre>
+    <schema:bookEdition>Rev. ed.</schema:bookEdition>
+    <schema:creator rdf:resource="http://viaf.org/viaf/67707561"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/7750012#Agent/macmillan"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">A history of Virginia for boys and girls</schema:name>
+    <library:oclcnum>19346645</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/7750012#Place/virginia"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204597"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/19346645"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/7750012#Person/carter_alice_e"/>
+    <schema:datePublished>1939</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/19346645#PublicationEvent/new_york_macmillan_1939"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204597">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Virginia.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7750012#Agent/macmillan">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Macmillan</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/19346645#Audience">
+    <rdf:type rdf:resource="http://schema.org/PeopleAudience"/>
+    <schema:audienceType xml:lang="en">Juvenile</schema:audienceType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/19346645">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/19346645"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7750012#Place/virginia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Virginia</schema:name>
+  </rdf:Description>
+</rdf:RDF>

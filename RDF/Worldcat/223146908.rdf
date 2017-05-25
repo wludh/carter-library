@@ -1,0 +1,71 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/223146908">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/223146908"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/51686578">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Burckhardt</schema:familyName>
+    <schema:givenName>Jacob</schema:givenName>
+    <schema:name>Jacob Burckhardt</schema:name>
+    <schema:birthDate>1818</schema:birthDate>
+    <schema:deathDate>1897</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1738127#Agent/beacon_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Beacon Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/909/e19/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/223146908#PublicationEvent/boston_beacon_press_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1738127#Agent/beacon_press"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1181345">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">World history</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/223146908">
+    <schema:name xml:lang="en">Judgments on history and historians</schema:name>
+    <schema:about rdf:resource="http://dewey.info/class/909/e19/"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1738127#Agent/beacon_press"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1738127"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/223146908#PublicationEvent/boston_beacon_press_1958"/>
+    <schema:productID>223146908</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1181345"/>
+    <library:oclcnum>223146908</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/51686578"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/223146908"/>
+  </rdf:Description>
+</rdf:RDF>

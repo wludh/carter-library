@@ -1,0 +1,70 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/490838795#PublicationEvent/durham_north_carolina_duke_univ_press_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1514262#Place/durham_north_carolina"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1514262#Agent/duke_univ_press"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1514262#Place/durham_north_carolina">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Durham (North Carolina)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1514262#Agent/duke_univ_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Duke Univ. Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1514262#Topic/chevalerie_role_sociologie_societe_milieu_humain_angleterre_grande_bretagne_15e_s_16e_s">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>chevalerie--rôle (sociologie)--société (milieu humain)--Angleterre (Grande-Bretagne)--15e s.--16e s</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ncu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ncu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/490838795">
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1514262#Person/ferguson_arthur_b"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ncu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/490838795#PublicationEvent/durham_north_carolina_duke_univ_press_1960"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1514262#Topic/chevalerie_valeur_sociale_angleterre_grande_bretagne_15e_s_16e_s"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name>The Indian Summer of English chivalry : studies in the decline and transformation of chivalric idealism.</schema:name>
+    <schema:datePublished>1960</schema:datePublished>
+    <library:oclcnum>490838795</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1514262#Agent/duke_univ_press"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/490838795"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1514262#Topic/chevalerie_role_sociologie_societe_milieu_humain_angleterre_grande_bretagne_15e_s_16e_s"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1514262#Place/durham_north_carolina"/>
+    <schema:productID>490838795</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1514262"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/490838795">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/490838795"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1514262#Person/ferguson_arthur_b">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ferguson</schema:familyName>
+    <schema:givenName>Arthur B.</schema:givenName>
+    <schema:name>Arthur B. Ferguson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1514262#Topic/chevalerie_valeur_sociale_angleterre_grande_bretagne_15e_s_16e_s">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>chevalerie--valeur sociale--Angleterre (Grande-Bretagne)--15e s.--16e s</schema:name>
+  </rdf:Description>
+</rdf:RDF>

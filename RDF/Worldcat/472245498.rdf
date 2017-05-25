@@ -1,0 +1,74 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/472245498#PublicationEvent/boston_new_york_houghton_mifflin_company_1934">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/501081#Agent/houghton_mifflin_company"/>
+    <schema:startDate>1934</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/501081#CreativeWork/42_years_in_the_white_house">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>42 years in the White House</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/501081#Agent/houghton_mifflin_company">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Houghton Mifflin Company</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/472245498">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/472245498"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/48502245">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hoover</schema:familyName>
+    <schema:givenName>Irwin Hood</schema:givenName>
+    <schema:name>Irwin Hood Hoover</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/472245498">
+    <schema:bookEdition>8. impr.</schema:bookEdition>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/472245498#PublicationEvent/boston_new_york_houghton_mifflin_company_1934"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:productID>472245498</schema:productID>
+    <schema:datePublished>1934</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/501081"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/501081#Agent/houghton_mifflin_company"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/48502245"/>
+    <library:oclcnum>472245498</library:oclcnum>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/501081#CreativeWork/42_years_in_the_white_house"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/48502245"/>
+    <schema:name>Forty-two years in the White House</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/472245498"/>
+  </rdf:Description>
+</rdf:RDF>

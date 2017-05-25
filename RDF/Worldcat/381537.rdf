@@ -1,0 +1,99 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/381537">
+    <schema:about rdf:resource="http://dewey.info/class/917.3/"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name xml:lang="en">The scene before you : a new approach to American culture</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1493868#Agent/rinehart"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:editor rdf:resource="http://viaf.org/viaf/115469234"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1493868#Event/since_1945"/>
+    <library:oclcnum>381537</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/381537#PublicationEvent/new_york_rinehart_1955"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1493868#Place/united_states"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/862898"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/381537"/>
+    <schema:productID>381537</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/975769"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1493868"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/565869479"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/115469234">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Brossard</schema:familyName>
+    <schema:givenName>Chandler</schema:givenName>
+    <schema:name>Chandler Brossard</schema:name>
+    <schema:birthDate>1922</schema:birthDate>
+    <schema:deathDate>1993,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1493868#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/862898">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Civilization</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/917.3/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/381537#PublicationEvent/new_york_rinehart_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1493868#Agent/rinehart"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/565869479">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/381537"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Scene before you.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/975769">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Intellectual life</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1493868#Agent/rinehart">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Rinehart</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/381537">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/381537"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1493868#Event/since_1945">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>Since 1945</schema:name>
+  </rdf:Description>
+</rdf:RDF>

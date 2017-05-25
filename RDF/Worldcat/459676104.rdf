@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/29537765">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Maupassant</schema:familyName>
+    <schema:givenName>Guy de</schema:givenName>
+    <schema:name>Guy de Maupassant</schema:name>
+    <schema:birthDate>1850</schema:birthDate>
+    <schema:deathDate>1893</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/459676104">
+    <schema:datePublished>1949</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3858472147#Agent/random_house"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>459676104</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/459676104#PublicationEvent/new_york_random_house_s_d"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/459676104"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/29537765"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Maupassant : a lion in the path, by Francis Steegmuller.</schema:name>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/3858472147#Person/steegmuller_francis_1906_1994"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3858472147"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>459676104</library:oclcnum>
+    <schema:datePublished>(s.d.)</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/459676104">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/459676104"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3858472147#Person/steegmuller_francis_1906_1994">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Steegmuller</schema:familyName>
+    <schema:givenName>Francis</schema:givenName>
+    <schema:name>Francis Steegmuller</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+    <schema:deathDate>1994</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/459676104#PublicationEvent/new_york_random_house_s_d">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3858472147#Agent/random_house"/>
+    <schema:startDate>(s.d.)</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3858472147#Agent/random_house">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Random House</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,73 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/13017841#PublicationEvent/new_york_p_f_collier_&amp;_son_1918">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/5567818#Agent/p_f_collier_&amp;_son"/>
+    <schema:startDate>1918</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5567818#Agent/p_f_collier_&amp;_son">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>P.F. Collier &amp; Son</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/13017841">
+    <schema:genre xml:lang="en">History</schema:genre>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/13017841"/>
+    <schema:productID>13017841</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/13017841#PublicationEvent/new_york_p_f_collier_&amp;_son_1918"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:name xml:lang="en">The history of the United States from 1492 to 1910</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1918</schema:datePublished>
+    <schema:creator rdf:resource="http://viaf.org/viaf/74004484"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/5567818"/>
+    <library:oclcnum>13017841</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/5567818#Place/united_states"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/5567818#Agent/p_f_collier_&amp;_son"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/13017841">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/13017841"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/74004484">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hawthorne</schema:familyName>
+    <schema:givenName>Julian</schema:givenName>
+    <schema:name>Julian Hawthorne</schema:name>
+    <schema:birthDate>1846</schema:birthDate>
+    <schema:deathDate>1934</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5567818#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+</rdf:RDF>

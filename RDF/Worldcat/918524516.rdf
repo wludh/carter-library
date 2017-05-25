@@ -1,0 +1,69 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/6739326#Person/burke_arvid_james">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Burke</schema:familyName>
+    <schema:givenName>Arvid James</schema:givenName>
+    <schema:name>Arvid James Burke</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/918524516#PublicationEvent/new_york_bureau_of_publications_teachers_college_columbia_univ_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/6739326#Agent/bureau_of_publications_teachers_college_columbia_univ"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/6739326#Person/alexander_carter">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Alexander</schema:familyName>
+    <schema:givenName>Carter</schema:givenName>
+    <schema:name>Carter Alexander</schema:name>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/152756914"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/6739326#Agent/bureau_of_publications_teachers_college_columbia_univ">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Bureau of Publications, Teachers College, Columbia Univ.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/918524516">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/918524516"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/918524516">
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>918524516</library:oclcnum>
+    <schema:name>How to locate educational information and data : an aid to quick utilization of the literature of education</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>918524516</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/6739326#Person/alexander_carter"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/6739326#Person/burke_arvid_james"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/6739326"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookEdition>4., ed., rev.</schema:bookEdition>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/6739326#Agent/bureau_of_publications_teachers_college_columbia_univ"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/918524516"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/918524516#PublicationEvent/new_york_bureau_of_publications_teachers_college_columbia_univ_1958"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

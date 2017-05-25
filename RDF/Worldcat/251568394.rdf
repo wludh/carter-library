@@ -1,0 +1,67 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/251568394">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/251568394"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3344523022#Agent/grove_pr"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3344523022#Person/keene_donald"/>
+    <schema:name>Japanese Literature.</schema:name>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:oclcnum>251568394</library:oclcnum>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3344523022#Series/evergreen_books"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/251568394#PublicationEvent/new_york_grove_pr_1955"/>
+    <schema:datePublished>(1955)</schema:datePublished>
+    <schema:productID>251568394</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3344523022"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1955</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3344523022#Agent/grove_pr">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Grove Pr.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3344523022#Person/keene_donald">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Keene</schema:familyName>
+    <schema:givenName>Donald</schema:givenName>
+    <schema:name>Donald Keene</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3344523022#Series/evergreen_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/251568394"/>
+    <schema:name>Evergreen Books</schema:name>
+    <schema:name>Evergreen books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/251568394">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/251568394"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/251568394#PublicationEvent/new_york_grove_pr_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3344523022#Agent/grove_pr"/>
+    <schema:startDate>(1955)</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>
