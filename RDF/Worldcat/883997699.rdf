@@ -1,0 +1,90 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/883997699">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/292065449#Topic/criticism"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/292065449"/>
+    <schema:bookEdition>Rev. ed., abridged by the author.</schema:bookEdition>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:name xml:lang="en">The philosophy of literary form : studies in symbolic action.</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/292065449#Topic/literature"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/883997699"/>
+    <library:oclcnum>883997699</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/292065449#Person/burke_kenneth_1897_1993"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/292065449#CreativeWork/studies_in_symbolic_action"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/883997699#PublicationEvent/new_york_vintage_books_1957"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/292065449#Agent/vintage_books"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/292065449#Topic/literature_philosophy"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/292065449#Topic/literature_history_and_criticism"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>883997699</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/292065449#Topic/literature_history_and_criticism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Literature--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/292065449#Topic/criticism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/883997699#PublicationEvent/new_york_vintage_books_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/292065449#Agent/vintage_books"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/292065449#Agent/vintage_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Vintage Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/883997699">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/883997699"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/292065449#Person/burke_kenneth_1897_1993">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Burke</schema:familyName>
+    <schema:givenName>Kenneth</schema:givenName>
+    <schema:name>Kenneth Burke</schema:name>
+    <schema:birthDate>1897</schema:birthDate>
+    <schema:deathDate>1993</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/292065449#Topic/literature">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/292065449#Topic/literature_philosophy">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Literature--Philosophy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/292065449#CreativeWork/studies_in_symbolic_action">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Studies in symbolic action.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

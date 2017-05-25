@@ -1,0 +1,131 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/3353177">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Rourke</schema:familyName>
+    <schema:givenName>Constance</schema:givenName>
+    <schema:name>Constance Rourke</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/473677576#PublicationEvent/new_york_vintage_books_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/444993#Agent/vintage_books"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/444993#Person/eliot_t_s">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Eliot</schema:familyName>
+    <schema:givenName>T.S</schema:givenName>
+    <schema:name>TS Eliot</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/47605793">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Spurgeon</schema:familyName>
+    <schema:givenName>Caroline</schema:givenName>
+    <schema:name>Caroline Spurgeon</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/444993#Person/winters_yvor">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Winters</schema:familyName>
+    <schema:givenName>Yvor</schema:givenName>
+    <schema:name>Yvor Winters</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/473677576">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/473677576"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/444993#Agent/vintage_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Vintage Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/444993#Person/richards_i_a">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Richards</schema:familyName>
+    <schema:givenName>I.A</schema:givenName>
+    <schema:name>IA Richards</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/444993#Person/brooks_van_wyck">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Brooks</schema:familyName>
+    <schema:givenName>Van Wyck</schema:givenName>
+    <schema:name>Van Wyck Brooks</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/444993#Person/burke_kenneth">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Burke</schema:familyName>
+    <schema:givenName>Kenneth</schema:givenName>
+    <schema:name>Kenneth Burke</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/77554297">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bodkin</schema:familyName>
+    <schema:givenName>Maud</schema:givenName>
+    <schema:name>Maud Bodkin</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/444993#Person/hyman_stanley_edgar">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hyman</schema:familyName>
+    <schema:givenName>Stanley Edgar</schema:givenName>
+    <schema:name>Stanley Edgar Hyman</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/444993#Person/blackmur_r_p">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Blackmur</schema:familyName>
+    <schema:givenName>R.P</schema:givenName>
+    <schema:name>RP Blackmur</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/444993#Person/empson_william">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Empson</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Empson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/473677576">
+    <schema:datePublished>1955</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:oclcnum>473677576</library:oclcnum>
+    <schema:about rdf:resource="http://viaf.org/viaf/47605793"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/473677576#PublicationEvent/new_york_vintage_books_1955"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/444993#Person/winters_yvor"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/444993#Person/blackmur_r_p"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/444993#Person/burke_kenneth"/>
+    <schema:productID>473677576</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/444993#Person/empson_william"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/77554297"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/473677576"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/444993#Person/eliot_t_s"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/444993#Agent/vintage_books"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/444993#Person/hyman_stanley_edgar"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/444993#Person/brooks_van_wyck"/>
+    <schema:name>The armed vision : A study in the methods of modern literary criticism</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/444993"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/3353177"/>
+    <schema:bookEdition>Revised edition, abridged by the author</schema:bookEdition>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/444993#Person/richards_i_a"/>
+  </rdf:Description>
+</rdf:RDF>

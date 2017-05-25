@@ -1,0 +1,80 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1149217">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Theater</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/71412301">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bentley</schema:familyName>
+    <schema:givenName>Eric</schema:givenName>
+    <schema:name>Eric Bentley</schema:name>
+    <schema:birthDate>1916</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/749004376#PublicationEvent/boston_mass_beacon_press_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1778570#Place/boston_mass"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1778570#Agent/beacon_press"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/749004376">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1778570#Agent/beacon_press"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:name xml:lang="en">The dramatic event : an American chronicle</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/749004376#PublicationEvent/boston_mass_beacon_press_1954"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1778570"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/749004376"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/71412301"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85134560"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>749004376</schema:productID>
+    <library:oclcnum>749004376</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1778570#Place/boston_mass"/>
+    <schema:about rdf:resource="http://dewey.info/class/792.0973/"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1149217"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85134560">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Theater--United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1778570#Agent/beacon_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Beacon Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/749004376">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/749004376"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1778570#Place/boston_mass">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston, Mass.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/792.0973/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

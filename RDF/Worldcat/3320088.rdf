@@ -1,0 +1,94 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/24619891">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Read</schema:familyName>
+    <schema:givenName>Herbert</schema:givenName>
+    <schema:name>Herbert Read</schema:name>
+    <schema:birthDate>1893</schema:birthDate>
+    <schema:deathDate>1968</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3320088#PublicationEvent/boston_beacon_press_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/132265631#Agent/beacon_press"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/911825">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English language--Style</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/132265631#Topic/anglais_langue_stylistique">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Anglais (Langue)--Stylistique</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/132265631#Thing/english_language_style">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>English language -- Style</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/808/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3320088">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/3320088"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/607844969">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/3320088"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>English prose style.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85043727">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English language--Style</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/132265631#Agent/beacon_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Beacon Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/3320088">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/132265631#Agent/beacon_press"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/3320088"/>
+    <schema:productID>3320088</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/132265631#Thing/english_language_style"/>
+    <library:oclcnum>3320088</library:oclcnum>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85043727"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/911825"/>
+    <schema:about rdf:resource="http://dewey.info/class/808/"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/607844969"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/132265631"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/3320088#PublicationEvent/boston_beacon_press_1955"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/24619891"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/132265631#Topic/anglais_langue_stylistique"/>
+    <schema:name xml:lang="en">English prose style.</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+</rdf:RDF>

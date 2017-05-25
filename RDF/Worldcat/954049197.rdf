@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/954049197">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/954049197"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020142949#Place/garden_city_new_york">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/954049197">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/4020142949#Person/fergusson_francis"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:productID>954049197</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/954049197#PublicationEvent/garden_city_new_york_doubleday_a&amp;_company_inc_1957"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4020142949"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/4020142949#Place/garden_city_new_york"/>
+    <schema:name>The Human Image in Dramatic Literature</schema:name>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4020142949#Person/teatro_literatura"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4020142949#Series/doubleday_anchor_original"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4020142949#Agent/doubleday_a&amp;_company_inc"/>
+    <library:oclcnum>954049197</library:oclcnum>
+    <schema:numberOfPages>217</schema:numberOfPages>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/954049197"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020142949#Series/doubleday_anchor_original">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/954049197"/>
+    <schema:name>Doubleday Anchor Original;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/954049197#PublicationEvent/garden_city_new_york_doubleday_a&amp;_company_inc_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/4020142949#Place/garden_city_new_york"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4020142949#Agent/doubleday_a&amp;_company_inc"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020142949#Person/teatro_literatura">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:name>Teatro (literatura)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020142949#Person/fergusson_francis">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fergusson</schema:familyName>
+    <schema:givenName>Francis</schema:givenName>
+    <schema:name>Francis Fergusson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020142949#Agent/doubleday_a&amp;_company_inc">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday A&amp; Company Inc.</schema:name>
+  </rdf:Description>
+</rdf:RDF>
