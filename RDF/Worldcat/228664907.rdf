@@ -1,0 +1,76 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/65112816">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Percy</schema:familyName>
+    <schema:givenName>William Alexander</schema:givenName>
+    <schema:name>William Alexander Percy</schema:name>
+    <schema:birthDate>1885</schema:birthDate>
+    <schema:deathDate>1942</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.52/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1748401#Person/percy_william_alexander_1885_1942">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Percy</schema:familyName>
+    <schema:givenName>William Alexander</schema:givenName>
+    <schema:name>William Alexander Percy</schema:name>
+    <schema:birthDate>1885</schema:birthDate>
+    <schema:deathDate>1942</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1748401#Agent/a_a_knopf">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>A.A. Knopf</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/228664907#PublicationEvent/new_york_a_a_knopf_1950">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1748401#Agent/a_a_knopf"/>
+    <schema:startDate>1950</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/228664907">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1748401#Agent/a_a_knopf"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>228664907</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/65112816"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/228664907#PublicationEvent/new_york_a_a_knopf_1950"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/65112816"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.52/"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/228664907"/>
+    <library:oclcnum>228664907</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1748401"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:name xml:lang="en">Lanterns on the levee : recollections of a planter's son</schema:name>
+    <schema:datePublished>1950</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1748401#Person/percy_william_alexander_1885_1942"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/228664907">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/228664907"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

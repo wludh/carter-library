@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/219841528">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://dewey.info/class/920/e19/"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/219841528"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/50870757#Place/garden_city_n_y"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/832172"/>
+    <schema:productID>219841528</schema:productID>
+    <schema:creator rdf:resource="http://viaf.org/viaf/108589496"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/50870757#Series/a_doubleday_anchor_original"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/219841528#PublicationEvent/garden_city_n_y_anchor_books_1959"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/50870757"/>
+    <library:oclcnum>219841528</library:oclcnum>
+    <schema:name xml:lang="en">Literary biography</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/50870757#Agent/anchor_books"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/50870757#Series/doubleday_anchor_original"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/108589496">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Edel</schema:familyName>
+    <schema:givenName>Leon</schema:givenName>
+    <schema:name>Leon Edel</schema:name>
+    <schema:birthDate>1907</schema:birthDate>
+    <schema:deathDate>1997</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/50870757#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/920/e19/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/832172">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Biography as a literary form</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/50870757#Series/a_doubleday_anchor_original">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/219841528"/>
+    <schema:name>A Doubleday Anchor original ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/50870757#Series/doubleday_anchor_original">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/219841528"/>
+    <schema:name>Doubleday Anchor original ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/219841528">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/219841528"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/219841528#PublicationEvent/garden_city_n_y_anchor_books_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/50870757#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/50870757#Agent/anchor_books"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/50870757#Agent/anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Anchor Books</schema:name>
+  </rdf:Description>
+</rdf:RDF>

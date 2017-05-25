@@ -1,0 +1,92 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2247036#Person/marcus_paul">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Marcus</schema:familyName>
+    <schema:givenName>Paul</schema:givenName>
+    <schema:name>Paul Marcus</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2247036#Series/gold_medal_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/23251624"/>
+    <schema:name>Gold medal books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/23251624#PublicationEvent/new_york_gold_medal_books_fawcett_publications_1951">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2247036#Agent/gold_medal_books_fawcett_publications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/76370475">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ford</schema:familyName>
+    <schema:givenName>Henry</schema:givenName>
+    <schema:name>Henry Ford</schema:name>
+    <schema:birthDate>1863</schema:birthDate>
+    <schema:deathDate>1947</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/cau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>cau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2247036#Agent/gold_medal_books_fawcett_publications">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Gold Medal Books, Fawcett Publications</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2247036#Person/bennett_harry_herbert_1892">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bennett</schema:familyName>
+    <schema:givenName>Harry Herbert</schema:givenName>
+    <schema:name>Harry Herbert Bennett</schema:name>
+    <schema:birthDate>1892</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/23251624">
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:productID>23251624</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2247036#Person/bennett_harry_herbert_1892"/>
+    <schema:copyrightYear>1951</schema:copyrightYear>
+    <schema:name xml:lang="en">We never called him Henry</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/cau"/>
+    <library:oclcnum>23251624</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/23251624#PublicationEvent/new_york_gold_medal_books_fawcett_publications_1951"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2247036#Person/ford_henry_1863_1947"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/23251624"/>
+    <schema:datePublished>1990</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2247036#Agent/gold_medal_books_fawcett_publications"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/2247036#Person/marcus_paul"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2247036#Series/gold_medal_books"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2247036"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/76370475"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2247036#Person/ford_henry_1863_1947">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ford</schema:familyName>
+    <schema:givenName>Henry</schema:givenName>
+    <schema:name>Henry Ford</schema:name>
+    <schema:birthDate>1863</schema:birthDate>
+    <schema:deathDate>1947</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/23251624">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/23251624"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

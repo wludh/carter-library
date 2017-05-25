@@ -1,0 +1,74 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/8311973">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>O'Brien</schema:familyName>
+    <schema:givenName>Edward J.</schema:givenName>
+    <schema:givenName>Edward Joseph</schema:givenName>
+    <schema:name>Edward Joseph O'Brien</schema:name>
+    <schema:birthDate>1890</schema:birthDate>
+    <schema:deathDate>1941,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1117043">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Short stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/542453">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/542453"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/542453">
+    <schema:name xml:lang="en">The twenty-five finest short stories,</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/542453"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1571649"/>
+    <schema:productID>542453</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1571649#Agent/r_r_smith"/>
+    <library:oclcnum>542453</library:oclcnum>
+    <schema:genre xml:lang="en">Short stories</schema:genre>
+    <schema:editor rdf:resource="http://viaf.org/viaf/8311973"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://dewey.info/class/808.83/"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/542453#PublicationEvent/new_york_r_r_smith_1931"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1117043"/>
+    <schema:description xml:lang="en">Tell-tale heart / Edgar Allan Poe -- Ethan Brand / Nathaniel Hawthorne -- Benito Cereno / Herman Melville -- The luck of roaring camp / Bret Harte -- The celebrated jumping frog of Calaveras county / Mark Twain -- A municipal report / O. Henry -- I want to know why / Sherwood Anderson -- The lost phoebe / Theodore Dreiser -- My old man / Ernest Hemingway -- How does it feel to be free? / Manuel Komroff -- Wandering Willie's tale / Sir Walter Scott -- The tree strangers /Thomas Hardy -- The secret sharer. An episode from the coast / Joseph Conrad -- El Ombu / W.H. Hudson -- The Phantom 'Rickshaw / Rudyard Kipling -- The fly / Katherine Mansfield -- Fifty pounds / A.E. Coppard -- Travellers / L.A.G. Strong -- An episode under the terror / Honore' de Balzac -- The Pope's mule / Alphonse Daudet -- A simple heart / Gustave Flaubert -- Two friends / Guy de Maupassant -- Mateo Falcone / Prosper Merimee -- Our lady's bracelet / Gustav Adolf Brecquer -- The black monk / Anton Chekov.</schema:description>
+    <schema:datePublished>1931</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/542453#PublicationEvent/new_york_r_r_smith_1931">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1571649#Agent/r_r_smith"/>
+    <schema:startDate>1931</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/808.83/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1571649#Agent/r_r_smith">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>R.R. Smith</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

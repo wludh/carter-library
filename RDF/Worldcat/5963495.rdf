@@ -1,0 +1,89 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1014129">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Medical fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1205171">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Pennsylvania--Pittsburgh.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/752282#Agent/grosset_&amp;_dunlap">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Grosset &amp; Dunlap</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/19683443">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Rinehart</schema:familyName>
+    <schema:givenName>Mary Roberts</schema:givenName>
+    <schema:name>Mary Roberts Rinehart</schema:name>
+    <schema:birthDate>1876</schema:birthDate>
+    <schema:deathDate>1958</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5963495">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/5963495"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/5963495">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/752282#Agent/grosset_&amp;_dunlap"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1205171"/>
+    <schema:name xml:lang="en">K.</schema:name>
+    <schema:productID>5963495</schema:productID>
+    <schema:about rdf:resource="http://dewey.info/class/813.5/"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1014129"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/5963495"/>
+    <schema:description xml:lang="en">K. is a mystery, a romance, and a saga of the lives of people during pre-World War I around a hospital, its employees, and the surrounding neighborhood.</schema:description>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/752282"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/5963495#PublicationEvent/new_york_grosset_&amp;_dunlap_1915"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/612680785"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/752282#Place/pittsburgh_pa"/>
+    <library:oclcnum>5963495</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/19683443"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:datePublished>1915</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5963495#PublicationEvent/new_york_grosset_&amp;_dunlap_1915">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/752282#Agent/grosset_&amp;_dunlap"/>
+    <schema:startDate>1915</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/612680785">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/5963495"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/752282#Place/pittsburgh_pa">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Pittsburgh (Pa.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

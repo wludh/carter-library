@@ -1,0 +1,67 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570629#Thing/american_literature">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>American Literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/868360684#PublicationEvent/new_york_the_modern_library_c1936">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/570629#Agent/the_modern_library"/>
+    <schema:startDate>c1936</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/868360684">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/868360684#PublicationEvent/new_york_the_modern_library_c1936"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:name>Pale Horse, Pale Rider : three Short Novels</schema:name>
+    <schema:datePublished>1936</schema:datePublished>
+    <schema:productID>868360684</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:copyrightYear>1936</schema:copyrightYear>
+    <schema:numberOfPages>264</schema:numberOfPages>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/570629#Person/porter_katherine_anne"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/570629"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/868360684"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/570629#Agent/the_modern_library"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>868360684</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/570629#Thing/american_literature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570629#Agent/the_modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>The Modern library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570629#Person/porter_katherine_anne">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Porter</schema:familyName>
+    <schema:givenName>Katherine Anne</schema:givenName>
+    <schema:name>Katherine Anne Porter</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/868360684">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/868360684"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

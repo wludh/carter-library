@@ -1,0 +1,98 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/318935547">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/318935547"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/458657#Place/europe">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Europe</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/318935547">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1245064"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/458657#Place/europe"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/458657#Place/islamic_countries"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/458657#Event/392_814"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1240016"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/458657#Place/gaul"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/318935547"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:productID>318935547</schema:productID>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44435542"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/318935547#PublicationEvent/new_york_meridian_books_1957"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/458657#Agent/meridian_books"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1244130"/>
+    <schema:name xml:lang="en">Mohammed and Charlemagne</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/458657"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>318935547</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/458657#Place/islamic_countries">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Islamic countries</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1245064">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Europe.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1244130">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Islamic countries.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/458657#Place/gaul">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Gaul</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/458657#Event/392_814">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>392-814</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/44435542">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Pirenne</schema:familyName>
+    <schema:givenName>Henri</schema:givenName>
+    <schema:name>Henri Pirenne</schema:name>
+    <schema:birthDate>1862</schema:birthDate>
+    <schema:deathDate>1935</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/318935547#PublicationEvent/new_york_meridian_books_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/458657#Agent/meridian_books"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1240016">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Europe--Gaul.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/458657#Agent/meridian_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Meridian Books</schema:name>
+  </rdf:Description>
+</rdf:RDF>

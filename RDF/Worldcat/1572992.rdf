@@ -1,0 +1,71 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1572992#PublicationEvent/sauk_city_wis_stanton_&amp;_lee_publishers_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1175196#Place/sauk_city_wis"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1175196#Agent/stanton_&amp;_lee_publishers"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1572992">
+    <schema:genre xml:lang="en">Short stories</schema:genre>
+    <library:oclcnum>1572992</library:oclcnum>
+    <schema:productID>1572992</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1175196"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1175196#Place/sauk_city_wis"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1103016"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1572992#PublicationEvent/sauk_city_wis_stanton_&amp;_lee_publishers_1948"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1175196#Agent/stanton_&amp;_lee_publishers"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1948</schema:datePublished>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:name xml:lang="en">A Wisconsin earth : a Sac Prairie sampler</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/wiu"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/12307238"/>
+    <schema:genre xml:lang="en">Meditations</schema:genre>
+    <schema:genre xml:lang="en">Psychological fiction</schema:genre>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1572992"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1103016">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Sac Prairie (Wis. : Imaginary place)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1175196#Place/sauk_city_wis">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Sauk City, Wis.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1175196#Agent/stanton_&amp;_lee_publishers">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Stanton &amp; Lee, Publishers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/12307238">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Derleth</schema:familyName>
+    <schema:givenName>August</schema:givenName>
+    <schema:name>August Derleth</schema:name>
+    <schema:birthDate>1909</schema:birthDate>
+    <schema:deathDate>1971</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1572992">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1572992"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/wiu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>wiu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

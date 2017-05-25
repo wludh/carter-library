@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/710811438">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/710811438"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/563126320">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/710811438"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Collected poems, 1909-1935.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/56609282">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Eliot</schema:familyName>
+    <schema:givenName>T. S.</schema:givenName>
+    <schema:givenName>Thomas Stearns</schema:givenName>
+    <schema:name>Thomas Stearns Eliot</schema:name>
+    <schema:birthDate>1888</schema:birthDate>
+    <schema:deathDate>1965</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/710811438#PublicationEvent/new_york_harcourt_brace_and_co_1934_1936">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3768400422#Agent/harcourt_brace_and_co"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768400422#Agent/harcourt_brace_and_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harcourt, Brace and Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/821.912/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/710811438">
+    <library:oclcnum>710811438</library:oclcnum>
+    <schema:datePublished>1934</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3768400422"/>
+    <schema:bookEdition>First american edition.</schema:bookEdition>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3768400422#Agent/harcourt_brace_and_co"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1067691"/>
+    <schema:copyrightYear>1936</schema:copyrightYear>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:name xml:lang="en">Collected poems, 1909-1935.</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/710811438"/>
+    <schema:productID>710811438</schema:productID>
+    <schema:description xml:lang="en">Prufrock (1917).--Poems (1920).--The waste land (1922).--The hollow men (1925).--Ash Wednesday (1930).--Ariel poems.--Unfinished poems.--Sweeney agonistes.--Coriolan.--Minor poems.--Choruses from "The rock."--Burnt Norton.</schema:description>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/56609282"/>
+    <schema:about rdf:resource="http://dewey.info/class/821.912/"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/710811438#PublicationEvent/new_york_harcourt_brace_and_co_1934_1936"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/563126320"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1067691">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

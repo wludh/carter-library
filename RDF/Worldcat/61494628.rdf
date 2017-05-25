@@ -1,0 +1,87 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/9793355#Person/carter_thomas">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Carter</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Carter</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/61494628">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/61494628"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/9793355#Place/nashville">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Nashville</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/9793355#Person/paul_the_apostle_saint">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Paul</schema:givenName>
+    <schema:name>the Apostle Saint. Paul</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/BS2505">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/100178790">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Paul</schema:givenName>
+    <schema:name>the Apostle Saint. Paul</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/61494628#PublicationEvent/nashville_cokesbury_press_1928">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/9793355#Place/nashville"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/9793355#Agent/cokesbury_press"/>
+    <schema:startDate>1928</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/9793355#Agent/cokesbury_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Cokesbury Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/tnu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>tnu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1808029">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Bible.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/61494628">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/61494628#PublicationEvent/nashville_cokesbury_press_1928"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/9793355#Person/paul_the_apostle_saint"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/9793355#Agent/cokesbury_press"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/9793355#Person/carter_thomas"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/9793355#CreativeWork/bible"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/BS2505"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:productID>61494628</schema:productID>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/9793355#Place/nashville"/>
+    <library:oclcnum>61494628</library:oclcnum>
+    <schema:name xml:lang="en">Life and letters of Paul</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/9793355"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1808029"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/tnu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/61494628"/>
+    <schema:datePublished>1928</schema:datePublished>
+    <schema:about rdf:resource="http://viaf.org/viaf/100178790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/9793355#CreativeWork/bible">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Bible.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

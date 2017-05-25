@@ -1,0 +1,77 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/682275050#PublicationEvent/new_york_grosset_&amp;_dunlap_1911">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2452456947#Agent/grosset_&amp;_dunlap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/682275050">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/682275050"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/682275050">
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:description xml:lang="en">Almost before Miss Billy realizes it a romance has entered her life- one of those charming and refreshing romances which strikes a sympathetic chord in the hearts of its readers and brings back fond memories of "the glamour and joys of youth."</schema:description>
+    <schema:productID>682275050</schema:productID>
+    <schema:bookFormat rdf:resource="http://schema.org/EBook"/>
+    <schema:url rdf:resource="https://archive.org/details/missbilly00portiala"/>
+    <library:oclcnum>682275050</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:url rdf:resource="http://books.google.com/books?id=J1hDAQAAMAAJ"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2452456947"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/682275050#PublicationEvent/new_york_grosset_&amp;_dunlap_1911"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/682275050"/>
+    <schema:copyrightYear>1911</schema:copyrightYear>
+    <schema:datePublished>1911</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2452456947#Agent/grosset_&amp;_dunlap"/>
+    <schema:name xml:lang="en">Miss Billy</schema:name>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/10408646"/>
+    <rdf:type rdf:resource="http://schema.org/MediaObject"/>
+    <schema:url rdf:resource="http://catalog.hathitrust.org/api/volumes/oclc/10408646.html"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/2511310"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2452456947#Agent/grosset_&amp;_dunlap">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Grosset &amp; Dunlap</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/2511310">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Porter</schema:familyName>
+    <schema:givenName>Eleanor H.</schema:givenName>
+    <schema:givenName>Eleanor Hodgman</schema:givenName>
+    <schema:name>Eleanor Hodgman Porter</schema:name>
+    <schema:birthDate>1868</schema:birthDate>
+    <schema:deathDate>1920</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/10408646">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/682275050"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Miss Billy.</rdfs:label>
+    <schema:description>Print version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

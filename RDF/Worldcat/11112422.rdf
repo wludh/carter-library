@@ -1,0 +1,79 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/32012434">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Burns</schema:familyName>
+    <schema:givenName>Robert</schema:givenName>
+    <schema:name>Robert Burns</schema:name>
+    <schema:birthDate>1759</schema:birthDate>
+    <schema:deathDate>1796</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/3768366916">
+    <schema:name>Works. 1860</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/79253486">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Cunningham</schema:familyName>
+    <schema:givenName>Allan</schema:givenName>
+    <schema:name>Allan Cunningham</schema:name>
+    <schema:birthDate>1784</schema:birthDate>
+    <schema:deathDate>1842</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768366916#Agent/crosby_nichols_lee_&amp;_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Crosby, Nichols, Lee &amp; Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/11112422#PublicationEvent/boston_crosby_nichols_lee_&amp;_co_1860">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3768366916#Agent/crosby_nichols_lee_&amp;_co"/>
+    <schema:startDate>1860</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/821.6/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/11112422">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/11112422"/>
+    <schema:dateModified>2017-05-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/11112422">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>11112422</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/11112422#PublicationEvent/boston_crosby_nichols_lee_&amp;_co_1860"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/32012434"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>11112422</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/79253486"/>
+    <schema:about rdf:resource="http://dewey.info/class/821.6/"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/11112422"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:name xml:lang="en">The complete works of Robert Burns : containing his poems, songs, and correspondence ; With a new life of the poet, and notices, critical and biographical</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3768366916#Agent/crosby_nichols_lee_&amp;_co"/>
+    <schema:description xml:lang="en">The life of Robert Burns -- Poems -- Epitaphs, epigrams, fragments, &amp;c. -- Songs and ballads -- General correspondence.</schema:description>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:datePublished>1860</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3768366916"/>
+  </rdf:Description>
+</rdf:RDF>

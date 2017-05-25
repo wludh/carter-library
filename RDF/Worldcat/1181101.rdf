@@ -1,0 +1,57 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ohu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ohu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1181101">
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/3769063329#Person/chandler_raymond_1888_1959"/>
+    <schema:description xml:lang="en">Red wind -- Blackmailers don't shoot -- I'll be waiting -- Goldfish -- Guns at Cyrano's.</schema:description>
+    <schema:copyrightYear>1946</schema:copyrightYear>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3769063329"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3769063329#Topic/detective_and_mystery_stories"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ohu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1181101"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookEdition>Tower books edition.</schema:bookEdition>
+    <schema:genre xml:lang="en">Mystery fiction</schema:genre>
+    <schema:genre xml:lang="en">Detective and mystery fiction</schema:genre>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:genre xml:lang="en">Mystery and detective fiction</schema:genre>
+    <schema:productID>1181101</schema:productID>
+    <schema:datePublished>1946</schema:datePublished>
+    <library:oclcnum>1181101</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">Red wind : a collection of short stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3769063329#Person/chandler_raymond_1888_1959">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Chandler</schema:familyName>
+    <schema:givenName>Raymond</schema:givenName>
+    <schema:name>Raymond Chandler</schema:name>
+    <schema:birthDate>1888</schema:birthDate>
+    <schema:deathDate>1959,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3769063329#Topic/detective_and_mystery_stories">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Detective and mystery stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1181101">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1181101"/>
+    <schema:dateModified>2017-04-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

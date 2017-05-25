@@ -1,0 +1,260 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#Agent/e_p_dutton_&amp;_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>E.P. Dutton &amp; Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/prelude_to_murder">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Prelude to murder.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#Person/brown_walter_c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/48005373">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Harrison</schema:familyName>
+    <schema:givenName>C. William</schema:givenName>
+    <schema:name>C William Harrison</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#Person/keene_day">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Keene</schema:familyName>
+    <schema:givenName>Day</schema:givenName>
+    <schema:name>Day Keene</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#Person/patrick_q">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Patrick</schema:familyName>
+    <schema:givenName>Q.</schema:givenName>
+    <schema:name>Q. Patrick</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/106446948">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fleming-Roberts</schema:familyName>
+    <schema:givenName>G. T.</schema:givenName>
+    <schema:name>G. T. Fleming-Roberts</schema:name>
+    <schema:birthDate>1910</schema:birthDate>
+    <schema:deathDate>1968</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/21294598">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Daniels</schema:familyName>
+    <schema:givenName>Norman A.</schema:givenName>
+    <schema:name>Norman A. Daniels</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/case_of_the_sobbing_girl">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Case of the sobbing girl.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#Person/keene_day"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/white_carnations">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>White carnations.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#Person/patrick_q"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/don_t_come_back_alive">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Don't come back alive!</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#Person/dennis_robert_c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/45062917">
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/married_to_murder"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#Person/howes_royce"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/276247382"/>
+    <schema:name xml:lang="en">Best detective stories of the year</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/press_agent_for_murder"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/31660392"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#Person/patrick_q"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/45062917#PublicationEvent/new_york_e_p_dutton_&amp;_co_1946"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/75148738"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/case_of_the_sobbing_girl"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/wish_you_were_dead"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/white_carnations"/>
+    <schema:datePublished>1946</schema:datePublished>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/prelude_to_murder"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/45062917"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#Person/long_julius"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:genre xml:lang="en">Mystery fiction</schema:genre>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#Person/keene_day"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/9147869666974982616"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:bookEdition>1st ed.</schema:bookEdition>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/slick_trick"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/slightly_perfect"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/106446948"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#Person/dennis_robert_c"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/21294598"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#Person/brown_walter_c"/>
+    <library:oclcnum>45062917</library:oclcnum>
+    <schema:productID>45062917</schema:productID>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/man_who_lost_his_head"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/body_in_the_barn"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/booby_trap"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/891461"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/don_t_come_back_alive"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/48005373"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#Agent/e_p_dutton_&amp;_co"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/just_a_minute_dr_marlowe"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#Person/fischer_bruno_1908_1992"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/69835708"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/23697657"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/carnie_kill"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/891461">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Detective and mystery stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/45062917#PublicationEvent/new_york_e_p_dutton_&amp;_co_1946">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#Agent/e_p_dutton_&amp;_co"/>
+    <schema:startDate>1946</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/slightly_perfect">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Slightly perfect.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/21294598"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/press_agent_for_murder">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Press agent for murder.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/31660392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#Person/howes_royce">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Howes</schema:familyName>
+    <schema:givenName>Royce</schema:givenName>
+    <schema:name>Royce Howes</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/9147869666974982616">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Manners</schema:familyName>
+    <schema:givenName>Margaret</schema:givenName>
+    <schema:name>Margaret Manners</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#Person/fischer_bruno_1908_1992">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fischer</schema:familyName>
+    <schema:givenName>Bruno</schema:givenName>
+    <schema:name>Bruno Fischer</schema:name>
+    <schema:birthDate>1908</schema:birthDate>
+    <schema:deathDate>1992</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/75148738">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Cooke</schema:familyName>
+    <schema:givenName>David C.</schema:givenName>
+    <schema:givenName>David Coxe</schema:givenName>
+    <schema:name>David Coxe Cooke</schema:name>
+    <schema:birthDate>1917</schema:birthDate>
+    <schema:deathDate>2000</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/just_a_minute_dr_marlowe">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Just a minute, Dr. Marlowe.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/276247382"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/wish_you_were_dead">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Wish you were dead.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/48005373"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#Person/long_julius">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Long</schema:familyName>
+    <schema:givenName>Julius</schema:givenName>
+    <schema:name>Julius Long</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/carnie_kill">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Carnie kill.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#Person/long_julius"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/man_who_lost_his_head">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Man who lost his head.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#Person/fischer_bruno_1908_1992"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/booby_trap">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Booby trap.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/23697657"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/31660392">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Correll</schema:familyName>
+    <schema:givenName>A. Boyd</schema:givenName>
+    <schema:name>A Boyd Correll</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#Person/brown_walter_c">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Brown</schema:familyName>
+    <schema:givenName>Walter C.</schema:givenName>
+    <schema:name>Walter C. Brown</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/276247382">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ray</schema:familyName>
+    <schema:givenName>Marie Beynon Lyons</schema:givenName>
+    <schema:name>Marie Beynon Lyons Ray</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#Person/dennis_robert_c">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dennis</schema:familyName>
+    <schema:givenName>Robert C.</schema:givenName>
+    <schema:name>Robert C. Dennis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/body_in_the_barn">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Body in the barn.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/9147869666974982616"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/slick_trick">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Slick trick.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/69835708#Person/howes_royce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69835708#CreativeWork/married_to_murder">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Married to murder.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/106446948"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/23697657">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Norton</schema:familyName>
+    <schema:givenName>Henry M.</schema:givenName>
+    <schema:name>Henry M. Norton</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+    <schema:deathDate>1975</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/45062917">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/45062917"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>
