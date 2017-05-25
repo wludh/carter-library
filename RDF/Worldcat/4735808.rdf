@@ -1,0 +1,77 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4735808">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/4735808"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/42455322">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Boreham</schema:familyName>
+    <schema:givenName>Frank</schema:givenName>
+    <schema:name>Frank Boreham</schema:name>
+    <schema:birthDate>1871</schema:birthDate>
+    <schema:deathDate>1959</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4735808#PublicationEvent/philadelphia_judson_1920_1952_printing">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/32614726#Place/philadelphia"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/32614726#Agent/judson"/>
+    <schema:startDate>1920</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/252/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/pau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>pau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1113225">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Sermons, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/32614726#Place/philadelphia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Philadelphia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/32614726#Agent/judson">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Judson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/4735808">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/32614726"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/pau"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/32614726#Agent/judson"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1113225"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/4735808#PublicationEvent/philadelphia_judson_1920_1952_printing"/>
+    <schema:description xml:lang="en">Thomas Chalmers' text -- Martin Luther's text -- Sir John Franklin's text -- Thomas Boston's text -- Hugh Latimer's text -- John Bunyan's text -- Sir Walter Scott's text -- Oliver Cromwell's text -- Francis Xavier's text -- J.B. Gough's text -- John Knox's text -- William Cowper's text -- David Livingstone's text -- C.H. Spurgeon's text -- Dean Stanley's text -- William Carey's text -- James Hannington's text -- William Wilberforce's text -- John Wesley's text -- William Knibb's text -- John Newton's text -- Andrew Fuller's text -- Stephen Grellet's text.</schema:description>
+    <library:oclcnum>4735808</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/42455322"/>
+    <schema:alternateName>Texts that made history</schema:alternateName>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/BR1702"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/4735808"/>
+    <schema:productID>4735808</schema:productID>
+    <schema:about rdf:resource="http://dewey.info/class/252/"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">A bunch of everlastings : or, Texts that made history ; a volume of sermons</schema:name>
+    <schema:datePublished>1920</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/32614726#Place/philadelphia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/BR1702">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>
