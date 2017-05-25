@@ -1,0 +1,113 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2532362">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2532362"/>
+    <schema:dateModified>2017-04-25</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/556280#Topic/brothers">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2007101952"/>
+    <schema:name xml:lang="en">Brothers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/73859015">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Rawlings</schema:familyName>
+    <schema:givenName>Marjorie Kinnan</schema:givenName>
+    <schema:name>Marjorie Kinnan Rawlings</schema:name>
+    <schema:birthDate>1896</schema:birthDate>
+    <schema:deathDate>1953</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1241913">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New England.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2532362">
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:bookEdition>Book club ed.</schema:bookEdition>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/556280"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/556280#Topic/rural_families"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2532362#PublicationEvent/new_york_scribner_1953"/>
+    <schema:description xml:lang="en">Reactions of two brothers to quiet farm life of the Hudson Valley, 1860-1939.</schema:description>
+    <schema:productID>2532362</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1241913"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/556280#Agent/scribner"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/73859015"/>
+    <schema:copyrightYear>1953</schema:copyrightYear>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/556280#Place/new_england"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/921052"/>
+    <schema:name xml:lang="en">The sojourner</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/556280#Topic/brothers"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/556280#Topic/farm_life"/>
+    <schema:datePublished>1953</schema:datePublished>
+    <library:oclcnum>2532362</library:oclcnum>
+    <schema:about rdf:resource="http://dewey.info/class/813.52/e21/"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/839665"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1101623"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2532362"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/556280#Topic/farm_life">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008103545"/>
+    <schema:name xml:lang="en">Farm life</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/839665">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Brothers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1101623">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Rural families</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.52/e21/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/556280#Agent/scribner">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Scribner</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/556280#Topic/rural_families">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008110350"/>
+    <schema:name xml:lang="en">Rural families</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/556280#Place/new_england">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New England</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2532362#PublicationEvent/new_york_scribner_1953">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/556280#Agent/scribner"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/921052">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Farm life</schema:name>
+  </rdf:Description>
+</rdf:RDF>

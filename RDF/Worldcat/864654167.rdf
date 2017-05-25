@@ -1,0 +1,61 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/864654167#PublicationEvent/new_york_macmillan_company_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4160692679#Agent/macmillan_company"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/864654167">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>864654167</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4160692679#Agent/macmillan_company"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/4160692679#Person/schoonover_lawrence"/>
+    <schema:numberOfPages>371</schema:numberOfPages>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:datePublished>1948</schema:datePublished>
+    <schema:name>The burnished blade</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/864654167#PublicationEvent/new_york_macmillan_company_1948"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>864654167</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4160692679"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/864654167"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4160692679#Person/schoonover_lawrence">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Schoonover</schema:familyName>
+    <schema:givenName>Lawrence</schema:givenName>
+    <schema:name>Lawrence Schoonover</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/864654167">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/864654167"/>
+    <schema:dateModified>2017-04-13</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4160692679#Agent/macmillan_company">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Macmillan Company</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,64 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/490629429">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name>Teeftallow</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1296967#Agent/doubleday_page_&amp;_co"/>
+    <library:oclcnum>490629429</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/490629429"/>
+    <schema:copyrightYear>1926</schema:copyrightYear>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1296967"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/490629429#PublicationEvent/new_york_doubleday_page_&amp;_co_1926"/>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/1296967#Person/stribling_thomas_sigismund_1881_1965"/>
+    <schema:productID>490629429</schema:productID>
+    <schema:datePublished>1926</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/490629429#PublicationEvent/new_york_doubleday_page_&amp;_co_1926">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1296967#Agent/doubleday_page_&amp;_co"/>
+    <schema:startDate>1926</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1296967#Person/stribling_thomas_sigismund_1881_1965">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Stribling</schema:familyName>
+    <schema:givenName>Thomas Sigismund</schema:givenName>
+    <schema:name>Thomas Sigismund Stribling</schema:name>
+    <schema:birthDate>1881</schema:birthDate>
+    <schema:deathDate>1965</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/490629429">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/490629429"/>
+    <schema:dateModified>2017-04-27</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1296967#Agent/doubleday_page_&amp;_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday Page &amp; Co</schema:name>
+  </rdf:Description>
+</rdf:RDF>

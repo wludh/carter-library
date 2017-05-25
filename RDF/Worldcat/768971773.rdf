@@ -1,0 +1,60 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/768971773#PublicationEvent/norfolk_conn_new_directions_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3943885663#Place/norfolk_conn"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3943885663#Agent/new_directions"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943885663#Place/norfolk_conn">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Norfolk, Conn.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943885663#Agent/new_directions">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Directions</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ctu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ctu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/768971773">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/768971773"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ctu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>The world is a wedding.</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3943885663#Place/norfolk_conn"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/768971773#PublicationEvent/norfolk_conn_new_directions_1948"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3943885663"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3943885663#Person/schwartz_delmore"/>
+    <library:oclcnum>768971773</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3943885663#Agent/new_directions"/>
+    <schema:datePublished>1948</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>768971773</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/768971773">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/768971773"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943885663#Person/schwartz_delmore">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Schwartz</schema:familyName>
+    <schema:givenName>Delmore</schema:givenName>
+    <schema:name>Delmore Schwartz</schema:name>
+  </rdf:Description>
+</rdf:RDF>

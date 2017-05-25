@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/699042786#PublicationEvent/new_york_new_directions_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3769404092#Agent/new_directions"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3769404092#Agent/new_directions">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Directions</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/699042786">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/699042786"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3769404092#Person/ashton_e_b">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ashton</schema:familyName>
+    <schema:givenName>E. B.</schema:givenName>
+    <schema:name>E. B. Ashton</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3769404092#Series/a_new_directions_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/699042786"/>
+    <schema:name>A New Directions Book</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/699042786">
+    <schema:productID>699042786</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3769404092#Agent/new_directions"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3769404092#Person/benn_gottfried"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3769404092#Series/a_new_directions_book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/699042786#PublicationEvent/new_york_new_directions_1960"/>
+    <library:oclcnum>699042786</library:oclcnum>
+    <schema:name>Primal Vision : selected writings</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/699042786"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3769404092"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:editor rdf:resource="http://experiment.worldcat.org/entity/work/data/3769404092#Person/ashton_e_b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3769404092#Person/benn_gottfried">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Benn</schema:familyName>
+    <schema:givenName>Gottfried</schema:givenName>
+    <schema:name>Gottfried Benn</schema:name>
+  </rdf:Description>
+</rdf:RDF>

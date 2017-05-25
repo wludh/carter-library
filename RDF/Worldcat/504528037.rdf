@@ -1,0 +1,67 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4202465571#Series/penguin_modern_classics_no_2918">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/504528037"/>
+    <schema:name>Penguin modern classics. no. 2918</schema:name>
+    <schema:name>Penguin modern classics. no. 2918.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/44325423">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>TATE</schema:familyName>
+    <schema:givenName>John Orley Allen</schema:givenName>
+    <schema:name>John Orley Allen TATE</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/504528037">
+    <schema:productID>504528037</schema:productID>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4202465571#Series/penguin_modern_classics_no_2918"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/504528037#PublicationEvent/harmondsworth_penguin_in_association_with_eyre_&amp;_spottiswoodewoode_1969"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/504528037"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4202465571#Agent/penguin_in_association_with_eyre_&amp;_spottiswoodewoode"/>
+    <schema:datePublished>1969</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4202465571"/>
+    <schema:name xml:lang="en">The fathers; introduction by Arthur Mizener.</schema:name>
+    <library:oclcnum>504528037</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780140029185"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44325423"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/4202465571#Place/harmondsworth"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4202465571#Place/harmondsworth">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Harmondsworth</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/504528037#PublicationEvent/harmondsworth_penguin_in_association_with_eyre_&amp;_spottiswoodewoode_1969">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/4202465571#Place/harmondsworth"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4202465571#Agent/penguin_in_association_with_eyre_&amp;_spottiswoodewoode"/>
+    <schema:startDate>1969</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4202465571#Agent/penguin_in_association_with_eyre_&amp;_spottiswoodewoode">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Penguin, in association with Eyre &amp; Spottiswoodewoode</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780140029185">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780140029185</schema:isbn>
+    <schema:isbn>0140029184</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/504528037">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/504528037"/>
+    <schema:dateModified>2017-05-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

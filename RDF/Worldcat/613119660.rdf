@@ -1,0 +1,78 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7800406#Place/sauk_city_wis">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Sauk City, Wis.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/3110646">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/613119660"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Dark chateau.</rdfs:label>
+    <schema:description>Print version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/613119660">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/613119660"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/613119660">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/7800406#Agent/arkham_house"/>
+    <schema:description xml:lang="en">Amithaine.-Seeker.-The Dark Chateau.-Lamia.-Pour Chercher du Nouveau.-"O Golden-Tongued Romance".-Averoigne.-Zothique.-The Stylite.-Dominium in Excelsis.-Moly.-Two myths and a fable.-Eros of Ebony.-Shapes in the sunset.-Not theirs the cypress-arch.-Don Quixote on Market Street.-Malediction.-Hellenic sequel.-The cypress.-The old waterwheel.-Calenture.-Soliloquy in an Ebon Tower.-Sinbd, it was not well to brag.-Sonnet for the Psychoanalysts.-Surr'ealiste sonnet.-The twilight of the gods.-The poet talks with the biographers.-Desert dweller.-Hesperian Fall.-"Not altogether sleep".-Some blind Eidolon.-The Isle of Saturn.-Oblivion.-Revenant.-In slumber.-Cambion.-The witch with eyes of amber.-The outer land.-Luna Aeternalis.-ye shall return.</schema:description>
+    <schema:url rdf:resource="http://books.google.com/books?id=5eZIAAAAIAAJ"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/3110646"/>
+    <schema:bookFormat rdf:resource="http://schema.org/EBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/613119660"/>
+    <schema:datePublished>1951</schema:datePublished>
+    <schema:url rdf:resource="http://catalog.hathitrust.org/api/volumes/oclc/3110646.html"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/7800406"/>
+    <schema:name xml:lang="en">The dark chateau and other poems.</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>613119660</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/wiu"/>
+    <rdf:type rdf:resource="http://schema.org/MediaObject"/>
+    <schema:productID>613119660</schema:productID>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/7800406#Place/sauk_city_wis"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/613119660#PublicationEvent/sauk_city_wis_arkham_house_1951"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/17229636"/>
+    <schema:about rdf:resource="http://dewey.info/class/811.5/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/17229636">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Smith</schema:familyName>
+    <schema:givenName>Clark Ashton</schema:givenName>
+    <schema:name>Clark Ashton Smith</schema:name>
+    <schema:birthDate>1893</schema:birthDate>
+    <schema:deathDate>1961</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7800406#Agent/arkham_house">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Arkham House</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/613119660#PublicationEvent/sauk_city_wis_arkham_house_1951">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/7800406#Place/sauk_city_wis"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/7800406#Agent/arkham_house"/>
+    <schema:startDate>1951</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/811.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/wiu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>wiu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

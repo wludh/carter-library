@@ -1,0 +1,90 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/594788">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/594788"/>
+    <schema:dateModified>2017-04-27</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1797046#Place/china">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>China</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/594788#PublicationEvent/new_york_philosophical_library1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1797046#Agent/philosophical_library"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/594788">
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/862898"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>594788</library:oclcnum>
+    <schema:productID>594788</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1797046#Agent/philosophical_library"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/577883241"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/594788#PublicationEvent/new_york_philosophical_library1960"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/21730383"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/594788"/>
+    <schema:name xml:lang="en">China: lore, legend, and lyrics.</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1797046#Place/china"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1797046"/>
+    <schema:about rdf:resource="http://dewey.info/class/915.1/"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1206073"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/21730383">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Barondes</schema:familyName>
+    <schema:givenName>R. de Rohan</schema:givenName>
+    <schema:givenName>Royal de Rohan</schema:givenName>
+    <schema:name>Royal de Rohan Barondes</schema:name>
+    <schema:birthDate>1890</schema:birthDate>
+    <schema:deathDate>1962</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/862898">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Civilization</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/915.1/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1206073">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>China.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/577883241">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/594788"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>China: lore, legend, and lyrics.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1797046#Agent/philosophical_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Philosophical Library</schema:name>
+  </rdf:Description>
+</rdf:RDF>

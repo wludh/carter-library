@@ -1,0 +1,60 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2287391345#Agent/c_scribner_s">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>C. Scribner's</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2287391345#Person/gordon_caroline">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gordon</schema:familyName>
+    <schema:givenName>Caroline</schema:givenName>
+    <schema:name>Caroline Gordon</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/819728451">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/819728451"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/819728451#PublicationEvent/new_york_c_scribner_s_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2287391345#Agent/c_scribner_s"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/819728451">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/819728451#PublicationEvent/new_york_c_scribner_s_1960"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:name>The house of fiction : an anthology of the short story with commentary.</schema:name>
+    <library:oclcnum>819728451</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2287391345#Agent/c_scribner_s"/>
+    <schema:productID>819728451</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2287391345#Person/gordon_caroline"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1960</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/819728451"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2287391345"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+</rdf:RDF>

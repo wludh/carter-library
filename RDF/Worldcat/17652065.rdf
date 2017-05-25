@@ -1,0 +1,93 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dewey.info/class/914.94/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/17652065#PublicationEvent/london_a_and_c_black_1920">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2357803#Agent/a_and_c_black"/>
+    <schema:startDate>1920</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1155558">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Travel</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/17652065">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/17652065"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1920</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/17652065#PublicationEvent/london_a_and_c_black_1920"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>17652065</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:audience rdf:resource="http://www.worldcat.org/title/-/oclc/17652065#Audience"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2357803#Agent/a_and_c_black"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2357803#Series/peeps_at_many_lands"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/109682984"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2357803"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2357803#Place/switzerland"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1155558"/>
+    <schema:name xml:lang="en">Switzerland</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:about rdf:resource="http://dewey.info/class/914.94/"/>
+    <library:oclcnum>17652065</library:oclcnum>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1205401"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/109682984">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Finnemore</schema:familyName>
+    <schema:givenName>John</schema:givenName>
+    <schema:name>John Finnemore</schema:name>
+    <schema:birthDate>1863</schema:birthDate>
+    <schema:deathDate>1915</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2357803#Agent/a_and_c_black">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>A. and C. Black</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2357803#Series/peeps_at_many_lands">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/17652065"/>
+    <schema:name>Peeps at many lands</schema:name>
+    <schema:name>Peeps at many lands.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2357803#Place/switzerland">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Switzerland</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/17652065#Audience">
+    <rdf:type rdf:resource="http://schema.org/PeopleAudience"/>
+    <schema:audienceType xml:lang="en">Juvenile</schema:audienceType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/17652065">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/17652065"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1205401">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Switzerland.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+</rdf:RDF>

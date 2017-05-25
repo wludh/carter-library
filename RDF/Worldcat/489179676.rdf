@@ -1,0 +1,69 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/489179676">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:name xml:lang="en">Franny and Zooey.</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/489179676#PublicationEvent/boston_little_brown_1955"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/17092"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/375516172#Topic/short_stories"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/375516172"/>
+    <library:oclcnum>489179676</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/375516172#Agent/little_brown"/>
+    <schema:description xml:lang="en">Two stories about the Glass family, whom the author describes as settlers in twentieth-century New York.</schema:description>
+    <schema:productID>489179676</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/489179676"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/489179676">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/489179676"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/375516172#Agent/little_brown">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Little, Brown</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/489179676#PublicationEvent/boston_little_brown_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/375516172#Agent/little_brown"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/375516172#Topic/short_stories">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Short stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/17092">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Salinger</schema:familyName>
+    <schema:givenName>J. D.</schema:givenName>
+    <schema:givenName>Jerome David</schema:givenName>
+    <schema:name>Jerome David Salinger</schema:name>
+    <schema:birthDate>1919</schema:birthDate>
+    <schema:deathDate>2010</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/61562486">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Stevens</schema:familyName>
+    <schema:givenName>Wallace</schema:givenName>
+    <schema:name>Wallace Stevens</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197777230#Place/london_u_a">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London u.a.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197777230#Agent/faber_&amp;_faber">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Faber &amp; Faber</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/311730765">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/311730765"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780571063840">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780571063840</schema:isbn>
+    <schema:isbn>0571063845</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/311730765#PublicationEvent/london_u_a_faber_&amp;_faber_1986">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/197777230#Place/london_u_a"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/197777230#Agent/faber_&amp;_faber"/>
+    <schema:startDate>1986</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/311730765">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/197777230#Agent/faber_&amp;_faber"/>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780571063840"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/311730765#PublicationEvent/london_u_a_faber_&amp;_faber_1986"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name>Selected poems</schema:name>
+    <umbel:isLike rdf:resource="http://d-nb.info/998494046"/>
+    <library:oclcnum>311730765</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/61562486"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/197777230#Place/london_u_a"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/311730765"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/197777230"/>
+    <schema:productID>311730765</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1986</schema:datePublished>
+  </rdf:Description>
+</rdf:RDF>

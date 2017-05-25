@@ -1,0 +1,88 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1591132">
+    <schema:name xml:lang="en">Benefit performance</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1591132"/>
+    <schema:datePublished>1946</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:oclcnum>1591132</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/148035159"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1591132#PublicationEvent/new_york_simon_and_schuster_1946"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/148035159#Agent/simon_and_schuster"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>1591132</schema:productID>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/741486517"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/76513429"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/148035159#Series/inner_sanctum_mystery"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/148035159#Series/an_inner_sanctum_mystery"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/891461"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1591132">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1591132"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/148035159#Agent/simon_and_schuster">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Simon and Schuster</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/148035159#Series/an_inner_sanctum_mystery">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1591132"/>
+    <schema:name>An Inner Sanctum mystery</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/76513429">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Sale</schema:familyName>
+    <schema:givenName>Richard</schema:givenName>
+    <schema:name>Richard Sale</schema:name>
+    <schema:birthDate>1911</schema:birthDate>
+    <schema:deathDate>1993</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1591132#PublicationEvent/new_york_simon_and_schuster_1946">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/148035159#Agent/simon_and_schuster"/>
+    <schema:startDate>1946</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/891461">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Detective and mystery stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/741486517">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1591132"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Benefit performance.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/148035159#Series/inner_sanctum_mystery">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1591132"/>
+    <schema:name>Inner sanctum mystery.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

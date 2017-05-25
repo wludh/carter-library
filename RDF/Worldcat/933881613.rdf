@@ -1,0 +1,94 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/314112671#Topic/soldiers_united_states">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Soldiers--United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/933881613">
+    <schema:description xml:lang="en">Raise high the roof beam, carpenters -- Seymour: an introduction.</schema:description>
+    <schema:productID>933881613</schema:productID>
+    <schema:datePublished>2014</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/314112671#Topic/families"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780316769518"/>
+    <schema:alternateName>Seymour, an introduction</schema:alternateName>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/314112671#Place/united_states"/>
+    <schema:name xml:lang="en">Raise high the roof beam, carpenters : and Seymour, an introduction</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/314112671#Topic/manners_and_customs"/>
+    <schema:description xml:lang="en">Further stories of the Glass family. Buddy Glass introduces his older brother and describes the events of Seymour's wedding day.</schema:description>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/314112671#Person/salinger_j_d_jerome_david_1919_2010"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/314112671#Topic/brothers"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.54/e23/"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/933881613"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/314112671"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/314112671#Topic/soldiers"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>933881613</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/314112671#Topic/soldiers_united_states"/>
+    <schema:genre xml:lang="en">Short stories</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/314112671#Topic/soldiers">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Soldiers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/314112671#Topic/brothers">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Brothers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780316769518">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780316769518</schema:isbn>
+    <schema:isbn>0316769517</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/933881613">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/933881613"/>
+    <schema:dateModified>2017-05-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/314112671">
+    <schema:name>Short stories.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/314112671#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.54/e23/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/314112671#Person/salinger_j_d_jerome_david_1919_2010">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Salinger</schema:familyName>
+    <schema:givenName>J. D.</schema:givenName>
+    <schema:givenName>Jerome David</schema:givenName>
+    <schema:name>Jerome David Salinger</schema:name>
+    <schema:birthDate>1919</schema:birthDate>
+    <schema:deathDate>2010</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/314112671#Topic/families">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Families</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/314112671#Topic/manners_and_customs">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Manners and customs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

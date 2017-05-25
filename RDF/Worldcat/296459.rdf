@@ -1,0 +1,103 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/296459">
+    <schema:name xml:lang="en">Last tales</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/12512199#Agent/random_house"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1007815"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/609514843"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:copyrightYear>1957</schema:copyrightYear>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85080593"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:oclcnum>296459</library:oclcnum>
+    <schema:about rdf:resource="http://dewey.info/class/839.813/"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/121643918"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/296459#PublicationEvent/new_york_random_house_1957"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/296459"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:description xml:lang="en">The Cardinal's first tale -- The cloak -- Night walk -- Of secret thoughts and of heaven -- Tales of two old gentlemen -- The Cardinal's third tale -- The blank page -- The caryatids : an unfinished gothic tale -- Echoes -- A country tale -- Copenhagen season -- Converse at night in Copenhagen.</schema:description>
+    <schema:productID>296459</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:description xml:lang="en">Twelve tales in which fantasy and reality are harmoniously intermingled. Their effect is hypnotic; they are evocations that enchant the reader and give him a long after-enjoyment of unforgettable stories told with unfailing sensibility and controlled artistry.</schema:description>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/576046184"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/12512199"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/296459#CreativeWork/unidentifiedOriginalWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/296459#PublicationEvent/new_york_random_house_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/12512199#Agent/random_house"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/576046184">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/296459"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Last tales.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85080593">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Manners and customs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1007815">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Manners and customs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/296459#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Sidste fortællinger.</schema:name>
+    <schema:inLanguage>da</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/609514843">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/296459"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Last tales.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/12512199">
+    <schema:name>Sidste fortællinger.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/12512199#Agent/random_house">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Random House</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/121643918">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dinesen</schema:familyName>
+    <schema:givenName>Isak</schema:givenName>
+    <schema:name>Isak Dinesen</schema:name>
+    <schema:birthDate>1885</schema:birthDate>
+    <schema:deathDate>1962</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/839.813/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/296459">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/296459"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

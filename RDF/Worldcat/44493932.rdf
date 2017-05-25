@@ -1,0 +1,93 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/44493932">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/44493932"/>
+    <schema:dateModified>2017-05-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4061399653#Person/livy">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Livy</schema:givenName>
+    <schema:name>Livy.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/38416761">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Spillan</schema:familyName>
+    <schema:givenName>D.</schema:givenName>
+    <schema:givenName>Daniel</schema:givenName>
+    <schema:name>Daniel Spillan</schema:name>
+    <schema:birthDate>1796 or 1797</schema:birthDate>
+    <schema:deathDate>1854</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/44493932">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4061399653#Agent/key_books"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/4061399653#Person/livy"/>
+    <schema:name xml:lang="en">The history of Rome : books XXI-XXII</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4061399653"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/38416761"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4061399653#Agent/distributed_by_translation_pub_co"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/44493932#PublicationEvent/new_york_key_books_distributed_by_translation_pub_co_1922"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4061399653#Place/rome"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/4061399653#Person/edmonds_cyrus_r"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/44493932"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204885"/>
+    <schema:datePublished>1922</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:oclcnum>44493932</library:oclcnum>
+    <schema:productID>44493932</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4061399653#Agent/key_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Key Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4061399653#Agent/distributed_by_translation_pub_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Distributed by Translation Pub. Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4061399653#Place/rome">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Rome</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204885">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Rome (Empire)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4061399653#Person/edmonds_cyrus_r">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Edmonds</schema:familyName>
+    <schema:givenName>Cyrus R.</schema:givenName>
+    <schema:name>Cyrus R. Edmonds</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/44493932#PublicationEvent/new_york_key_books_distributed_by_translation_pub_co_1922">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4061399653#Agent/key_books"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4061399653#Agent/distributed_by_translation_pub_co"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

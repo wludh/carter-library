@@ -1,0 +1,93 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/834223915">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/834223915"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/834223915#PublicationEvent/new_yorkthe_modern_libraryc1935">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/447369#Agent/the_modern_library"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/447369#Person/reed_john_1887_1920">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Reed</schema:familyName>
+    <schema:givenName>John</schema:givenName>
+    <schema:name>John Reed</schema:name>
+    <schema:birthDate>1887</schema:birthDate>
+    <schema:deathDate>1920</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/447369#Series/the_modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/834223915"/>
+    <schema:name>The Modern library of the world's best books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/947.084/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/447369#Topic/oktoberrevolution">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Oktoberrevolution</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/447369#Agent/the_modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>The Modern library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/447369#Topic/soviet_union_history_revolution_1917_1921">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Soviet Union--History--Revolution, 1917-1921</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/834223915">
+    <schema:name>Ten days that shook the world</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/447369#Topic/soviet_union_history_revolution_1917_1921"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/447369"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/834223915"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/447369#Topic/oktoberrevolution"/>
+    <library:oclcnum>834223915</library:oclcnum>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/447369#Person/reed_john_1887_1920"/>
+    <schema:numberOfPages>8</schema:numberOfPages>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/447369#Agent/the_modern_library"/>
+    <schema:about rdf:resource="http://dewey.info/class/947.084/"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/834223915#PublicationEvent/new_yorkthe_modern_libraryc1935"/>
+    <schema:datePublished>1935</schema:datePublished>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/447369#Person/hicks_granville_1901_1982"/>
+    <schema:copyrightYear>1935</schema:copyrightYear>
+    <schema:productID>834223915</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/447369#Series/the_modern_library_of_the_world_s_best_books"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/447369#Person/hicks_granville_1901_1982">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hicks</schema:familyName>
+    <schema:givenName>Granville</schema:givenName>
+    <schema:name>Granville Hicks</schema:name>
+    <schema:birthDate>1901</schema:birthDate>
+    <schema:deathDate>1982</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>
