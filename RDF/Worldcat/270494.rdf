@@ -1,0 +1,131 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/270494">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/196091200#Series/american_literary_forms"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196091200#Topic/kurzroman"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196091200#Topic/nouvelles_americaines_anthologies"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/76363565"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/701571708"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196091200#Topic/anthologie"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196091200#Place/etats_unis"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.08/"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1007815"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196091200#Place/united_states"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196091200#Topic/geschichte"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196091200#Topic/american_fiction"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/196091200"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196091200#Place/usa"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <library:oclcnum>270494</library:oclcnum>
+    <schema:description xml:lang="en">Billy Budd / Herman Melville -- The man that corrupted Hadleyburg / Mark Twain -- Maggie: a girl of the streets / Stephen Crane -- Washington Square / Henry James -- Melanctha / Gertrude Stein -- The great American novel / William Carlos Williams -- The Venetian glass nephew / Elinor Wylie.</schema:description>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196091200#Topic/united_states_social_life_and_customs_fiction"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/270494"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:description xml:lang="en">Novellas by Herman Melville, Mark Twain, Stephen Crane, and 4 other American writers.</schema:description>
+    <schema:name xml:lang="en">American short novels</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196091200#Topic/roman_americain"/>
+    <schema:productID>270494</schema:productID>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:genre xml:lang="en">American fiction</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196091200#Topic/united_states_social_life_and_customs_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">United States--Social life and customs--Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196091200#Place/etats_unis">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>États-Unis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/76363565">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Blackmur</schema:familyName>
+    <schema:givenName>R. P.</schema:givenName>
+    <schema:givenName>Richard P.</schema:givenName>
+    <schema:name>Richard P. Blackmur</schema:name>
+    <schema:birthDate>1904</schema:birthDate>
+    <schema:deathDate>1965,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196091200#Place/usa">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>USA.</schema:name>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/4078704-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1007815">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Manners and customs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.08/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196091200#Topic/roman_americain">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Roman américain</schema:name>
+    <schema:name xml:lang="en">Roman américain</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196091200#Topic/kurzroman">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Kurzroman</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196091200#Series/american_literary_forms">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/270494"/>
+    <schema:name>American literary forms</schema:name>
+    <schema:name>American literary forms.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/701571708">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/270494"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>American short novels.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196091200#Topic/american_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196091200#Topic/nouvelles_americaines_anthologies">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Nouvelles américaines--Anthologies</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196091200#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196091200#Topic/anthologie">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Anthologie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/270494">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/270494"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196091200#Topic/geschichte">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Geschichte</schema:name>
+  </rdf:Description>
+</rdf:RDF>

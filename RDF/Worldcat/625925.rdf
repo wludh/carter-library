@@ -1,0 +1,62 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/817823">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bok</schema:familyName>
+    <schema:givenName>Hannes</schema:givenName>
+    <schema:name>Hannes Bok</schema:name>
+    <schema:birthDate>1914</schema:birthDate>
+    <schema:deathDate>1964,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1108566">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Science fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/625925">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/625925"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/117867829">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Long</schema:familyName>
+    <schema:givenName>Frank Belknap</schema:givenName>
+    <schema:name>Frank Belknap Long</schema:name>
+    <schema:birthDate>1901</schema:birthDate>
+    <schema:deathDate>1994,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/625925">
+    <schema:datePublished>1946</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/625925"/>
+    <schema:genre xml:lang="en">Science fiction</schema:genre>
+    <schema:illustrator rdf:resource="http://viaf.org/viaf/817823"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:description xml:lang="en">A Visitor from Egypt.-The refugees.-Fisherman's luck.-Death-Waters.-Grab bags are dangerous.-The elemental.-The peeper.-Bridgehead.-Second night out.-The dark beasts.-Census taker.-the ocean leach.-The space-eaters.-It will come to you.-A stitch in time.-Step into my garden.-The hounds of Tindalos.-Dark vision.-The flame midget.-Golden child.-The black druid.</schema:description>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">The hounds of Tindalos</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1108566"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1718865"/>
+    <schema:productID>625925</schema:productID>
+    <schema:author rdf:resource="http://viaf.org/viaf/117867829"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/wiu"/>
+    <library:oclcnum>625925</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/wiu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>wiu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

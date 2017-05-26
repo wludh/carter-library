@@ -1,0 +1,81 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/317057488">
+    <schema:datePublished>1949</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/317057488#PublicationEvent/princeton_n_j_princeton_university_press_1949"/>
+    <schema:productID>317057488</schema:productID>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/36705425#Person/fergusson_francis"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/897468"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/36705425#Place/princeton_n_j"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/36705425#Agent/princeton_university_press"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85039329"/>
+    <library:oclcnum>317057488</library:oclcnum>
+    <schema:about rdf:resource="http://dewey.info/class/809.2/"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/317057488"/>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780691061436"/>
+    <schema:name xml:lang="en">The idea of a theater : a study of ten plays : the art of drama in changing perspective.</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nju"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/36705425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nju">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nju</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/36705425#Person/fergusson_francis">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fergusson</schema:familyName>
+    <schema:givenName>Francis</schema:givenName>
+    <schema:name>Francis Fergusson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/36705425#Agent/princeton_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Princeton University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/897468">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Drama</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/317057488#PublicationEvent/princeton_n_j_princeton_university_press_1949">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/36705425#Place/princeton_n_j"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/36705425#Agent/princeton_university_press"/>
+    <schema:startDate>1949</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/809.2/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780691061436">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780691061436</schema:isbn>
+    <schema:isbn>0691061432</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/36705425#Place/princeton_n_j">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Princeton, N.J.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/317057488">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/317057488"/>
+    <schema:dateModified>2017-04-27</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85039329">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Drama--History and criticism</schema:name>
+  </rdf:Description>
+</rdf:RDF>

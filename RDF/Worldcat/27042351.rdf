@@ -1,0 +1,90 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/27042351">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2864646970#Agent/small_maynard_&amp;_co"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>27042351</schema:productID>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85004320"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1117064"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/27042351#PublicationEvent/boston_small_maynard_&amp;_co_1921"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/8311973"/>
+    <schema:genre xml:lang="en">Short stories</schema:genre>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2864646970"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/27042351"/>
+    <schema:alternateName>Yearbook of the American short story</schema:alternateName>
+    <schema:about rdf:resource="http://dewey.info/class/808.831/"/>
+    <schema:name xml:lang="en">The best short stories of 1920 : and The yearbook of the American short story.</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <library:oclcnum>27042351</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2864646970#Event/1900_1999"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1921</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807048"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2864646970#Event/1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1900-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/27042351">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/27042351"/>
+    <schema:dateModified>2017-04-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1117064">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Short stories, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/27042351#PublicationEvent/boston_small_maynard_&amp;_co_1921">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2864646970#Agent/small_maynard_&amp;_co"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/8311973">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>O'Brien</schema:familyName>
+    <schema:givenName>Edward J.</schema:givenName>
+    <schema:givenName>Edward Joseph</schema:givenName>
+    <schema:name>Edward Joseph O'Brien</schema:name>
+    <schema:birthDate>1890</schema:birthDate>
+    <schema:deathDate>1941</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/808.831/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807048">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85004320">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American fiction--20th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2864646970#Agent/small_maynard_&amp;_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Small, Maynard, &amp; Co.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,127 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/610602458">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/421332"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Great French short novels.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1504101#Place/france">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>France</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1504101#Agent/dial_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Dial Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1504101#Series/permanent_library_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/421332"/>
+    <schema:name>Permanent library book.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1007815">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Manners and customs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204289">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>France.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/421332#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>fr</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/592389341">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/421332"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Great French short novels.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/421332">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/421332"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1504101#Place/france"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/610602458"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1504101#Series/permanent_library_book"/>
+    <schema:datePublished>1952</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/421332#PublicationEvent/new_york_dial_press_1952"/>
+    <schema:name xml:lang="en">Great French short novels.</schema:name>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/592389341"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://dewey.info/class/843.082/"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1504101#Agent/dial_press"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/421332#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204289"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/934302"/>
+    <schema:genre xml:lang="en">Translations</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1007815"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/62789199"/>
+    <library:oclcnum>421332</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1504101#Topic/french_fiction_translations_into_english"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1504101"/>
+    <schema:productID>421332</schema:productID>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1504101#Series/permanent_library_books"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1504101#Topic/french_fiction_translations_into_english">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85051802"/>
+    <schema:name xml:lang="en">French fiction--Translations into English</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/843.082/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/934302">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">French fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/421332">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/421332"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/62789199">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dupee</schema:familyName>
+    <schema:givenName>F. W.</schema:givenName>
+    <schema:givenName>Frederick Wilcox</schema:givenName>
+    <schema:name>Frederick Wilcox Dupee</schema:name>
+    <schema:birthDate>1904</schema:birthDate>
+    <schema:deathDate>1979,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/421332#PublicationEvent/new_york_dial_press_1952">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1504101#Agent/dial_press"/>
+    <schema:startDate>1952</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1504101#Series/permanent_library_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/421332"/>
+    <schema:name>Permanent library books</schema:name>
+  </rdf:Description>
+</rdf:RDF>

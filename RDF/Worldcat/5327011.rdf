@@ -1,0 +1,121 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/950549780">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/5327011"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Thunderbird.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/17649752#Topic/man_woman_relationships">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008107175"/>
+    <schema:name xml:lang="en">Man-woman relationships</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/77797890">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Garth</schema:familyName>
+    <schema:givenName>David</schema:givenName>
+    <schema:name>David Garth</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1007080">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Man-woman relationships</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5327011#PublicationEvent/new_york_h_c_kinsey_&amp;_co_1942">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/17649752#Agent/h_c_kinsey_&amp;_co"/>
+    <schema:startDate>1942</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5327011">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/5327011"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/fic/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/17649752#Agent/h_c_kinsey_&amp;_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>H.C. Kinsey &amp; Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1035219">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Nazis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204305">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Vermont.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/17649752#Place/vermont">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Vermont</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/17649752#Topic/nazis_united_states">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85090140"/>
+    <schema:name xml:lang="en">Nazis--United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/17649752#Place/caribbean_area">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Caribbean Area</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1244080">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Caribbean Area.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/5327011">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/17649752#Place/caribbean_area"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/17649752#Place/vermont"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/17649752#Agent/h_c_kinsey_&amp;_co"/>
+    <schema:name xml:lang="en">Thunderbird</schema:name>
+    <schema:datePublished>1942</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:oclcnum>5327011</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/17649752#Topic/man_woman_relationships"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1244080"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/77797890"/>
+    <schema:productID>5327011</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204305"/>
+    <schema:about rdf:resource="http://dewey.info/class/fic/"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:genre xml:lang="en">Love stories</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1007080"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1035219"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/5327011"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/17649752"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/5327011#PublicationEvent/new_york_h_c_kinsey_&amp;_co_1942"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/950549780"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/17649752#Topic/nazis_united_states"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>
