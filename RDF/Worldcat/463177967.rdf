@@ -1,0 +1,82 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/347081791#Topic/american_literature">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>American literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/463177967">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/463177967"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/463177967#PublicationEvent/baton_rouge_la_louisiana_state_university_press_1969">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/347081791#Place/baton_rouge_la"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/347081791#Agent/louisiana_state_university_press"/>
+    <schema:startDate>1969</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/347081791#Series/southern_literary_studies">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/463177967"/>
+    <schema:name>Southern literary studies</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/347081791#Place/southern_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/347081791#Topic/american_literature_southern_states">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>American literature--Southern States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/347081791#Agent/louisiana_state_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Louisiana State University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/463177967">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/347081791#Topic/american_literature"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/347081791#Place/baton_rouge_la"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/347081791#Topic/american_literature_southern_states"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/347081791#Agent/louisiana_state_university_press"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/347081791#Series/southern_literary_studies"/>
+    <schema:genre>Bibliography</schema:genre>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/347081791#Person/rubin_louis_d"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/347081791"/>
+    <schema:productID>463177967</schema:productID>
+    <schema:datePublished>1969</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/463177967"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/lau"/>
+    <library:oclcnum>463177967</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name>A bibliographical guide to the study of Southern literature</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/347081791#Place/southern_states"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/463177967#PublicationEvent/baton_rouge_la_louisiana_state_university_press_1969"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/347081791#Place/baton_rouge_la">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Baton Rouge, La.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/lau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>lau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/347081791#Person/rubin_louis_d">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Rubin</schema:familyName>
+    <schema:givenName>Louis D.</schema:givenName>
+    <schema:name>Louis D. Rubin</schema:name>
+  </rdf:Description>
+</rdf:RDF>

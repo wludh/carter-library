@@ -1,0 +1,69 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/319988385">
+    <schema:creator rdf:resource="http://viaf.org/viaf/97201005"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/7583761#Agent/blakiston_co"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/pau"/>
+    <schema:productID>319988385</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>319988385</library:oclcnum>
+    <schema:datePublished>1946</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/7583761"/>
+    <schema:bookEdition>Triangle books ed.</schema:bookEdition>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/319988385"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/7583761#Place/philadephia"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/319988385#PublicationEvent/philadephia_blakiston_co_1946_1942"/>
+    <schema:name xml:lang="en">The D.A. cooks a goose</schema:name>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/7583761#Series/triangle_books"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/319988385#PublicationEvent/philadephia_blakiston_co_1946_1942">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/7583761#Place/philadephia"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/7583761#Agent/blakiston_co"/>
+    <schema:startDate>1946</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7583761#Place/philadephia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Philadephia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/pau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>pau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/97201005">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gardner</schema:familyName>
+    <schema:givenName>Erle Stanley</schema:givenName>
+    <schema:name>Erle Stanley Gardner</schema:name>
+    <schema:birthDate>1889</schema:birthDate>
+    <schema:deathDate>1970</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7583761#Agent/blakiston_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Blakiston Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7583761#Series/triangle_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/319988385"/>
+    <schema:name>Triangle books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/319988385">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/319988385"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

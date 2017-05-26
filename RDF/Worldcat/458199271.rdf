@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/151197954#Topic/poesie">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Poésie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/151197954#Topic/litterature">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Littérature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/458199271#PublicationEvent/new_york_the_swallow_press_and_w_morrow_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/151197954#Agent/the_swallow_press_and_w_morrow"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/458199271">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/458199271#PublicationEvent/new_york_the_swallow_press_and_w_morrow_1948"/>
+    <schema:productID>458199271</schema:productID>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1948</schema:datePublished>
+    <library:oclcnum>458199271</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/151197954#Topic/litterature"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/151197954"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/151197954#Agent/the_swallow_press_and_w_morrow"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/151197954#Person/tate_allen_1899_1979"/>
+    <schema:name>On the limits of poetry, selected essays, 1928-1948. Allen Tate.</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/151197954#Topic/poesie"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/458199271"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/151197954#Person/tate_allen_1899_1979">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Tate</schema:familyName>
+    <schema:givenName>Allen</schema:givenName>
+    <schema:name>Allen Tate</schema:name>
+    <schema:birthDate>1899</schema:birthDate>
+    <schema:deathDate>1979</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/151197954#Agent/the_swallow_press_and_w_morrow">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>The Swallow Press and W. Morrow</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/458199271">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/458199271"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

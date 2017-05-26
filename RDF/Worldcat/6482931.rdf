@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3052816296#Person/penick_margaret_h_d">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Penick</schema:familyName>
+    <schema:givenName>Margaret H. D.</schema:givenName>
+    <schema:name>Margaret H. D. Penick</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/6482931">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>6482931</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">Beauty's snare. [Poems].</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3052816296#Person/penick_margaret_h_d"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/cau"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3052816296"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3052816296#Agent/wings_press"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3052816296#Place/mill_valley_calif"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/950550685"/>
+    <library:oclcnum>6482931</library:oclcnum>
+    <schema:datePublished>1952</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/6482931#PublicationEvent/mill_valley_calif_wings_press_1952"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/6482931"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/6482931#PublicationEvent/mill_valley_calif_wings_press_1952">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3052816296#Place/mill_valley_calif"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3052816296#Agent/wings_press"/>
+    <schema:startDate>1952</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/cau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>cau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/6482931">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/6482931"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/950550685">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/6482931"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Beauty's snare.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3052816296#Agent/wings_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Wings Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3052816296#Place/mill_valley_calif">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Mill Valley, Calif.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

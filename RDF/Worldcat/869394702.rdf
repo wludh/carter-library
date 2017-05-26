@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/869394702">
+    <schema:productID>869394702</schema:productID>
+    <schema:numberOfPages>225</schema:numberOfPages>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1433484#Agent/university_of_minnesota_press"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/869394702#PublicationEvent/minneapolis_university_of_minnesota_press_1956"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mnu"/>
+    <library:oclcnum>869394702</library:oclcnum>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1433484#Person/krieger_murray_1923"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1433484"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1433484#Topic/critiques"/>
+    <schema:name>The new apologists for poetry.</schema:name>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1433484#Topic/poesie"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1433484#Place/minneapolis"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/869394702"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1433484#Agent/university_of_minnesota_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>University of Minnesota Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1433484#Person/krieger_murray_1923">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Krieger</schema:familyName>
+    <schema:givenName>Murray</schema:givenName>
+    <schema:name>Murray Krieger</schema:name>
+    <schema:birthDate>1923</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1433484#Topic/critiques">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Critiques</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1433484#Place/minneapolis">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Minneapolis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mnu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mnu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/869394702#PublicationEvent/minneapolis_university_of_minnesota_press_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1433484#Place/minneapolis"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1433484#Agent/university_of_minnesota_press"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1433484#Topic/poesie">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Poésie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/869394702">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/869394702"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

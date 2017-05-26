@@ -1,0 +1,90 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/30328543">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Herrick</schema:familyName>
+    <schema:givenName>Robert</schema:givenName>
+    <schema:name>Robert Herrick</schema:name>
+    <schema:birthDate>1868</schema:birthDate>
+    <schema:deathDate>1938</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/223144887">
+    <schema:datePublished>1903</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/6289425#Agent/scott_foresman_and_co"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/223144887"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/911581"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/6289425#Person/damon_lindsay_todd_1871_1940"/>
+    <schema:productID>223144887</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/223144887#PublicationEvent/chicago_scott_foresman_and_co_1903"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://viaf.org/viaf/30328543"/>
+    <schema:bookEdition>Rev. ed.</schema:bookEdition>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/6289425"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85043678"/>
+    <library:oclcnum>223144887</library:oclcnum>
+    <schema:name xml:lang="en">Composition and rhetoric for schools.</schema:name>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/903637810"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/223144887">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/223144887"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85043678">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English language--Rhetoric</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/6289425#Person/damon_lindsay_todd_1871_1940">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Damon</schema:familyName>
+    <schema:givenName>Lindsay Todd</schema:givenName>
+    <schema:name>Lindsay Todd Damon</schema:name>
+    <schema:birthDate>1871</schema:birthDate>
+    <schema:deathDate>1940</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/903637810">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/223144887"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Composition and rhetoric for schools.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/223144887#PublicationEvent/chicago_scott_foresman_and_co_1903">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/6289425#Agent/scott_foresman_and_co"/>
+    <schema:startDate>1903</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/911581">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English language--Rhetoric</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/6289425#Agent/scott_foresman_and_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Scott, Foresman and Co.</schema:name>
+  </rdf:Description>
+</rdf:RDF>
