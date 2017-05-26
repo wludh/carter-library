@@ -1,0 +1,144 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2554875#Place/garden_city_new_york">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/975848">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Intelligence service</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/975843">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Intelligence officers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2554875#Topic/intelligence_service_great_britain">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008104773"/>
+    <schema:name xml:lang="en">Intelligence service--Great Britain</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2554875#Topic/explosives_industry_germany">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85046485"/>
+    <schema:name xml:lang="en">Explosives industry--Germany</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/606170102">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1708749"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>... Green hazard.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1708749#PublicationEvent/garden_city_new_york_pub_for_the_crime_club_by_doubleday_doran_and_co_1945">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2554875#Place/garden_city_new_york"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2554875#Agent/pub_for_the_crime_club_by_doubleday_doran_and_co"/>
+    <schema:startDate>1945</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2554875#Agent/pub_for_the_crime_club_by_doubleday_doran_and_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Pub. for the Crime club by Doubleday, Doran and Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2554875#Place/germany">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Germany</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2554875#Topic/intelligence_officers_great_britain">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85067174"/>
+    <schema:name xml:lang="en">Intelligence officers--Great Britain</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204623">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Great Britain</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/75919753">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Coles</schema:familyName>
+    <schema:givenName>Manning</schema:givenName>
+    <schema:name>Manning Coles</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2002010917">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Espionage, British--Germany</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1708749">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1708749"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/915390">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Espionage, British</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1210272">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Germany</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.912/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1708749">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/915390"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2554875"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1708749#PublicationEvent/garden_city_new_york_pub_for_the_crime_club_by_doubleday_doran_and_co_1945"/>
+    <schema:name xml:lang="en">... Green hazard.</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>1708749</library:oclcnum>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/918639"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2002010917"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2554875#Topic/intelligence_service_great_britain"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2554875#Agent/pub_for_the_crime_club_by_doubleday_doran_and_co"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2554875#Topic/explosives_industry_germany"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/562269968"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2554875#Place/garden_city_new_york"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2554875#Place/germany"/>
+    <schema:datePublished>1945</schema:datePublished>
+    <schema:genre xml:lang="en">Spy stories</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>1708749</schema:productID>
+    <schema:about rdf:resource="http://dewey.info/class/823.912/"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204623"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/606170102"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/975848"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2554875#Topic/hambledon_tommy_fictitious_character"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1708749"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2554875#Topic/intelligence_officers_great_britain"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/975843"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/75919753"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1210272"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2554875#Topic/hambledon_tommy_fictitious_character">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Hambledon, Tommy (Fictitious character)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/562269968">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1708749"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>... Green hazard.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/918639">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Explosives industry</schema:name>
+  </rdf:Description>
+</rdf:RDF>
