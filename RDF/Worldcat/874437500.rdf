@@ -1,0 +1,61 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/uik">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>uik</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/56143683#Agent/penguin_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Penguin Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/874437500">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/874437500"/>
+    <schema:dateModified>2017-05-30</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/874437500">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/56143683"/>
+    <schema:name>The Pelican guide to English literature. Volume 4 : From Dryden to Johnson</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/874437500#PublicationEvent/harmondsworth_penguin_books_1954_61"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>874437500</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1954/61</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/uik"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/56143683#Agent/penguin_books"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/56143683#Person/ford_boris"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/874437500"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/56143683#Place/harmondsworth"/>
+    <library:oclcnum>874437500</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/56143683#Person/ford_boris">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ford</schema:familyName>
+    <schema:givenName>Boris</schema:givenName>
+    <schema:name>Boris Ford</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/874437500#PublicationEvent/harmondsworth_penguin_books_1954_61">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/56143683#Place/harmondsworth"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/56143683#Agent/penguin_books"/>
+    <schema:startDate>1954-61</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/56143683#Place/harmondsworth">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Harmondsworth</schema:name>
+  </rdf:Description>
+</rdf:RDF>

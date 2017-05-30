@@ -1,0 +1,96 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2567590#PublicationEvent/new_york_grove_press_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/43376294#Agent/grove_press"/>
+    <schema:startDate>1961</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2567590">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2567590"/>
+    <schema:dateModified>2017-04-27</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/7386737">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Beckett</schema:familyName>
+    <schema:givenName>Samuel</schema:givenName>
+    <schema:name>Samuel Beckett</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+    <schema:deathDate>1989</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/43376294#Agent/grove_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Grove Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/828.91209/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/43376294#Person/beckett_samuel_1906_1989">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Beckett</schema:familyName>
+    <schema:givenName>Samuel</schema:givenName>
+    <schema:name>Samuel Beckett</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+    <schema:deathDate>1989</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/575559446">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/2567590"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Samuel Beckett.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/43376294#Person/kenner_hugh">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kenner</schema:familyName>
+    <schema:givenName>Hugh</schema:givenName>
+    <schema:name>Hugh Kenner</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/43376294#Series/evergreen_original">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/2567590"/>
+    <schema:name>Evergreen original ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2567590">
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/43376294#Series/evergreen_original"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/575559446"/>
+    <schema:about rdf:resource="http://dewey.info/class/828.91209/"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2567590"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/43376294#Agent/grove_press"/>
+    <schema:productID>2567590</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">Samuel Beckett : a critical study.</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2567590#PublicationEvent/new_york_grove_press_1961"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/7386737"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/43376294"/>
+    <library:oclcnum>2567590</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/43376294#Person/kenner_hugh"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/43376294#Person/beckett_samuel_1906_1989"/>
+    <schema:datePublished>1961</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

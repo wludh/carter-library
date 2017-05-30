@@ -1,0 +1,96 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/95150359">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lawrence</schema:familyName>
+    <schema:givenName>D. H.</schema:givenName>
+    <schema:givenName>David Herbert</schema:givenName>
+    <schema:name>David Herbert Lawrence</schema:name>
+    <schema:birthDate>1885</schema:birthDate>
+    <schema:deathDate>1930</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4161034721#Series/avon">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/3992266"/>
+    <schema:name>Avon ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4161034721#Topic/families_england_midlands">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85047009"/>
+    <schema:name xml:lang="en">Families--England--Midlands</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3992266#PublicationEvent/new_york_avon_1943">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4161034721#Agent/avon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1240057">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>England--Midlands.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4161034721#Agent/avon">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Avon</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4161034721#Place/midlands_england">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Midlands (England)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/3992266">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/3992266"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1240057"/>
+    <schema:productID>3992266</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4161034721"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4161034721#Series/avon"/>
+    <schema:copyrightYear>1943</schema:copyrightYear>
+    <schema:datePublished>1943</schema:datePublished>
+    <library:oclcnum>3992266</library:oclcnum>
+    <schema:genre xml:lang="en">Domestic fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://dewey.info/class/820.81/"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/3992266#PublicationEvent/new_york_avon_1943"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/95150359"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4161034721#Place/midlands_england"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:name xml:lang="en">The rainbow</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4161034721#Agent/avon"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4161034721#Topic/families_england_midlands"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1728849"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/820.81/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3992266">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/3992266"/>
+    <schema:dateModified>2017-04-12</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1728849">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Families</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,63 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/798750312">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/413238#Person/eliot_t_s_thomas_stearns_1888_1965"/>
+    <schema:productID>798750312</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/413238"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/798750312"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1952</schema:datePublished>
+    <library:oclcnum>798750312</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/413238#Agent/harcourt_brace_and_world"/>
+    <schema:name>The complete poems and plays, 1909-1950.</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/798750312#PublicationEvent/new_york_harcourt_brace_and_world_1952"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/798750312#PublicationEvent/new_york_harcourt_brace_and_world_1952">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/413238#Agent/harcourt_brace_and_world"/>
+    <schema:startDate>1952</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/798750312">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/798750312"/>
+    <schema:dateModified>2017-05-25</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/413238#Agent/harcourt_brace_and_world">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harcourt, Brace and World</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/413238#Person/eliot_t_s_thomas_stearns_1888_1965">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Eliot</schema:familyName>
+    <schema:givenName>T. S.</schema:givenName>
+    <schema:givenName>Thomas Stearns</schema:givenName>
+    <schema:name>Thomas Stearns Eliot</schema:name>
+    <schema:birthDate>1888</schema:birthDate>
+    <schema:deathDate>1965</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

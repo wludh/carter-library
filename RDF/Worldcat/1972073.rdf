@@ -1,0 +1,100 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ohu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ohu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1205283">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>France--Paris.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/66146331983818692790">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Maigret</schema:familyName>
+    <schema:givenName>Jules</schema:givenName>
+    <schema:name>(Fictitious character) Jules Maigret</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1972073">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1972073"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2564819567#Place/cleveland">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Cleveland</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/843.912/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1972073#PublicationEvent/cleveland_world_pub_co_1943_1940">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2564819567#Place/cleveland"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2564819567#Agent/world_pub_co"/>
+    <schema:startDate>1943</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1972073">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ohu"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1068398"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/17564"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2564819567"/>
+    <schema:description xml:lang="en">A battle of nerves.--A face for a clue.</schema:description>
+    <schema:copyrightYear>1940</schema:copyrightYear>
+    <schema:datePublished>1943</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2564819567#Agent/world_pub_co"/>
+    <schema:name xml:lang="en">The patience of Maigret</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1972073"/>
+    <library:oclcnum>1972073</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2564819567#Topic/police_france_paris"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/66146331983818692790"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2564819567#Place/cleveland"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://dewey.info/class/843.912/"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1972073#PublicationEvent/cleveland_world_pub_co_1943_1940"/>
+    <schema:productID>1972073</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2564819567#Person/maigret_jules_fictitious_character"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1205283"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/17564">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Simenon</schema:familyName>
+    <schema:givenName>Georges</schema:givenName>
+    <schema:name>Georges Simenon</schema:name>
+    <schema:birthDate>1903</schema:birthDate>
+    <schema:deathDate>1989</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1068398">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Police</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2564819567#Topic/police_france_paris">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008109495"/>
+    <schema:name xml:lang="en">Police--France--Paris</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2564819567#Person/maigret_jules_fictitious_character">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Maigret</schema:familyName>
+    <schema:givenName>Jules</schema:givenName>
+    <schema:name>(Fictitious character) Jules Maigret</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2564819567#Agent/world_pub_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>World Pub. Co.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

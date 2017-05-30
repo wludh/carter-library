@@ -1,0 +1,101 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dewey.info/class/820.903/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1710960">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English literature--Early modern</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/50460776#Event/1500_1700">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1500-1700</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/50460776#Series/a_galaxy_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/2731619"/>
+    <schema:name>A Galaxy book</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/50460776#Agent/oxford_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Oxford University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2731619#PublicationEvent/new_york_oxford_university_press_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/50460776#Agent/oxford_university_press"/>
+    <schema:startDate>1961</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2008119581">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English literature--Early modern, 1500-1700--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/50460776#Topic/litterature_anglaise">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Littérature anglaise</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/94416732">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wedgwood</schema:familyName>
+    <schema:givenName>C. V.</schema:givenName>
+    <schema:givenName>Cicely Veronica</schema:givenName>
+    <schema:name>Cicely Veronica Wedgwood</schema:name>
+    <schema:birthDate>1910</schema:birthDate>
+    <schema:deathDate>1997</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2731619">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2731619"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/50460776#Series/galaxy_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/2731619"/>
+    <schema:name>Galaxy book.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2731619">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2731619"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1710960"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:description xml:lang="en">The Jacobean Age : prose -- The Jacobean Age : drama -- The Jacobean Age : poetry -- John Donne and Caroline poetry -- Practical prose -- John Milton -- Restoration verse -- The theatre after 1660 -- The later evolution of prose.</schema:description>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/50460776#Series/a_galaxy_book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/50460776#Event/1500_1700"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/50460776#Topic/litterature_anglaise"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/50460776"/>
+    <library:oclcnum>2731619</library:oclcnum>
+    <schema:about rdf:resource="http://dewey.info/class/820.903/"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1961</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/94416732"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2731619#PublicationEvent/new_york_oxford_university_press_1961"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2008119581"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>2731619</schema:productID>
+    <schema:name xml:lang="en">Seventeenth-century English literature</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/50460776#Agent/oxford_university_press"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/50460776#Series/galaxy_book"/>
+  </rdf:Description>
+</rdf:RDF>

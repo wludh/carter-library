@@ -1,0 +1,80 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/29557171">
+    <library:oclcnum>29557171</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3943270274#Place/garden_city_n_y"/>
+    <schema:datePublished>1953</schema:datePublished>
+    <schema:copyrightYear>1928</schema:copyrightYear>
+    <schema:name xml:lang="en">Lafcadio's adventures</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3943270274#Agent/doubleday"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3943270274"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:creator rdf:resource="http://viaf.org/viaf/96973963"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:genre xml:lang="en">Biography</schema:genre>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/29557171"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3943270274#Series/doubleday_anchor_books"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/29557171#PublicationEvent/garden_city_n_y_doubleday_1953_1928"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/29557171#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:productID>29557171</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943270274#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/3943270274">
+    <schema:name>Caves du Vatican.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943270274#Series/doubleday_anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/29557171"/>
+    <schema:name>Doubleday anchor books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/29557171">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/29557171"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/29557171#PublicationEvent/garden_city_n_y_doubleday_1953_1928">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3943270274#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3943270274#Agent/doubleday"/>
+    <schema:startDate>1953</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/96973963">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gide</schema:familyName>
+    <schema:givenName>André</schema:givenName>
+    <schema:name>André Gide</schema:name>
+    <schema:birthDate>1869</schema:birthDate>
+    <schema:deathDate>1951</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943270274#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/29557171#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Caves du Vatican.</schema:name>
+    <schema:inLanguage>fr</schema:inLanguage>
+  </rdf:Description>
+</rdf:RDF>

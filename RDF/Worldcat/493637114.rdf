@@ -1,0 +1,79 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/493637114">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/493637114#PublicationEvent/harmondsworth_penguin_books_1952"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/27968#Person/atkinson_william_christopher_1902_19xx"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/27968#Place/harmondsworth"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/27968#Agent/penguin_books"/>
+    <library:oclcnum>493637114</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/27968"/>
+    <schema:datePublished>1952</schema:datePublished>
+    <schema:creator rdf:resource="http://viaf.org/viaf/34454091"/>
+    <schema:productID>493637114</schema:productID>
+    <schema:name>The lusiads</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxk"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/493637114"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/27968#Series/penguin_classics"/>
+    <schema:genre>Épopées portugaises</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/493637114#PublicationEvent/harmondsworth_penguin_books_1952">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/27968#Place/harmondsworth"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/27968#Agent/penguin_books"/>
+    <schema:startDate>1952</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/27968#Agent/penguin_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Penguin Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/493637114">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/493637114"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/34454091">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Camões</schema:familyName>
+    <schema:givenName>Luís de</schema:givenName>
+    <schema:name>Luís de Camões</schema:name>
+    <schema:birthDate>1525?</schema:birthDate>
+    <schema:deathDate>1580,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/27968#Place/harmondsworth">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Harmondsworth</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/27968#Person/atkinson_william_christopher_1902_19xx">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Atkinson</schema:familyName>
+    <schema:givenName>William Christopher</schema:givenName>
+    <schema:name>William Christopher Atkinson</schema:name>
+    <schema:birthDate>1902</schema:birthDate>
+    <schema:deathDate>19XX,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/27968#Series/penguin_classics">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/493637114"/>
+    <schema:name>Penguin classics</schema:name>
+    <schema:name>Penguin classics.</schema:name>
+  </rdf:Description>
+</rdf:RDF>
