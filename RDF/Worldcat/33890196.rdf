@@ -1,0 +1,101 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/33890196">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2487648946#Place/mediterranean_region"/>
+    <schema:about rdf:resource="http://dewey.info/class/Fic/"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2487648946"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/50303321"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1239752"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1240128"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:productID>33890196</schema:productID>
+    <library:oclcnum>33890196</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2487648946#Topic/men_arab_countries"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/33890196"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2487648946#Agent/new_american_library"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1015978"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/33890196#PublicationEvent/new_york_new_american_library_1956"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2487648946#Topic/east_and_west"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">A stranger in Eden</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1240128">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Arab countries.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487648946#Topic/men_arab_countries">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85083510"/>
+    <schema:name xml:lang="en">Men--Arab countries</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487648946#Place/mediterranean_region">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Mediterranean Region</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1015978">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Men</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/33890196#PublicationEvent/new_york_new_american_library_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2487648946#Agent/new_american_library"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487648946#Agent/new_american_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New American Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/2487648946">
+    <schema:name>Unsuitable Englishman</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487648946#Topic/east_and_west">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">East and West</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/50303321">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Stewart</schema:familyName>
+    <schema:givenName>Desmond</schema:givenName>
+    <schema:name>Desmond Stewart</schema:name>
+    <schema:birthDate>1924</schema:birthDate>
+    <schema:deathDate>1981</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/Fic/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1239752">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Mediterranean Region.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/33890196">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/33890196"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

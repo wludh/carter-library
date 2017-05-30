@@ -1,0 +1,58 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1805531">
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>1805531</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://dewey.info/class/Fic/"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:description xml:lang="en">The calling card of Mr. Engle, by Louis Paul.--The unloaded gun, by A.V. Elston.--The experts, by Mindret Lord.--The kinkadee bird, by Elizabeth S. Holding.--Face in the dark, by Hugh Pentecost.--Wet Saturday, by John Collier.--One chance in a million, by Will Payne.--Death had a pencil, by Richard Sale.--The phantom of the subway, by Cornell Woolrich.--The mark of Maat, by Sax Rohmer.--The third ladder, by Philip Ketchum.--Hangin' crazy Benny, by L.T. White.--The old man in the window, by Margery Allinghan.--The long still streets of evening, by Frank Owen.--Crystal evidence, by D.B. Chidsey.--The simple art of murder, by Raymond Chandler.--The riddle of the blueblood murders, by Stuart Palmer.--Ways that are dark, by t. G. Springer.--The case on Turkey Point, by Howard Bloomfield.--The witness, by William Brandon.--Murder at the opera, by Vincent Starrett.--Biographies.</schema:description>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1945</schema:datePublished>
+    <schema:editor rdf:resource="http://viaf.org/viaf/116800144"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:bookEdition>Wartime edition.</schema:bookEdition>
+    <schema:name xml:lang="en">Third Mystery companion,</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>1805531</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/891461"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1805531"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/8484810"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/116800144">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Furman</schema:familyName>
+    <schema:givenName>A. L.</schema:givenName>
+    <schema:givenName>Abraham Loew</schema:givenName>
+    <schema:name>Abraham Loew Furman</schema:name>
+    <schema:birthDate>1902</schema:birthDate>
+    <schema:deathDate>1972,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/891461">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Detective and mystery stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/Fic/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1805531">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1805531"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,97 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3372902788#Agent/pocket_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Pocket Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3372902788#Series/cardinal_edition">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/49275113"/>
+    <schema:name>Cardinal edition ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/3372902788">
+    <schema:name>Decamerone.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/14412176">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Alexander</schema:familyName>
+    <schema:givenName>Herbert</schema:givenName>
+    <schema:name>Herbert Alexander</schema:name>
+    <schema:birthDate>1910</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/49275113#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Decamerone.</schema:name>
+    <schema:inLanguage>it</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/46421306">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Harshberger</schema:familyName>
+    <schema:givenName>Mac</schema:givenName>
+    <schema:name>Mac Harshberger</schema:name>
+    <schema:birthDate>1900</schema:birthDate>
+    <schema:deathDate>1975</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/49275113#PublicationEvent/new_york_pocket_books_1953_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3372902788#Agent/pocket_books"/>
+    <schema:startDate>1953</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/64002165">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Boccaccio</schema:familyName>
+    <schema:givenName>Giovanni</schema:givenName>
+    <schema:name>Giovanni Boccaccio</schema:name>
+    <schema:birthDate>1313</schema:birthDate>
+    <schema:deathDate>1375</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/49275113">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/49275113"/>
+    <schema:dateModified>2017-04-12</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/49275113">
+    <schema:contributor rdf:resource="http://viaf.org/viaf/14412176"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/64002165"/>
+    <schema:productID>49275113</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3372902788#Series/cardinal_edition"/>
+    <schema:name xml:lang="en">Tales from the Decameron</schema:name>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:bookEdition>Cardinal ed.</schema:bookEdition>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/49275113#PublicationEvent/new_york_pocket_books_1953_1948"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/46421306"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3372902788"/>
+    <library:oclcnum>49275113</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/49275113#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:copyrightYear>1948</schema:copyrightYear>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1953</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/49275113"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3372902788#Agent/pocket_books"/>
+  </rdf:Description>
+</rdf:RDF>

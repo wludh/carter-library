@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4160893196#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/492060491">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4160893196#Agent/doubleday"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4160893196"/>
+    <schema:productID>492060491</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/492060491"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/492060491#PublicationEvent/new_york_doubleday_1962"/>
+    <library:oclcnum>492060491</library:oclcnum>
+    <schema:datePublished>1962</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4160893196#Topic/nouvelles_americaines"/>
+    <schema:name>Prize stories 1962 : the O. Henry awards</schema:name>
+    <schema:numberOfPages>287</schema:numberOfPages>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/4160893196#Person/poirier_richard_1925"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4160893196#Topic/nouvelles_americaines">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Nouvelles américaines</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4160893196#Person/poirier_richard_1925">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Poirier</schema:familyName>
+    <schema:givenName>Richard</schema:givenName>
+    <schema:name>Richard Poirier</schema:name>
+    <schema:birthDate>1925</schema:birthDate>
+    <schema:deathDate>,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/492060491#PublicationEvent/new_york_doubleday_1962">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4160893196#Agent/doubleday"/>
+    <schema:startDate>1962</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/492060491">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/492060491"/>
+    <schema:dateModified>2017-04-13</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,102 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4049570097#Series/a_vintage_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/14689548"/>
+    <schema:name>A Vintage book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/14689548#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>de</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4049570097#Person/mann_thomas_1875_1955">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Mann</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Mann</schema:name>
+    <schema:birthDate>1875</schema:birthDate>
+    <schema:deathDate>1955</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4049570097#Series/vintage_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/14689548"/>
+    <schema:name>Vintage book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/54151065">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Mann</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Mann</schema:name>
+    <schema:birthDate>1875</schema:birthDate>
+    <schema:deathDate>1955</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/32728448">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lowe-Porter</schema:familyName>
+    <schema:givenName>H. T.</schema:givenName>
+    <schema:givenName>Helen Tracy</schema:givenName>
+    <schema:name>Helen Tracy Lowe-Porter</schema:name>
+    <schema:birthDate>1876</schema:birthDate>
+    <schema:deathDate>1963</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/14689548#PublicationEvent/new_york_vintage_books_1955_1936">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4049570097#Agent/vintage_books"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4049570097#Agent/vintage_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Vintage Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/14689548">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4049570097"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/14689548"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/54151065"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4049570097#Agent/vintage_books"/>
+    <schema:productID>14689548</schema:productID>
+    <library:oclcnum>14689548</library:oclcnum>
+    <schema:name xml:lang="en">Death in Venice : and seven other stories</schema:name>
+    <schema:copyrightYear>1936</schema:copyrightYear>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/14689548#PublicationEvent/new_york_vintage_books_1955_1936"/>
+    <schema:description xml:lang="en">Death in Venice.--Tonio Kröger.--Mario and the magician.--Disorder and early sorrow.--A man and his dog.--The blood of the Walsungs.--Tristan.--Felix Krull.</schema:description>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/54151065"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/32728448"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4049570097#Person/mann_thomas_1875_1955"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4049570097#Series/vintage_book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4049570097#Series/a_vintage_book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/14689548#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:datePublished>1955</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/14689548">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/14689548"/>
+    <schema:dateModified>2017-04-26</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,88 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/622422146">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/622422146"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943302383#Topic/mineral_waters_virginia">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85085578"/>
+    <schema:name xml:lang="en">Mineral waters--Virginia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943302383#Agent/wiley_and_putnam">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Wiley and Putnam</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1022381">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Mineral waters</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/622422146">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3943302383#Topic/mineral_waters_west_virginia"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3943302383"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3943302383#Topic/mineral_waters_virginia"/>
+    <library:oclcnum>622422146</library:oclcnum>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3943302383#Person/burke_william"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1022381"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1205316"/>
+    <schema:productID>622422146</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204597"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3943302383#Agent/wiley_and_putnam"/>
+    <rdf:type rdf:resource="http://bibliograph.net/Microform"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:name xml:lang="en">The Mineral Springs of Western Virginia : With Remarks on Their Use, and the Diseases to Which They Are Applicable</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/622422146#PublicationEvent/new_york_wiley_and_putnam_1842"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1842</schema:datePublished>
+    <schema:datePublished>1962</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/622422146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204597">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Virginia.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943302383#Topic/mineral_waters_west_virginia">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85085578"/>
+    <schema:name xml:lang="en">Mineral waters--West Virginia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1205316">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>West Virginia.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/622422146#PublicationEvent/new_york_wiley_and_putnam_1842">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3943302383#Agent/wiley_and_putnam"/>
+    <schema:startDate>1842</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943302383#Person/burke_william">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Burke</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Burke</schema:name>
+  </rdf:Description>
+</rdf:RDF>

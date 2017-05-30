@@ -1,0 +1,50 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/71412301">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bentley</schema:familyName>
+    <schema:givenName>Eric</schema:givenName>
+    <schema:name>Eric Bentley</schema:name>
+    <schema:birthDate>1916</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3857838919#Place/doubleday_anchor_books">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Doubleday Anchor Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/317593837">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/317593837"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/317593837">
+    <schema:name xml:lang="en">The classic theater - Volume II - Five German plays.</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/317593837#PublicationEvent/doubleday_anchor_books_1959"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3857838919"/>
+    <library:oclcnum>317593837</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/71412301"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3857838919#Place/doubleday_anchor_books"/>
+    <schema:productID>317593837</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>(©1959)</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1959</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/317593837"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/317593837#PublicationEvent/doubleday_anchor_books_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3857838919#Place/doubleday_anchor_books"/>
+    <schema:startDate>(©1959)</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>
