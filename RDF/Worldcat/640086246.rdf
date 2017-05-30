@@ -1,0 +1,119 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3372413711#Series/the_modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/640086246"/>
+    <schema:name>The Modern library of the world's best books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/3372413711">
+    <schema:name>Diary.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204623">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Great Britain.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/640086246#PublicationEvent/new_york_modern_library_1923">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3372413711#Agent/modern_library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/29602261">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Pepys</schema:familyName>
+    <schema:givenName>Samuel</schema:givenName>
+    <schema:name>Samuel Pepys</schema:name>
+    <schema:birthDate>1633</schema:birthDate>
+    <schema:deathDate>1703</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3372413711#Person/pepys_samuel_1633_1703">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Pepys</schema:familyName>
+    <schema:givenName>Samuel</schema:givenName>
+    <schema:name>Samuel Pepys</schema:name>
+    <schema:birthDate>1633</schema:birthDate>
+    <schema:deathDate>1703</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1007815">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Manners and customs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3372413711#Place/great_britain">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Great Britain</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/640086246">
+    <schema:genre xml:lang="en">Sources</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3372413711#Place/great_britain"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/640086246"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3372413711"/>
+    <schema:name xml:lang="en">Passages from the diary of Samuel Pepys</schema:name>
+    <schema:copyrightYear>1923</schema:copyrightYear>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3372413711#Agent/modern_library"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3372413711#Person/pepys_samuel_1633_1703"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/27148613"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://viaf.org/viaf/29602261"/>
+    <schema:genre xml:lang="en">Diaries</schema:genre>
+    <schema:productID>640086246</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3372413711#Event/1603_1714"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/29602261"/>
+    <library:oclcnum>640086246</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/640086246#PublicationEvent/new_york_modern_library_1923"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3372413711#Series/modern_library_of_the_world_s_best_books"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1007815"/>
+    <schema:datePublished>1923</schema:datePublished>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3372413711#Series/the_modern_library_of_the_world_s_best_books"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204623"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/27148613">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Le Gallienne</schema:familyName>
+    <schema:givenName>Richard</schema:givenName>
+    <schema:name>Richard Le Gallienne</schema:name>
+    <schema:birthDate>1866</schema:birthDate>
+    <schema:deathDate>1947</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3372413711#Agent/modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Modern Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3372413711#Series/modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/640086246"/>
+    <schema:name>Modern library of the world's best books.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/640086246">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/640086246"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3372413711#Event/1603_1714">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1603-1714</schema:name>
+  </rdf:Description>
+</rdf:RDF>

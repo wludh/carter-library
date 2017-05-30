@@ -1,0 +1,61 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/860573454#PublicationEvent/london_faber_and_faber_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/570833#Agent/faber_and_faber"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/860573454">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/860573454"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570833#Person/eliot_t_s">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Eliot</schema:familyName>
+    <schema:givenName>T. S.</schema:givenName>
+    <schema:name>T. S. Eliot</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/860573454">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/570833#Agent/faber_and_faber"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/860573454"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:numberOfPages>124</schema:numberOfPages>
+    <schema:datePublished>1948</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/860573454#PublicationEvent/london_faber_and_faber_1948"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/570833#Person/eliot_t_s"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name>Notes towards the definition of culture</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxk"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>860573454</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/570833"/>
+    <schema:productID>860573454</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570833#Agent/faber_and_faber">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Faber and Faber</schema:name>
+  </rdf:Description>
+</rdf:RDF>
