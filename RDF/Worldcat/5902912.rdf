@@ -1,0 +1,71 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ohu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ohu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/20382177#Place/cleveland_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Cleveland, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/20382177#Person/propper_milton_m_milton_morris_1906">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Propper</schema:familyName>
+    <schema:givenName>Milton M.</schema:givenName>
+    <schema:givenName>Milton Morris</schema:givenName>
+    <schema:name>Milton Morris Propper</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/20382177#Agent/world_pub_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>World Pub. Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5902912#PublicationEvent/cleveland_n_y_world_pub_co_1943_1932">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/20382177#Place/cleveland_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/20382177#Agent/world_pub_co"/>
+    <schema:startDate>1943</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/5902912">
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:datePublished>1943</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/20382177#Agent/world_pub_co"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ohu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/5902912#PublicationEvent/cleveland_n_y_world_pub_co_1943_1932"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:copyrightYear>1932</schema:copyrightYear>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/5902912"/>
+    <schema:bookEdition>Tower Books ed.</schema:bookEdition>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/20382177#Person/propper_milton_m_milton_morris_1906"/>
+    <schema:productID>5902912</schema:productID>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/20382177#Place/cleveland_n_y"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/20382177#Series/a_tower_mystery"/>
+    <schema:name xml:lang="en">The student fraternity murder</schema:name>
+    <library:oclcnum>5902912</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/20382177"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/20382177#Series/a_tower_mystery">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/5902912"/>
+    <schema:name>A Tower mystery</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5902912">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/5902912"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,62 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/752868126">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/752868126"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/752868126">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/752868126#PublicationEvent/london_editions_poetry_london_1945"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/470522#Agent/editions_poetry_london"/>
+    <schema:datePublished>1945</schema:datePublished>
+    <library:oclcnum>752868126</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/470522"/>
+    <schema:name xml:lang="en">The Real Life of Sebastian Knight. [A novel.].</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/752868126"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>752868126</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/470522#Person/nabokov_vladimir_vladimirovich_1899_1977"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/752868126#PublicationEvent/london_editions_poetry_london_1945">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/470522#Agent/editions_poetry_london"/>
+    <schema:startDate>1945</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/470522#Agent/editions_poetry_london">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Editions Poetry London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/470522#Person/nabokov_vladimir_vladimirovich_1899_1977">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Nabokov</schema:familyName>
+    <schema:givenName>Vladimir Vladimirovich</schema:givenName>
+    <schema:name>Vladimir Vladimirovich Nabokov</schema:name>
+    <schema:birthDate>1899</schema:birthDate>
+    <schema:deathDate>1977</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

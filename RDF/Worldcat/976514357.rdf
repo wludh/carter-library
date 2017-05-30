@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/199041874#Topic/drama">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Drama</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/199041874#Person/brooks_cleanth_1906_1994">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Brooks</schema:familyName>
+    <schema:givenName>Cleanth</schema:givenName>
+    <schema:name>Cleanth Brooks</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+    <schema:deathDate>1994</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/199041874#Topic/tragedy">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Tragedy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/199041874#Topic/drama_history_and_criticism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Drama--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/976514357#PublicationEvent/new_haven_yale_university_press_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/199041874#Place/new_haven"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/199041874#Agent/yale_university_press"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ctu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ctu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/199041874#Place/new_haven">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New Haven</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/808.2/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/199041874#Agent/yale_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Yale University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/976514357">
+    <schema:about rdf:resource="http://dewey.info/class/808.2/"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/976514357"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/199041874#Topic/drama"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/199041874#Place/new_haven"/>
+    <library:oclcnum>976514357</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/199041874#Agent/yale_university_press"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/199041874"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/199041874#Person/brooks_cleanth_1906_1994"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/199041874#Topic/tragedy"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:name xml:lang="en">Tragic themes in Western literature;</schema:name>
+    <schema:productID>976514357</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/976514357#PublicationEvent/new_haven_yale_university_press_1956"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ctu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/199041874#Topic/drama_history_and_criticism"/>
+    <schema:numberOfPages>178</schema:numberOfPages>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/976514357">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/976514357"/>
+    <schema:dateModified>2017-05-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

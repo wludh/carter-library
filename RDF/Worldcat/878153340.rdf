@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1463426#Agent/new_directions">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Directions</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/878153340">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/878153340"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1463426#Person/pound_ezra_1885_1972">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Pound</schema:familyName>
+    <schema:givenName>Ezra</schema:givenName>
+    <schema:name>Ezra Pound</schema:name>
+    <schema:birthDate>1885</schema:birthDate>
+    <schema:deathDate>1972</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/878153340#PublicationEvent/norfolk_conn_new_directions_1951">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1463426#Place/norfolk_conn"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1463426#Agent/new_directions"/>
+    <schema:startDate>1951</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/878153340">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/878153340#PublicationEvent/norfolk_conn_new_directions_1951"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>878153340</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1463426"/>
+    <schema:name>The poetry of Ezra Pound</schema:name>
+    <library:oclcnum>878153340</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1463426#Person/pound_ezra_1885_1972"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1463426#Person/kenner_hugh_1923_2003"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1463426#Agent/new_directions"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1463426#Place/norfolk_conn"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/878153340"/>
+    <schema:datePublished>1951</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:numberOfPages>342</schema:numberOfPages>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1463426#Place/norfolk_conn">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Norfolk, Conn.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1463426#Person/kenner_hugh_1923_2003">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kenner</schema:familyName>
+    <schema:givenName>Hugh</schema:givenName>
+    <schema:name>Hugh Kenner</schema:name>
+    <schema:birthDate>1923</schema:birthDate>
+    <schema:deathDate>2003</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/851164140#PublicationEvent/new_york_harvest_house_1945">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2367067#Agent/harvest_house"/>
+    <schema:startDate>1945</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2367067#Agent/harvest_house">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harvest House</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/851164140">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/851164140"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2367067#Person/thomas_lowell_1892_1981">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Thomas</schema:familyName>
+    <schema:givenName>Lowell</schema:givenName>
+    <schema:name>Lowell Thomas</schema:name>
+    <schema:birthDate>1892</schema:birthDate>
+    <schema:deathDate>1981</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/851164140">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2367067#Topic/cuentos_norteamericanos_s_xx"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/851164140"/>
+    <schema:productID>851164140</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2367067"/>
+    <schema:datePublished>1945</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2367067#Agent/harvest_house"/>
+    <schema:name>Tall stories : the rise and triumph of the Great American Whopper</schema:name>
+    <library:oclcnum>851164140</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2367067#Person/thomas_lowell_1892_1981"/>
+    <schema:numberOfPages>186</schema:numberOfPages>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/851164140#PublicationEvent/new_york_harvest_house_1945"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2367067#Topic/cuentos_norteamericanos_s_xx">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Cuentos norteamericanos--s.XX</schema:name>
+  </rdf:Description>
+</rdf:RDF>
