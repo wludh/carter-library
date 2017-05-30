@@ -1,0 +1,79 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2865944009#Agent/frederick_fell">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Frederick Fell</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/106639269">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bleiler</schema:familyName>
+    <schema:givenName>E. F.</schema:givenName>
+    <schema:givenName>Everett Franklin</schema:givenName>
+    <schema:name>Everett Franklin Bleiler</schema:name>
+    <schema:birthDate>1920</schema:birthDate>
+    <schema:deathDate>2010,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/527618">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/527618"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/527618">
+    <schema:name xml:lang="en">The best science fiction stories : 1949</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1108566"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2865944009"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2865944009#Agent/frederick_fell"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/527618"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:productID>527618</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/527618#PublicationEvent/new_york_frederick_fell_1949"/>
+    <library:oclcnum>527618</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1949</schema:datePublished>
+    <schema:copyrightYear>1949</schema:copyrightYear>
+    <schema:description xml:lang="en">Introduction /  Melvin Korshak -- Preface / Everett F. Bleiler and T.E.  Dikty -- Mars is heaven! / Ray Bradbury -- Ex machina / Lewis Padgett -- The strange case of John Kingman / Murray Leinster -- Doughnut jockey / Erik Fennel -- Thang / Martin Gardner -- Period piece / J.J. Coupling -- Knock / Frederic Brown -- Genius / Poul Anderson --And the moon be still as bright / Ray Bradbury -- No connection / Isaac Asimov -- In hiding / Wilmar H. Shiras -- Happy ending / Henry Kuttner.</schema:description>
+    <schema:editor rdf:resource="http://viaf.org/viaf/35860191"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/106639269"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/527618#PublicationEvent/new_york_frederick_fell_1949">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2865944009#Agent/frederick_fell"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1108566">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Science fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/35860191">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dikty</schema:familyName>
+    <schema:givenName>T. E.</schema:givenName>
+    <schema:givenName>Thaddeus Eugene</schema:givenName>
+    <schema:name>Thaddeus Eugene Dikty</schema:name>
+    <schema:birthDate>1920</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

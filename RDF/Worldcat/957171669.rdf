@@ -1,0 +1,106 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/957171669">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookEdition>2d ed.</schema:bookEdition>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3806308332#Topic/civilization"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/957171669#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:datePublished>1945/9999</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3806308332#Topic/education_greek"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/3806308332#Person/highet_gilbert_1906_1978"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3806308332#Topic/greek_literature_history_and_criticism"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1945</schema:datePublished>
+    <schema:productID>957171669</schema:productID>
+    <schema:name xml:lang="en">Paideia : the ideals of Greek culture</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/957171669#PublicationEvent/new_york_oxford_university_press_1945"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3806308332#Agent/oxford_university_press"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3806308332#Place/greece"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3806308332#Person/jaeger_werner_1888_1961"/>
+    <schema:description xml:lang="en">V. 1. Archaic Greece, The mind of Athens. -- v. 2. In search of the divine centre. -- v. 3. The conflict of cultural ideals in the age of Plato.</schema:description>
+    <library:oclcnum>957171669</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3806308332#Topic/greek_literature"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/957171669"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3806308332"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/957171669#PublicationEvent/new_york_oxford_university_press_1945">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3806308332#Agent/oxford_university_press"/>
+    <schema:startDate>1945</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/957171669#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>de</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/957171669">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/957171669"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3806308332#Topic/greek_literature">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Greek literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3806308332#Place/greece">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Greece</schema:name>
+    <schema:name>Greece.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3806308332#Agent/oxford_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Oxford University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3806308332#Topic/civilization">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Civilization</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3806308332#Topic/education_greek">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Education, Greek</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3806308332#Person/jaeger_werner_1888_1961">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Jaeger</schema:familyName>
+    <schema:givenName>Werner</schema:givenName>
+    <schema:name>Werner Jaeger</schema:name>
+    <schema:birthDate>1888</schema:birthDate>
+    <schema:deathDate>1961</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3806308332#Topic/greek_literature_history_and_criticism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Greek literature--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3806308332#Person/highet_gilbert_1906_1978">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Highet</schema:familyName>
+    <schema:givenName>Gilbert</schema:givenName>
+    <schema:name>Gilbert Highet</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+    <schema:deathDate>1978</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

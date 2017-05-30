@@ -1,0 +1,110 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/112925346#Topic/world_war_1939_1945_philippines">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85148273"/>
+    <schema:name>World War, 1939-1945--Philippines</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/781827318">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/781827318"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/310665603">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Richardson</schema:familyName>
+    <schema:givenName>Iliff David</schema:givenName>
+    <schema:name>Iliff David Richardson</schema:name>
+    <schema:birthDate>1918</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/781827318#PublicationEvent/new_york_simon_and_schuster_1945">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/112925346#Agent/simon_and_schuster"/>
+    <schema:startDate>1945</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/112925346#Place/usa">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>USA.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1180924">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <rdf:type rdf:resource="http://bibliograph.net/Meeting"/>
+    <schema:name>World War (1939-1945)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/112925346#Place/philippinen">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Philippinen.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/112925346#Topic/world_war_1939_1945">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008113356"/>
+    <schema:name>World War, 1939-1945</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/940.542/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/112925346#Agent/simon_and_schuster">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Simon and Schuster</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/781827318">
+    <schema:name>American guerrilla in the Philippines</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/781827318#PublicationEvent/new_york_simon_and_schuster_1945"/>
+    <library:oclcnum>781827318</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/112925346#Agent/simon_and_schuster"/>
+    <schema:numberOfPages>301</schema:numberOfPages>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/310665603"/>
+    <schema:productID>781827318</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1180924"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/112925346#Place/philippinen"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/112925346#Topic/world_war_1939_1945_philippines"/>
+    <schema:about rdf:resource="http://dewey.info/class/940.542/"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/112925346#Topic/world_war_1939_1945"/>
+    <schema:genre>Personal narratives</schema:genre>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/781827318"/>
+    <schema:datePublished>1945</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/112925346"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/56851583"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1205261"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/112925346#Place/usa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1205261">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Philippines</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/56851583">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wolfert</schema:familyName>
+    <schema:givenName>Ira</schema:givenName>
+    <schema:name>Ira Wolfert</schema:name>
+    <schema:birthDate>1908</schema:birthDate>
+    <schema:deathDate>1997</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

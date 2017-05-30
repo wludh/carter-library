@@ -1,0 +1,81 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/22144104">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lafayette</schema:familyName>
+    <schema:givenName>Marie Joseph Paul Yves Roch Gilbert Du Motier</schema:givenName>
+    <schema:name>marquis de Marie Joseph Paul Yves Roch Gilbert Du Motier Lafayette</schema:name>
+    <schema:birthDate>1757</schema:birthDate>
+    <schema:deathDate>1834</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/359114#PublicationEvent/philadelphia_j_p_ayres_1826">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/6931453#Place/philadelphia"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/6931453#Agent/j_p_ayres"/>
+    <schema:startDate>1826</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/6931453#Person/lafayette_marie_joseph_paul_yves_roch_gilbert_du_motier_marquis_de_1757_1834">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lafayette</schema:familyName>
+    <schema:givenName>Marie Joseph Paul Yves Roch Gilbert Du Motier</schema:givenName>
+    <schema:name>marquis de Marie Joseph Paul Yves Roch Gilbert Du Motier Lafayette</schema:name>
+    <schema:birthDate>1757</schema:birthDate>
+    <schema:deathDate>1834</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/pau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>pau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/64074151">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Waln</schema:familyName>
+    <schema:givenName>Robert</schema:givenName>
+    <schema:name>Robert Waln</schema:name>
+    <schema:birthDate>1794</schema:birthDate>
+    <schema:deathDate>1825</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/359114">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/359114"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/6931453#Place/philadelphia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Philadelphia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/359114">
+    <schema:datePublished>1826</schema:datePublished>
+    <schema:bookEdition>3d ed.</schema:bookEdition>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/359114"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/6931453#Person/lafayette_marie_joseph_paul_yves_roch_gilbert_du_motier_marquis_de_1757_1834"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>359114</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/359114#PublicationEvent/philadelphia_j_p_ayres_1826"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/6931453"/>
+    <library:oclcnum>359114</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/6931453#Place/philadelphia"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/64074151"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/pau"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/22144104"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name xml:lang="en">Life of the Marquis de La Fayette; major general in the service of the United States of America, in the war of the revolution .</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/6931453#Agent/j_p_ayres"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/6931453#Agent/j_p_ayres">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>J.P. Ayres</schema:name>
+  </rdf:Description>
+</rdf:RDF>

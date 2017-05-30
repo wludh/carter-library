@@ -1,0 +1,91 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dewey.info/class/fic/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/707191786">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1154650"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Believers.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1154650#PublicationEvent/boston_houghton_mifflin_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/478430#Agent/houghton_mifflin"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1154650">
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:genre xml:lang="en">Historical fiction</schema:genre>
+    <schema:name xml:lang="en">The believers.</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/478430"/>
+    <schema:about rdf:resource="http://dewey.info/class/fic/"/>
+    <schema:description xml:lang="en">Rebecca Fowler follows her husband to a Shaker colony in early 19th-century Kentucky. A portrayal of the Shaker way of life.</schema:description>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/478430#Person/giles_janice_holt"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/478430#Organization/shakers"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/707191786"/>
+    <schema:productID>1154650</schema:productID>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780380006663"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1154650"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1154650#PublicationEvent/boston_houghton_mifflin_1957"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/147501939"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/478430#Agent/houghton_mifflin"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>1154650</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1154650">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1154650"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780380006663">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780380006663</schema:isbn>
+    <schema:isbn>0380006669</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/147501939">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Shakers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/478430#Person/giles_janice_holt">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Giles</schema:familyName>
+    <schema:givenName>Janice Holt</schema:givenName>
+    <schema:name>Janice Holt Giles</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/478430#Organization/shakers">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Shakers.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/478430#Agent/houghton_mifflin">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Houghton Mifflin</schema:name>
+  </rdf:Description>
+</rdf:RDF>

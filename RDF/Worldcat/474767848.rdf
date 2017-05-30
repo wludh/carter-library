@@ -1,0 +1,97 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354646106#CreativeWork/the_female_of_the_species">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>The female of the species</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354646106#Person/dannay_frederic_1905_82">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dannay</schema:familyName>
+    <schema:givenName>Frederic</schema:givenName>
+    <schema:name>Frederic Dannay</schema:name>
+    <schema:birthDate>1905</schema:birthDate>
+    <schema:deathDate>82</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354646106#Person/queen_ellery_1905_82">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Queen</schema:familyName>
+    <schema:givenName>Ellery</schema:givenName>
+    <schema:name>Ellery Queen</schema:name>
+    <schema:birthDate>1905</schema:birthDate>
+    <schema:deathDate>82</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354646106#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/891461">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Detective and mystery stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354646106#Agent/blue_ribbon_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Blue Ribbon Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/474767848#PublicationEvent/garden_city_n_y_blue_ribbon_books_1946">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/354646106#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/354646106#Agent/blue_ribbon_books"/>
+    <schema:startDate>1946</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85037260">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Detective and mystery stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354646106#Person/lee_manfred_b_lee_manfred_bennington_1905_71">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lee</schema:familyName>
+    <schema:givenName>Manfred B.</schema:givenName>
+    <schema:givenName>Lee Manfred Bennington</schema:givenName>
+    <schema:name>Lee Manfred Bennington Lee</schema:name>
+    <schema:birthDate>1905</schema:birthDate>
+    <schema:deathDate>71</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/474767848">
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/354646106#CreativeWork/the_female_of_the_species"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/474767848"/>
+    <schema:name>The great women detectives and criminals : the female of the species</schema:name>
+    <schema:datePublished>1946</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/474767848#PublicationEvent/garden_city_n_y_blue_ribbon_books_1946"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/354646106#Person/queen_ellery_1905_82"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <library:oclcnum>474767848</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/354646106#Person/dannay_frederic_1905_82"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/354646106#Place/garden_city_n_y"/>
+    <schema:productID>474767848</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/354646106#Agent/blue_ribbon_books"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/354646106#Person/lee_manfred_b_lee_manfred_bennington_1905_71"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/891461"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/354646106"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85037260"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/474767848">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/474767848"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,80 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/65092111#Agent/american_sunday_school_union_1122_chestnut_street">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>American Sunday-School Union, 1122 Chestnut Street</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/65092111#CreativeWork/peep">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Peep.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/79998599#Audience">
+    <rdf:type rdf:resource="http://schema.org/PeopleAudience"/>
+    <schema:audienceType xml:lang="en">Juvenile</schema:audienceType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/79998599">
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/79998599"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/65092111"/>
+    <schema:productID>79998599</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/65092111#CreativeWork/peep"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name xml:lang="en">A Peep at my neighbours, or, The houses in Kingston Court turned inside out</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/pau"/>
+    <schema:description xml:lang="en">No. 1. Mr. Perkins, the shoemaker -- No. 2. Mr. Brown, the plasterer -- No. 3. The author -- No. 4. Mrs. Duncan, the widow lady -- No. 5. Mr. Thompson, the barber -- No. 6. Mr. West, the baker -- No. 7. Mr. Sims, the tailor -- No. 8. Mr. North, the cabinet-maker -- No. 9. Madam Rogers -- No. 10. Widow Allen, and her lodger -- No. 11. Secrets of the future revealed.</schema:description>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/65092111#Agent/american_sunday_school_union_1122_chestnut_street"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/65092111#Place/philadelphia"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/155954844"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/65092111#CreativeWork/peep_at_my_neighbours"/>
+    <library:oclcnum>79998599</library:oclcnum>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/65092111#CreativeWork/houses_in_kingston_court_turned_inside_out"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/79998599#PublicationEvent/philadelphia_american_sunday_school_union_1122_chestnut_street_between_1857_and_1907"/>
+    <schema:audience rdf:resource="http://www.worldcat.org/title/-/oclc/79998599#Audience"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/79998599#PublicationEvent/philadelphia_american_sunday_school_union_1122_chestnut_street_between_1857_and_1907">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/65092111#Place/philadelphia"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/65092111#Agent/american_sunday_school_union_1122_chestnut_street"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/pau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>pau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/65092111#CreativeWork/peep_at_my_neighbours">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Peep at my neighbours.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/155954844">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>American Sunday-School Union. Committee of Publication.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/65092111#Place/philadelphia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Philadelphia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/79998599">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/79998599"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/65092111#CreativeWork/houses_in_kingston_court_turned_inside_out">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Houses in Kingston Court turned inside out.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

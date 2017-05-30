@@ -9,86 +9,64 @@
     xmlns:void="http://rdfs.org/ns/void#"
     xmlns:schema="http://schema.org/"
     xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5054665#PublicationEvent/new_york_grosset_&amp;_dunlap_1938">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1096938#Agent/grosset_&amp;_dunlap"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
     <rdf:type rdf:resource="http://schema.org/Place"/>
     <schema:name>New York</schema:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4221262485#Series/library_of_living_theology">
-    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
-    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/987867506"/>
-    <schema:name>Library of living theology,</schema:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/987867506#PublicationEvent/new_york_macmillan_company_1961_c1956">
-    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
-    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
-    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4221262485#Agent/macmillan_company"/>
-    <schema:startDate>1961</schema:startDate>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4221262485#Person/bretall_robert_w_1913">
-    <rdf:type rdf:resource="http://schema.org/Person"/>
-    <schema:familyName>Bretall</schema:familyName>
-    <schema:givenName>Robert W.</schema:givenName>
-    <schema:name>Robert W. Bretall</schema:name>
-    <schema:birthDate>1913</schema:birthDate>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.worldcat.org/oclc/987867506">
-    <schema:productID>987867506</schema:productID>
-    <schema:name xml:lang="en">Reinhold Niebuhr, his religious, social, and political thought</schema:name>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/5054665">
     <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
-    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/BX4827N5"/>
-    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/987867506#PublicationEvent/new_york_macmillan_company_1961_c1956"/>
-    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4221262485#Series/library_of_living_theology"/>
-    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4221262485#Person/niebuhr_reinhold_1892_1971"/>
-    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4221262485"/>
-    <schema:datePublished>1961</schema:datePublished>
-    <schema:inLanguage>en</schema:inLanguage>
-    <schema:datePublished>1956</schema:datePublished>
-    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/4221262485#Person/kegley_charles_w_1912"/>
-    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
-    <rdf:type rdf:resource="http://schema.org/Book"/>
-    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4221262485#Agent/macmillan_company"/>
-    <library:oclcnum>987867506</library:oclcnum>
-    <schema:numberOfPages>486</schema:numberOfPages>
-    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/4221262485#Person/bretall_robert_w_1913"/>
-    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/987867506"/>
-    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
-    <schema:about rdf:resource="http://dewey.info/class/230.0924/e19/"/>
+    <library:oclcnum>5054665</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1096938#Agent/grosset_&amp;_dunlap"/>
     <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/891461"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:productID>5054665</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1096938"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">The case of the shoplifter's shoe</schema:name>
+    <schema:datePublished>1938</schema:datePublished>
+    <schema:creator rdf:resource="http://viaf.org/viaf/97201005"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/5054665"/>
+    <schema:copyrightYear>1938</schema:copyrightYear>
+    <schema:about rdf:resource="http://dewey.info/class/813.52/"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/5054665#PublicationEvent/new_york_grosset_&amp;_dunlap_1938"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/987867506">
+  <rdf:Description rdf:about="http://dewey.info/class/813.52/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5054665">
     <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
     <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
-    <schema:about rdf:resource="http://www.worldcat.org/oclc/987867506"/>
-    <schema:dateModified>2017-05-24</schema:dateModified>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/5054665"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
     <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dewey.info/class/230.0924/e19/">
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/891461">
     <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Detective and mystery stories</schema:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/BX4827N5">
-    <rdf:type rdf:resource="http://schema.org/Intangible"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4221262485#Agent/macmillan_company">
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1096938#Agent/grosset_&amp;_dunlap">
     <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
-    <schema:name>Macmillan Company</schema:name>
+    <schema:name>Grosset &amp; Dunlap</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/97201005">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gardner</schema:familyName>
+    <schema:givenName>Erle Stanley</schema:givenName>
+    <schema:name>Erle Stanley Gardner</schema:name>
+    <schema:birthDate>1889</schema:birthDate>
+    <schema:deathDate>1970</schema:deathDate>
   </rdf:Description>
   <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
     <rdf:type rdf:resource="http://schema.org/Place"/>
     <dcterms:identifier>nyu</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4221262485#Person/kegley_charles_w_1912">
-    <rdf:type rdf:resource="http://schema.org/Person"/>
-    <schema:familyName>Kegley</schema:familyName>
-    <schema:givenName>Charles W.</schema:givenName>
-    <schema:name>Charles W. Kegley</schema:name>
-    <schema:birthDate>1912</schema:birthDate>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4221262485#Person/niebuhr_reinhold_1892_1971">
-    <rdf:type rdf:resource="http://schema.org/Person"/>
-    <schema:familyName>Niebuhr</schema:familyName>
-    <schema:givenName>Reinhold</schema:givenName>
-    <schema:name>Reinhold Niebuhr</schema:name>
-    <schema:birthDate>1892</schema:birthDate>
-    <schema:deathDate>1971</schema:deathDate>
   </rdf:Description>
 </rdf:RDF>

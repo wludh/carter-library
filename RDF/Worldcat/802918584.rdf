@@ -1,0 +1,76 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/802918584">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/802918584"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/802918584#PublicationEvent/boston_d_c_heath_&amp;_co_publishers_1914">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3770107615#Agent/d_c_heath_&amp;_co_publishers"/>
+    <schema:startDate>1914</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3770107615#Person/balzac_honore_de_1799_1850">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Balzac</schema:familyName>
+    <schema:givenName>Honoré de</schema:givenName>
+    <schema:name>Honoré de Balzac</schema:name>
+    <schema:birthDate>1799</schema:birthDate>
+    <schema:deathDate>1850</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3770107615#Agent/d_c_heath_&amp;_co_publishers">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>D.C. Heath &amp; Co., Publishers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3770107615#Series/heath_s_modern_language_series">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/802918584"/>
+    <schema:name>Heath's modern language series.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/91144937">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Spiers</schema:familyName>
+    <schema:givenName>A.G.H.</schema:givenName>
+    <schema:name>AGH Spiers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/802918584">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1914</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/802918584#PublicationEvent/boston_d_c_heath_&amp;_co_publishers_1914"/>
+    <schema:productID>802918584</schema:productID>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/91144937"/>
+    <schema:inLanguage>fr</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3770107615#Agent/d_c_heath_&amp;_co_publishers"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:numberOfPages>236</schema:numberOfPages>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>802918584</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/802918584"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3770107615"/>
+    <schema:name>Eugénie Grandet</schema:name>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3770107615#Series/heath_s_modern_language_series"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3770107615#Person/balzac_honore_de_1799_1850"/>
+  </rdf:Description>
+</rdf:RDF>
