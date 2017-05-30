@@ -1,0 +1,65 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3331#Person/nabokov_vladimir_vladimirovich_1899_1977">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Nabokov</schema:familyName>
+    <schema:givenName>Vladimir Vladimirovich</schema:givenName>
+    <schema:name>Vladimir Vladimirovich Nabokov</schema:name>
+    <schema:birthDate>1899</schema:birthDate>
+    <schema:deathDate>1977</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3331#Agent/g_p_putnam_s_sons">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>G.P. Putnam's Sons</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/803115724">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3331#Agent/g_p_putnam_s_sons"/>
+    <schema:productID>803115724</schema:productID>
+    <schema:numberOfPages>319</schema:numberOfPages>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3331#Person/nabokov_vladimir_vladimirovich_1899_1977"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>803115724</library:oclcnum>
+    <schema:copyrightYear>op.</schema:copyrightYear>
+    <schema:name>Lolita : Vladimir Nabokov.</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/803115724"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/803115724#PublicationEvent/new_york_g_p_putnam_s_sons_cop_1955"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3331"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/803115724">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/803115724"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/803115724#PublicationEvent/new_york_g_p_putnam_s_sons_cop_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3331#Agent/g_p_putnam_s_sons"/>
+    <schema:startDate>co. 1955</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

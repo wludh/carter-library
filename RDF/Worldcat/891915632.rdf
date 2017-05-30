@@ -1,0 +1,203 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/philosophie_geschichte_mittelalter">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Philosophie / Geschichte / Mittelalter</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/philosophie_geschichte_antike">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Philosophie / Geschichte / Antike</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/erkenntnis_sophisten">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Erkenntnis / Sophisten</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/ethik_epikureismus">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Ethik / Epikureismus</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/existentialismus_kommentar">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Existentialismus / Kommentar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/patristik_kommentar">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Patristik / Kommentar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/naturphilosophie_vorsokratiker">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Naturphilosophie / Vorsokratiker</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/realismus_kommentar">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Realismus / Kommentar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/positivismus_kommentar">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Positivismus / Kommentar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/rationalismus_kommentar">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Rationalismus / Kommentar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/sophisten_kommentar">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Sophisten / Kommentar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Person/wood_ledger">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wood</schema:familyName>
+    <schema:givenName>Ledger</schema:givenName>
+    <schema:name>Ledger Wood</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/christentum_philosophie">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Christentum / Philosophie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/neoplatonismus_kommentar">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Neoplatonismus / Kommentar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/pragmatismus_kommentar">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Pragmatismus / Kommentar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/idealismus_kommentar">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Idealismus / Kommentar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/aufklarung_philosophie">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Aufklärung / Philosophie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Person/thilly_frank">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Thilly</schema:familyName>
+    <schema:givenName>Frank</schema:givenName>
+    <schema:name>Frank Thilly</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/891915632#PublicationEvent/new_york_holt_1951">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Agent/holt"/>
+    <schema:startDate>1951</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/891915632">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/891915632"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/renaissance_philosophie">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Renaissance / Philosophie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/kant_immanuel">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Kant, Immanuel</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/philosophie_geschichte_moderne">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Philosophie / Geschichte / Moderne</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/vorsokratiker_kommentar">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Vorsokratiker / Kommentar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/aristoteles_kommentar">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Aristoteles / Kommentar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/empiricismus_kommentar">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Empiricismus / Kommentar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/scholastik_kommentar">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Scholastik / Kommentar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/891915632">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/philosophie_geschichte_moderne"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/kant_immanuel"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/aufklarung_philosophie"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Person/wood_ledger"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/aristoteles_kommentar"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/vorsokratiker_kommentar"/>
+    <schema:name>A history of philosophy</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/erkenntnis_sophisten"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/891915632"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/497524271"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/phanomenologie_einfuhrung"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/idealismus_kommentar"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/pragmatismus_kommentar"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>891915632</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/platon_kommentar"/>
+    <library:oclcnum>891915632</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/empiricismus_kommentar"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/philosophie_geschichte_antike"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Person/thilly_frank"/>
+    <schema:datePublished>1951</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/positivismus_kommentar"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/renaissance_philosophie"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/891915632#PublicationEvent/new_york_holt_1951"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/wissenschaft_renaissance"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/naturphilosophie_vorsokratiker"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/neoplatonismus_kommentar"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/existentialismus_kommentar"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/scholastik_kommentar"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/realismus_kommentar"/>
+    <schema:bookEdition>Revised ed.</schema:bookEdition>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/ethik_epikureismus"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/philosophie_geschichte_mittelalter"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Agent/holt"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/rationalismus_kommentar"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/sophisten_kommentar"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/christentum_philosophie"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/patristik_kommentar"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/497524271#Thing/epikureismus_kommentar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/phanomenologie_einfuhrung">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Phänomenologie / Einführung</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/wissenschaft_renaissance">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Wissenschaft / Renaissance</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/epikureismus_kommentar">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Epikureismus / Kommentar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Agent/holt">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Holt</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/497524271#Thing/platon_kommentar">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Platon / Kommentar</schema:name>
+  </rdf:Description>
+</rdf:RDF>

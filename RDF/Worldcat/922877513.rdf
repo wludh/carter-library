@@ -1,0 +1,64 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/922877513">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/922877513"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/922877513#PublicationEvent/new_york_a_a_knopf_1952_cop_1945">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2313493#Agent/a_a_knopf"/>
+    <schema:startDate>1952</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2313493#Agent/a_a_knopf">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>A. A. Knopf</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2313493#Person/ransom_john_crowe_1888_1974">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ransom</schema:familyName>
+    <schema:givenName>John Crowe</schema:givenName>
+    <schema:name>John Crowe Ransom</schema:name>
+    <schema:birthDate>1888</schema:birthDate>
+    <schema:deathDate>1974</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/922877513">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/922877513"/>
+    <schema:productID>922877513</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>922877513</library:oclcnum>
+    <schema:bookEdition>2nd printing.</schema:bookEdition>
+    <schema:datePublished>1952</schema:datePublished>
+    <schema:copyrightYear>1945</schema:copyrightYear>
+    <schema:name>Selected poems</schema:name>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/2313493#Person/ransom_john_crowe_1888_1974"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2313493"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/922877513#PublicationEvent/new_york_a_a_knopf_1952_cop_1945"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2313493#Agent/a_a_knopf"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+</rdf:RDF>
