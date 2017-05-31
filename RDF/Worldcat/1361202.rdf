@@ -1,0 +1,138 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/431244775#Person/camus_albert_1913_1960">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Camus</schema:familyName>
+    <schema:givenName>Albert</schema:givenName>
+    <schema:name>Albert Camus</schema:name>
+    <schema:birthDate>1913</schema:birthDate>
+    <schema:deathDate>1960</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/7392250">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kierkegaard</schema:familyName>
+    <schema:givenName>Søren</schema:givenName>
+    <schema:name>Søren Kierkegaard</schema:name>
+    <schema:birthDate>1813</schema:birthDate>
+    <schema:deathDate>1855</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/431244775#Person/kierkegaard_soren_1813_1855">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kierkegaard</schema:familyName>
+    <schema:givenName>Søren</schema:givenName>
+    <schema:name>Søren Kierkegaard</schema:name>
+    <schema:birthDate>1813</schema:birthDate>
+    <schema:deathDate>1855</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/89798474">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Nietzsche</schema:familyName>
+    <schema:givenName>Friedrich Wilhelm</schema:givenName>
+    <schema:name>Friedrich Wilhelm Nietzsche</schema:name>
+    <schema:birthDate>1844</schema:birthDate>
+    <schema:deathDate>1900</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1361202#PublicationEvent/new_york_atheneum_1962">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/431244775#Agent/atheneum"/>
+    <schema:startDate>1962</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/918204">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Existentialism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1361202">
+    <schema:name xml:lang="en">The lyrical existentialists</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/431244775#Agent/atheneum"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/431244775#Person/hanna_thomas_1928_1990"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/431244775#Person/nietzsche_friedrich_wilhelm_1844_1900"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/7392250"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/918204"/>
+    <schema:bookEdition>First edition.</schema:bookEdition>
+    <library:oclcnum>1361202</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/431244775"/>
+    <schema:about rdf:resource="http://dewey.info/class/111.1/"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1361202#PublicationEvent/new_york_atheneum_1962"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:datePublished>1962</schema:datePublished>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/B819"/>
+    <schema:productID>1361202</schema:productID>
+    <schema:about rdf:resource="http://viaf.org/viaf/89798474"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/431244775#Person/camus_albert_1913_1960"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1361202"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://viaf.org/viaf/97000332"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/431244775#Person/kierkegaard_soren_1813_1855"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/647050923"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/647050923">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1361202"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Lyrical existentialists.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/431244775#Agent/atheneum">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Atheneum</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/431244775#Person/nietzsche_friedrich_wilhelm_1844_1900">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Nietzsche</schema:familyName>
+    <schema:givenName>Friedrich Wilhelm</schema:givenName>
+    <schema:name>Friedrich Wilhelm Nietzsche</schema:name>
+    <schema:birthDate>1844</schema:birthDate>
+    <schema:deathDate>1900</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/97000332">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Camus</schema:familyName>
+    <schema:givenName>Albert</schema:givenName>
+    <schema:name>Albert Camus</schema:name>
+    <schema:birthDate>1913</schema:birthDate>
+    <schema:deathDate>1960</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/111.1/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/B819">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/431244775#Person/hanna_thomas_1928_1990">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hanna</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Hanna</schema:name>
+    <schema:birthDate>1928</schema:birthDate>
+    <schema:deathDate>1990</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1361202">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1361202"/>
+    <schema:dateModified>2017-05-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

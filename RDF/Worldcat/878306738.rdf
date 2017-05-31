@@ -1,0 +1,93 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/499798449#Topic/psichiatria_e_esistenzialismo">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Psichiatria e esistenzialismo</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/499798449#Topic/esistenzialismo_interpretazione_psichiatrica_e_psicologica">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Esistenzialismo--Interpretazione psichiatrica e psicologica</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/499798449#Person/ellenberger_henry_f_1905">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ellenberger</schema:familyName>
+    <schema:givenName>Henry F.</schema:givenName>
+    <schema:name>Henry F. Ellenberger</schema:name>
+    <schema:birthDate>1905</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/878306738">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/878306738"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/499798449#Agent/basic_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Basic books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/878306738#PublicationEvent/new_york_basic_books_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/499798449#Agent/basic_books"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/499798449#Person/may_rollo_1909">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>May</schema:familyName>
+    <schema:givenName>Rollo</schema:givenName>
+    <schema:name>Rollo May</schema:name>
+    <schema:birthDate>1909</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/499798449#Topic/esistenziale_psicologia_saggi">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Esistenziale--Psicologia--Saggi</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/499798449#Person/angel_ernest">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Angel</schema:familyName>
+    <schema:givenName>Ernest</schema:givenName>
+    <schema:name>Ernest Angel</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/878306738">
+    <schema:name>Existence : a new dimension in psychiatry and psychology.</schema:name>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:description>May, Rollo: The origins and significance of the existential movement in Psychology. -- Ellenberger, Henri F.: A clinical introduction to psychiatric phenomenology ... -- Minkowski, Eugene: Findings in a case of schizophrenic depression. -- Straus, Erwin W.: Aestesiology and hallucinations. -- Gebsattel, V. E. von: The world of the compulsive. -- Kuhn, Roland: The attempted murder of a prostitute. -- Binswanger, Ludwig: The case of Ellen West. -- Gebsattel, V. E. von: The world of the compulsive. -- Binswanger, Ludwig: The existential analysis school of thought</schema:description>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/878306738"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/499798449#Agent/basic_books"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/499798449#Person/may_rollo_1909"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/499798449"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/499798449#Topic/esistenzialismo_interpretazione_psichiatrica_e_psicologica"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/499798449#Topic/psichiatria_e_esistenzialismo"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/878306738#PublicationEvent/new_york_basic_books_1959"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/499798449#Topic/esistenziale_psicologia_saggi"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/499798449#Person/angel_ernest"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <library:oclcnum>878306738</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>878306738</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:numberOfPages>445</schema:numberOfPages>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/499798449#Person/ellenberger_henry_f_1905"/>
+  </rdf:Description>
+</rdf:RDF>

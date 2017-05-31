@@ -1,0 +1,84 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2746264632#Series/the_modern_student_s_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/924414269"/>
+    <schema:name>The modern student's library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/2746264632">
+    <schema:name>Urval. 1927</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2746264632#Person/demos_raphael">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Demos</schema:familyName>
+    <schema:givenName>Raphael</schema:givenName>
+    <schema:name>Raphael Demos</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/924414269">
+    <schema:productID>924414269</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/924414269#PublicationEvent/london_charles_scribner_s_sons_cop_1927"/>
+    <library:oclcnum>924414269</library:oclcnum>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2746264632#Person/platon_427_347_f_kr"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/2746264632#Person/demos_raphael"/>
+    <schema:name>Selections</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2746264632#Agent/charles_scribner_s_sons"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2746264632#Series/the_modern_student_s_library"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2746264632"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:copyrightYear>op.</schema:copyrightYear>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/924414269"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/924414269#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:datePublished>1927</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxk"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/924414269#PublicationEvent/london_charles_scribner_s_sons_cop_1927">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2746264632#Agent/charles_scribner_s_sons"/>
+    <schema:startDate>co. 1927</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/924414269">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/924414269"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/924414269#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Urval. 1927</schema:name>
+    <schema:inLanguage>grc</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2746264632#Agent/charles_scribner_s_sons">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Charles Scribner's sons</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2746264632#Person/platon_427_347_f_kr">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Platon</schema:givenName>
+    <schema:name>Platon</schema:name>
+    <schema:birthDate>427</schema:birthDate>
+    <schema:deathDate>347 fKr</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

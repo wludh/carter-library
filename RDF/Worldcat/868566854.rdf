@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2347595#Topic/conservatisme_histoire">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Conservatisme--Histoire</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2347595#Person/kirk_russell_1918_1994">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kirk</schema:familyName>
+    <schema:givenName>Russell</schema:givenName>
+    <schema:name>Russell Kirk</schema:name>
+    <schema:birthDate>1918</schema:birthDate>
+    <schema:deathDate>1994</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/321/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/B809">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/868566854#PublicationEvent/chicago_h_regnery_company_cop_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2347595#Agent/h_regnery_company"/>
+    <schema:startDate>co. 1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2347595#Topic/philosophie_politique">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Philosophie politique</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2347595#Agent/h_regnery_company">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>H. Regnery Company</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/868566854">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/868566854#PublicationEvent/chicago_h_regnery_company_cop_1960"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2347595#Topic/philosophie_politique"/>
+    <schema:copyrightYear>op.</schema:copyrightYear>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/B809"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2347595#Agent/h_regnery_company"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:about rdf:resource="http://dewey.info/class/321/"/>
+    <library:oclcnum>868566854</library:oclcnum>
+    <schema:copyrightYear>1960</schema:copyrightYear>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/868566854"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2347595#Person/kirk_russell_1918_1994"/>
+    <schema:bookEdition>3d rev. ed.</schema:bookEdition>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2347595"/>
+    <schema:productID>868566854</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2347595#Topic/conservatisme_histoire"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name>The conservative mind from Burke to Eliot</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/868566854">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/868566854"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

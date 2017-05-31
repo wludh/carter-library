@@ -1,0 +1,91 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dewey.info/class/355.48/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/844168908#PublicationEvent/new_brunswick_n_jrutgers_university_press1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/673265#Place/new_brunswick_n_j"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/673265#Agent/rutgers_university_press"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/673265#Topic/military_art_and_science_history_to_500">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Military art and science--History--To 500</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/673265#Person/fuller_john_frederick_charles_1878_1966">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fuller</schema:familyName>
+    <schema:givenName>John Frederick Charles</schema:givenName>
+    <schema:name>John Frederick Charles Fuller</schema:name>
+    <schema:birthDate>1878</schema:birthDate>
+    <schema:deathDate>1966</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/673265#Agent/rutgers_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Rutgers University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/673265#Topic/macedonia_history_military">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Macedonia--History, Military</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/673265#Place/new_brunswick_n_j">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New Brunswick, N.J</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/844168908">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/673265#Agent/rutgers_university_press"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/844168908"/>
+    <schema:productID>844168908</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/844168908#PublicationEvent/new_brunswick_n_jrutgers_university_press1960"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/673265#Topic/military_art_and_science_history_to_500"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/673265"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/673265#Topic/macedonia_history_military"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/673265#Topic/alexander_the_great_military_leadership"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/673265#Topic/greece_history_macedonian_expansion_359_323_b_c"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/673265#Topic/generals_biography_greece"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/673265#Place/new_brunswick_n_j"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:about rdf:resource="http://dewey.info/class/355.48/"/>
+    <schema:name>The generalship of Alexander the Great</schema:name>
+    <library:oclcnum>844168908</library:oclcnum>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/673265#Person/fuller_john_frederick_charles_1878_1966"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/844168908">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/844168908"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/673265#Topic/alexander_the_great_military_leadership">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Alexander, the Great--Military leadership</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/673265#Topic/greece_history_macedonian_expansion_359_323_b_c">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Greece--History--Macedonian expansion, 359-323 B.C</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/673265#Topic/generals_biography_greece">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Generals--Biography--Greece</schema:name>
+  </rdf:Description>
+</rdf:RDF>

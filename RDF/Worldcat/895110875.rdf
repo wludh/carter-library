@@ -1,0 +1,55 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/895110875#PublicationEvent/yonkers_on_hudson_n_y_1910">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3900993661#Agent/yonkers_on_hudson_n_y"/>
+    <schema:startDate>1910</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3900993661#Series/new_world_sci_ser">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/895110875"/>
+    <schema:name>New-World Sci. Ser.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/895110875">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/895110875"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/895110875">
+    <schema:datePublished>1910</schema:datePublished>
+    <schema:productID>895110875</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3900993661#Series/new_world_sci_ser"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3900993661"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/895110875"/>
+    <library:oclcnum>895110875</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3900993661#Agent/yonkers_on_hudson_n_y"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">Primer of sanitation: being a simple work on disease germs and how to fight them.</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/895110875#PublicationEvent/yonkers_on_hudson_n_y_1910"/>
+    <schema:copyrightYear>uuuu</schema:copyrightYear>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3900993661#Person/ritchie_john_woodside"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3900993661#Agent/yonkers_on_hudson_n_y">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Yonkers-on-Hudson, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3900993661#Person/ritchie_john_woodside">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ritchie</schema:familyName>
+    <schema:givenName>John Woodside</schema:givenName>
+    <schema:name>John Woodside Ritchie</schema:name>
+  </rdf:Description>
+</rdf:RDF>

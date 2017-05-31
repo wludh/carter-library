@@ -1,0 +1,76 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/899065585#PublicationEvent/garden_city_n_y_garden_city_publ_co_cop_1934">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1163254#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1163254#Agent/garden_city_publ_co"/>
+    <schema:startDate>co. 1934</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1163254#Agent/garden_city_publ_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Garden City Publ. Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1163254#Topic/british">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>British</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1163254#Topic/british_foreign_countries">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>British--Foreign countries</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/899065585">
+    <schema:bookEdition>Deluxe ed.</schema:bookEdition>
+    <schema:name>East and west : the collected short stories of W. Somerset Maugham.</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/899065585"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1163254#Person/maugham_w_somerset_william_somerset_1874_1965"/>
+    <schema:datePublished>1934</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1163254#Place/garden_city_n_y"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1163254#Topic/british_foreign_countries"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/899065585#PublicationEvent/garden_city_n_y_garden_city_publ_co_cop_1934"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:numberOfPages>955</schema:numberOfPages>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1163254#Topic/british"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1163254"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>899065585</schema:productID>
+    <library:oclcnum>899065585</library:oclcnum>
+    <schema:copyrightYear>op.</schema:copyrightYear>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1163254#Agent/garden_city_publ_co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1163254#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1163254#Person/maugham_w_somerset_william_somerset_1874_1965">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Maugham</schema:familyName>
+    <schema:givenName>W. Somerset</schema:givenName>
+    <schema:givenName>William Somerset</schema:givenName>
+    <schema:name>William Somerset Maugham</schema:name>
+    <schema:birthDate>1874</schema:birthDate>
+    <schema:deathDate>1965</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/899065585">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/899065585"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

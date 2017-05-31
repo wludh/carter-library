@@ -1,0 +1,103 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/11052164">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/11052164"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/9846192">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Flaubert</schema:familyName>
+    <schema:givenName>Gustave</schema:givenName>
+    <schema:name>Gustave Flaubert</schema:name>
+    <schema:birthDate>1821</schema:birthDate>
+    <schema:deathDate>1880</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/11052164">
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/20491630"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/805475#Agent/dutton"/>
+    <library:oclcnum>11052164</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/805475#Agent/dent"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/805475#Series/everyman_s_library"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/11052164#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:name xml:lang="en">Salammbo</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1948</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/11052164"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:productID>11052164</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://dewey.info/class/813/"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/11052164#PublicationEvent/london_dent_new_york_dutton_1948"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/805475"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/9846192"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/11052164#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Salammbo.</schema:name>
+    <schema:inLanguage>fr</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/805475">
+    <schema:name>Salammbo.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/11052164#PublicationEvent/london_dent_new_york_dutton_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/805475#Agent/dent"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/805475#Agent/dutton"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/805475#Agent/dutton">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Dutton</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/805475#Agent/dent">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Dent</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/805475#Series/everyman_s_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/11052164"/>
+    <schema:name>Everyman's library ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/20491630">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Chartres</schema:familyName>
+    <schema:givenName>John</schema:givenName>
+    <schema:name>John Chartres</schema:name>
+    <schema:birthDate>1862</schema:birthDate>
+    <schema:deathDate>1927</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,81 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/889638181">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/47857996"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Microbiology.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/47857996">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/889638181"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>47857996</schema:productID>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/224223743#Person/marshall_charles_edward_1866_1927"/>
+    <schema:name xml:lang="en">Microbiology : a textbook of microörganisms general and applied</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/224223743#Agent/blakiston"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1912</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1019928"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/224223743"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/224223743#Place/philadelphia"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/pau"/>
+    <library:oclcnum>47857996</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/47857996#PublicationEvent/philadelphia_blakiston_1912"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/47857996"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1019576"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/224223743#Person/marshall_charles_edward_1866_1927"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/47857996#PublicationEvent/philadelphia_blakiston_1912">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/224223743#Place/philadelphia"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/224223743#Agent/blakiston"/>
+    <schema:startDate>1912</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/47857996">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/47857996"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/224223743#Agent/blakiston">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Blakiston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/pau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>pau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/224223743#Person/marshall_charles_edward_1866_1927">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Marshall</schema:familyName>
+    <schema:givenName>Charles Edward</schema:givenName>
+    <schema:name>Charles Edward Marshall</schema:name>
+    <schema:birthDate>1866</schema:birthDate>
+    <schema:deathDate>1927</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1019576">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Microbiology</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1019928">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Microorganisms</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/224223743#Place/philadelphia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Philadelphia</schema:name>
+  </rdf:Description>
+</rdf:RDF>

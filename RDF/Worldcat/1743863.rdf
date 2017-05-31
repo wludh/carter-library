@@ -1,0 +1,124 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85106512">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Press agents</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2900773#Series/murray_hill_mystery">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1743863"/>
+    <schema:name>Murray Hill mystery.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2900773#Place/hollywood_los_angeles_calif">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Hollywood (Los Angeles, Calif.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/Fic/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2900773#Series/a_murray_hill_mystery">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1743863"/>
+    <schema:name>A Murray Hill mystery</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/vp">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>vp</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2900773#Agent/rinehart_&amp;_company_inc">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Rinehart &amp; Company, Inc.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2900773#Place/toronto">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Toronto</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/48807731">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Marble</schema:familyName>
+    <schema:givenName>M. S.</schema:givenName>
+    <schema:givenName>Margaret Sharp</schema:givenName>
+    <schema:name>Margaret Sharp Marble</schema:name>
+    <schema:birthDate>1913</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1743863">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1075864"/>
+    <schema:name xml:lang="en">Everybody makes mistakes</schema:name>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2900773#Series/murray_hill_mystery"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>1743863</library:oclcnum>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2900773#Series/a_murray_hill_mystery"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2900773#Topic/murder_investigation_california_los_angeles"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1743863#PublicationEvent/new_york_toronto_rinehart_&amp;_company_inc_1946"/>
+    <schema:genre xml:lang="en">Detective and mystery fiction</schema:genre>
+    <schema:genre xml:lang="en">Detective and mystery stories</schema:genre>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2900773#Place/toronto"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2900773"/>
+    <schema:about rdf:resource="http://dewey.info/class/Fic/"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/vp"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204540"/>
+    <schema:copyrightYear>1946</schema:copyrightYear>
+    <schema:description xml:lang="en">When one of his clients is murdered, Hollywood press agent Red Kennedy becomes the chief suspect.</schema:description>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2900773#Agent/rinehart_&amp;_company_inc"/>
+    <schema:productID>1743863</schema:productID>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85106512"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/48807731"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1743863"/>
+    <schema:datePublished>1946</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1312041"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1029788"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2900773#Place/hollywood_los_angeles_calif"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1029788">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Murder--Investigation</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1312041">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>California--Los Angeles--Hollywood.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2900773#Topic/murder_investigation_california_los_angeles">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85088615"/>
+    <schema:name xml:lang="en">Murder--Investigation--California--Los Angeles</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204540">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>California--Los Angeles.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1743863#PublicationEvent/new_york_toronto_rinehart_&amp;_company_inc_1946">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2900773#Place/toronto"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2900773#Agent/rinehart_&amp;_company_inc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1075864">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Press agents</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1743863">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1743863"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

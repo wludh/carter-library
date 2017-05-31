@@ -1,0 +1,58 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/732703116#PublicationEvent/published_for_the_virginia_historical_society_by_the_university_of_north_carolina_press_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1617469#Agent/published_for_the_virginia_historical_society_by_the_university_of_north_carolina_press"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1617469#Person/fishwick_marshall_william">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fishwick</schema:familyName>
+    <schema:givenName>Marshall William</schema:givenName>
+    <schema:name>Marshall William Fishwick</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/732703116">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name xml:lang="en">General Lee's photographer: the life and work of Michael Miley.</schema:name>
+    <schema:productID>732703116</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1617469"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1617469#Topic/lee_robert_edward_1807_1870"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1617469#Agent/published_for_the_virginia_historical_society_by_the_university_of_north_carolina_press"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/732703116"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <library:oclcnum>732703116</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/732703116#PublicationEvent/published_for_the_virginia_historical_society_by_the_university_of_north_carolina_press_1954"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1617469#Topic/miley_michael_1841_1918"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1617469#Person/fishwick_marshall_william"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1617469#Topic/lee_robert_edward_1807_1870">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Lee, Robert Edward, 1807-1870</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1617469#Agent/published_for_the_virginia_historical_society_by_the_university_of_north_carolina_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Published for the Virginia Historical Society by the University of North Carolina Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1617469#Topic/miley_michael_1841_1918">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">mIley, Michael, 1841-1918</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/732703116">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/732703116"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

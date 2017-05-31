@@ -1,0 +1,67 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/960801640#Agent/vanderbilt_univ_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Vanderbilt Univ. Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/918186962#PublicationEvent/nashville_tenn_vanderbilt_univ_press_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/960801640#Place/nashville_tenn"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/960801640#Agent/vanderbilt_univ_press"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/960801640#Person/purdy_rob_roy">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Purdy</schema:familyName>
+    <schema:givenName>Rob Roy</schema:givenName>
+    <schema:name>Rob Roy Purdy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/tnu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>tnu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/918186962">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/918186962"/>
+    <schema:dateModified>2017-04-29</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/960801640#Series/vanderbilt_studies_in_the_humanities">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/918186962"/>
+    <schema:name>Vanderbilt Studies in the Humanities ;</schema:name>
+    <schema:name>Vanderbilt studies in the humanities ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/918186962">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/tnu"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/960801640#Place/nashville_tenn"/>
+    <library:oclcnum>918186962</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name>Fugitives' reunion : conversations at Vanderbilt, May 3 - 5, 1956</schema:name>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/960801640#Series/vanderbilt_studies_in_the_humanities"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/960801640#Agent/vanderbilt_univ_press"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/960801640#Person/purdy_rob_roy"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/918186962"/>
+    <schema:productID>918186962</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/960801640"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/918186962#PublicationEvent/nashville_tenn_vanderbilt_univ_press_1959"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/960801640#Place/nashville_tenn">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Nashville, Tenn.</schema:name>
+  </rdf:Description>
+</rdf:RDF>
