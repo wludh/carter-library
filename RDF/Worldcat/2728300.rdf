@@ -1,0 +1,94 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2728300">
+    <schema:bookEdition>11th ed., rev. and enl.</schema:bookEdition>
+    <schema:creator rdf:resource="http://viaf.org/viaf/846339"/>
+    <schema:name xml:lang="en">Familiar quotations : a collection of passages, phrases, and proverbs traced to their sources in ancient and modern literature</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/133777"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1086132"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/44475#Place/garden_city_n_y"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>2728300</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/44475#Agent/garden_city_pub_co"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2728300"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/44475"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/44475#Topic/citations_anglaises"/>
+    <schema:about rdf:resource="http://dewey.info/class/808.8/"/>
+    <library:oclcnum>2728300</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2728300#PublicationEvent/garden_city_n_y_garden_city_pub_co_1944"/>
+    <schema:genre xml:lang="en">Quotations</schema:genre>
+    <schema:datePublished>1944</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/275638874"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2728300#PublicationEvent/garden_city_n_y_garden_city_pub_co_1944">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/44475#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/44475#Agent/garden_city_pub_co"/>
+    <schema:startDate>1944</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/846339">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bartlett</schema:familyName>
+    <schema:givenName>John</schema:givenName>
+    <schema:name>John Bartlett</schema:name>
+    <schema:birthDate>1820</schema:birthDate>
+    <schema:deathDate>1905,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/275638874">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Everett</schema:familyName>
+    <schema:givenName>Louella D.</schema:givenName>
+    <schema:name>Louella D. Everett</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/44475#Topic/citations_anglaises">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Citations anglaises</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1086132">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Quotations</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/44475#Agent/garden_city_pub_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Garden City Pub. Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2728300">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2728300"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/44475#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/133777">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Morley</schema:familyName>
+    <schema:givenName>Christopher</schema:givenName>
+    <schema:name>Christopher Morley</schema:name>
+    <schema:birthDate>1890</schema:birthDate>
+    <schema:deathDate>1957,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/808.8/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

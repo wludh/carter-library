@@ -1,0 +1,108 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2638378#Place/indianapolis">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Indianapolis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/53129229">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Krause</schema:familyName>
+    <schema:givenName>Herbert</schema:givenName>
+    <schema:name>Herbert Krause</schema:name>
+    <schema:birthDate>1905</schema:birthDate>
+    <schema:deathDate>1976</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204560">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Minnesota.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1699846">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1699846"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/inu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>inu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/Fic/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2638378#Place/red_river_valley_minn_and_n_d_man">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Red River Valley (Minn. and N.D.-Man.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/613084933">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1699846"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Thresher.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1712157">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>North America--Red River Valley (Minnesota and North Dakota and Manitoba)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2638378#Agent/bobbs_merrill_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Bobbs-Merrill Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1699846">
+    <schema:description xml:lang="en">Young man achieves his life's ambition as head of a threshing crew in the middle-west.</schema:description>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/inu"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2638378#Agent/bobbs_merrill_co"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/941308"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2638378#Topic/german_americans"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/53129229"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2638378#Place/red_river_valley_minn_and_n_d_man"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1699846"/>
+    <library:oclcnum>1699846</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1946</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1712157"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1699846#PublicationEvent/indianapolis_bobbs_merrill_co_1946"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://dewey.info/class/Fic/"/>
+    <schema:productID>1699846</schema:productID>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/613084933"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2638378#Place/minnesota"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">The thresher</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204560"/>
+    <schema:bookEdition>1st ed.</schema:bookEdition>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2638378#Place/indianapolis"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2638378"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2638378#Topic/german_americans">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008105039"/>
+    <schema:name xml:lang="en">German Americans</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1699846#PublicationEvent/indianapolis_bobbs_merrill_co_1946">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2638378#Place/indianapolis"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2638378#Agent/bobbs_merrill_co"/>
+    <schema:startDate>1946</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/941308">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">German Americans</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2638378#Place/minnesota">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Minnesota</schema:name>
+  </rdf:Description>
+</rdf:RDF>

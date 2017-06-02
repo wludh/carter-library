@@ -1,0 +1,88 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nju">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nju</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1108635">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Science fiction, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/782828502#Agent/the_avalon_company">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>The Avalon Company</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/782828502#Person/moskowitz_sam">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Moskowitz</schema:familyName>
+    <schema:givenName>Sam</schema:givenName>
+    <schema:name>Sam Moskowitz</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1313755">
+    <library:oclcnum>1313755</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/782828502#Place/newark_new_jersey"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">Life everlasting : and other tales of science, fantasy, and horror</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/782828502#Agent/the_avalon_company"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1108635"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1313755#PublicationEvent/newark_new_jersey_the_avalon_company_1947"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/782828502#Person/moskowitz_sam"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/782828502#Person/sykora_will"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nju"/>
+    <schema:description xml:lang="en">Introduction / Sam Moskowitz -- Life everlasting -- The boneless horror -- Unto us a child is born -- No more tomorrows -- The thing in the cellar -- The dead woman -- Heredity -- The face in the mirror -- The cerebral library -- A piece of linoleum -- The thirty and one.</schema:description>
+    <schema:productID>1313755</schema:productID>
+    <schema:datePublished>1947</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1313755"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/34458644"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.5/"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/782828502"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/34458644">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Keller</schema:familyName>
+    <schema:givenName>David H.</schema:givenName>
+    <schema:givenName>David Henry</schema:givenName>
+    <schema:name>David Henry Keller</schema:name>
+    <schema:birthDate>1880</schema:birthDate>
+    <schema:deathDate>1966</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1313755">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1313755"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1313755#PublicationEvent/newark_new_jersey_the_avalon_company_1947">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/782828502#Place/newark_new_jersey"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/782828502#Agent/the_avalon_company"/>
+    <schema:startDate>1947</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/782828502#Person/sykora_will">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Sykora</schema:familyName>
+    <schema:givenName>Will</schema:givenName>
+    <schema:name>Will Sykora</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/782828502#Place/newark_new_jersey">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Newark, New Jersey</schema:name>
+  </rdf:Description>
+</rdf:RDF>

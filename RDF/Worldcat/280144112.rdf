@@ -1,0 +1,55 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/280144112">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/280144112"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/280144112#PublicationEvent/dent_1949"/>
+    <schema:name xml:lang="en">Five dialogues</schema:name>
+    <schema:bookEdition>[New] ed.</schema:bookEdition>
+    <library:oclcnum>280144112</library:oclcnum>
+    <schema:productID>280144112</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3768391340#Series/everyman_s_library"/>
+    <schema:datePublished>1949</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3768391340#Agent/dent"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3768391340#Person/plato"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3768391340"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/280144112#PublicationEvent/dent_1949">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3768391340#Agent/dent"/>
+    <schema:startDate>1949</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768391340#Agent/dent">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Dent</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/280144112">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/280144112"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768391340#Series/everyman_s_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/280144112"/>
+    <schema:name>Everyman's library</schema:name>
+    <schema:name>Everyman's library.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768391340#Person/plato">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Plato</schema:givenName>
+    <schema:name>Plato.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

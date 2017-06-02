@@ -1,0 +1,66 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/855407505">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/855407505"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/855407505#PublicationEvent/new_york_fleet_pub_corp_1962">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1705498#Agent/fleet_pub_corp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1705498#Agent/fleet_pub_corp">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Fleet Pub. Corp.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1705498#Topic/ghost_stories">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Ghost stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/855407505">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/855407505#PublicationEvent/new_york_fleet_pub_corp_1962"/>
+    <schema:description xml:lang="en">Uncle Isaiah. -- Off the snad road. -- Ex tenebris. -- The surly sullen bell. -- The cellar of Little Egypt. -- Skyberia. -- Sorworth Place. -- Behind the stumps. -- What shadows we pursue. -- Lost lake.</schema:description>
+    <schema:copyrightYear>1962</schema:copyrightYear>
+    <schema:datePublished>1962</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1705498#Topic/ghost_stories"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:oclcnum>855407505</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1705498#Agent/fleet_pub_corp"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1705498"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1705498#Person/kirk_russell"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name xml:lang="en">The surly sullen bell : ten stories and sketches, uncanny or uncomfortable</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>855407505</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/855407505"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1705498#Person/kirk_russell">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kirk</schema:familyName>
+    <schema:givenName>Russell</schema:givenName>
+    <schema:name>Russell Kirk</schema:name>
+  </rdf:Description>
+</rdf:RDF>

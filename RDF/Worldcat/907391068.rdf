@@ -1,0 +1,65 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/907391068#PublicationEvent/new_york_doubleday_&amp;_company_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1449062#Agent/doubleday_&amp;_company"/>
+    <schema:startDate>1961</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/907391068">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/907391068"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1449062#Agent/doubleday_&amp;_company">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday &amp; Company</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1449062#Organization/doubleday_&amp;_company">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Doubleday &amp; Company.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/907391068">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/907391068#PublicationEvent/new_york_doubleday_&amp;_company_1961"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1449062#Organization/doubleday_&amp;_company"/>
+    <schema:name>Nude descending a staircase : poems, songs, a ballad</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1449062#Agent/doubleday_&amp;_company"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1961</schema:datePublished>
+    <library:oclcnum>907391068</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1449062#Person/kennedy_x_j"/>
+    <schema:productID>907391068</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1449062"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/907391068"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1449062#Person/kennedy_x_j">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kennedy</schema:familyName>
+    <schema:givenName>X. J.</schema:givenName>
+    <schema:name>X. J. Kennedy</schema:name>
+  </rdf:Description>
+</rdf:RDF>

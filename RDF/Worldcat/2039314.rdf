@@ -1,0 +1,91 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1108635">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Science fiction, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/401120277#Place/philadelphia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Philadelphia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2039314#PublicationEvent/philadelphia_new_era_publishers_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/401120277#Place/philadelphia"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/401120277#Agent/new_era_publishers"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/655574819">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/2039314"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Solitary hunters and The abyss.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2039314">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2039314"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/401120277#CreativeWork/abyss">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Abyss.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/34458644"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/401120277#Agent/new_era_publishers">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Era Publishers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2039314">
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/pau"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2039314#PublicationEvent/philadelphia_new_era_publishers_1948"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2039314"/>
+    <schema:name xml:lang="en">The solitary hunters and the abyss : two fantastic novels</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1108635"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/34458644"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/401120277#CreativeWork/abyss"/>
+    <schema:alternateName>Abyss</schema:alternateName>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>2039314</schema:productID>
+    <schema:genre xml:lang="en">Science fiction</schema:genre>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/655574819"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1948</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/401120277#Place/philadelphia"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/34458644"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/401120277"/>
+    <schema:bookEdition>1st ed.</schema:bookEdition>
+    <library:oclcnum>2039314</library:oclcnum>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:about rdf:resource="http://dewey.info/class/813.5/"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/401120277#Agent/new_era_publishers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/pau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>pau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/34458644">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Keller</schema:familyName>
+    <schema:givenName>David H.</schema:givenName>
+    <schema:givenName>David Henry</schema:givenName>
+    <schema:name>David Henry Keller</schema:name>
+    <schema:birthDate>1880</schema:birthDate>
+    <schema:deathDate>1966</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>
