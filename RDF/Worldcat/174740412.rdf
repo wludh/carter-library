@@ -1,0 +1,55 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/174740412">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/174740412"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855858944#Person/blanshard_rufus_a">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Blanshard</schema:familyName>
+    <schema:givenName>Rufus A.</schema:givenName>
+    <schema:name>Rufus A. Blanshard</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/174740412">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3855858944"/>
+    <schema:name>Collected criticism of Conrad Aiken from 1916 to the present : a reviewe's abc</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3855858944#Place/s_l"/>
+    <library:oclcnum>174740412</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>174740412</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/174740412"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3855858944#Agent/meridian_books"/>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/3855858944#Person/blanshard_rufus_a"/>
+    <schema:bookEdition>1. publ., 1.printing.</schema:bookEdition>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/174740412#PublicationEvent/s_l_meridian_books_1958"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855858944#Place/s_l">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>S.l.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855858944#Agent/meridian_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Meridian Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/174740412#PublicationEvent/s_l_meridian_books_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3855858944#Place/s_l"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3855858944#Agent/meridian_books"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

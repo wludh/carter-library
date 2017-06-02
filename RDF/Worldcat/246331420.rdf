@@ -1,0 +1,76 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/246331420">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/246331420"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/57880470#Topic/psychological_fiction_english_history_and_criticism"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/246331420#PublicationEvent/new_yorkknopf1956_c_1955"/>
+    <schema:about rdf:resource="http://dewey.info/class/823.91/"/>
+    <library:oclcnum>246331420</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/108224907"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/57880470#Agent/knopf"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/57880470"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/57880470#Topic/lawrence_d_h_criticism_and_interpretation"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name>D. H. Lawrence: novelist</schema:name>
+    <schema:productID>246331420</schema:productID>
+    <schema:bookEdition>[1st American ed.]</schema:bookEdition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/246331420">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/246331420"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/246331420#PublicationEvent/new_yorkknopf1956_c_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/57880470#Agent/knopf"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/57880470#Topic/psychological_fiction_english_history_and_criticism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Psychological fiction, English--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.91/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/57880470#Agent/knopf">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Knopf</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/57880470#Topic/lawrence_d_h_criticism_and_interpretation">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Lawrence, D. H.--Criticism and interpretation</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/108224907">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Leavis</schema:familyName>
+    <schema:givenName>Frank Raymond</schema:givenName>
+    <schema:name>Frank Raymond Leavis</schema:name>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/118779109"/>
+  </rdf:Description>
+</rdf:RDF>

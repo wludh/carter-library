@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1489457#Place/grove_press">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Grove Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1489457#Person/smith_william_jay">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>SMITH</schema:familyName>
+    <schema:givenName>William Jay</schema:givenName>
+    <schema:name>William Jay SMITH</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1489457#Agent/new_york">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/34458905">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>LAFORGUE</schema:familyName>
+    <schema:givenName>Jules</schema:givenName>
+    <schema:name>Jules LAFORGUE</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/561474880#PublicationEvent/grove_press_new_york_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1489457#Place/grove_press"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1489457#Agent/new_york"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/561474880">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/561474880"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1489457#Series/evergreen_books_no_78">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/561474880"/>
+    <schema:name>[Evergreen Books. no. 78.]</schema:name>
+    <schema:name>Evergreen Books. no. 78.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/561474880">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>561474880</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1489457"/>
+    <schema:name xml:lang="en">Selected Writings of Jules Laforgue. Edited &amp; translated by William Jay Smith.</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1489457#Agent/new_york"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/561474880"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1489457#Person/smith_william_jay"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1489457#Series/evergreen_books_no_78"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/561474880#PublicationEvent/grove_press_new_york_1956"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1489457#Place/grove_press"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/34458905"/>
+    <library:oclcnum>561474880</library:oclcnum>
+  </rdf:Description>
+</rdf:RDF>

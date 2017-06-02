@@ -1,0 +1,88 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2230623#Agent/bobbs_merrill">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Bobbs-Merrill</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2230623#Topic/english_literature">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh85043787"/>
+    <schema:name xml:lang="en">English literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1292855#PublicationEvent/indianapolis_bobbs_merrill1952">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2230623#Place/indianapolis"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2230623#Agent/bobbs_merrill"/>
+    <schema:startDate>1952</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/820.88/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/inu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>inu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/85175372">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Myers</schema:familyName>
+    <schema:givenName>Robert Manson</schema:givenName>
+    <schema:name>Robert Manson Myers</schema:name>
+    <schema:birthDate>1921</schema:birthDate>
+    <schema:deathDate>2014</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2230623#Place/indianapolis">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Indianapolis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1292855">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1292855"/>
+    <schema:dateModified>2017-04-26</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/911989">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/568756754">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1292855"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>From Beowulf to Virginia Woolf.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1292855">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/inu"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2230623#Agent/bobbs_merrill"/>
+    <schema:datePublished>1952</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2230623"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2230623#Topic/english_literature"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:genre xml:lang="en">Anecdotes</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/911989"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1292855#PublicationEvent/indianapolis_bobbs_merrill1952"/>
+    <schema:about rdf:resource="http://dewey.info/class/820.88/"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2230623#Place/indianapolis"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:description xml:lang="en">Zarathustra -- William the Conqueror -- Mahatma Dante -- The invisible Spanish armada -- Shakespeare and Bacon -- The grate fire of London -- The bucolic plague -- A Sunday in the country -- Ancient Egyptian hydraulic -- Perpetual emotion -- William Jennings Byron -- Flush -- Audrey Beardsley.</schema:description>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1292855"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/85175372"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>1292855</library:oclcnum>
+    <schema:bookEdition>[1st ed.].</schema:bookEdition>
+    <schema:productID>1292855</schema:productID>
+    <schema:name xml:lang="en">From Beowulf to Virginia Woolf; an astounding and wholly unauthorized history of English literature.</schema:name>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/568756754"/>
+  </rdf:Description>
+</rdf:RDF>

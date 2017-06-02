@@ -1,0 +1,208 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/9846192">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Flaubert</schema:familyName>
+    <schema:givenName>Gustave</schema:givenName>
+    <schema:name>Gustave Flaubert</schema:name>
+    <schema:birthDate>1821</schema:birthDate>
+    <schema:deathDate>1880,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/326985">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Topic/adultery_fiction"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/79045713"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1062987"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">Madame Bovary</schema:name>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:description xml:lang="en">A 19th-century woman pursues her romantic dreams through a series of lovers.</schema:description>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Topic/physicians_spouses_france_fiction"/>
+    <schema:author rdf:resource="http://viaf.org/viaf/9846192"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Topic/adultery"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1137618"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Place/france"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1010701"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:copyrightYear>1957</schema:copyrightYear>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/326985#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Topic/husbands_&amp;_wives_france_fiction"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/797378"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204289"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Topic/middle_class_france_history_19th_century_fiction"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Topic/middle_class_france_19th_century_fiction"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Topic/physicians_spouses"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Topic/suicide_victims"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/629070561"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/460581"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:productID>326985</schema:productID>
+    <library:oclcnum>326985</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Place/france_social_life_and_customs_19th_century_fiction"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Topic/married_women"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Topic/married_women_france_fiction"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1020437"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Topic/suicide_fiction"/>
+    <schema:about rdf:resource="http://dewey.info/class/843.8/e22/"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/570955987"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Agent/random_house"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/326985"/>
+    <schema:genre xml:lang="en">Domestic fiction</schema:genre>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/326985#PublicationEvent/new_york_random_house_1957"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Topic/middle_class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/326985#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Madame Bovary.</schema:name>
+    <schema:inLanguage>fr</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Topic/adultery">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2007100578"/>
+    <schema:name xml:lang="en">Adultery</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Topic/middle_class">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008107441"/>
+    <schema:name xml:lang="en">Middle class</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Topic/married_women_france_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Married women -- France -- Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/326985">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/326985"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/460581">
+    <schema:name>Madame Bovary.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/79045713">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Steegmuller</schema:familyName>
+    <schema:givenName>Francis</schema:givenName>
+    <schema:name>Francis Steegmuller</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+    <schema:deathDate>1994,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1137618">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Suicide victims</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/797378">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Adultery</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/326985#PublicationEvent/new_york_random_house_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/460581#Agent/random_house"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Topic/physicians_spouses_france_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Physicians' spouses -- France -- Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Topic/married_women">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008107257"/>
+    <schema:name xml:lang="en">Married women</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Topic/middle_class_france_19th_century_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Middle-Class France--19th Century--Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Topic/middle_class_france_history_19th_century_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Middle class -- France -- History -- 19th century -- Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Place/france">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>France</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Agent/random_house">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Random House</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Place/france_social_life_and_customs_19th_century_fiction">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>France -- Social life and customs -- 19th century -- Fiction.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1062987">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Physicians' spouses</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204289">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>France.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Topic/husbands_&amp;_wives_france_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Husbands &amp; wives--France--Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1020437">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Middle class</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1010701">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Married women</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Topic/suicide_victims">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008111419"/>
+    <schema:name xml:lang="en">Suicide victims</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Topic/suicide_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Suicide -- Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Topic/adultery_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Adultery--Fiction</schema:name>
+    <schema:name xml:lang="en">Adultery -- Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/843.8/e22/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/570955987">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/326985"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Madame Bovary.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/460581#Topic/physicians_spouses">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008108895"/>
+    <schema:name xml:lang="en">Physicians' spouses</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/629070561">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/326985"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Madame Bovary.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,76 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5114950#PublicationEvent/new_york_triangle_books_1942_1936">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/68375717#Agent/triangle_books"/>
+    <schema:startDate>1942</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/59083415">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Greene</schema:familyName>
+    <schema:givenName>Graham</schema:givenName>
+    <schema:name>Graham Greene</schema:name>
+    <schema:birthDate>1904</schema:birthDate>
+    <schema:deathDate>1991</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5114950">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/5114950"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/5114950">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>5114950</library:oclcnum>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:about rdf:resource="http://dewey.info/class/823.91/"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/5114950#PublicationEvent/new_york_triangle_books_1942_1936"/>
+    <schema:productID>5114950</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/762734183"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/68375717#Agent/triangle_books"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/59083415"/>
+    <schema:copyrightYear>1936</schema:copyrightYear>
+    <schema:name xml:lang="en">This gun for hire</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/5114950"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/68375717"/>
+    <schema:datePublished>1942</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.91/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/762734183">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/5114950"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>This gun for hire.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/68375717#Agent/triangle_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Triangle Books</schema:name>
+  </rdf:Description>
+</rdf:RDF>

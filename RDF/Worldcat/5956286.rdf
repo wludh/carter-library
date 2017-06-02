@@ -1,0 +1,104 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dewey.info/class/823.7/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/95150359">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lawrence</schema:familyName>
+    <schema:givenName>D. H.</schema:givenName>
+    <schema:givenName>David Herbert</schema:givenName>
+    <schema:name>David Herbert Lawrence</schema:name>
+    <schema:birthDate>1885</schema:birthDate>
+    <schema:deathDate>1930</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/953374829">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/5956286"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Fire-bird.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1960440#Topic/lawrence_d_h_david_herbert_1885_1930">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Lawrence, D.H. (David Herbert), 1885-1930</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1198648">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Criticism and interpretation</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1960440#Person/lawrence_d_h_david_herbert_1885_1930">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lawrence</schema:familyName>
+    <schema:givenName>D. H.</schema:givenName>
+    <schema:givenName>David Herbert</schema:givenName>
+    <schema:name>David Herbert Lawrence</schema:name>
+    <schema:birthDate>1885</schema:birthDate>
+    <schema:deathDate>1930</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5956286">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/5956286"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/5956286">
+    <library:oclcnum>5956286</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/5956286"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1960440"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1960440#Topic/lawrence_d_h_david_herbert_1885_1930"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1198648"/>
+    <schema:copyrightYear>1951</schema:copyrightYear>
+    <schema:about rdf:resource="http://dewey.info/class/823.7/"/>
+    <schema:datePublished>1952</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>5956286</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1960440#Person/kenmare_dallas"/>
+    <schema:name xml:lang="en">Fire-bird : a study of D.H. Lawrence</schema:name>
+    <schema:description xml:lang="en">A study of Lawrence's poetry. Argues that he "was first and last a poet [which] gives the clue not only to his personality, but also to the many apparent problems in his work, the many inconsistencies, contradictions and irregularities so puzzling to the commentators and critics who in the last forty years have wrestled with him."--Blurb.</schema:description>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1960440#Person/lawrence_d_h_david_herbert_1885_1930"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/5956286#PublicationEvent/new_york_philosophical_library_1952_1951"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/95150359"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1960440#Agent/philosophical_library"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/953374829"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1960440#Person/kenmare_dallas">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kenmare</schema:familyName>
+    <schema:givenName>Dallas</schema:givenName>
+    <schema:name>Dallas Kenmare</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1960440#Agent/philosophical_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Philosophical Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5956286#PublicationEvent/new_york_philosophical_library_1952_1951">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1960440#Agent/philosophical_library"/>
+    <schema:startDate>1952</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

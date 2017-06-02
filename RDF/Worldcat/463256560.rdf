@@ -1,0 +1,62 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1621609#Person/kenner_hugh">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kenner</schema:familyName>
+    <schema:givenName>Hugh</schema:givenName>
+    <schema:name>Hugh Kenner</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1621609#Place/norfolk_conn">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Norfolk, Conn.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/463256560">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/463256560"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/463256560#PublicationEvent/norfolk_conn_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1621609#Place/norfolk_conn"/>
+    <schema:startDate>(1954)</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ctu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ctu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1621609#Person/lewis_wyndham">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lewis</schema:familyName>
+    <schema:givenName>Wyndham</schema:givenName>
+    <schema:name>Wyndham Lewis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/463256560">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ctu"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1621609#Person/kenner_hugh"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1621609#Person/lewis_wyndham"/>
+    <schema:datePublished>(1954)</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1621609#Place/norfolk_conn"/>
+    <schema:productID>463256560</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/463256560"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Wyndham Lewis</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/463256560#PublicationEvent/norfolk_conn_1954"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1621609"/>
+    <library:oclcnum>463256560</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+</rdf:RDF>

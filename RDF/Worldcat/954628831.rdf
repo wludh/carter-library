@@ -1,0 +1,81 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1399790#Series/clark_lectures">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/954628831"/>
+    <schema:name>Clark lectures.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1399790#Series/the_clark_lectures_trinity_college_cambridge_1944">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/954628831"/>
+    <schema:name>The Clark lectures, Trinity College, Cambridge, 1944.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1399790#Person/lewis_c_s_1898_1963">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lewis</schema:familyName>
+    <schema:givenName>C. S.</schema:givenName>
+    <schema:name>C. S. Lewis</schema:name>
+    <schema:birthDate>1898</schema:birthDate>
+    <schema:deathDate>1963</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1399790#Series/oxford_history_of_english_literature">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/954628831"/>
+    <schema:name>Oxford history of English literature.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1399790#Agent/clarendon_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Clarendon Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/954628831#PublicationEvent/oxford_clarendon_press_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1399790#Place/oxford"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1399790#Agent/clarendon_press"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/954628831">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/954628831"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/954628831">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <library:oclcnum>954628831</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/954628831"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1399790#Agent/clarendon_press"/>
+    <schema:productID>954628831</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1399790#Series/the_clark_lectures_trinity_college_cambridge_1944"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1399790#Series/clark_lectures"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>English literature in the sixteenth century : excluding drama</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/954628831#PublicationEvent/oxford_clarendon_press_1954"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:numberOfPages>606</schema:numberOfPages>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1399790#Person/lewis_c_s_1898_1963"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1399790#Place/oxford"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1399790"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1399790#Series/oxford_history_of_english_literature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1399790#Place/oxford">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Oxford</schema:name>
+  </rdf:Description>
+</rdf:RDF>
