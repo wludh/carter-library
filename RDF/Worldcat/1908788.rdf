@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/942396">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Ghost stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1908788">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1908788"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1117064"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:productID>1908788</schema:productID>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2628636#Place/new_york_n_y"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2628636"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1946</schema:datePublished>
+    <schema:name xml:lang="en">Avon ghost reader.</schema:name>
+    <schema:copyrightYear>1946</schema:copyrightYear>
+    <schema:description xml:lang="en">The Dunwich horror / by H.P. Lovecraft -- The panelled room / by August Derleth -- The fireplace / by Henry S. Whitehead -- The haunted doll's house / by M.R. James -- The squaw / by Bram Stoker -- Wineglass / by H.F. Head -- Through the dragon glass / by A. Merritt -- Naked lady / by Mindred Lord -- The curious case of Benjamin Button / by F. Scott Fitzgerald -- The bottle party / by John Collier -- By the waters of Babylon / by Stephen Vincent Benet -- The salamander / by William B. Seabrook.</schema:description>
+    <schema:genre xml:lang="en">Short stories</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1908788#PublicationEvent/new_york_n_y_avon_book_1946"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2628636#Series/new_avon_library"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2628636#Agent/avon_book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/942396"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:oclcnum>1908788</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2628636#Agent/avon_book">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Avon Book</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1117064">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Short stories, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1908788#PublicationEvent/new_york_n_y_avon_book_1946">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2628636#Place/new_york_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2628636#Agent/avon_book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2628636#Place/new_york_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2628636#Series/new_avon_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1908788"/>
+    <schema:name>New Avon library ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1908788">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1908788"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

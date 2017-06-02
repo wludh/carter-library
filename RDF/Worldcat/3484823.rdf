@@ -1,0 +1,74 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/3484823">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2755306#Agent/pocket_books_inc"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2755306"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/76439158"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/3484823#PublicationEvent/new_york_pocket_books_inc_1943"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>3484823</library:oclcnum>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1117043"/>
+    <schema:description xml:lang="en">By the waters of Babylon, by S.V. Benét.--Moxon's master, by Ambrose Bierce.--Green thoughts, by John Collier.--In the abyss, by H.G. Wells.--The green splotches, by T.S. Stribling.--The last man, by W.G. West.--A Martian odyssey, by S.G. Weinbaum.--Twilight, by D.A. Stuart.--Microcosmic god, by Theodore Sturgeon.--And he built a crooked house, by R.A. Heinlein.</schema:description>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/3484823"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:genre xml:lang="en">Science fiction</schema:genre>
+    <schema:productID>3484823</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:datePublished>1943</schema:datePublished>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/2755306#CreativeWork/science_fiction"/>
+    <schema:name xml:lang="en">The pocket book of science fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/76439158">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wollheim</schema:familyName>
+    <schema:givenName>Donald A.</schema:givenName>
+    <schema:name>Donald A. Wollheim</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1117043">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Short stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2755306#Agent/pocket_books_inc">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Pocket Books Inc.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2755306#CreativeWork/science_fiction">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Science fiction.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3484823">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/3484823"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3484823#PublicationEvent/new_york_pocket_books_inc_1943">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2755306#Agent/pocket_books_inc"/>
+    <schema:startDate>1943</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

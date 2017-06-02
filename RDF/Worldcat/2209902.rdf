@@ -1,0 +1,84 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3921857#Place/new_york_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3921857#CreativeWork/partisan_review_new_york_n_y_1936">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Partisan review (New York, N.Y. : 1936)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2209902#PublicationEvent/new_york_n_y_avon_publications_1953">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3921857#Place/new_york_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3921857#Agent/avon_publications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3921857#Agent/avon_publications">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Avon Publications</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/701149721">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/2209902"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Stories in the modern manner.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1117043">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Short stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3921857#Series/avon">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/2209902"/>
+    <schema:name>Avon ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2209902#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>fr</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2209902">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2209902"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2209902">
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3921857#Place/new_york_n_y"/>
+    <library:oclcnum>2209902</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/2209902#CreativeWork/unidentifiedOriginalWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2209902"/>
+    <schema:productID>2209902</schema:productID>
+    <schema:description xml:lang="en">Crossing Paris / Marcel Aymé -- Sunny honeymoon / Alberto Moravia -- The human voice, a one-act play / Jean Cocteau -- The other Margaret / Lionel Trilling -- A sermon by Doctor Pep / Saul Bellow -- The bleeding heart / Jean Stafford -- The lesson / Max Wiseman -- Theseus / André Gide -- Funeral rites ; Hunger / Jean Genet -- The sin of Jesus / Guy de Maupassant / Isaac Babel -- Rachel's summer / Charles Jackson -- George / Isaac Rosenfeld -- In dreams begin responsibilities / Delmore Schwartz.</schema:description>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1117043"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3921857#Agent/avon_publications"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/3921857#CreativeWork/partisan_review_new_york_n_y_1936"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3921857"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3921857#Series/avon"/>
+    <schema:copyrightYear>1953</schema:copyrightYear>
+    <schema:datePublished>1953</schema:datePublished>
+    <schema:name xml:lang="en">Stories in the modern manner : a collection of stories from the Partisan review.</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2209902#PublicationEvent/new_york_n_y_avon_publications_1953"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/701149721"/>
+  </rdf:Description>
+</rdf:RDF>
