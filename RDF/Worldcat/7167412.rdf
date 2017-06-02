@@ -1,0 +1,94 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/25807936#CreativeWork/texas_quarterly">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Texas quarterly.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/7167412#PublicationEvent/austin_university_of_texas_press_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/25807936#Place/austin"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/25807936#Agent/university_of_texas_press"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807348">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/7167412">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/7167412"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/25807936#Event/1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1900-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/25807936#Agent/university_of_texas_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>University of Texas Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/25807936#Place/austin">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Austin</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/564070523">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/7167412"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Sleeping gypsy, and other poems.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85004387">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American poetry--20th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/txu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>txu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/7167412">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/txu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/25807936"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/25807936#Place/austin"/>
+    <schema:about rdf:resource="http://dewey.info/class/811.54/e19/"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/7167412"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85004387"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/564070523"/>
+    <schema:name xml:lang="en">The sleeping gypsy, and other poems.</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/7167412#PublicationEvent/austin_university_of_texas_press_1958"/>
+    <schema:productID>7167412</schema:productID>
+    <schema:creator rdf:resource="http://viaf.org/viaf/51736114"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807348"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>7167412</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/25807936#Agent/university_of_texas_press"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/25807936#Event/1900_1999"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/25807936#CreativeWork/texas_quarterly"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/51736114">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Garrett</schema:familyName>
+    <schema:givenName>George</schema:givenName>
+    <schema:name>George Garrett</schema:name>
+    <schema:birthDate>1929</schema:birthDate>
+    <schema:deathDate>2008</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/811.54/e19/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

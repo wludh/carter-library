@@ -1,0 +1,62 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4161513671#Agent/phoenix_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Phoenix Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/500158687">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/500158687"/>
+    <schema:dateModified>2017-04-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/500158687">
+    <schema:datePublished>1956 (1948)</schema:datePublished>
+    <schema:name xml:lang="en">The Renaissance Philosophy of Man.</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/500158687#PublicationEvent/place_of_publication_not_identified_phoenix_books_1956_1948"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/4161513671#Place/place_of_publication_not_identified"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1956</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/500158687"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>500158687</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4161513671"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1061057"/>
+    <library:oclcnum>500158687</library:oclcnum>
+    <schema:editor rdf:resource="http://viaf.org/viaf/106965171"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4161513671#Agent/phoenix_books"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/106965171">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Cassirer</schema:familyName>
+    <schema:givenName>Ernst</schema:givenName>
+    <schema:name>Ernst Cassirer</schema:name>
+    <schema:birthDate>1874</schema:birthDate>
+    <schema:deathDate>1945,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/500158687#PublicationEvent/place_of_publication_not_identified_phoenix_books_1956_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/4161513671#Place/place_of_publication_not_identified"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4161513671#Agent/phoenix_books"/>
+    <schema:startDate>1956 (1948)</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1061057">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Philosophy, Medieval</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4161513671#Place/place_of_publication_not_identified">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Place of publication not identified</schema:name>
+  </rdf:Description>
+</rdf:RDF>

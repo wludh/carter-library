@@ -1,0 +1,118 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/473820086#Series/humanitas_toward_the_study_of_man">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/16771314"/>
+    <schema:name>Humanitas : toward the study of man</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/473820086#Series/humanitas_boston_mass">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/16771314"/>
+    <schema:name>Humanitas (Boston, Mass.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/473820086#Agent/beacon_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Beacon Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/473820086">
+    <schema:name>Philosophie der Aufklärung.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/16771314">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/16771314"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/473820086#Topic/philosophy">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Philosophy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/473820086#Series/beacon_paperbacks">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/16771314"/>
+    <schema:name>Beacon paperbacks ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/B802">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/16771314#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Philosophie der Aufklärung.</schema:name>
+    <schema:inLanguage>de</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/106965171">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Cassirer</schema:familyName>
+    <schema:givenName>Ernst</schema:givenName>
+    <schema:name>Ernst Cassirer</schema:name>
+    <schema:birthDate>1874</schema:birthDate>
+    <schema:deathDate>1945</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/912527">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Enlightenment</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1061071">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Philosophy, Modern</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/16771314#PublicationEvent/boston_beacon_press_1951">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/473820086#Agent/beacon_press"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/473820086#Series/beacon_paperbacks_7">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/16771314"/>
+    <schema:name>Beacon paperbacks, 7.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/16771314">
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/16771314#CreativeWork/unidentifiedOriginalWork"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:productID>16771314</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/473820086#Agent/beacon_press"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/473820086#Topic/philosophy"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/912527"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/B802"/>
+    <schema:datePublished>1951</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">The philosophy of the enlightenment</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1061071"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/16771314"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/473820086#Series/beacon_paperbacks"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/473820086"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/473820086#Series/humanitas_toward_the_study_of_man"/>
+    <schema:about rdf:resource="http://dewey.info/class/190/"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/473820086#Series/beacon_paperbacks_7"/>
+    <library:oclcnum>16771314</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/16771314#PublicationEvent/boston_beacon_press_1951"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/473820086#Series/humanitas_boston_mass"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/106965171"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/190/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>
