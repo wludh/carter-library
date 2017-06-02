@@ -1,0 +1,71 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ohu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ohu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/82409511">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/82409511"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1485687#Place/cleveland">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Cleveland</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1485687#Series/a_tower_mystery">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/82409511"/>
+    <schema:name>A tower mystery</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/76677734">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Oppenheim</schema:familyName>
+    <schema:givenName>E. Phillips</schema:givenName>
+    <schema:givenName>Edward Phillips</schema:givenName>
+    <schema:name>Edward Phillips Oppenheim</schema:name>
+    <schema:birthDate>1866</schema:birthDate>
+    <schema:deathDate>1946</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1485687#Agent/world">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>World</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/82409511#PublicationEvent/cleveland_world_1944_1915">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1485687#Place/cleveland"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1485687#Agent/world"/>
+    <schema:startDate>1944</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/82409511">
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1485687#Place/cleveland"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1485687"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/82409511#PublicationEvent/cleveland_world_1944_1915"/>
+    <schema:name xml:lang="en">The double traitor</schema:name>
+    <schema:productID>82409511</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ohu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/82409511"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1485687#Agent/world"/>
+    <schema:datePublished>1944</schema:datePublished>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:creator rdf:resource="http://viaf.org/viaf/76677734"/>
+    <schema:bookEdition>Tower books ed.</schema:bookEdition>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>82409511</library:oclcnum>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1485687#Series/a_tower_mystery"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,77 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dewey.info/class/828.91/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/37280060">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/37280060"/>
+    <schema:dateModified>2017-05-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/37280060#PublicationEvent/new_york_grosset_&amp;_dunlap_1915">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/6134478#Agent/grosset_&amp;_dunlap"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/6134478#Agent/grosset_&amp;_dunlap">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Grosset &amp; Dunlap</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/76677734">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Oppenheim</schema:familyName>
+    <schema:givenName>E. Phillips</schema:givenName>
+    <schema:givenName>Edward Phillips</schema:givenName>
+    <schema:name>Edward Phillips Oppenheim</schema:name>
+    <schema:birthDate>1866</schema:birthDate>
+    <schema:deathDate>1946</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/705819449">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/37280060"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Black box.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/37280060">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1915</schema:datePublished>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:url rdf:resource="http://link.library.utoronto.ca/eir/EIRdetail.cfm?Resources__ID=494252&amp;T=F"/>
+    <schema:about rdf:resource="http://dewey.info/class/828.91/"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/76677734"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/37280060"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/6134478#Agent/grosset_&amp;_dunlap"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/37280060#PublicationEvent/new_york_grosset_&amp;_dunlap_1915"/>
+    <schema:name xml:lang="en">The black box,</schema:name>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/705819449"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/6134478"/>
+    <library:oclcnum>37280060</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>37280060</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

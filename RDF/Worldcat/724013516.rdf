@@ -1,0 +1,64 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/724013516#PublicationEvent/torontouniversity_of_toronto_press1962_1962">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/53969907#Place/toronto"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/53969907#Agent/university_of_toronto_press"/>
+    <schema:startDate>1962</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/53969907#Agent/university_of_toronto_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>University of Toronto Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/53969907#Place/toronto">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Toronto</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/onc">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>onc</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/724013516">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/724013516"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/724013516">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/53969907#Agent/university_of_toronto_press"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/53969907"/>
+    <schema:author rdf:resource="http://viaf.org/viaf/14198"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/onc"/>
+    <schema:inLanguage>de</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/53969907#Place/toronto"/>
+    <schema:datePublished>1962</schema:datePublished>
+    <library:oclcnum>724013516</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/724013516#PublicationEvent/torontouniversity_of_toronto_press1962_1962"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/724013516"/>
+    <schema:name xml:lang="de">The Gutenberg Galaxy the making of typographic man</schema:name>
+    <umbel:isLike rdf:resource="http://d-nb.info/998905070"/>
+    <schema:productID>724013516</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/14198">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>McLuhan</schema:familyName>
+    <schema:givenName>Marshall</schema:givenName>
+    <schema:name>Marshall McLuhan</schema:name>
+    <schema:birthDate>1911</schema:birthDate>
+    <schema:deathDate>1980</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

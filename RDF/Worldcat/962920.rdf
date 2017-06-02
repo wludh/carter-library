@@ -1,0 +1,86 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/962920">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/962920"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1476191#Agent/the_viking_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>The Viking Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/570626358">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/962920"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Novels and plays of Saki (H.H. Munro) complete in one volume.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/7396805">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Saki</schema:givenName>
+    <schema:name>Saki</schema:name>
+    <schema:birthDate>1870</schema:birthDate>
+    <schema:deathDate>1916</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/962920#PublicationEvent/new_york_the_viking_press_1933">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1476191#Agent/the_viking_press"/>
+    <schema:startDate>1933</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85080593">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Manners and customs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1007815">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Manners and customs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/820.81/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/962920">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1476191#Agent/the_viking_press"/>
+    <schema:about rdf:resource="http://dewey.info/class/820.81/"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:oclcnum>962920</library:oclcnum>
+    <schema:datePublished>1933</schema:datePublished>
+    <schema:genre xml:lang="en">Drama</schema:genre>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1476191"/>
+    <schema:description xml:lang="en">The unbearable Bassington, introduction by Maurice Baring.--When William came, introduction by Lord Charnwood.--The Westminster Alice, foreword by J.A. Spender.--Plays: The deathtrap, Karl-Ludwig's window, The watched pot; introduction to plays by J.C. Squire.</schema:description>
+    <schema:description xml:lang="en">For contents, see Author Catalog.</schema:description>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/962920#PublicationEvent/new_york_the_viking_press_1933"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1007815"/>
+    <schema:name xml:lang="en">The novels and plays of Saki (H.H. Munro) complete in one volume.</schema:name>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85080593"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/7396805"/>
+    <schema:productID>962920</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/962920"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/570626358"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+</rdf:RDF>
