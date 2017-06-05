@@ -1,0 +1,73 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3377279864#Person/runes_dagobert_david">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>RUNES</schema:familyName>
+    <schema:givenName>Dagobert David</schema:givenName>
+    <schema:name>Dagobert David RUNES</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/504208143#PublicationEvent/pp_215_philosophical_library_new_york_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3377279864#Place/pp_215_philosophical_library"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3377279864#Agent/new_york"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/504208143">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/504208143"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/59472557">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>ELWES</schema:familyName>
+    <schema:givenName>R. H. M.</schema:givenName>
+    <schema:name>R. H. M. ELWES</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/3377279864">
+    <schema:name>Ethica</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3377279864#Agent/new_york">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/504208143">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/504208143#PublicationEvent/pp_215_philosophical_library_new_york_1957"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/22149024"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3377279864#Agent/new_york"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3377279864#Place/pp_215_philosophical_library"/>
+    <schema:productID>504208143</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/59472557"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/3377279864#Person/runes_dagobert_david"/>
+    <schema:name xml:lang="en">The Road to Inner Freedom. The Ethics. Edited and with an introduction by Dagobert D. Runes. (Translation by R.H.M. Elwes.).</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3377279864"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/504208143"/>
+    <library:oclcnum>504208143</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/22149024">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Spinoza</schema:familyName>
+    <schema:givenName>Benedictus de</schema:givenName>
+    <schema:name>Benedictus de Spinoza</schema:name>
+    <schema:birthDate>1632</schema:birthDate>
+    <schema:deathDate>1677</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3377279864#Place/pp_215_philosophical_library">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Pp. 215. Philosophical Library</schema:name>
+  </rdf:Description>
+</rdf:RDF>

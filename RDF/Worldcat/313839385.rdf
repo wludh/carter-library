@@ -1,0 +1,117 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/34456780">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Freud</schema:familyName>
+    <schema:givenName>Sigmund</schema:givenName>
+    <schema:name>Sigmund Freud</schema:name>
+    <schema:birthDate>1856</schema:birthDate>
+    <schema:deathDate>1939</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/313839385">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/313839385"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3372827271#Agent/basic_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Basic Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1081235">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Psychoanalysis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3372827271#Series/international_psycho_analytical_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/313839385"/>
+    <schema:name>International psycho-analytical library ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/3372827271">
+    <schema:name>Works. 1959</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/313839385#PublicationEvent/new_york_basic_books_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3372827271#Agent/basic_books"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/313839385">
+    <schema:contributor rdf:resource="http://viaf.org/viaf/39459373"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/313839385"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3372827271#Agent/basic_books"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/34456780"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/313839385#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:name xml:lang="en">Collected papers . Vol. 2, Clinical papers ; Papers on technique</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3372827271"/>
+    <schema:alternateName>Papers on technique</schema:alternateName>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/BF173"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/313839385#PublicationEvent/new_york_basic_books_1959"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>313839385</schema:productID>
+    <schema:creator rdf:resource="http://viaf.org/viaf/34456780"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/3372827271#Person/strachey_james"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>313839385</library:oclcnum>
+    <schema:bookEdition>[1st American ed.].</schema:bookEdition>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/3372827271#CreativeWork/sammlung_kleiner_schriften_zur_neurosenlehre"/>
+    <schema:about rdf:resource="http://dewey.info/class/150.195208/e22/"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1081235"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3372827271#Series/international_psycho_analytical_library"/>
+    <schema:alternateName>Clinical papers ; Papers on technique</schema:alternateName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/150.195208/e22/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/313839385#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Works. 1959</schema:name>
+    <schema:inLanguage>de</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3372827271#Person/strachey_james">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Strachey</schema:familyName>
+    <schema:givenName>James</schema:givenName>
+    <schema:name>James Strachey</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/BF173">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/39459373">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Riviere</schema:familyName>
+    <schema:givenName>Joan</schema:givenName>
+    <schema:name>Joan Riviere</schema:name>
+    <schema:birthDate>1883</schema:birthDate>
+    <schema:deathDate>1962</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3372827271#CreativeWork/sammlung_kleiner_schriften_zur_neurosenlehre">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Sammlung kleiner Schriften zur Neurosenlehre.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/34456780"/>
+  </rdf:Description>
+</rdf:RDF>

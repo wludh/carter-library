@@ -1,0 +1,103 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/46771588">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Grillot de Givry</schema:familyName>
+    <schema:name>Grillot de Givry</schema:name>
+    <schema:birthDate>1870</schema:birthDate>
+    <schema:deathDate>1929</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/BF1412">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1176327">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Witchcraft</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/248019385">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Locke</schema:familyName>
+    <schema:givenName>J. Courtenay</schema:givenName>
+    <schema:givenName>John Courtenay</schema:givenName>
+    <schema:name>John Courtenay Locke</schema:name>
+    <schema:birthDate>1880</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1043123">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Occultism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/762097744">
+    <schema:name>Musee des sorciers, mages, et alchemistes.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/631286">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/631286"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/631286#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Musee des sorciers, mages, et alchemistes.</schema:name>
+    <schema:inLanguage>fr</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1005468">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Magic</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/631286#PublicationEvent/new_york_frederick_publications_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/762097744#Agent/frederick_publications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/631286">
+    <schema:creator rdf:resource="http://viaf.org/viaf/46771588"/>
+    <schema:name xml:lang="en">Witchcraft, magic &amp; alchemy</schema:name>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/631286#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/804245"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:copyrightYear>1954</schema:copyrightYear>
+    <schema:productID>631286</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/762097744"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/631286#PublicationEvent/new_york_frederick_publications_1954"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/631286"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1005468"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1043123"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/BF1412"/>
+    <library:oclcnum>631286</library:oclcnum>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/248019385"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/762097744#Agent/frederick_publications"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1176327"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/762097744#Agent/frederick_publications">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Frederick Publications</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/804245">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Alchemy</schema:name>
+  </rdf:Description>
+</rdf:RDF>

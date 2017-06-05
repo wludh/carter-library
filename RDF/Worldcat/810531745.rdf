@@ -1,0 +1,99 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/810531745">
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/810531745#CreativeWork/unidentifiedOriginalWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/cou"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1198525"/>
+    <schema:about rdf:resource="http://dewey.info/class/193/"/>
+    <library:oclcnum>810531745</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/810531745#PublicationEvent/indian_hills_col_falcon_s_wing_press_1958"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1018304"/>
+    <schema:productID>810531745</schema:productID>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1217733100#Place/indian_hills_col"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/810531745"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1217733100"/>
+    <schema:name xml:lang="en">The world as will and representation. Vol. 2</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1058963"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/1217733100#CreativeWork/welt_als_wille_und_vorstellung"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1217733100#Agent/falcon_s_wing_press"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1217733100#Person/payne_e_f_j"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/17229367"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1217733100#Person/payne_e_f_j">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Payne</schema:familyName>
+    <schema:givenName>E. F. J.</schema:givenName>
+    <schema:name>E. F. J. Payne</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1198525">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Will</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/810531745#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>de</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1058963">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Pessimism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/810531745#PublicationEvent/indian_hills_col_falcon_s_wing_press_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1217733100#Place/indian_hills_col"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1217733100#Agent/falcon_s_wing_press"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/810531745">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/810531745"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1217733100#CreativeWork/welt_als_wille_und_vorstellung">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Welt als Wille und Vorstellung.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1217733100#Place/indian_hills_col">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Indian Hills (Col.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1217733100#Agent/falcon_s_wing_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Falcon's Wing Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1018304">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Metaphysics</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/193/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/17229367">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Schopenhauer</schema:familyName>
+    <schema:givenName>Arthur</schema:givenName>
+    <schema:name>Arthur Schopenhauer</schema:name>
+    <schema:birthDate>1788</schema:birthDate>
+    <schema:deathDate>1860</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/cou">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>cou</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

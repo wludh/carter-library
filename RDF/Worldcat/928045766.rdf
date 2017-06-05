@@ -1,0 +1,58 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/928045766#PublicationEvent/basic_bks_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/196894970#Agent/basic_bks"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/928045766">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/928045766"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196894970#Agent/basic_bks">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Basic Bks.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196894970#Person/institute_of_psycho_analysis">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:name>Institute of Psycho-Analysis.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/928045766">
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/196894970#Person/freud_sigmund"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <library:oclcnum>928045766</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/196894970#Agent/basic_bks"/>
+    <schema:name>Collected papers.</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/196894970"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/196894970#Person/institute_of_psycho_analysis"/>
+    <schema:productID>928045766</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/928045766#PublicationEvent/basic_bks_1959"/>
+    <schema:bookEdition>Authorized translation.</schema:bookEdition>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/928045766"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196894970#Topic/psychoanalysis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196894970#Topic/psychoanalysis">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Psychoanalysis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196894970#Person/freud_sigmund">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Freud</schema:familyName>
+    <schema:givenName>Sigmund</schema:givenName>
+    <schema:name>Sigmund Freud</schema:name>
+  </rdf:Description>
+</rdf:RDF>

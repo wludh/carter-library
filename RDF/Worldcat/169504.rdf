@@ -1,0 +1,115 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/66554669#Topic/romans">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Romans</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/169504">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/66554669#Topic/verhalen"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/643514707"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/169504"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.5/"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/66554669#Topic/romans"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/51816877"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:name xml:lang="en">Ernest Hemingway</schema:name>
+    <schema:copyrightYear>1952</schema:copyrightYear>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/66554669#Topic/amerikaans"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/169504#PublicationEvent/new_york_rinehart_1952"/>
+    <schema:description xml:lang="en">Adventures of Nick Adams -- The hero and the code -- Death and transfiguration -- The man and the legend -- The origins and meaning of a style -- Adventures of Huckleberry Finn -- The world, and an American myth.</schema:description>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/66554669#Person/hemingway_ernest_1899_1961"/>
+    <schema:productID>169504</schema:productID>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/66554669#Series/rinehart_critical_studies"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/66554669"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/66554669#Agent/rinehart"/>
+    <library:oclcnum>169504</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1952</schema:datePublished>
+    <schema:about rdf:resource="http://viaf.org/viaf/97006051"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/51816877">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Young</schema:familyName>
+    <schema:givenName>Philip</schema:givenName>
+    <schema:name>Philip Young</schema:name>
+    <schema:birthDate>1918</schema:birthDate>
+    <schema:deathDate>1991</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/66554669#Topic/verhalen">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Verhalen</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/643514707">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/169504"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Ernest Hemingway.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/66554669#Series/rinehart_critical_studies">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/169504"/>
+    <schema:name>Rinehart critical studies</schema:name>
+    <schema:name>Rinehart critical studies.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/169504#PublicationEvent/new_york_rinehart_1952">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/66554669#Agent/rinehart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/169504">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/169504"/>
+    <schema:dateModified>2017-04-29</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/66554669#Topic/amerikaans">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Amerikaans</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/66554669#Person/hemingway_ernest_1899_1961">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hemingway</schema:familyName>
+    <schema:givenName>Ernest</schema:givenName>
+    <schema:name>Ernest Hemingway</schema:name>
+    <schema:birthDate>1899</schema:birthDate>
+    <schema:deathDate>1961</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/66554669#Agent/rinehart">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Rinehart</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/97006051">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hemingway</schema:familyName>
+    <schema:givenName>Ernest</schema:givenName>
+    <schema:name>Ernest Hemingway</schema:name>
+    <schema:birthDate>1899</schema:birthDate>
+    <schema:deathDate>1961</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

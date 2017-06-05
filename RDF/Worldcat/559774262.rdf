@@ -1,0 +1,55 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/559774262#PublicationEvent/viking_press_new_york_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1445688#Place/viking_press"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1445688#Agent/new_york"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/49226675">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hall</schema:familyName>
+    <schema:givenName>Donald</schema:givenName>
+    <schema:name>Donald Hall</schema:name>
+    <schema:birthDate>1928</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1445688#Place/viking_press">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Viking Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/559774262">
+    <schema:name xml:lang="en">The Dark Houses. (Poems.).</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1445688"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1445688#Agent/new_york"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/559774262"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/559774262#PublicationEvent/viking_press_new_york_1958"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <library:oclcnum>559774262</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/49226675"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1445688#Place/viking_press"/>
+    <schema:productID>559774262</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/559774262">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/559774262"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1445688#Agent/new_york">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+</rdf:RDF>

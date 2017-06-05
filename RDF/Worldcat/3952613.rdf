@@ -1,0 +1,86 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/3952613">
+    <schema:datePublished>1947</schema:datePublished>
+    <schema:productID>3952613</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1775199"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>3952613</library:oclcnum>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/3952613#PublicationEvent/sauk_city_wisconsin_arkham_house_1947"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:illustrator rdf:resource="http://viaf.org/viaf/10148752015341200614"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/36920990"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/102055964#Place/sauk_city_wisconsin"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/wiu"/>
+    <schema:genre xml:lang="en">Science fiction</schema:genre>
+    <schema:name xml:lang="en">Night's black agents.</schema:name>
+    <schema:about rdf:resource="http://dewey.info/class/813.54/"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/102055964#Agent/arkham_house"/>
+    <schema:genre xml:lang="en">Paranormal fiction</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1108635"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/102055964"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/3952613"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1108635">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Science fiction, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3952613">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/3952613"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3952613#PublicationEvent/sauk_city_wisconsin_arkham_house_1947">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/102055964#Place/sauk_city_wisconsin"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/102055964#Agent/arkham_house"/>
+    <schema:startDate>1947</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/102055964#Agent/arkham_house">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Arkham House</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/36920990">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Leiber</schema:familyName>
+    <schema:givenName>Fritz</schema:givenName>
+    <schema:name>Fritz Leiber</schema:name>
+    <schema:birthDate>1910</schema:birthDate>
+    <schema:deathDate>1992</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.54/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/102055964#Place/sauk_city_wisconsin">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Sauk City, Wisconsin</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/10148752015341200614">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Clyne</schema:familyName>
+    <schema:givenName>Ronald</schema:givenName>
+    <schema:name>Ronald Clyne</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1775199">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Paranormal fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/wiu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>wiu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>
