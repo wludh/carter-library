@@ -1,0 +1,81 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/418630#Topic/anglais_langue_histoire">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Anglais (langue)--Histoire</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/418630#Topic/anglais_langue">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Anglais (Langue)</schema:name>
+    <schema:name>Anglais (langue)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/418630#Person/jespersen_otto_1860_1943">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Jespersen</schema:familyName>
+    <schema:givenName>Otto</schema:givenName>
+    <schema:name>Otto Jespersen</schema:name>
+    <schema:birthDate>1860</schema:birthDate>
+    <schema:deathDate>1943</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/422100354#PublicationEvent/garden_city_doubleday_&amp;_co_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/418630#Place/garden_city"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/418630#Agent/doubleday_&amp;_co"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/418630#Place/garden_city">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/422100354">
+    <schema:numberOfPages>274</schema:numberOfPages>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/418630#Series/anchor_books"/>
+    <schema:name>Growth and structure of the english language.</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/418630#Topic/anglais_langue"/>
+    <library:oclcnum>422100354</library:oclcnum>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/418630#Person/jespersen_otto_1860_1943"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/418630#Agent/doubleday_&amp;_co"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/418630#Topic/anglais_langue_histoire"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/422100354#PublicationEvent/garden_city_doubleday_&amp;_co_1955"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/422100354"/>
+    <schema:productID>422100354</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/418630"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:bookEdition>9th ed.</schema:bookEdition>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/418630#Place/garden_city"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/422100354">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/422100354"/>
+    <schema:dateModified>2017-04-22</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/418630#Agent/doubleday_&amp;_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday &amp; Co</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/418630#Series/anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/422100354"/>
+    <schema:name>Anchor books ;</schema:name>
+  </rdf:Description>
+</rdf:RDF>

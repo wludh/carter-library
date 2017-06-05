@@ -1,0 +1,86 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/748992017#PublicationEvent/new_york_doubleday_1952">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/500705#Agent/doubleday"/>
+    <schema:startDate>1952</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/748992017">
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/748992017"/>
+    <schema:productID>748992017</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/500705#Person/socrates_469_399_b_c"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/500705#Agent/doubleday"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/500705#Person/taylor_alfred_edward"/>
+    <schema:description xml:lang="en">Professor Taylor's biography provides the best short life of the world's greatest philosopher and an excellent introduction to Socratic thought. The author reveals Socrates as "the man who created the intellectual and moral tradition by which Europe has ever since lived" and he presents him in all his fullness as "an original genius in whose character there was a unique blend of the passionate lover, the religious mystic, the eager rationalist, and the humorist".</schema:description>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/748992017#PublicationEvent/new_york_doubleday_1952"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1952</schema:datePublished>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/500705#Person/socrates_469_399_b_c"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/B316"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/500705#Person/socrates"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/500705"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:oclcnum>748992017</library:oclcnum>
+    <schema:about rdf:resource="http://dewey.info/class/921.9/"/>
+    <schema:name xml:lang="en">Socrates : the man and his thought</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/921.9/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/500705#Person/socrates_469_399_b_c">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Socrates</schema:givenName>
+    <schema:name xml:lang="en">Socrates</schema:name>
+    <schema:name xml:lang="en">סוקרטס</schema:name>
+    <schema:birthDate>469</schema:birthDate>
+    <schema:deathDate>399 B C</schema:deathDate>
+    <schema:name>Socrates</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/500705#Person/socrates">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Socrates</schema:givenName>
+    <schema:name>Socrates.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/748992017">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/748992017"/>
+    <schema:dateModified>2017-04-27</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/500705#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/500705#Person/taylor_alfred_edward">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Taylor</schema:familyName>
+    <schema:givenName>Alfred Edward</schema:givenName>
+    <schema:name>Alfred Edward Taylor</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/B316">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

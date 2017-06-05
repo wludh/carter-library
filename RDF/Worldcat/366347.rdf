@@ -1,0 +1,101 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/652278291">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/366347"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Greek philosophers.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/57808983#Topic/philosophers_greece">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Philosophers--Greece</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/100912192">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Warner</schema:familyName>
+    <schema:givenName>Rex</schema:givenName>
+    <schema:name>Rex Warner</schema:name>
+    <schema:birthDate>1905</schema:birthDate>
+    <schema:deathDate>1986</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/57808983#Topic/philosophes_anciens">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Philosophes anciens</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/57808983#Agent/new_american_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New American Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/182/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/B171">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/366347#PublicationEvent/new_yorknew_american_library1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/57808983#Agent/new_american_library"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/57808983#Series/a_mentor_book_md226">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/366347"/>
+    <schema:name>A Mentor book, MD226</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1060860">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Philosophy, Ancient</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/366347">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/366347"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/366347">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/366347"/>
+    <schema:name xml:lang="en">The Greek philosophers.</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/366347#PublicationEvent/new_yorknew_american_library1958"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/57808983#Agent/new_american_library"/>
+    <schema:description xml:lang="en">I. The Pre-Socratic philosophers -- II. Socrates -- III. Plato and Aristotle: the historical background -- IV. Plato -- V. Aristotle -- VI. Greece after Aristotle: a changing spirit -- VII. Later development of atomism: Democritus and Epicurus -- VIII. Stoicism -- IX. Two minor schools: Synicism and Scepticism -- X. Greek philosophy under the Roman Empire -- XI. Plotinus.</schema:description>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:productID>366347</schema:productID>
+    <schema:description xml:lang="en">Presents a survey of the Greek philosophers and their key ideas analyzed and interpreted in their historical context.</schema:description>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/652278291"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/100912192"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/57808983"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/57808983#Topic/philosophes_anciens"/>
+    <library:oclcnum>366347</library:oclcnum>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/57808983#Series/a_mentor_book_md226"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1060860"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/57808983#Topic/philosophers_greece"/>
+    <schema:about rdf:resource="http://dewey.info/class/182/"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/B171"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+</rdf:RDF>

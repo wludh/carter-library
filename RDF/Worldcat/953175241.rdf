@@ -1,0 +1,74 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/953175241">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/953175241"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/654146041">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/953175241"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Language, truth, and logic.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/953175241">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/48530020"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/B53"/>
+    <schema:description xml:lang="en">The elimination of metaphysics -- The function of philosophy -- The nature of philosophical analysis -- The a priori -- Truth and probability -- Critique of ethics and theology -- The self and the common world -- Solutions of outstanding philosophical disputes.</schema:description>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1952</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>953175241</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/48530020#Topic/language_and_languages_philosophy"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/953175241"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/48530020#Topic/experience"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/48530020#Topic/knowledge_theory_of"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/48530020#Person/ayer_a_j_alfred_jules_1910_1989"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/654146041"/>
+    <schema:name xml:lang="en">Language, truth, and logic</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>953175241</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/48530020#Topic/experience">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Experience</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/B53">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/48530020#Topic/knowledge_theory_of">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Knowledge, Theory of</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/48530020#Person/ayer_a_j_alfred_jules_1910_1989">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ayer</schema:familyName>
+    <schema:givenName>A. J.</schema:givenName>
+    <schema:givenName>Alfred Jules</schema:givenName>
+    <schema:name>Alfred Jules Ayer</schema:name>
+    <schema:birthDate>1910</schema:birthDate>
+    <schema:deathDate>1989</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/48530020#Topic/language_and_languages_philosophy">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Language and languages--Philosophy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

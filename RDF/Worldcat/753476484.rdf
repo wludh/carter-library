@@ -1,0 +1,94 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/459289#Topic/philosophie">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Philosophie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/459289#Series/doubleday_anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/753476484"/>
+    <schema:name>Doubleday anchor books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/459289#Topic/philosophie_chine">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Philosophie--Chine</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/753476484">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/753476484"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/459289#Series/">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/753476484"/>
+    <schema:name></schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/459289#Person/waley_arthur">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Waley</schema:familyName>
+    <schema:givenName>Arthur</schema:givenName>
+    <schema:name>Arthur Waley</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/459289#Thing/china_philosophie">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>China / Philosophie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/753476484">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/753476484"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/459289#Series/doubleday_anchor_books"/>
+    <library:oclcnum>753476484</library:oclcnum>
+    <schema:name>Three ways of thought in ancient China</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/459289#Thing/china_philosophie"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/753476484#PublicationEvent/new_york_doubleday_1956"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>753476484</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/459289#Agent/doubleday"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/459289"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/459289#Topic/philosophie_chine"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/459289#Topic/philosophie"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/459289#Place/china"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/459289#Series/"/>
+    <schema:numberOfPages>216</schema:numberOfPages>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/459289#Person/waley_arthur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/753476484#PublicationEvent/new_york_doubleday_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/459289#Agent/doubleday"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/459289#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/459289#Place/china">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>China.</schema:name>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/4009937-4"/>
+  </rdf:Description>
+</rdf:RDF>

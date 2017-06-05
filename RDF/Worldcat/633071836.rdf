@@ -1,0 +1,66 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/633071836">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/633071836"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/930699002#Person/fremantle_anne">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fremantle</schema:familyName>
+    <schema:givenName>Anne</schema:givenName>
+    <schema:name>Anne Fremantle</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/633071836#PublicationEvent/new_york_mentor_book_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/930699002#Agent/mentor_book"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/930699002#Series/the_mentor_philosophers">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/633071836"/>
+    <schema:name>The mentor philosophers ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/930699002#Agent/mentor_book">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Mentor Book</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/633071836">
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/930699002#Series/the_mentor_philosophers"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>633071836</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/930699002#Person/fremantle_anne"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/930699002"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:productID>633071836</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/633071836#PublicationEvent/new_york_mentor_book_1955"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name>The age of belief : the Miedieval philosophers</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/930699002#Agent/mentor_book"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/633071836"/>
+  </rdf:Description>
+</rdf:RDF>

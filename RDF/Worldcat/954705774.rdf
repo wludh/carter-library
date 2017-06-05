@@ -1,0 +1,75 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1352301#Agent/new_american_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New American Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1352301#Series/mentor_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/954705774"/>
+    <schema:name>Mentor book.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1352301#Person/de_santillana_giorgio_1902">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>De Santillana</schema:familyName>
+    <schema:givenName>Giorgio</schema:givenName>
+    <schema:name>Giorgio De Santillana</schema:name>
+    <schema:birthDate>1902</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/954705774#PublicationEvent/new_york_new_american_library_cop_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1352301#Agent/new_american_library"/>
+    <schema:startDate>co. 1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1352301#Series/mentor_book_the_mentor_philosophers">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/954705774"/>
+    <schema:name>Mentor book. The mentor philosophers ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/954705774">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/954705774#PublicationEvent/new_york_new_american_library_cop_1956"/>
+    <schema:name>The age of adventure : The renaissance Philosophers</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>954705774</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1352301#Person/de_santillana_giorgio_1902"/>
+    <schema:copyrightYear>op.</schema:copyrightYear>
+    <schema:datePublished>1956</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1352301#Series/mentor_book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/954705774"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1352301#Series/mentor_book_the_mentor_philosophers"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1352301#Agent/new_american_library"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1352301"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:productID>954705774</schema:productID>
+    <schema:numberOfPages>283</schema:numberOfPages>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/954705774">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/954705774"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>
