@@ -1,0 +1,70 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/879928#Series/pocket_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1620500"/>
+    <schema:name>Pocket books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/310728551">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Marlowe</schema:familyName>
+    <schema:givenName>Philip</schema:givenName>
+    <schema:name>(Fictitious character) Philip Marlowe</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1620500">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1620500"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/39374901">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Chandler</schema:familyName>
+    <schema:givenName>Raymond</schema:givenName>
+    <schema:name>Raymond Chandler</schema:name>
+    <schema:birthDate>1888</schema:birthDate>
+    <schema:deathDate>1959,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1620500">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1620500"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/879928#Person/marlowe_philip_fictitious_character"/>
+    <library:oclcnum>1620500</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:copyrightYear>1943</schema:copyrightYear>
+    <schema:genre xml:lang="en">Detective and mystery fiction</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>1620500</schema:productID>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:bookEdition>Pocket book edition.</schema:bookEdition>
+    <schema:name xml:lang="en">The lady in the lake</schema:name>
+    <schema:genre xml:lang="en">Mystery fiction</schema:genre>
+    <schema:datePublished>1946</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/879928"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/879928#Series/pocket_books"/>
+    <schema:author rdf:resource="http://viaf.org/viaf/39374901"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/310728551"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/879928#Person/marlowe_philip_fictitious_character">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Marlowe</schema:familyName>
+    <schema:givenName>Philip</schema:givenName>
+    <schema:name>(Fictitious character) Philip Marlowe</schema:name>
+  </rdf:Description>
+</rdf:RDF>

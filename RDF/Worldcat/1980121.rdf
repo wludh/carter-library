@@ -1,0 +1,62 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/891461">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Detective and mystery stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/39374901">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Chandler</schema:familyName>
+    <schema:givenName>Raymond</schema:givenName>
+    <schema:name>Raymond Chandler</schema:name>
+    <schema:birthDate>1888</schema:birthDate>
+    <schema:deathDate>1959,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1980121">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1980121"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1980121">
+    <schema:author rdf:resource="http://viaf.org/viaf/39374901"/>
+    <library:oclcnum>1980121</library:oclcnum>
+    <schema:productID>1980121</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:copyrightYear>1946</schema:copyrightYear>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1980121"/>
+    <schema:description xml:lang="en">Finger man -- The bronze door -- Smart-aleck kill -- The simple art of murder.</schema:description>
+    <schema:datePublished>1946</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2776255"/>
+    <schema:genre xml:lang="en">Mystery fiction</schema:genre>
+    <schema:genre xml:lang="en">Detective and mystery fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2776255#Series/murder_mystery_monthly"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/891461"/>
+    <schema:genre xml:lang="en">Mystery and detective fiction</schema:genre>
+    <schema:name xml:lang="en">Finger man : and other stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2776255#Series/murder_mystery_monthly">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1980121"/>
+    <schema:name>Murder mystery monthly ;</schema:name>
+  </rdf:Description>
+</rdf:RDF>

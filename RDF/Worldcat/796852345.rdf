@@ -1,0 +1,71 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/796852345#PublicationEvent/new_york_the_mentor_book_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1104022970#Agent/the_mentor_book"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/912527">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Enlightenment</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1104022970#Agent/the_mentor_book">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>The Mentor Book</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/796852345">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/796852345"/>
+    <schema:dateModified>2017-05-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1104022970#Person/berlin_isaiah_1909_1997">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Berlin</schema:familyName>
+    <schema:givenName>Isaiah</schema:givenName>
+    <schema:name>Isaiah Berlin</schema:name>
+    <schema:birthDate>1909</schema:birthDate>
+    <schema:deathDate>1997</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/796852345">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/796852345"/>
+    <library:oclcnum>796852345</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1104022970#Agent/the_mentor_book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/912527"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/796852345#PublicationEvent/new_york_the_mentor_book_1956"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1104022970#Person/berlin_isaiah_1909_1997"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>796852345</schema:productID>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1104022970"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">The age of enlightenment : the eighteenth century philosophers</schema:name>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/B802"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/B802">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/6599123">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/48202822"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/48202822#Agent/perma_books"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/112201973"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/48202822#Place/garden_city_n_y"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>6599123</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>6599123</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1953</schema:datePublished>
+    <schema:name xml:lang="en">Dark memory</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/6599123"/>
+    <schema:about rdf:resource="http://dewey.info/class/fic/"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/6599123#PublicationEvent/garden_city_n_y_perma_books_1953_1940"/>
+    <schema:copyrightYear>1940</schema:copyrightYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/fic/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/6599123#PublicationEvent/garden_city_n_y_perma_books_1953_1940">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/48202822#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/48202822#Agent/perma_books"/>
+    <schema:startDate>1953</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/48202822#Agent/perma_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Perma Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/6599123">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/6599123"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/112201973">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Latimer</schema:familyName>
+    <schema:givenName>Jonathan</schema:givenName>
+    <schema:name>Jonathan Latimer</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+    <schema:deathDate>1983</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/48202822#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+</rdf:RDF>
