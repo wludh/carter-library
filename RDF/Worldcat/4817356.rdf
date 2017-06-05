@@ -1,0 +1,103 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/4817356">
+    <library:oclcnum>4817356</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/111273695"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/53075251#Agent/simon_and_schuster"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/53075251"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/4817356#PublicationEvent/new_york_simon_and_schuster_1955"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:genre xml:lang="en">Television plays</schema:genre>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/568557683"/>
+    <schema:productID>4817356</schema:productID>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/53075251#Series/touchstone_book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780671211332"/>
+    <schema:description xml:lang="en">Holiday song -- Printer's measure -- The big deal -- Marty -- The mother -- The bachelor party.</schema:description>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/53075251#Topic/dramatiques"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1146972"/>
+    <schema:description xml:lang="en">A collection of the television plays of Paddy Chayefsky which is part of a four-volume set of his work. The television plays contained in this volume are "Holiday Song", "Printer's Measure", "The Big Deal", "Marty", "The Mother" and "The Bachelor Party".</schema:description>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/4817356"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:name xml:lang="en">Television plays</schema:name>
+    <schema:about rdf:resource="http://dewey.info/class/792/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/53075251#Series/touchstone_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/4817356"/>
+    <schema:name>Touchstone book</schema:name>
+    <schema:name>Touchstone book.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780671211332">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780671211332</schema:isbn>
+    <schema:isbn>0671211331</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/53075251#Topic/dramatiques">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Dramatiques</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/792/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4817356">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/4817356"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/568557683">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/4817356"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Television plays.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1146972">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Television plays</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/111273695">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Chayefsky</schema:familyName>
+    <schema:givenName>Paddy</schema:givenName>
+    <schema:name>Paddy Chayefsky</schema:name>
+    <schema:birthDate>1923</schema:birthDate>
+    <schema:deathDate>1981</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/53075251#Agent/simon_and_schuster">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Simon and Schuster</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/53075251">
+    <schema:name>Plays.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4817356#PublicationEvent/new_york_simon_and_schuster_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/53075251#Agent/simon_and_schuster"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

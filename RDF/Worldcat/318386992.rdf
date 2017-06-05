@@ -1,0 +1,97 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/318386992">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/318386992"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/860281#Topic/mitologia_egipcia">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Mitología egipcia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/860281#Topic/mitologia_clasica">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Mitología clásica</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/292.13/e20/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/46302411">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Klapp</schema:familyName>
+    <schema:givenName>William H.</schema:givenName>
+    <schema:name>William H. Klapp</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/860281#Topic/mitologia_romana">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Mitología romana</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/860281#Topic/mitologia_hindu">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Mitología hindú</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/860281#Topic/mitologia_griega">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Mitología griega</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/860281#Person/murray_alexander_s">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Murray</schema:familyName>
+    <schema:givenName>Alexander S.</schema:givenName>
+    <schema:name>Alexander S. Murray</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/318386992">
+    <schema:contributor rdf:resource="http://viaf.org/viaf/46302411"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/860281#Topic/mitologia_egipcia"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/318386992#PublicationEvent/new_york_tudor_pub_co_1954"/>
+    <library:oclcnum>318386992</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://dewey.info/class/292.13/e20/"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/860281"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/860281#Agent/tudor_pub_co"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:numberOfPages>427</schema:numberOfPages>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:name>Manual of mythology : greek and roman, Norse, and old german, hindoo and egyptian mythology</schema:name>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/860281#Person/murray_alexander_s"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/860281#Topic/mitologia_romana"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/860281#Topic/mitologia_griega"/>
+    <schema:productID>318386992</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/860281#Topic/mitologia_clasica"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/860281#Topic/mitologia_hindu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/318386992"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/318386992#PublicationEvent/new_york_tudor_pub_co_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/860281#Agent/tudor_pub_co"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/860281#Agent/tudor_pub_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Tudor Pub. Co.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

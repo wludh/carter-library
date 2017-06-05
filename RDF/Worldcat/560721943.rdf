@@ -1,0 +1,54 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1366498#Place/harper_&amp;_bros">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Harper &amp; Bros.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/560721943">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/560721943"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/560721943#PublicationEvent/harper_&amp;_bros_new_york_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1366498#Place/harper_&amp;_bros"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1366498#Agent/new_york"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/560721943">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">Critique of Religion and Philosophy.</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/560721943"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <library:oclcnum>560721943</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/560721943#PublicationEvent/harper_&amp;_bros_new_york_1958"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1366498#Place/harper_&amp;_bros"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1366498#Agent/new_york"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1366498"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1366498#Person/kaufmann_walter_arnold"/>
+    <schema:productID>560721943</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1366498#Agent/new_york">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1366498#Person/kaufmann_walter_arnold">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kaufmann</schema:familyName>
+    <schema:givenName>Walter Arnold</schema:givenName>
+    <schema:name>Walter Arnold Kaufmann</schema:name>
+  </rdf:Description>
+</rdf:RDF>

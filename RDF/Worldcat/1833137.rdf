@@ -1,0 +1,112 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1833137">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1059161792"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1833137"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/152609557"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/7524679"/>
+    <schema:datePublished>1936</schema:datePublished>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/655693107"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/38203361"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1059161792#Person/thomas_lowell_1892_1981"/>
+    <schema:name xml:lang="en">Great Kipling stories : together with a life of Rudyard Kipling</schema:name>
+    <library:oclcnum>1833137</library:oclcnum>
+    <schema:productID>1833137</schema:productID>
+    <schema:about rdf:resource="http://dewey.info/class/823.89/"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/pau"/>
+    <schema:description xml:lang="en">Boy who wrote like a man: a short account of an amazing career / Lowell Thomas -- Man who would be king -- Baa baa black sheep -- Drums of the fore and aft -- Mati Guy-Mutineer -- Wee Willie Winkie -- The finest story in the world -- Bimi -- Namgay Doola -- At the end of the passage -- The sending of Dana Da -- At twenty-two -- The judgment of Dungara -- The recrudescence of Imray -- The enlightment of Pagett, M.P. -- The man who was -- The rout of the white Hussars -- Only a subaltern -- The Three Musketeers -- The daughter of the regiment -- The taking of Lungtungpen -- The god from the machine -- On Greenhow Hill -- The incarnation of Krishna Mulvaney -- The courting of Dinah Shadd -- In a matter of a Private -- A second-rate woman -- The broken link handicap -- The arrest of Lieutenant Golightly -- In the pride of his youth -- His wedded wife -- A wayside comedy -- The phantom rickshaw -- Without benefit of clergy -- The strange ride of Morrowbie Jukes -- Black Jack -- The big drunk Draf -- L'envoi -- Mandalay -- Gunga Din -- Danny Deever -- Tommy -- Fuzzy Wuzzy -- Oonts -- Municipal -- The ballad of East and West -- The ballad of the King's jest -- The English flag -- Tomlinson -- The ballad of the "Clampherdown" -- The ballad of the "Bolivar" -- The gift of the sea -- Christmas in India -- Patett M.P. -- The grave of the hundred head -- The overland mail -- In Springtime -- The gallery slave -- Recessional -- The widow at Windsor -- The vampire -- L'envoi.</schema:description>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1833137#PublicationEvent/philadelphia_john_c_winston_co_1936"/>
+    <schema:genre xml:lang="en">Biography</schema:genre>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/111673784"/>
+    <schema:copyrightYear>1936</schema:copyrightYear>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1059161792#Place/philadelphia"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1059161792#Agent/john_c_winston_co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/111673784">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wiese</schema:familyName>
+    <schema:givenName>Kurt</schema:givenName>
+    <schema:name>Kurt Wiese</schema:name>
+    <schema:birthDate>1887</schema:birthDate>
+    <schema:deathDate>1974</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/1059161792">
+    <schema:name>Short stories.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1833137#PublicationEvent/philadelphia_john_c_winston_co_1936">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1059161792#Place/philadelphia"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1059161792#Agent/john_c_winston_co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/7524679">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kipling</schema:familyName>
+    <schema:givenName>Rudyard</schema:givenName>
+    <schema:name>Rudyard Kipling</schema:name>
+    <schema:birthDate>1865</schema:birthDate>
+    <schema:deathDate>1936</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1059161792#Place/philadelphia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Philadelphia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/38203361">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Thomas</schema:familyName>
+    <schema:givenName>Lowell</schema:givenName>
+    <schema:name>Lowell Thomas</schema:name>
+    <schema:birthDate>1892</schema:birthDate>
+    <schema:deathDate>1981</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1059161792#Agent/john_c_winston_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>John C. Winston Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/pau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>pau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/152609557">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Chandler Kipling Collection (Library of Congress)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1833137">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1833137"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.89/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1059161792#Person/thomas_lowell_1892_1981">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Thomas</schema:familyName>
+    <schema:givenName>Lowell</schema:givenName>
+    <schema:name>Lowell Thomas</schema:name>
+    <schema:birthDate>1892</schema:birthDate>
+    <schema:deathDate>1981</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/655693107">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1833137"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Great Kipling stories.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+</rdf:RDF>

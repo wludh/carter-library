@@ -1,0 +1,93 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1093763">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Religion</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/560323320">
+    <schema:name xml:lang="en">The new Golden bough : a new abridgement of the classic work by Sir James George Frazer</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1031701"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/85164620"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/560323320#PublicationEvent/new_york_criterion_books_1959"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>560323320</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3901054564#Agent/criterion_books"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1005468"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3901054564#Person/frazer_james_george_sir_1854_1941"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/560323320"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:about rdf:resource="http://dewey.info/class/299/e20/"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3901054564"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1093763"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>560323320</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1005468">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Magic</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/560323320">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/560323320"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/85164620">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gaster</schema:familyName>
+    <schema:givenName>Theodor Herzl</schema:givenName>
+    <schema:name>Theodor Herzl Gaster</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+    <schema:deathDate>1992</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1031701">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Mythology</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3901054564#Agent/criterion_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Criterion Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/299/e20/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/560323320#PublicationEvent/new_york_criterion_books_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3901054564#Agent/criterion_books"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3901054564#Person/frazer_james_george_sir_1854_1941">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Frazer</schema:familyName>
+    <schema:givenName>James George</schema:givenName>
+    <schema:name>Sir James George Frazer</schema:name>
+    <schema:birthDate>1854</schema:birthDate>
+    <schema:deathDate>1941</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/3901054564">
+    <schema:name>Golden bough</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,98 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85019381">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Canadian fiction--20th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/432454435#Event/1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1900-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/432454435#Agent/harper_&amp;_brothers">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harper &amp; Brothers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/42912756">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>King</schema:familyName>
+    <schema:givenName>Basil</schema:givenName>
+    <schema:name>Basil King</schema:name>
+    <schema:birthDate>1859</schema:birthDate>
+    <schema:deathDate>1928</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/5504542">
+    <schema:datePublished>1925</schema:datePublished>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:creator rdf:resource="http://viaf.org/viaf/42912756"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85019381"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/5504542#PublicationEvent/new_york_london_harper_&amp;_brothers_1925"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/432454435#Agent/harper_&amp;_brothers"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/5504542"/>
+    <schema:publisher rdf:resource="http://viaf.org/viaf/122099855"/>
+    <schema:productID>5504542</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/432454435#Event/1900_1999"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/432454435"/>
+    <schema:numberOfPages>340</schema:numberOfPages>
+    <schema:name xml:lang="en">The high forfeit : a novel</schema:name>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/845101"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/557496032"/>
+    <library:oclcnum>5504542</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/122099855">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Harper &amp; Brothers.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/845101">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Canadian fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5504542#PublicationEvent/new_york_london_harper_&amp;_brothers_1925">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/432454435#Agent/harper_&amp;_brothers"/>
+    <schema:startDate>1925</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5504542">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/5504542"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/557496032">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/5504542"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>High forfeit.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,70 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1108635">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Science fiction, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/66470391">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lovecraft</schema:familyName>
+    <schema:givenName>H. P.</schema:givenName>
+    <schema:givenName>Howard Phillips</schema:givenName>
+    <schema:name>Howard Phillips Lovecraft</schema:name>
+    <schema:birthDate>1890</schema:birthDate>
+    <schema:deathDate>1937,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1572240">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">The lurker at the threshold</schema:name>
+    <library:oclcnum>1572240</library:oclcnum>
+    <schema:genre xml:lang="en">Science fiction</schema:genre>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/771807"/>
+    <schema:description xml:lang="en">Billington's Wood -- Manuscript of Stephen Bates -- Narrative of Winfield Phillips.</schema:description>
+    <schema:productID>1572240</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/wiu"/>
+    <schema:illustrator rdf:resource="http://viaf.org/viaf/10148752015341200614"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1572240"/>
+    <schema:author rdf:resource="http://viaf.org/viaf/12307238"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:author rdf:resource="http://viaf.org/viaf/66470391"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1108635"/>
+    <schema:datePublished>1945</schema:datePublished>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1572240">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1572240"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/12307238">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Derleth</schema:familyName>
+    <schema:givenName>August</schema:givenName>
+    <schema:name>August Derleth</schema:name>
+    <schema:birthDate>1909</schema:birthDate>
+    <schema:deathDate>1971,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/10148752015341200614">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Clyne</schema:familyName>
+    <schema:givenName>Ronald</schema:givenName>
+    <schema:name>Ronald Clyne</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/wiu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>wiu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>
