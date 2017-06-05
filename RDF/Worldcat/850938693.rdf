@@ -1,0 +1,79 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/39451652">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Niebuhr</schema:familyName>
+    <schema:givenName>Reinhold</schema:givenName>
+    <schema:name>Reinhold Niebuhr</schema:name>
+    <schema:birthDate>1892</schema:birthDate>
+    <schema:deathDate>1971</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/850938693#PublicationEvent/new_york_charles_scribner_s_sons_1937">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/498461#Agent/charles_scribner_s_sons"/>
+    <schema:startDate>1937</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/498461#Topic/filosofia_de_la_historia">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Filosofía de la historia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/498461#Agent/charles_scribner_s_sons">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Charles Scribner's Sons</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/850938693">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/850938693"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/498461#Topic/historia_teologia">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Historia (Teología)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/850938693">
+    <schema:datePublished>1937</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/498461#Topic/filosofia_de_la_historia"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>850938693</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Beyond tragedy : essays on the Christian interpretation of history</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/498461"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/498461#Topic/historia_teologia"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/39451652"/>
+    <schema:numberOfPages>306</schema:numberOfPages>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/498461#Series/scribner_library_books"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/498461#Agent/charles_scribner_s_sons"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/850938693"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/850938693#PublicationEvent/new_york_charles_scribner_s_sons_1937"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>850938693</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/498461#Series/scribner_library_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/850938693"/>
+    <schema:name>Scribner Library Books ;</schema:name>
+  </rdf:Description>
+</rdf:RDF>

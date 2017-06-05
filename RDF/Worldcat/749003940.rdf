@@ -1,0 +1,131 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3307040943#Person/pascal_blaise_1623_1662">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Pascal</schema:familyName>
+    <schema:givenName>Blaise</schema:givenName>
+    <schema:name>Blaise Pascal</schema:name>
+    <schema:birthDate>1623</schema:birthDate>
+    <schema:deathDate>1662</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3307040943#Series/the_mentor_philosophers">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/749003940"/>
+    <schema:name>The Mentor philosophers.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/9849392">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Leibniz</schema:familyName>
+    <schema:givenName>Gottfried Wilhelm</schema:givenName>
+    <schema:name>Gottfried Wilhelm Leibniz</schema:name>
+    <schema:birthDate>1646</schema:birthDate>
+    <schema:deathDate>1716</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/59083895">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hobbes</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Hobbes</schema:name>
+    <schema:birthDate>1588</schema:birthDate>
+    <schema:deathDate>1679</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/749003940#PublicationEvent/new_york_mentor_books_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3307040943#Agent/mentor_books"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/41838958">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Descartes</schema:familyName>
+    <schema:givenName>Rene</schema:givenName>
+    <schema:name>Rene Descartes</schema:name>
+    <schema:birthDate>1596</schema:birthDate>
+    <schema:deathDate>1650</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3307040943#Person/galilei_galileo_1564_1642">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Galilei</schema:familyName>
+    <schema:givenName>Galileo</schema:givenName>
+    <schema:name>Galileo Galilei</schema:name>
+    <schema:birthDate>1564</schema:birthDate>
+    <schema:deathDate>1642</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/749003940">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/749003940"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3307040943#Person/hampshire_stuart">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hampshire</schema:familyName>
+    <schema:givenName>Stuart</schema:givenName>
+    <schema:name>Stuart Hampshire</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/22149024">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Spinoza</schema:familyName>
+    <schema:givenName>Baruch</schema:givenName>
+    <schema:name>Baruch Spinoza</schema:name>
+    <schema:birthDate>1632</schema:birthDate>
+    <schema:deathDate>1677</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/749003940">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3307040943#Person/pascal_blaise_1623_1662"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/9849392"/>
+    <schema:productID>749003940</schema:productID>
+    <schema:about rdf:resource="http://viaf.org/viaf/22149024"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3307040943#Agent/mentor_books"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/41838958"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3307040943"/>
+    <schema:numberOfPages>6</schema:numberOfPages>
+    <schema:about rdf:resource="http://viaf.org/viaf/59083895"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3307040943#Series/the_mentor_philosophers"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/3307040943#Person/hampshire_stuart"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/749003940#PublicationEvent/new_york_mentor_books_1956"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/749003940"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3307040943#Person/bacon_francis_1561_1626"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3307040943#Person/galilei_galileo_1564_1642"/>
+    <schema:description xml:lang="en">The book presents selections from basic writings of major 17th century philosophers, along with an interpretive commentary about their works.</schema:description>
+    <library:oclcnum>749003940</library:oclcnum>
+    <schema:name xml:lang="en">The age of reason : the 17th century philosophers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3307040943#Person/bacon_francis_1561_1626">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bacon</schema:familyName>
+    <schema:givenName>Francis</schema:givenName>
+    <schema:name>Francis Bacon</schema:name>
+    <schema:birthDate>1561</schema:birthDate>
+    <schema:deathDate>1626</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3307040943#Agent/mentor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Mentor Books</schema:name>
+  </rdf:Description>
+</rdf:RDF>

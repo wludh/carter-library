@@ -1,0 +1,117 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2999319112#Agent/macmillan">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Macmillan</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/229798082#PublicationEvent/new_york_macmillan_1962_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2999319112#Agent/macmillan"/>
+    <schema:startDate>1962</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/859599">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Christianity</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/248.4/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/229798082">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/229798082"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2999319112#CreativeWork/screwtape_proposes_a_toast">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Screwtape proposes a toast.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2999319112#Person/lewis_c_s_clive_staples_1898_1963"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/22144877">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lewis</schema:familyName>
+    <schema:givenName>C. S.</schema:givenName>
+    <schema:givenName>Clive Staples</schema:givenName>
+    <schema:name>Clive Staples Lewis</schema:name>
+    <schema:birthDate>1898</schema:birthDate>
+    <schema:deathDate>1963</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/827.912/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2999319112#Series/macmillan_paperbacks">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/229798082"/>
+    <schema:name>Macmillan paperbacks,</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2999319112#Person/lewis_c_s_clive_staples_1898_1963">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lewis</schema:familyName>
+    <schema:givenName>C. S.</schema:givenName>
+    <schema:givenName>Clive Staples</schema:givenName>
+    <schema:name>Clive Staples Lewis</schema:name>
+    <schema:birthDate>1898</schema:birthDate>
+    <schema:deathDate>1963</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/BR125">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2999319112#Event/1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1900-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/2999319112">
+    <schema:name>Screwtape letters</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/229798082">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/229798082#PublicationEvent/new_york_macmillan_1962_1961"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/BR125"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/229798082"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2999319112#Series/macmillan_paperbacks"/>
+    <schema:productID>229798082</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2999319112"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/2999319112#CreativeWork/screwtape_proposes_a_toast"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/859599"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://dewey.info/class/248.4/"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2999319112#Event/1900_1999"/>
+    <schema:about rdf:resource="http://dewey.info/class/827.912/"/>
+    <schema:datePublished>1962</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:copyrightYear>1961</schema:copyrightYear>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/2999319112#Person/lewis_c_s_clive_staples_1898_1963"/>
+    <schema:name xml:lang="en">The screwtape letters &amp; Screwtape proposes a toast.</schema:name>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85025227"/>
+    <library:oclcnum>229798082</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/22144877"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2999319112#Agent/macmillan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85025227">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Christianity--20th century</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,81 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/988732892">
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:numberOfPages>276</schema:numberOfPages>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4232699266#Place/greece"/>
+    <schema:name xml:lang="en">Five stages of Greek religion</schema:name>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/4232699266#CreativeWork/de_diis_et_mundo"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>988732892</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/988732892#PublicationEvent/garden_city_ny_doubleday_anchor_books_1955"/>
+    <library:oclcnum>988732892</library:oclcnum>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/4232699266#Person/murray_gilbert_aime_george_1866_1957"/>
+    <schema:description xml:lang="en">Saturnia Regna. -- The Olympian conquest. -- The great schools. -- The failure of nerve. -- The last protest. -- Appendix: Translation of the treatise of Sallustius.</schema:description>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4232699266"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/4232699266#Place/garden_city_ny"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/4232699266#Person/sallustius"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/988732892"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4232699266#Agent/doubleday_anchor_books"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/BL781"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4232699266#Place/garden_city_ny">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, NY</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/988732892">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/988732892"/>
+    <schema:dateModified>2017-06-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4232699266#Person/murray_gilbert_aime_george_1866_1957">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Murray</schema:familyName>
+    <schema:givenName>Gilbert Aime</schema:givenName>
+    <schema:givenName>George</schema:givenName>
+    <schema:name>George Murray</schema:name>
+    <schema:birthDate>1866</schema:birthDate>
+    <schema:deathDate>1957</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/988732892#PublicationEvent/garden_city_ny_doubleday_anchor_books_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/4232699266#Place/garden_city_ny"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4232699266#Agent/doubleday_anchor_books"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4232699266#Person/sallustius">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Sallustius</schema:givenName>
+    <schema:name>Sallustius.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/BL781">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4232699266#CreativeWork/de_diis_et_mundo">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>De diis et mundo.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/4232699266#Person/sallustius"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4232699266#Place/greece">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Greece</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4232699266#Agent/doubleday_anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday Anchor Books</schema:name>
+  </rdf:Description>
+</rdf:RDF>

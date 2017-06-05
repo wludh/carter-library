@@ -1,0 +1,78 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/802736170">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <library:oclcnum>802736170</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/802736170#PublicationEvent/baltimore_penguin_books_cop_1955"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/579335#Agent/penguin_books"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/579335#Topic/mitologia_grega"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/BL782"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/802736170"/>
+    <schema:productID>802736170</schema:productID>
+    <schema:copyrightYear>op.</schema:copyrightYear>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/579335#Place/baltimore"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/579335"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name>The Greek myths</schema:name>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/579335#Series/pelican_books"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/579335#Person/graves_robert_1895_1985"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/802736170">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/802736170"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/579335#Agent/penguin_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Penguin Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/579335#Series/pelican_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/802736170"/>
+    <schema:name>Pelican books.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/802736170#PublicationEvent/baltimore_penguin_books_cop_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/579335#Place/baltimore"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/579335#Agent/penguin_books"/>
+    <schema:startDate>co. 1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/579335#Topic/mitologia_grega">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Mitologia grega</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/BL782">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/579335#Place/baltimore">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Baltimore</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/579335#Person/graves_robert_1895_1985">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Graves</schema:familyName>
+    <schema:givenName>Robert</schema:givenName>
+    <schema:name>Robert Graves</schema:name>
+    <schema:birthDate>1895</schema:birthDate>
+    <schema:deathDate>1985</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

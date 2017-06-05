@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/909996838#PublicationEvent/new_york_bantam_books_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/5798358#Agent/bantam_books"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/909996838">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/909996838"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5798358#Organization/bantam_books">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Bantam Books.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5798358#Person/mccullers_carson_1917_1967">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>McCullers</schema:familyName>
+    <schema:givenName>Carson</schema:givenName>
+    <schema:name>Carson McCullers</schema:name>
+    <schema:birthDate>1917</schema:birthDate>
+    <schema:deathDate>1967</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5798358#Agent/bantam_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Bantam Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/909996838">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/909996838"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/5798358#Person/mccullers_carson_1917_1967"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name>Seven</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/5798358"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/5798358#Organization/bantam_books"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/909996838#PublicationEvent/new_york_bantam_books_1954"/>
+    <library:oclcnum>909996838</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>909996838</schema:productID>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/5798358#Agent/bantam_books"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+</rdf:RDF>

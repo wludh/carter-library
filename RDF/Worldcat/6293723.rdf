@@ -1,0 +1,108 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/6293723">
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/21858771#Place/philadelphia"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/21858771#Agent/prime_press"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85118637"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/pau"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>6293723</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/6293723"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/6293723#PublicationEvent/philadelphia_prime_press_1950"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/21858771#Topic/young_men_spain"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">The lady decides</schema:name>
+    <schema:genre xml:lang="en">Science fiction</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1183263"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/21858771"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1007080"/>
+    <schema:datePublished>1950</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/21858771#Topic/americans_spain_attitudes_social_life_and_customs"/>
+    <schema:bookEdition>1st ed.</schema:bookEdition>
+    <schema:productID>6293723</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/966832"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/34458644"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204303"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1108635"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/34458644">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Keller</schema:familyName>
+    <schema:givenName>David H.</schema:givenName>
+    <schema:givenName>David Henry</schema:givenName>
+    <schema:name>David Henry Keller</schema:name>
+    <schema:birthDate>1880</schema:birthDate>
+    <schema:deathDate>1966</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1183263">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Young men</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1007080">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Man-woman relationships</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85118637">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Science fiction, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1108635">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Science fiction, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21858771#Agent/prime_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Prime Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204303">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Spain</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/966832">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Idealism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/6293723#PublicationEvent/philadelphia_prime_press_1950">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/21858771#Place/philadelphia"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/21858771#Agent/prime_press"/>
+    <schema:startDate>1950</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21858771#Topic/young_men_spain">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85149285"/>
+    <schema:name xml:lang="en">Young men--Spain</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/pau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>pau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21858771#Place/philadelphia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Philadelphia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/6293723">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/6293723"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21858771#Topic/americans_spain_attitudes_social_life_and_customs">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85004432"/>
+    <schema:name xml:lang="en">Americans--Spain--Attitudes--Social life and customs</schema:name>
+  </rdf:Description>
+</rdf:RDF>

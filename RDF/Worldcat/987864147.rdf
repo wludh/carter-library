@@ -1,0 +1,82 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/987864147">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4221254479#Agent/beacon_press"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4221254479#Topic/christianity_19th_cent"/>
+    <library:oclcnum>987864147</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>987864147</schema:productID>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/BR85"/>
+    <schema:numberOfPages>303</schema:numberOfPages>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/4221254479#Person/lowrie_walter_1868_1959"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:description xml:lang="en">Articles in the Fatherland, I-XX. -- This has to be said -- so be it now said. -- Last article in the Fatherland, XXI. -- The instant, nos. I and II. -- What Christ's judgment is about official Christianity. -- The instant, nos. III-VII. -- The instant, nos. VIII-X.</schema:description>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/987864147"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4221254479"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:name xml:lang="en">Kierkegaard's attack upon "Christendom," : 1854-1855</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/987864147#PublicationEvent/boston_beacon_press_1956_c1944"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/4221254479#Person/kierkegaard_s_ren_aabye_1813_1855"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/987864147">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/987864147"/>
+    <schema:dateModified>2017-05-24</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4221254479#Topic/christianity_19th_cent">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Christianity--19th cent</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4221254479#Person/kierkegaard_s_ren_aabye_1813_1855">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kierkegaard</schema:familyName>
+    <schema:givenName>S ren Aabye</schema:givenName>
+    <schema:name>S ren Aabye Kierkegaard</schema:name>
+    <schema:birthDate>1813</schema:birthDate>
+    <schema:deathDate>1855</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4221254479#Person/lowrie_walter_1868_1959">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lowrie</schema:familyName>
+    <schema:givenName>Walter</schema:givenName>
+    <schema:name>Walter Lowrie</schema:name>
+    <schema:birthDate>1868</schema:birthDate>
+    <schema:deathDate>1959,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/BR85">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/987864147#PublicationEvent/boston_beacon_press_1956_c1944">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4221254479#Agent/beacon_press"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4221254479#Agent/beacon_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Beacon Press</schema:name>
+  </rdf:Description>
+</rdf:RDF>
