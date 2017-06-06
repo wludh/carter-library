@@ -1,0 +1,81 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85041558">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Elections--Corrupt practices</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/693873#Topic/gangsters">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008105040"/>
+    <schema:name xml:lang="en">Gangsters</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.52/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1071996">
+    <schema:name xml:lang="en">The glass key</schema:name>
+    <schema:about rdf:resource="http://dewey.info/class/813.52/"/>
+    <schema:author rdf:resource="http://viaf.org/viaf/73854531"/>
+    <library:oclcnum>1071996</library:oclcnum>
+    <schema:productID>1071996</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85041558"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/937713"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:genre xml:lang="en">Detective and mystery fiction</schema:genre>
+    <schema:datePublished>1933</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/693873"/>
+    <schema:genre xml:lang="en">Mystery and detective fiction</schema:genre>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/693873#Topic/gangsters"/>
+    <schema:copyrightYear>1931</schema:copyrightYear>
+    <schema:description xml:lang="en">Paul Madvig was a cheerfully corrupt ward-heeler who aspired to something better: the daughter of Senator Ralph Bancroft Henry, the heiress to a dynasty of political purebreds. Did he want her badly enough to commit murder? And if Madvig was innocent, which of his dozens of enemies was doing an awfully good job of framing him?</schema:description>
+    <schema:publisher rdf:resource="http://viaf.org/viaf/138346665"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/904333"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1071996"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/138346665">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Grosset &amp; Dunlap,</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1071996">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1071996"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/904333">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Elections--Corrupt practices</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/937713">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Gangsters</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/73854531">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hammett</schema:familyName>
+    <schema:givenName>Dashiell</schema:givenName>
+    <schema:name>Dashiell Hammett</schema:name>
+    <schema:birthDate>1894</schema:birthDate>
+    <schema:deathDate>1961,</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

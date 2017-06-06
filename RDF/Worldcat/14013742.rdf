@@ -1,0 +1,82 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/14013742">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/14013742"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/194041210#Place/sauk_city_wis">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Sauk City, Wis.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/14013742">
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>14013742</library:oclcnum>
+    <schema:description xml:lang="en">Foreword -- Which will scarcely be understood -- Robert Ervin Howard: A meoriam, by H.P. Lovecraft -- A memory of R.E. Howrd, by E. Hoffman Price -- Wolfshead.-The black stone -- The horror from the mound -- The cairn on the headland -- Black Canaan -- The fire of Asshurbanipal -- A man-eating jeopard -- Skull-Face -- The Hyborain Age -- Worms of the earth -- The Valley of the Worm -- Skulls in the stars -- Rattle of bones -- The hills of the dead -- Wings in the night -- The Shadow Kingdom -- The mirrors of Ruzun Thune -- Kings of the night -- The phoenix on sword -- The scarlet citadel -- The tower of the elephant -- Rogues in the house --Shadows in Zamboula -- Lines written in the realization that I must die.</schema:description>
+    <schema:about rdf:resource="http://dewey.info/class/818.5/"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/194041210"/>
+    <schema:genre xml:lang="en">Fantasy fiction</schema:genre>
+    <schema:datePublished>1946</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/14013742"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/920725"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:name xml:lang="en">Skull-face, and others</schema:name>
+    <schema:productID>14013742</schema:productID>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/194041210#Place/sauk_city_wis"/>
+    <schema:illustrator rdf:resource="http://experiment.worldcat.org/entity/work/data/194041210#Person/bok_hannes"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/194041210#Agent/arkham_house"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/wiu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/14013742#PublicationEvent/sauk_city_wis_arkham_house_1946"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/41841537"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/920725">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Fantasy fiction, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/41841537">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Howard</schema:familyName>
+    <schema:givenName>Robert E.</schema:givenName>
+    <schema:givenName>Robert Ervin</schema:givenName>
+    <schema:name>Robert Ervin Howard</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+    <schema:deathDate>1936</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/14013742#PublicationEvent/sauk_city_wis_arkham_house_1946">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/194041210#Place/sauk_city_wis"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/194041210#Agent/arkham_house"/>
+    <schema:startDate>1946</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/194041210#Person/bok_hannes">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bok</schema:familyName>
+    <schema:givenName>Hannes</schema:givenName>
+    <schema:name>Hannes Bok</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/818.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/194041210#Agent/arkham_house">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Arkham House</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/wiu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>wiu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

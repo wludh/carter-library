@@ -1,0 +1,79 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/493409560">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/493409560"/>
+    <schema:dateModified>2017-05-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New-York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/493409560">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/493409560"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/493409560#PublicationEvent/new_york_alfred_a_knopf_1957"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/461753"/>
+    <schema:name>The fall</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/461753#Series/borzoi_book"/>
+    <library:oclcnum>493409560</library:oclcnum>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/461753#Agent/alfred_a_knopf"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>493409560</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/461753#Person/o_brien_justin_1906_1968"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/461753#Person/camus_albert_1913_1960"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/461753#Agent/alfred_a_knopf">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Alfred A. Knopf</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/461753#Person/o_brien_justin_1906_1968">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>O'Brien</schema:familyName>
+    <schema:givenName>Justin</schema:givenName>
+    <schema:name>Justin O'Brien</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+    <schema:deathDate>1968,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/493409560#PublicationEvent/new_york_alfred_a_knopf_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/461753#Agent/alfred_a_knopf"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/461753#Series/borzoi_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/493409560"/>
+    <schema:name>Borzoi book</schema:name>
+    <schema:name>Borzoi book.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/461753#Person/camus_albert_1913_1960">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Camus</schema:familyName>
+    <schema:givenName>Albert</schema:givenName>
+    <schema:name>Albert Camus</schema:name>
+    <schema:birthDate>1913</schema:birthDate>
+    <schema:deathDate>1960,</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

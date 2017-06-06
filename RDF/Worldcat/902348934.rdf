@@ -1,0 +1,74 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/15418874#Agent/modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Modern Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/15418874#Topic/american_literature">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>American literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/902348934">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/902348934#PublicationEvent/new_yorkmodern_library1926"/>
+    <schema:datePublished>1926</schema:datePublished>
+    <schema:name>The sun also rises</schema:name>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/15418874#Series/the_modern_library_of_the_world_s_best_books"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/15418874#Topic/american_literature"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>902348934</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/15418874#Agent/modern_library"/>
+    <schema:genre>Text edition</schema:genre>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/15418874"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/15418874#Person/hemingway_ernest_1899_1961"/>
+    <schema:productID>902348934</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/902348934"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/15418874#Series/the_modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/902348934"/>
+    <schema:name>The modern library of the world's best books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/902348934#PublicationEvent/new_yorkmodern_library1926">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/15418874#Agent/modern_library"/>
+    <schema:startDate>1926</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/15418874#Person/hemingway_ernest_1899_1961">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hemingway</schema:familyName>
+    <schema:givenName>Ernest</schema:givenName>
+    <schema:name>Ernest Hemingway</schema:name>
+    <schema:birthDate>1899</schema:birthDate>
+    <schema:deathDate>1961</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/902348934">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/902348934"/>
+    <schema:dateModified>2017-04-26</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

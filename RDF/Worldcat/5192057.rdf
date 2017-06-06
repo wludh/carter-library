@@ -1,0 +1,131 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2517091179#Place/soviet_union">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Soviet Union</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5192057#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Novʹ.</rdfs:label>
+    <schema:name xml:lang="en">Новь.</schema:name>
+    <schema:inLanguage>ru</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5192057">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/5192057"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/41847346">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Turgenev</schema:familyName>
+    <schema:givenName>Ivan Sergeevich</schema:givenName>
+    <schema:name xml:lang="en">Ivan Sergeevich Turgenev</schema:name>
+    <schema:name xml:lang="en">Иван Сергеевич Тургенев</schema:name>
+    <schema:birthDate>1818</schema:birthDate>
+    <schema:deathDate>1883</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/5192057">
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/5192057#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/14820156"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2517091179#Series/evergreen_book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2517091179#Event/1925_1953"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/910709"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/5192057"/>
+    <schema:productID>5192057</schema:productID>
+    <schema:creator rdf:resource="http://viaf.org/viaf/41847346"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/5192057#PublicationEvent/new_york_grove_press_1956"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1210281"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2517091179#Place/soviet_union"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:name xml:lang="en">Virgin soil</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1127392"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2517091179"/>
+    <schema:about rdf:resource="http://dewey.info/class/891.73/"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2517091179#Agent/grove_press"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>5192057</library:oclcnum>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85125831"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1127395"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2517091179#Agent/grove_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Grove Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/910709">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1127395">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Soviet literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/891.73/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2517091179#Series/evergreen_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/5192057"/>
+    <schema:name>Evergreen book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1210281">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Soviet Union.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85125831">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Soviet literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1127392">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Soviet fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/14820156">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Garnett</schema:familyName>
+    <schema:givenName>Constance</schema:givenName>
+    <schema:name>Constance Garnett</schema:name>
+    <schema:birthDate>1861</schema:birthDate>
+    <schema:deathDate>1946</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/2517091179">
+    <rdfs:label>Novʹ.</rdfs:label>
+    <schema:name xml:lang="en">Новь.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5192057#PublicationEvent/new_york_grove_press_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2517091179#Agent/grove_press"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2517091179#Event/1925_1953">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1925-1953</schema:name>
+  </rdf:Description>
+</rdf:RDF>

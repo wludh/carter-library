@@ -1,0 +1,76 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54207081#Place/new_york_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/223157612">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/223157612"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54207081#Person/macdonald_dwight">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Macdonald</schema:familyName>
+    <schema:givenName>Dwight</schema:givenName>
+    <schema:name>Dwight Macdonald</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/223157612#PublicationEvent/new_york_n_y_random_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/54207081#Place/new_york_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/54207081#Agent/random"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1053820">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Parodies</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54207081#Series/random_house_lifetime_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/223157612"/>
+    <schema:name>Random House lifetime library</schema:name>
+    <schema:name>Random House lifetime library.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54207081#Agent/random">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Random</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/827.008/e19/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/223157612">
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/54207081#Place/new_york_n_y"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/223157612#PublicationEvent/new_york_n_y_random_1960"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>223157612</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/54207081"/>
+    <schema:about rdf:resource="http://dewey.info/class/827.008/e19/"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:name xml:lang="en">Parodies : an anthology from Chaucer to Beerbohm--and after</schema:name>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/54207081#Person/macdonald_dwight"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/54207081#Series/random_house_lifetime_library"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/54207081#Agent/random"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1053820"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/223157612"/>
+    <schema:productID>223157612</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

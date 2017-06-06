@@ -1,0 +1,66 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3859823397#Agent/random_house">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Random House</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/601530679">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:name>A farewell to arms : Ernest Hemingway ; Introduction by Ford Madox Ford.</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/97006051"/>
+    <library:oclcnum>601530679</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1932</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/601530679"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3859823397#Agent/random_house"/>
+    <schema:productID>601530679</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3859823397"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/601530679#PublicationEvent/new_york_random_house_1932"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3859823397#Series/the_modern_library_of_the_world_s_best_books"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/97006051">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hemingway</schema:familyName>
+    <schema:givenName>Ernest</schema:givenName>
+    <schema:name>Ernest Hemingway</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/601530679#PublicationEvent/new_york_random_house_1932">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3859823397#Agent/random_house"/>
+    <schema:startDate>1932</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/601530679">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/601530679"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3859823397#Series/the_modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/601530679"/>
+    <schema:name>The modern library of the world's best books ;</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,112 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/935370">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Frontier and pioneer life</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85146681">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Wild horses</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.52/e19/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/849728">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Cattle stealing</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2008104176">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Frontier and pioneer life--California</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1175105">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Wild horses</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/853308639">
+    <schema:creator rdf:resource="http://viaf.org/viaf/120707143"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1175105"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/580250#Topic/cattle_stealing"/>
+    <schema:genre xml:lang="en">American fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204928"/>
+    <schema:productID>853308639</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/853308639"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1049233"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/935370"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/580250#Topic/outlaws"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">Forlorn River : a romance</schema:name>
+    <schema:about rdf:resource="http://dewey.info/class/813.52/e19/"/>
+    <schema:genre xml:lang="en">Western stories</schema:genre>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85146681"/>
+    <schema:datePublished>1927</schema:datePublished>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2008104176"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/580250"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1692637"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/849728"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:copyrightYear>1927</schema:copyrightYear>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:description xml:lang="en">Ben Ide is a failure in the horse trade because he loves horses more than money. A few bad deals have turned the world against him. His greatest adversary is his father, who thinks Ben good for nothing. Determined to show what he is made of and what he can do, Ben pursues a herd of wild horses. The herd leads him directly into danger: cattle thieves with connections in high places. Distrusted by the woman he loves, menaced by killers, and hounded by slander, Ben finds his day of reckoning at the edge of Forlorn River. What he does next will make him an outcast or a hero.</schema:description>
+    <library:oclcnum>853308639</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/580250#Place/california_northern"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/580250#Topic/outlaws">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008108737"/>
+    <schema:name xml:lang="en">Outlaws</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/853308639">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/853308639"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1692637">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>California, Northern.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/120707143">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Grey</schema:familyName>
+    <schema:givenName>Zane</schema:givenName>
+    <schema:name>Zane Grey</schema:name>
+    <schema:birthDate>1872</schema:birthDate>
+    <schema:deathDate>1939</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/580250#Place/california_northern">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>California, Northern</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1049233">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Outlaws</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/580250#Topic/cattle_stealing">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008100229"/>
+    <schema:name xml:lang="en">Cattle stealing</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204928">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>California.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,74 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nju">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nju</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/970446804">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nju"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/440682#Person/baker_carlos_1909_1987"/>
+    <schema:name>Hemingway : the writer as artist</schema:name>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:productID>970446804</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/440682#Agent/princeton_university_press"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/970446804#PublicationEvent/princeton_princeton_university_press_1956"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/970446804"/>
+    <schema:numberOfPages>355</schema:numberOfPages>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/440682#Person/hemingway_ernest_1899_1961"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/440682"/>
+    <schema:genre xml:lang="en">Biography</schema:genre>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/440682#Place/princeton"/>
+    <library:oclcnum>970446804</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookEdition>2 ed.</schema:bookEdition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/440682#Person/hemingway_ernest_1899_1961">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hemingway</schema:familyName>
+    <schema:givenName>Ernest</schema:givenName>
+    <schema:name>Ernest Hemingway</schema:name>
+    <schema:birthDate>1899</schema:birthDate>
+    <schema:deathDate>1961</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/440682#Agent/princeton_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Princeton University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/970446804">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/970446804"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/440682#Person/baker_carlos_1909_1987">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Baker</schema:familyName>
+    <schema:givenName>Carlos</schema:givenName>
+    <schema:name>Carlos Baker</schema:name>
+    <schema:birthDate>1909</schema:birthDate>
+    <schema:deathDate>1987</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/440682#Place/princeton">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Princeton</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/970446804#PublicationEvent/princeton_princeton_university_press_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/440682#Place/princeton"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/440682#Agent/princeton_university_press"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>
