@@ -1,0 +1,91 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1355611#Topic/teatre_genere_literari_antologies">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Teatre (Gènere literari)--Antologies</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1355611#Person/barnet_sylvan">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Barnet</schema:familyName>
+    <schema:givenName>Sylvan</schema:givenName>
+    <schema:name>Sylvan Barnet</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1355611#Person/burto_william">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Burto</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Burto</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/802931223">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/802931223"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/802931223#PublicationEvent/new_york_new_american_library_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1355611#Agent/new_american_library"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1355611#Topic/comedia">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Comèdia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/3714977">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Berman</schema:familyName>
+    <schema:givenName>Morton</schema:givenName>
+    <schema:name>Morton Berman</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1355611#Series/mentor_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/802931223"/>
+    <schema:name>Mentor book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/802931223">
+    <library:oclcnum>802931223</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/802931223"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name>Eight great comedies</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1355611"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1355611#Topic/teatre_genere_literari_antologies"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1355611#Agent/new_american_library"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1355611#Person/barnet_sylvan"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1355611#Series/mentor_book"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/3714977"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/802931223#PublicationEvent/new_york_new_american_library_1958"/>
+    <schema:numberOfPages>3</schema:numberOfPages>
+    <schema:productID>802931223</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1355611#Topic/comedia"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1355611#Person/burto_william"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1355611#Agent/new_american_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New American Library</schema:name>
+  </rdf:Description>
+</rdf:RDF>

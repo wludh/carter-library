@@ -1,0 +1,87 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/139844541#Agent/mentor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Mentor Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/139844541#Topic/christian_special_devotions">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Christian special devotions</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/139844541#Place/new_york_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/139844541#Person/zaturenska_marya">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Zaturenska</schema:familyName>
+    <schema:givenName>Marya</schema:givenName>
+    <schema:name>Marya Zaturenska</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/139844541#Person/gregory_horace_1898_1982">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gregory</schema:familyName>
+    <schema:givenName>Horace</schema:givenName>
+    <schema:name>Horace Gregory</schema:name>
+    <schema:birthDate>1898</schema:birthDate>
+    <schema:deathDate>1982</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/902517284#PublicationEvent/new_york_n_y_mentor_books1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/139844541#Place/new_york_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/139844541#Agent/mentor_books"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/139844541#Series/mentor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/902517284"/>
+    <schema:name>Mentor books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/902517284">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/902517284"/>
+    <schema:dateModified>2017-05-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/139844541#Topic/literature">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/902517284">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name>The mentor book of religious verse</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/902517284#PublicationEvent/new_york_n_y_mentor_books1957"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/139844541#Agent/mentor_books"/>
+    <schema:editor rdf:resource="http://experiment.worldcat.org/entity/work/data/139844541#Person/gregory_horace_1898_1982"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/139844541#Series/mentor_books"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/139844541#Topic/literature"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/139844541#Place/new_york_n_y"/>
+    <library:oclcnum>902517284</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>902517284</schema:productID>
+    <schema:editor rdf:resource="http://experiment.worldcat.org/entity/work/data/139844541#Person/zaturenska_marya"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/139844541#Topic/christian_special_devotions"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/902517284"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:genre>Selected works</schema:genre>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/139844541"/>
+    <schema:numberOfPages>238</schema:numberOfPages>
+  </rdf:Description>
+</rdf:RDF>
