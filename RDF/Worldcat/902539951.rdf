@@ -1,0 +1,74 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/407012#Person/faulkner_william_1897_1962">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Faulkner</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Faulkner</schema:name>
+    <schema:birthDate>1897</schema:birthDate>
+    <schema:deathDate>1962</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/407012#Topic/american_literature">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>American literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/902539951">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/407012#Series/signet_books"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/407012"/>
+    <schema:productID>902539951</schema:productID>
+    <schema:genre>Text edition</schema:genre>
+    <schema:datePublished>1949</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/407012#Person/faulkner_william_1897_1962"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/902539951#PublicationEvent/new_yorknew_american_library1949"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/407012#Agent/new_american_library"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Intruder in the dust</schema:name>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/902539951"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/407012#Topic/american_literature"/>
+    <library:oclcnum>902539951</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/902539951#PublicationEvent/new_yorknew_american_library1949">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/407012#Agent/new_american_library"/>
+    <schema:startDate>1949</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/407012#Series/signet_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/902539951"/>
+    <schema:name>Signet books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/902539951">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/902539951"/>
+    <schema:dateModified>2017-04-26</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/407012#Agent/new_american_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New American Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

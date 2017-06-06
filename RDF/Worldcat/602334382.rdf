@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/602334382">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/602334382"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1918468#Agent/lippincott">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Lippincott</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/109271223">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lewis</schema:familyName>
+    <schema:givenName>R. W. B.</schema:givenName>
+    <schema:givenName>Richard Warrington Baldwin</schema:givenName>
+    <schema:name>Richard Warrington Baldwin Lewis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1918468#Event/1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1900-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85048055">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Fiction--20th century--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/809.3/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/602334382">
+    <schema:description xml:lang="en">The sense of life.-Alberto Moravia [pseud. of Alberto Pincherle].-Albert Camus.-Ignazio Silone.-William Faulkner.-Graham Greene.-Epiloque.-The shared reality: the shadow of André Malraux.</schema:description>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/602334382#PublicationEvent/phila_lippincott_1961_1958"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/109271223"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1918468"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/602334382"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1918468#Place/phila"/>
+    <schema:datePublished>1961</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">The picaresque saint; representative figures in contemporary fiction.</schema:name>
+    <library:oclcnum>602334382</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1918468#Event/1900_1999"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1918468#Agent/lippincott"/>
+    <schema:copyrightYear>1958</schema:copyrightYear>
+    <schema:productID>602334382</schema:productID>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1918468#Series/keystones_books"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/923709"/>
+    <schema:about rdf:resource="http://dewey.info/class/809.3/"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85048055"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/923709">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1918468#Series/keystones_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/602334382"/>
+    <schema:name>Keystones books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1918468#Place/phila">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Phila.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/602334382#PublicationEvent/phila_lippincott_1961_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1918468#Place/phila"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1918468#Agent/lippincott"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+</rdf:RDF>
