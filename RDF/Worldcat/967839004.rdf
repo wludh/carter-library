@@ -1,0 +1,97 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943592500#Series/living_age_meridian_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/967839004"/>
+    <schema:name>Living age Meridian books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943592500#Person/williams_charles_1886_1945">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Williams</schema:familyName>
+    <schema:givenName>Charles</schema:givenName>
+    <schema:name>Charles Williams</schema:name>
+    <schema:birthDate>1886</schema:birthDate>
+    <schema:deathDate>1945</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943592500#Agent/meridian_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Meridian Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943592500#Topic/holy_spirit">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Holy Spirit</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943592500#Topic/church_history">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Church history</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/270/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/654553489">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/967839004"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Descent of the Dove.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/967839004#PublicationEvent/new_york_meridian_books_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3943592500#Agent/meridian_books"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/BR148">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/967839004">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/967839004"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/967839004">
+    <schema:name xml:lang="en">The descent of the dove : a history of the Holy Spirit in the church</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3943592500"/>
+    <schema:about rdf:resource="http://dewey.info/class/270/"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3943592500#Person/williams_charles_1886_1945"/>
+    <library:oclcnum>967839004</library:oclcnum>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/BR148"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3943592500#Topic/church_history"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/967839004"/>
+    <schema:description xml:lang="en">The Descent of the Dove is an examination of the role played by the Holy Spirit in the formation and subsequent history of the Christian faith and community.</schema:description>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3943592500#Agent/meridian_books"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3943592500#Topic/holy_spirit"/>
+    <schema:bookEdition>Living age edition.</schema:bookEdition>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/654553489"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:description xml:lang="en">I. The definition of Christendom -- II. The reconciliation with time -- III. The compensations of success -- IV. The war of the frontiers -- V. The imposition of belief -- VI. Consummation and schism -- VII. The renewal of contrition -- VIII. The quality of disbelief -- IX. The return of the manhood.</schema:description>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/967839004#PublicationEvent/new_york_meridian_books_1956"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3943592500#Series/living_age_meridian_books"/>
+    <schema:productID>967839004</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+</rdf:RDF>

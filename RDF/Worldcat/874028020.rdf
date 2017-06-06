@@ -1,0 +1,62 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/874028020">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name>Hemingway</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1334298#Person/hemingway_ernest"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>874028020</library:oclcnum>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1334298#Person/sanderson_stewart"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1334298#Agent/oliver_and_boyd"/>
+    <schema:datePublished>1961</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/874028020"/>
+    <schema:productID>874028020</schema:productID>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1334298#Place/edinburgh_and_london"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1334298"/>
+    <schema:datePublished>(1961)</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/874028020#PublicationEvent/edinburgh_and_london_oliver_and_boyd_1961"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/874028020">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/874028020"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1334298#Place/edinburgh_and_london">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Edinburgh and London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1334298#Agent/oliver_and_boyd">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Oliver and Boyd</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1334298#Person/sanderson_stewart">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Sanderson</schema:familyName>
+    <schema:givenName>Stewart</schema:givenName>
+    <schema:name>Stewart Sanderson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1334298#Person/hemingway_ernest">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hemingway</schema:familyName>
+    <schema:givenName>Ernest</schema:givenName>
+    <schema:name>Ernest Hemingway</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/874028020#PublicationEvent/edinburgh_and_london_oliver_and_boyd_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1334298#Place/edinburgh_and_london"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1334298#Agent/oliver_and_boyd"/>
+    <schema:startDate>(1961)</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

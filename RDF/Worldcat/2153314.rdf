@@ -1,0 +1,106 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/486752#Person/alembert_jean_le_rond_d_1717_1783">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Alembert</schema:familyName>
+    <schema:givenName>Jean Le Rond d'</schema:givenName>
+    <schema:name>Jean Le Rond d' Alembert</schema:name>
+    <schema:birthDate>1717</schema:birthDate>
+    <schema:deathDate>1783</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2153314">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/486752#Person/alembert_jean_le_rond_d_1717_1783"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:bookEdition>[1st ed.].</schema:bookEdition>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/486752#Place/garden_city_n_y"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>2153314</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/486752#Series/doubleday_anchor_books"/>
+    <library:oclcnum>2153314</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/486752#Agent/doubleday"/>
+    <schema:description xml:lang="en">Rameau's nephew.--D'Alembert's dream.--Supplement to Bougainville's "Voyage".--The two friends from Bourbonne.--A conversation between a father and his children.--The encyclopedia.--Regrets on parting with my old dressing gown.</schema:description>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2153314#PublicationEvent/garden_city_n_y_doubleday_1956"/>
+    <schema:about rdf:resource="http://dewey.info/class/840.81/"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/934688"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/2153314#CreativeWork/unidentifiedOriginalWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2153314"/>
+    <schema:name xml:lang="en">Rameau's nephew, and other works.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/54146831"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/46756283"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/486752"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/840.81/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/486752#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/934688">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">French literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/486752#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/486752">
+    <schema:name>Works.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2153314">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2153314"/>
+    <schema:dateModified>2017-04-27</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2153314#PublicationEvent/garden_city_n_y_doubleday_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/486752#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/486752#Agent/doubleday"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/54146831">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Diderot</schema:familyName>
+    <schema:givenName>Denis</schema:givenName>
+    <schema:name>Denis Diderot</schema:name>
+    <schema:birthDate>1713</schema:birthDate>
+    <schema:deathDate>1784</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/486752#Series/doubleday_anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/2153314"/>
+    <schema:name>Doubleday anchor books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/46756283">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Alembert</schema:familyName>
+    <schema:givenName>Jean Le Rond d'</schema:givenName>
+    <schema:name>Jean Le Rond d' Alembert</schema:name>
+    <schema:birthDate>1717</schema:birthDate>
+    <schema:deathDate>1783</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2153314#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Works.</schema:name>
+    <schema:inLanguage>fr</schema:inLanguage>
+  </rdf:Description>
+</rdf:RDF>

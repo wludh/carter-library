@@ -1,0 +1,88 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1205283">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>France--Paris.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2212096#PublicationEvent/new_york_dell_pub_co_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3955996#Agent/dell_pub_co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3955996#Series/a_dell_first_edition_45">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/2212096"/>
+    <schema:name>A Dell first edition [45]</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1117043">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Short stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2212096">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2212096"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/808.831/e21/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3955996#Agent/dell_pub_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Dell Pub. Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3955996#Person/talbot_daniel">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Talbot</schema:familyName>
+    <schema:givenName>Daniel</schema:givenName>
+    <schema:name>Daniel Talbot</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2212096">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3955996#Agent/dell_pub_co"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1117043"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1205283"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3955996#Place/paris_france"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3955996#Series/a_dell_first_edition_45"/>
+    <schema:productID>2212096</schema:productID>
+    <schema:description xml:lang="en">Feuille d'album / Katherine Mansfield.</schema:description>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3955996"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name xml:lang="en">City of love : stories of the gaiety, the excitement, the spirit of Paris</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2212096"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:copyrightYear>1955</schema:copyrightYear>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://dewey.info/class/808.831/e21/"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/3955996#Person/talbot_daniel"/>
+    <library:oclcnum>2212096</library:oclcnum>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2212096#PublicationEvent/new_york_dell_pub_co_1955"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookEdition>1st ed.</schema:bookEdition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3955996#Place/paris_france">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Paris (France)</schema:name>
+  </rdf:Description>
+</rdf:RDF>
