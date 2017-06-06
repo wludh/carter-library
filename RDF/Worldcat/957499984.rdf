@@ -1,0 +1,67 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/957499984">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/957499984"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3818567447#Topic/philosophy_and_religion">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Philosophy and religion</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/957499984#PublicationEvent/dover_publications1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3818567447#Agent/dover_publications"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3818567447#Topic/immortality">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Immortality</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3818567447#Topic/pessimism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Pessimism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3818567447#Person/unamuno_y_jugo_m_1864_1936">
+    <schema:birthDate>1864</schema:birthDate>
+    <schema:deathDate>1936</schema:deathDate>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:name>Unamuno y Jugo M.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3818567447#Agent/dover_publications">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Dover Publications</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/957499984">
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/B4568"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">Tragic sense of life.</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3818567447#Topic/pessimism"/>
+    <library:oclcnum>957499984</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3818567447"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/957499984#PublicationEvent/dover_publications1954"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/957499984"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3818567447#Person/unamuno_y_jugo_m_1864_1936"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:productID>957499984</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3818567447#Agent/dover_publications"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3818567447#Topic/philosophy_and_religion"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3818567447#Topic/immortality"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/B4568">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

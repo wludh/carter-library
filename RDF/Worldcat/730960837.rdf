@@ -1,0 +1,108 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/730960837#PublicationEvent/hollywood_calif_saint_enterprises_inc_1946">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/909699669#Place/hollywood_calif"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/909699669#Agent/saint_enterprises_inc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/39579103">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gruber</schema:familyName>
+    <schema:givenName>Frank</schema:givenName>
+    <schema:name>Frank Gruber</schema:name>
+    <schema:birthDate>1904</schema:birthDate>
+    <schema:deathDate>1969</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/909699669#Series/saint_s_choice">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/730960837"/>
+    <schema:name>Saint's choice ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/25048067">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Boucher</schema:familyName>
+    <schema:givenName>Anthony</schema:givenName>
+    <schema:name>Anthony Boucher</schema:name>
+    <schema:birthDate>1911</schema:birthDate>
+    <schema:deathDate>1968</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/105331426">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Charteris</schema:familyName>
+    <schema:givenName>Leslie</schema:givenName>
+    <schema:name>Leslie Charteris</schema:name>
+    <schema:birthDate>1907</schema:birthDate>
+    <schema:deathDate>1993</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/730960837">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/730960837"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/cau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>cau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1312041">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>California--Los Angeles--Hollywood.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/72756124">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bellem</schema:familyName>
+    <schema:givenName>Robert Leslie</schema:givenName>
+    <schema:name>Robert Leslie Bellem</schema:name>
+    <schema:birthDate>1902</schema:birthDate>
+    <schema:deathDate>1968</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/909699669#Place/hollywood_los_angeles_calif">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Hollywood (Los Angeles, Calif.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/909699669#Place/hollywood_calif">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Hollywood, Calif.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/909699669#Agent/saint_enterprises_inc">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Saint Enterprises, Inc.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/730960837">
+    <schema:copyrightYear>1946</schema:copyrightYear>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/730960837#PublicationEvent/hollywood_calif_saint_enterprises_inc_1946"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/909699669#Series/saint_s_choice"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1312041"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/cau"/>
+    <library:oclcnum>730960837</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/730960837"/>
+    <schema:productID>730960837</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/25048067"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/909699669#Place/hollywood_calif"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/39579103"/>
+    <schema:datePublished>1946</schema:datePublished>
+    <schema:genre xml:lang="en">Mystery fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:description xml:lang="en">Mystery of Christmas / by by Anthony Boucher -- Funny man / by Frank Gruber -- The phantom bullet / by Robert Leslie Bellem -- Saint in Hollywood / by Leslie Charteris.</schema:description>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/909699669"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/909699669#Place/hollywood_los_angeles_calif"/>
+    <schema:name xml:lang="en">The Saint's choice of Hollywood crime</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/909699669#Agent/saint_enterprises_inc"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/105331426"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/72756124"/>
+  </rdf:Description>
+</rdf:RDF>

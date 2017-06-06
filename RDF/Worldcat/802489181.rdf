@@ -1,0 +1,67 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/62185123#Place/new_york_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York (N.Y.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/62185123#Agent/pocket_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Pocket Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/802489181#PublicationEvent/new_york_n_y_pocket_books_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/62185123#Place/new_york_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/62185123#Agent/pocket_books"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/802489181">
+    <schema:numberOfPages>184</schema:numberOfPages>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/62185123#Person/macdonald_john_ross"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/62185123#Place/new_york_n_y"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/62185123#Agent/pocket_books"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/802489181"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>802489181</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/62185123"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxk"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/802489181#PublicationEvent/new_york_n_y_pocket_books_1954"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/62185123#Series/mystery_pocket_books"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Meet me at the morgue.</schema:name>
+    <schema:productID>802489181</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/62185123#Person/macdonald_john_ross">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Macdonald</schema:familyName>
+    <schema:givenName>John Ross</schema:givenName>
+    <schema:name>John Ross Macdonald</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/802489181">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/802489181"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/62185123#Series/mystery_pocket_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/802489181"/>
+    <schema:name>Mystery (Pocket Books) ;</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,67 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/963918087#PublicationEvent/indianapolis_bobbs_merrill_co_1910">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/16069718#Place/indianapolis"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/16069718#Agent/bobbs_merrill_co"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.49/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/963918087">
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>963918087</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/16069718#Agent/bobbs_merrill_co"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>The Purchase Price : or, The Cause of Compromise</schema:name>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/16069718#Place/indianapolis"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/963918087#PublicationEvent/indianapolis_bobbs_merrill_co_1910"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/963918087"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/16069718"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1910</schema:datePublished>
+    <schema:productID>963918087</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/16069718#Person/hough_e_1857_1923"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/inu"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.49/"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/16069718#Place/indianapolis">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Indianapolis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/inu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>inu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/16069718#Agent/bobbs_merrill_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Bobbs-Merrill Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/963918087">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/963918087"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/16069718#Person/hough_e_1857_1923">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hough</schema:familyName>
+    <schema:givenName>E.</schema:givenName>
+    <schema:name>E. Hough</schema:name>
+    <schema:birthDate>1857</schema:birthDate>
+    <schema:deathDate>1923</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>
