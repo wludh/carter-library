@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/560932168">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/560932168"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/2908491813">
+    <schema:name>Smaller Collections</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/560932168#PublicationEvent/rupert_hart_davis_london_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2908491813#Place/rupert_hart_davis"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2908491813#Agent/london"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/108589496">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Edel</schema:familyName>
+    <schema:givenName>Leon</schema:givenName>
+    <schema:name>Leon Edel</schema:name>
+    <schema:birthDate>1907</schema:birthDate>
+    <schema:deathDate>1997</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/36920030">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>James</schema:familyName>
+    <schema:givenName>Henry</schema:givenName>
+    <schema:name>Henry James</schema:name>
+    <schema:birthDate>1843</schema:birthDate>
+    <schema:deathDate>1916</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/560932168">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2908491813"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/36920030"/>
+    <schema:productID>560932168</schema:productID>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/108589496"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2908491813#Place/rupert_hart_davis"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2908491813#Agent/london"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/560932168"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:name xml:lang="en">The House of Fiction. Essays on the novel ... Edited with an introduction by Leon Edel.</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/560932168#PublicationEvent/rupert_hart_davis_london_1957"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>560932168</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908491813#Agent/london">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908491813#Place/rupert_hart_davis">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Rupert Hart-Davis</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,80 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2517093267#Topic/wisconsin_authors">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Wisconsin authors</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2517093267#Agent/press_of_james_a_decker">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Press of James A. Decker</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1717200">
+    <schema:creator rdf:resource="http://viaf.org/viaf/12307238"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2517093267#Agent/press_of_james_a_decker"/>
+    <schema:datePublished>1944</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <library:oclcnum>1717200</library:oclcnum>
+    <schema:about rdf:resource="http://dewey.info/class/811.5/"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/27068379"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2517093267"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2517093267#Topic/wisconsin_authors"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1717200#PublicationEvent/prairie_city_illinois_press_of_james_a_decker_1944"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2517093267#Place/prairie_city_illinois"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1717200"/>
+    <schema:productID>1717200</schema:productID>
+    <schema:name xml:lang="en">Selected poems.</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/12307238">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Derleth</schema:familyName>
+    <schema:givenName>August</schema:givenName>
+    <schema:name>August Derleth</schema:name>
+    <schema:birthDate>1909</schema:birthDate>
+    <schema:deathDate>1971</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1717200">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1717200"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2517093267#Place/prairie_city_illinois">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Prairie City, Illinois</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/811.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1717200#PublicationEvent/prairie_city_illinois_press_of_james_a_decker_1944">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2517093267#Place/prairie_city_illinois"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2517093267#Agent/press_of_james_a_decker"/>
+    <schema:startDate>1944</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/27068379">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Masters</schema:familyName>
+    <schema:givenName>Edgar Lee</schema:givenName>
+    <schema:name>Edgar Lee Masters</schema:name>
+    <schema:birthDate>1868</schema:birthDate>
+    <schema:deathDate>1950</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

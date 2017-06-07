@@ -1,0 +1,91 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/283489">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>283489</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/283489#PublicationEvent/chicago_pellegrini_&amp;_cudahy_1947"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1441417#Agent/pellegrini_&amp;_cudahy"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1441417#Person/derleth_august_1909_1971"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/12307238"/>
+    <schema:productID>283489</schema:productID>
+    <schema:about rdf:resource="http://viaf.org/viaf/12307238"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1441417"/>
+    <schema:name xml:lang="en">Village daybook : a Sac Prairie journal</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <schema:datePublished>1947</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/283489"/>
+    <schema:copyrightYear>1947</schema:copyrightYear>
+    <schema:about rdf:resource="http://dewey.info/class/818.5/e22/"/>
+    <schema:illustrator rdf:resource="http://viaf.org/viaf/4537025"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/563104700"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/818.5/e22/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/563104700">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/283489"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Village daybook.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1441417#Agent/pellegrini_&amp;_cudahy">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Pellegrini &amp; Cudahy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/283489#PublicationEvent/chicago_pellegrini_&amp;_cudahy_1947">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1441417#Agent/pellegrini_&amp;_cudahy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1441417#Person/derleth_august_1909_1971">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Derleth</schema:familyName>
+    <schema:givenName>August</schema:givenName>
+    <schema:name>August Derleth</schema:name>
+    <schema:birthDate>1909</schema:birthDate>
+    <schema:deathDate>1971</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/12307238">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Derleth</schema:familyName>
+    <schema:givenName>August</schema:givenName>
+    <schema:name>August Derleth</schema:name>
+    <schema:birthDate>1909</schema:birthDate>
+    <schema:deathDate>1971</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/4537025">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Utpatel</schema:familyName>
+    <schema:givenName>Frank</schema:givenName>
+    <schema:name>Frank Utpatel</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/283489">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/283489"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

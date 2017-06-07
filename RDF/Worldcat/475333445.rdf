@@ -1,0 +1,95 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/883735">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85034149">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/475333445">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/475333445"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2525468#Person/james_henry">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>James</schema:familyName>
+    <schema:givenName>Henry</schema:givenName>
+    <schema:name>Henry James</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/475333445">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/883735"/>
+    <schema:genre>Criticism, interpretation, etc.</schema:genre>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://dewey.info/class/808.3/"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/475333445"/>
+    <library:oclcnum>475333445</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2525468#Person/james_henry"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/923709"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85048060"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>475333445</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2525468"/>
+    <schema:name>The art of fiction and other essays</schema:name>
+    <schema:about rdf:resource="http://viaf.org/viaf/27079964"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/475333445#PublicationEvent/new_york_oxford_univ_press_1948"/>
+    <schema:description>The art of fiction. -- Honoré de Balzac. -- Anthony Trollope. -- Guy de Maupassant. -- Ivan Turgénieff. -- Ivan Turgénieff (1818-1883) -- Gustave Flaubert. -- Emile Zola. -- The new novel. -- Criticism. -- Emerson</schema:description>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2525468#Agent/oxford_univ_press"/>
+    <schema:datePublished>1948</schema:datePublished>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85034149"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/27079964">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Emerson</schema:familyName>
+    <schema:givenName>Ralph Waldo</schema:givenName>
+    <schema:name>Ralph Waldo Emerson</schema:name>
+    <schema:birthDate>1803</schema:birthDate>
+    <schema:deathDate>1882</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/475333445#PublicationEvent/new_york_oxford_univ_press_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2525468#Agent/oxford_univ_press"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/808.3/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85048060">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Fiction--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/923709">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2525468#Agent/oxford_univ_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Oxford Univ. Press</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,87 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3420778#PublicationEvent/new_york_simon_and_schuster_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/10166818#Agent/simon_and_schuster"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3420778">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/3420778"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/10166818#Topic/world_war_1939_1945">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh87008024"/>
+    <schema:name xml:lang="en">World War, 1939-1945</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/613146567">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/3420778"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Two soldiers.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1180924">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <rdf:type rdf:resource="http://bibliograph.net/Meeting"/>
+    <schema:name>World War (1939-1945)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/3420778">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/10166818#Event/1939_1945"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/3420778#PublicationEvent/new_york_simon_and_schuster_1956"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/35258014"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>3420778</library:oclcnum>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/613146567"/>
+    <schema:productID>3420778</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/3420778"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/10166818#Agent/simon_and_schuster"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/10166818#Topic/world_war_1939_1945"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1180924"/>
+    <schema:name xml:lang="en">Two soldiers.</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/10166818"/>
+    <schema:datePublished>1956</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/10166818#Agent/simon_and_schuster">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Simon and Schuster</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/35258014">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Davis</schema:familyName>
+    <schema:givenName>Paxton</schema:givenName>
+    <schema:name>Paxton Davis</schema:name>
+    <schema:birthDate>1925</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/10166818#Event/1939_1945">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1939-1945</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,58 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/693584949">
+    <schema:datePublished>1922</schema:datePublished>
+    <schema:productID>693584949</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/693584949#PublicationEvent/grosset_and_dunlap_c1922"/>
+    <schema:copyrightYear>1922</schema:copyrightYear>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/693584949"/>
+    <schema:numberOfPages>220</schema:numberOfPages>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/548722#Agent/grosset_and_dunlap"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://viaf.org/viaf/3091539"/>
+    <schema:genre xml:lang="en">Religious fiction</schema:genre>
+    <schema:name xml:lang="en">The girl from Montana</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:oclcnum>693584949</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/548722"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.52/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/3091539">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hill</schema:familyName>
+    <schema:givenName>Grace Livingston</schema:givenName>
+    <schema:name>Grace Livingston Hill</schema:name>
+    <schema:birthDate>1865</schema:birthDate>
+    <schema:deathDate>1947</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.52/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/693584949#PublicationEvent/grosset_and_dunlap_c1922">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/548722#Agent/grosset_and_dunlap"/>
+    <schema:startDate>c1922</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/548722#Agent/grosset_and_dunlap">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Grosset and Dunlap</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/693584949">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/693584949"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

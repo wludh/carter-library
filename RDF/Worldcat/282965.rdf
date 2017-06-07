@@ -1,0 +1,130 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/39376770">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Faulkner</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Faulkner</schema:name>
+    <schema:birthDate>1897</schema:birthDate>
+    <schema:deathDate>1962</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2286714625#CreativeWork/bear">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Bear.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2286714625#Person/faulkner_william_1897_1962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/282965">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/282965"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1007815">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Manners and customs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2286714625#Place/mississippi">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Mississippi</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2286714625#CreativeWork/was">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Was.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2286714625#Person/faulkner_william_1897_1962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1207034">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Mississippi.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2286714625#Person/faulkner_william_1897_1962">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Faulkner</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Faulkner</schema:name>
+    <schema:birthDate>1897</schema:birthDate>
+    <schema:deathDate>1962</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2286714625#Agent/modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Modern Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2286714625#CreativeWork/old_people">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Old people.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2286714625#Person/faulkner_william_1897_1962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2286714625#Series/modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/282965"/>
+    <schema:name>Modern library of the world's best books.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/282965">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/282965#PublicationEvent/new_york_modern_library_1955"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/2286714625#CreativeWork/bear"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/39376770"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1007815"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2286714625#Agent/modern_library"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/2286714625#CreativeWork/old_people"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1207034"/>
+    <library:oclcnum>282965</library:oclcnum>
+    <schema:name xml:lang="en">Go down, Moses</schema:name>
+    <schema:productID>282965</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/2286714625#CreativeWork/go_down_moses"/>
+    <schema:description xml:lang="en">Includes the novella The bear.</schema:description>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/2286714625#CreativeWork/was"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2286714625#Series/modern_library_of_the_world_s_best_books"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/2286714625#Person/faulkner_william_1897_1962"/>
+    <schema:description xml:lang="en">Was.--The fire and the hearth.--Pantaloon in black.--The old people.--The bear.--Delta autumn.--Go down, Moses.</schema:description>
+    <schema:datePublished>1955</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/282965"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2286714625"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://dewey.info/class/813.5/"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2286714625#Series/the_modern_library_of_the_world_s_best_books_175"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2286714625#Place/mississippi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/282965#PublicationEvent/new_york_modern_library_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2286714625#Agent/modern_library"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2286714625#CreativeWork/go_down_moses">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Go down, Moses.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2286714625#Person/faulkner_william_1897_1962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2286714625#Series/the_modern_library_of_the_world_s_best_books_175">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/282965"/>
+    <schema:name>The Modern library of the world's best books [175]</schema:name>
+  </rdf:Description>
+</rdf:RDF>
