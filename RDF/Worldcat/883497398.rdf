@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/883497398">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/883497398"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/883497398">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name>The ponder heart</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/883497398"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/48288693#Agent/a_dell_book"/>
+    <library:oclcnum>883497398</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/48288693#Person/welty_eudora_1909_2001"/>
+    <schema:productID>883497398</schema:productID>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/48288693#Person/krush_joe_1918"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/48288693"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/883497398#PublicationEvent/new_york_a_dell_book_1954"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/48288693#Agent/a_dell_book">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>A Dell Book</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/48288693#Person/krush_joe_1918">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Krush</schema:familyName>
+    <schema:givenName>Joe</schema:givenName>
+    <schema:name>Joe Krush</schema:name>
+    <schema:birthDate>1918</schema:birthDate>
+    <schema:deathDate></schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/883497398#PublicationEvent/new_york_a_dell_book_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/48288693#Agent/a_dell_book"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/48288693#Person/welty_eudora_1909_2001">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Welty</schema:familyName>
+    <schema:givenName>Eudora</schema:givenName>
+    <schema:name>Eudora Welty</schema:name>
+    <schema:birthDate>1909</schema:birthDate>
+    <schema:deathDate>2001</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

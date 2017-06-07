@@ -1,0 +1,122 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/580271069">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1162686"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Peasants, and other stories.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1881856862#Topic/short_stories_russian_translations_into_english">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85121931"/>
+    <schema:name xml:lang="en">Short stories, Russian--Translations into English</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1881856862#Series/doubleday_anchor_books_a66">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1162686"/>
+    <schema:name>Doubleday anchor books, A66</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1007815">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Manners and customs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1207312">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Russia.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/1881856862">
+    <schema:name>Short stories.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1881856862#Agent/doubleday_anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday Anchor Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1117348">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Short stories, Russian</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1881856862#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1881856862#Place/russia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Russia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1881856862#Person/chekhov_anton_pavlovich_1860_1904">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Chekhov</schema:familyName>
+    <schema:givenName>Anton Pavlovich</schema:givenName>
+    <schema:name>Anton Pavlovich Chekhov</schema:name>
+    <schema:birthDate>1860</schema:birthDate>
+    <schema:deathDate>1904</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/95216565">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Chekhov</schema:familyName>
+    <schema:givenName>Anton Pavlovich</schema:givenName>
+    <schema:name>Anton Pavlovich Chekhov</schema:name>
+    <schema:birthDate>1860</schema:birthDate>
+    <schema:deathDate>1904</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1162686">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1162686#PublicationEvent/garden_city_n_y_doubleday_anchor_books1956"/>
+    <schema:description xml:lang="en">A woman's kingdom --Three years -- The murder -- My life -- Peasants --The new villa -- In the ravine --The bishop -- Betrothed.</schema:description>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1881856862#Person/chekhov_anton_pavlovich_1860_1904"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:about rdf:resource="http://viaf.org/viaf/95216565"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1117348"/>
+    <schema:about rdf:resource="http://dewey.info/class/891.72/"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/580271069"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1881856862#Place/russia"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1881856862"/>
+    <schema:productID>1162686</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1881856862#Place/garden_city_n_y"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1881856862#Topic/short_stories_russian_translations_into_english"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1162686"/>
+    <library:oclcnum>1162686</library:oclcnum>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1207312"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/95216565"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1881856862#Series/doubleday_anchor_books_a66"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1007815"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1881856862#Agent/doubleday_anchor_books"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:name xml:lang="en">Peasants, and other stories</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:genre xml:lang="en">Translations</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1162686#PublicationEvent/garden_city_n_y_doubleday_anchor_books1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1881856862#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1881856862#Agent/doubleday_anchor_books"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/891.72/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1162686">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1162686"/>
+    <schema:dateModified>2017-04-24</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

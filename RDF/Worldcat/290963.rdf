@@ -1,0 +1,128 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/647041202">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/290963"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Eudora Welty.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1244550">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2008113606">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Women and literature--Southern States--History--20th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/290963">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/290963"/>
+    <schema:dateModified>2017-05-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/109202242">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Vande Kieft</schema:familyName>
+    <schema:givenName>Ruth M.</schema:givenName>
+    <schema:givenName>Ruth Marguerite</schema:givenName>
+    <schema:name>Ruth Marguerite Vande Kieft</schema:name>
+    <schema:birthDate>1925</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/4938026">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Welty</schema:familyName>
+    <schema:givenName>Eudora</schema:givenName>
+    <schema:name>Eudora Welty</schema:name>
+    <schema:birthDate>1909</schema:birthDate>
+    <schema:deathDate>2001</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1472903#Event/1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1900-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780805707762">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780805707762</schema:isbn>
+    <schema:isbn>080570776X</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1472903#Agent/twayne_publishers">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Twayne Publishers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.52/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/290963">
+    <schema:url rdf:resource="http://infotrac.galegroup.com/itweb/loras?db=G-Twayne"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:description xml:lang="en">Chronology -- The Natchez trace -- The mysteries of Eudora Welty -- The weather of the mind -- Some modes of comedy -- The season of dreams -- Delta wedding: "a comedy of love" -- The search for the golden apples -- The bride of the Innisfallen: from innocence to experience -- The achievement of Eudora Welty.</schema:description>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/647041202"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1472903#Series/twayne_s_united_states_authors_series"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1472903#Agent/twayne_publishers"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/290963#PublicationEvent/new_york_twayne_publishers_1962"/>
+    <library:oclcnum>290963</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/109202242"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1177093"/>
+    <schema:name xml:lang="en">Eudora Welty</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/290963"/>
+    <schema:productID>290963</schema:productID>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1472903"/>
+    <schema:datePublished>1962</schema:datePublished>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2008113606"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/4938026"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1472903#Event/1900_1999"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1244550"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.52/"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1472903#Person/welty_eudora_1909_2001"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780805707762"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1177093">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Women and literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/290963#PublicationEvent/new_york_twayne_publishers_1962">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1472903#Agent/twayne_publishers"/>
+    <schema:startDate>1962</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1472903#Series/twayne_s_united_states_authors_series">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/290963"/>
+    <schema:name>Twayne's United States authors series ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1472903#Person/welty_eudora_1909_2001">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Welty</schema:familyName>
+    <schema:givenName>Eudora</schema:givenName>
+    <schema:name>Eudora Welty</schema:name>
+    <schema:birthDate>1909</schema:birthDate>
+    <schema:deathDate>2001</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,61 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/832497341">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/832497341"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/832497341">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/832497341"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/2510712"/>
+    <schema:productID>832497341</schema:productID>
+    <library:oclcnum>832497341</library:oclcnum>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/507163#Agent/meridian_books"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/832497341#PublicationEvent/new_yorkmeridian_books1955"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/507163"/>
+    <schema:name>Essays on freedom and power</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/2510712">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Acton</schema:familyName>
+    <schema:givenName>John Emerich Edward Dalberg</schema:givenName>
+    <schema:name>John Emerich Edward Dalberg Acton</schema:name>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/118646796"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/507163#Agent/meridian_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Meridian Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/832497341#PublicationEvent/new_yorkmeridian_books1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/507163#Agent/meridian_books"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

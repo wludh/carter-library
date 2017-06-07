@@ -1,0 +1,67 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nju">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nju</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/44600025#Person/hook_sidney">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hook</schema:familyName>
+    <schema:givenName>Sidney</schema:givenName>
+    <schema:name>Sidney Hook</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/44600025#Series/anvil">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/635789971"/>
+    <schema:name>Anvil ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/635789971">
+    <schema:name>Marx and the Marxists</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/44600025#Person/hook_sidney"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/44600025#Agent/d_van_nostrand"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/44600025"/>
+    <library:oclcnum>635789971</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/635789971"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/44600025#Place/princeton"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:productID>635789971</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:numberOfPages>254</schema:numberOfPages>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/44600025#Series/anvil"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/635789971#PublicationEvent/princeton_d_van_nostrand_1955"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nju"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/635789971">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/635789971"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/44600025#Place/princeton">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Princeton</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/44600025#Agent/d_van_nostrand">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>D. Van Nostrand</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/635789971#PublicationEvent/princeton_d_van_nostrand_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/44600025#Place/princeton"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/44600025#Agent/d_van_nostrand"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

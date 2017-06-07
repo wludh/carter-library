@@ -1,0 +1,110 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1587555#Topic/science_politique">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Science politique</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1587555#Series/mentor_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/602258"/>
+    <schema:name>Mentor book.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/14844144">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lippmann</schema:familyName>
+    <schema:givenName>Walter</schema:givenName>
+    <schema:name>Walter Lippmann</schema:name>
+    <schema:birthDate>1889</schema:birthDate>
+    <schema:deathDate>1974</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1587555#Series/a_mentor_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/602258"/>
+    <schema:name>A Mentor book</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/602258#PublicationEvent/new_york_new_american_library_1956_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1587555#Agent/new_american_library"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1587555#Topic/vrijheid">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Vrijheid</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/321.82/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/602258">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/602258"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/890077">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Democracy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1069781">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Political science</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1587555#Agent/new_american_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New American Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1587555#Topic/politieke_filosofie">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Politieke filosofie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1587555#Topic/democratie">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Démocratie</schema:name>
+    <schema:name xml:lang="en">Democratie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/602258">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1587555#Topic/vrijheid"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1587555"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:copyrightYear>1955</schema:copyrightYear>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/602258#PublicationEvent/new_york_new_american_library_1956_1955"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1587555#Topic/democratie"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/14844144"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/890077"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1587555#Series/mentor_book"/>
+    <schema:about rdf:resource="http://dewey.info/class/321.82/"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1069781"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1587555#Agent/new_american_library"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1587555#Series/a_mentor_book"/>
+    <library:oclcnum>602258</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/602258"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1587555#Topic/politieke_filosofie"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name xml:lang="en">Essays in the public philosophy.</schema:name>
+    <schema:productID>602258</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1587555#Topic/science_politique"/>
+  </rdf:Description>
+</rdf:RDF>

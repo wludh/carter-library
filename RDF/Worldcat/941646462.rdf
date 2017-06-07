@@ -1,0 +1,81 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/10991#Series/noonday_paperbacks">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/941646462"/>
+    <schema:name>Noonday paperbacks ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/941646462">
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/10991#Person/wimsatt_william_k_william_kurtz_1907_1975"/>
+    <library:oclcnum>941646462</library:oclcnum>
+    <schema:name>The verbal icon : studies in the meaning of poetry</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/941646462#PublicationEvent/new_york_noonday_press_1960"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/10991#Topic/criticism"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/10991"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>941646462</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/10991#Agent/noonday_press"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:bookEdition>[2d Noonday paperbound ed.].</schema:bookEdition>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/10991#Topic/poetry"/>
+    <schema:numberOfPages>299</schema:numberOfPages>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/941646462"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/10991#Series/noonday_paperbacks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/10991#Person/wimsatt_william_k_william_kurtz_1907_1975">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wimsatt</schema:familyName>
+    <schema:givenName>William K.</schema:givenName>
+    <schema:givenName>William Kurtz</schema:givenName>
+    <schema:name>William Kurtz Wimsatt</schema:name>
+    <schema:birthDate>1907</schema:birthDate>
+    <schema:deathDate>1975</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/941646462">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/941646462"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/10991#Topic/criticism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/10991#Topic/poetry">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/10991#Agent/noonday_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Noonday Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/941646462#PublicationEvent/new_york_noonday_press_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/10991#Agent/noonday_press"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

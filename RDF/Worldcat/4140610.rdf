@@ -1,0 +1,100 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943376806#Series/a_gateway_edition">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/4140610"/>
+    <schema:name>A Gateway edition,</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943376806#Agent/gateway_editions_distributed_by_h_regnery_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Gateway Editions, distributed by H. Regnery Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85104440">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Political science</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4140610#PublicationEvent/chicago_gateway_editions_distributed_by_h_regnery_co_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3943376806#Agent/gateway_editions_distributed_by_h_regnery_co"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85076480">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Liberty</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/34459614">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Locke</schema:familyName>
+    <schema:givenName>John</schema:givenName>
+    <schema:name>John Locke</schema:name>
+    <schema:birthDate>1632</schema:birthDate>
+    <schema:deathDate>1704</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4140610">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/4140610"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/4140610">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/741481887"/>
+    <library:oclcnum>4140610</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">Of civil government, second essay.</schema:name>
+    <schema:about rdf:resource="http://dewey.info/class/320.1/"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1069781"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85076480"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:productID>4140610</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3943376806"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3943376806#Series/a_gateway_edition"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/4140610"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/34459614"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/4140610#PublicationEvent/chicago_gateway_editions_distributed_by_h_regnery_co_1955"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/997251"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3943376806#Agent/gateway_editions_distributed_by_h_regnery_co"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85104440"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/741481887">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/4140610"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Of civil government, second essay.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/997251">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Liberty</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1069781">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Political science</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/320.1/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

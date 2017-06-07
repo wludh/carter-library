@@ -1,0 +1,67 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/600479885#PublicationEvent/new_york_c_scribner_1951">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3753867072#Agent/c_scribner"/>
+    <schema:startDate>1951</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/91308069">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Cowley</schema:familyName>
+    <schema:givenName>Malcolm</schema:givenName>
+    <schema:name>Malcolm Cowley</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/600479885">
+    <library:oclcnum>600479885</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/600479885#PublicationEvent/new_york_c_scribner_1951"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3753867072"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/600479885"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3753867072#Agent/c_scribner"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/100254195"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/91308069"/>
+    <schema:name>The stories of F. Scott Fitzgerald : a selection of 28 stories</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>600479885</schema:productID>
+    <schema:datePublished>1951</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3753867072#Agent/c_scribner">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>C. Scribner</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/600479885">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/600479885"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/100254195">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fitzgerald</schema:familyName>
+    <schema:givenName>Francis Scott Key</schema:givenName>
+    <schema:name>Francis Scott Key Fitzgerald</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

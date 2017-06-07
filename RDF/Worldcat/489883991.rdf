@@ -1,0 +1,87 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/558782#Agent/vintage_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Vintage Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/558782#Person/cooper_james_fenimore_1789_1851">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Cooper</schema:familyName>
+    <schema:givenName>James Fenimore</schema:givenName>
+    <schema:name>James Fenimore Cooper</schema:name>
+    <schema:birthDate>1789</schema:birthDate>
+    <schema:deathDate>1851</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/558782#Person/spiller_robert_ernest_1896_1988">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Spiller</schema:familyName>
+    <schema:givenName>Robert Ernest</schema:givenName>
+    <schema:name>Robert Ernest Spiller</schema:name>
+    <schema:birthDate>1896</schema:birthDate>
+    <schema:deathDate>1988</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/489883991">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/489883991"/>
+    <schema:dateModified>2017-05-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/489883991#PublicationEvent/new_york_vintage_books_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/558782#Agent/vintage_books"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/489883991">
+    <schema:productID>489883991</schema:productID>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/558782#Agent/vintage_books"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/558782#Person/spiller_robert_ernest_1896_1988"/>
+    <schema:name>The American democrat : or, Hints on the social and civic relations of the United States of America</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/558782#Person/cooper_james_fenimore_1789_1851"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/489883991"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/558782#Person/mencken_henry_louis_1880_1956"/>
+    <library:oclcnum>489883991</library:oclcnum>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/558782#Series/a_vintage_book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/558782"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/489883991#PublicationEvent/new_york_vintage_books_1956"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:numberOfPages>190</schema:numberOfPages>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1956</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/558782#Series/a_vintage_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/489883991"/>
+    <schema:name>A Vintage book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/558782#Person/mencken_henry_louis_1880_1956">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Mencken</schema:familyName>
+    <schema:givenName>Henry Louis</schema:givenName>
+    <schema:name>Henry Louis Mencken</schema:name>
+    <schema:birthDate>1880</schema:birthDate>
+    <schema:deathDate>1956</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

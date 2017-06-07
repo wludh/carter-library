@@ -1,0 +1,142 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/870421">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Communism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85029122">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Communism--History</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/572278269">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/255317"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>To the Finland station.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/255317#PublicationEvent/garden_city_n_y_doubleday_1953_1940">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/572493#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/572493#Agent/doubleday"/>
+    <schema:startDate>1953</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/572493#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85061223">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">History--Philosophy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/572493#Topic/histoire_philosophie">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Histoire--Philosophie</schema:name>
+    <schema:name xml:lang="en">Histoire--Philosophie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1123637">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Socialism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/255317">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/572493#Topic/communisme_histoire"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/572278269"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1123637"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1953</schema:datePublished>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/606131665"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/572493#Series/doubleday_anchor_books"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/572493#Place/garden_city_n_y"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/61553881"/>
+    <schema:productID>255317</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/572493#Topic/socialisme_histoire"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85061223"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/572493#Agent/doubleday"/>
+    <schema:copyrightYear>1940</schema:copyrightYear>
+    <schema:about rdf:resource="http://dewey.info/class/335.09/"/>
+    <library:oclcnum>255317</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/572493#Topic/histoire_philosophie"/>
+    <schema:about rdf:resource="http://dewey.info/class/335.009/"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/255317"/>
+    <schema:description xml:lang="en">Michelet discovers Vico -- Michelet and the Middle Ages -- Michelet and the Revolution -- Michelet tries to live his history -- Michelet between Nationalism and Socialism -- Decline of the Revolutionary tradition : Renan -- Decline of the Revolutionary tradition : Taine -- Decline of the Revolutionary Tradition : Anatole France -- Origins of socialism : Babeuf's defense -- Origins of socialism : Saint -- Simon's hierarchy -- Origins of socialism : the communities of Fourier and Owen -- Origins of socialism : Enfantin and the American socialists -- Karl Marx : Prometheus and Lucifer -- Karl Marx decides to change the world -- Friedrich Engels : the young man from Manchester -- The partnership of Marx and Engels -- Marx and Engels : grinding the lens -- Marx and Engels take a hand at making history -- The myth of the dialectic -- Marx and Engels go back to writing history -- Historical actors : Lassalle -- Historical actors : Bakunin -- Karl Marx : poet of commodities and dictator of the proletariat -- Karl Marx dies at his desk -- Lenin : the brothers Ulyanov -- Lenin : the great headmaster -- Trotsky : the young eagle -- Trotsky identifies history with himself -- Lenin identifies himself with history -- Lenin at the Finland station.</schema:description>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">To the Finland station; a study in the writing and acting of history.</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/958266"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85029122"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2009005978"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/870421"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/572493"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/255317#PublicationEvent/garden_city_n_y_doubleday_1953_1940"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2009005978">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Socialism--History</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/958266">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">History--Philosophy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/335.09/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/61553881">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wilson</schema:familyName>
+    <schema:givenName>Edmund</schema:givenName>
+    <schema:name>Edmund Wilson</schema:name>
+    <schema:birthDate>1895</schema:birthDate>
+    <schema:deathDate>1972</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/572493#Topic/communisme_histoire">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Communisme--Histoire</schema:name>
+    <schema:name xml:lang="en">Communisme--Histoire</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/255317">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/255317"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/606131665">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/255317"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>To the Finland station.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/572493#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/335.009/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/572493#Series/doubleday_anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/255317"/>
+    <schema:name>Doubleday anchor books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/572493#Topic/socialisme_histoire">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Socialisme--Histoire</schema:name>
+    <schema:name xml:lang="en">Socialisme--Histoire</schema:name>
+  </rdf:Description>
+</rdf:RDF>

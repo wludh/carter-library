@@ -1,0 +1,65 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2927540040#Person/vanderbyll_henry_rosch">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Vanderbyll</schema:familyName>
+    <schema:givenName>Henry Rosch</schema:givenName>
+    <schema:name>Henry Rosch Vanderbyll</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2927540040#Agent/philosophical_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Philosophical Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/939846135#PublicationEvent/new_york_philosophical_library1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2927540040#Agent/philosophical_library"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/939846135">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/939846135"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/939846135">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2927540040#Agent/philosophical_library"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:name>Cosmic symphony; a skeptic, a scientist, and a philosopher discuss the mysterious cosmic temple and its equally mysterious occupant--reasoning and behaving man,</schema:name>
+    <library:oclcnum>939846135</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/939846135#PublicationEvent/new_york_philosophical_library1958"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2927540040#Person/vanderbyll_henry_rosch"/>
+    <schema:productID>939846135</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2927540040"/>
+    <schema:about rdf:resource="http://dewey.info/class/811.5/"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:numberOfPages>54</schema:numberOfPages>
+    <schema:datePublished>1958</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/939846135"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/811.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

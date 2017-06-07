@@ -1,0 +1,87 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/49775056#Series/a_new_directions_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/247745711"/>
+    <schema:name>A New Directions Book</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/49775056#Person/brooks_van_wyck_1886_1963">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Brooks</schema:familyName>
+    <schema:givenName>Van Wyck</schema:givenName>
+    <schema:name>Van Wyck Brooks</schema:name>
+    <schema:birthDate>1886</schema:birthDate>
+    <schema:deathDate>1963</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/247745711#PublicationEvent/new_york_new_directions_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/49775056#Agent/new_directions"/>
+    <schema:startDate>1961</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/247745711">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/247745711"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/49775056#Person/williams_william_carlos">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Williams</schema:familyName>
+    <schema:givenName>William Carlos</schema:givenName>
+    <schema:name>William Carlos Williams</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/49775056#Agent/new_directions">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Directions</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/247745711">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780811202282"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/49775056#Series/a_new_directions_book"/>
+    <schema:name>The farmers' daughters : the collected stories of William Carlos Williams</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/247745711"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/49775056#Series/new_directions_book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/49775056#Person/williams_william_carlos"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/49775056"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/49775056#Agent/new_directions"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/49775056#Person/brooks_van_wyck_1886_1963"/>
+    <schema:productID>247745711</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/247745711#PublicationEvent/new_york_new_directions_1961"/>
+    <library:oclcnum>247745711</library:oclcnum>
+    <schema:datePublished>1961</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780811202282">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780811202282</schema:isbn>
+    <schema:isbn>0811202283</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/49775056#Series/new_directions_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/247745711"/>
+    <schema:name>New Directions Book.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

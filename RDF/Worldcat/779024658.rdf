@@ -1,0 +1,57 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/39376770">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Faulkner</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Faulkner</schema:name>
+    <schema:birthDate>1897</schema:birthDate>
+    <schema:deathDate>1962</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463820#Agent/louisiana_state_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Louisiana State University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463820#Place/louisiana_state_university">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Louisiana State University</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/779024658#PublicationEvent/louisiana_state_universitylouisiana_state_university_press1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/463820#Place/louisiana_state_university"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/463820#Agent/louisiana_state_university_press"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/779024658">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/779024658"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/779024658">
+    <schema:creator rdf:resource="http://viaf.org/viaf/39376770"/>
+    <schema:name xml:lang="en">The Novels of William Faulkner a critical interpretation</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/779024658"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/463820"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/463820#Agent/louisiana_state_university_press"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>779024658</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/779024658#PublicationEvent/louisiana_state_universitylouisiana_state_university_press1959"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/463820#Place/louisiana_state_university"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>779024658</schema:productID>
+    <schema:about rdf:resource="http://viaf.org/viaf/39376770"/>
+  </rdf:Description>
+</rdf:RDF>

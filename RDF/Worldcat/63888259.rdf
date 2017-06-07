@@ -1,0 +1,90 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/63888259">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/888720"/>
+    <schema:productID>63888259</schema:productID>
+    <schema:name xml:lang="en">Invitation to a beheading</schema:name>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/58324749#Series/crest_book_d_412"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/63888259#CreativeWork/unidentifiedOriginalWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/63888259"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>63888259</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/27069388"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/63888259#PublicationEvent/new_york_fawcett_publications_1959_1960"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/58324749#Topic/death_row_inmates"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/58324749"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/58324749#Agent/fawcett_publications"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/58324749#Agent/fawcett_publications">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Fawcett Publications</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/27069388">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Nabokov</schema:familyName>
+    <schema:givenName>Vladimir Vladimirovich</schema:givenName>
+    <schema:name>Vladimir Vladimirovich Nabokov</schema:name>
+    <schema:birthDate>1899</schema:birthDate>
+    <schema:deathDate>1977</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/58324749#Series/crest_book_d_412">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/63888259"/>
+    <schema:name>Crest book d 412</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/888720">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Death row inmates</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/63888259">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/63888259"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/63888259#PublicationEvent/new_york_fawcett_publications_1959_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/58324749#Agent/fawcett_publications"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/63888259#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Priglashenie na kazn'.</schema:name>
+    <schema:inLanguage>ru</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/58324749">
+    <schema:name>Priglashenie na kazn'.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/58324749#Topic/death_row_inmates">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008102076"/>
+    <schema:name xml:lang="en">Death row inmates</schema:name>
+  </rdf:Description>
+</rdf:RDF>

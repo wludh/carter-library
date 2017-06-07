@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/910382873">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/910382873"/>
+    <schema:dateModified>2017-06-06</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/910382873">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>910382873</schema:productID>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/910382873#PublicationEvent/new_york_modern_library_1954_1943"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3943492663#Series/the_modern_library_of_the_world_s_best_books_290"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:numberOfPages>214</schema:numberOfPages>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/910382873"/>
+    <library:oclcnum>910382873</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name>Selected stories of Eudora Welty : containing all of A curtain of green, and other stories, and the wide net, and other stories</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3943492663#Person/welty_eudora_1909"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3943492663#Agent/modern_library"/>
+    <schema:alternateName>Wide net, and other stories</schema:alternateName>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3943492663"/>
+    <schema:copyrightYear>1943</schema:copyrightYear>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:alternateName>Curtain of green, and other stories</schema:alternateName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943492663#Person/welty_eudora_1909">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Welty</schema:familyName>
+    <schema:givenName>Eudora</schema:givenName>
+    <schema:name>Eudora Welty</schema:name>
+    <schema:birthDate>1909</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/910382873#PublicationEvent/new_york_modern_library_1954_1943">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3943492663#Agent/modern_library"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943492663#Series/the_modern_library_of_the_world_s_best_books_290">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/910382873"/>
+    <schema:name>The Modern library of the world's best books [290]</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943492663#Agent/modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Modern Library</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,69 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3953346922#Agent/new_american_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New American Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/963164857">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3953346922#Series/signet_classic"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3953346922"/>
+    <schema:numberOfPages>304</schema:numberOfPages>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3953346922#Agent/new_american_library"/>
+    <schema:productID>963164857</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/963164857"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name xml:lang="en">The death of Ivan Ilych, and other stories ... with an afterword</schema:name>
+    <schema:datePublished>1960</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:oclcnum>963164857</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/963164857#PublicationEvent/new_york_new_american_library_1960"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3953346922#Person/tolstoy_leo_graf_1828_1910"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/963164857#PublicationEvent/new_york_new_american_library_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3953346922#Agent/new_american_library"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/963164857">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/963164857"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3953346922#Person/tolstoy_leo_graf_1828_1910">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Tolstoy</schema:familyName>
+    <schema:givenName>Leo</schema:givenName>
+    <schema:name>graf Leo Tolstoy</schema:name>
+    <schema:birthDate>1828</schema:birthDate>
+    <schema:deathDate>1910</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3953346922#Series/signet_classic">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/963164857"/>
+    <schema:name>Signet classic ;</schema:name>
+  </rdf:Description>
+</rdf:RDF>

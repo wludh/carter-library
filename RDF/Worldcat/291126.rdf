@@ -1,0 +1,182 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/582642934">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/291126"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Brother to dragons.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196796948#Topic/murder_kentucky_history">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85088613"/>
+    <schema:name xml:lang="en">Murder--Kentucky--History</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196796948#Person/lewis_lucy_jefferson_1752_1811">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lewis</schema:familyName>
+    <schema:givenName>Lucy Jefferson</schema:givenName>
+    <schema:name>Lucy Jefferson Lewis</schema:name>
+    <schema:birthDate>1752</schema:birthDate>
+    <schema:deathDate>1811</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1120426">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Slavery</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/291126">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>291126</schema:productID>
+    <library:oclcnum>291126</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/196796948"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:copyrightYear>1953</schema:copyrightYear>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1120426"/>
+    <schema:name xml:lang="en">Brother to dragons : a tale in verse and voices</schema:name>
+    <schema:about rdf:resource="http://viaf.org/viaf/222826892"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/30914463"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196796948#Person/lewis_lilburn_1812"/>
+    <schema:datePublished>1953</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196796948#Person/jefferson_thomas_1743_1826"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1029781"/>
+    <schema:genre xml:lang="en">Poetry</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196796948#Person/lewis_lucy_jefferson_1752_1811"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/291126"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/222497463"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196796948#Topic/murder_kentucky_history"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://viaf.org/viaf/61553765"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204494"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196796948#Topic/slavery_kentucky_history"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/582642934"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/291126#PublicationEvent/new_york_random_house_1953"/>
+    <schema:about rdf:resource="http://dewey.info/class/811.52/"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/196796948#Agent/random_house"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/41866059"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196796948#Topic/african_americans_crimes_against_kentucky"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/196796948#Person/lewis_isham_1815"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/799595"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/41866059">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Jefferson</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Jefferson</schema:name>
+    <schema:birthDate>1743</schema:birthDate>
+    <schema:deathDate>1826</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196796948#Agent/random_house">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Random House</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/811.52/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196796948#Topic/african_americans_crimes_against_kentucky">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85001942"/>
+    <schema:name xml:lang="en">African Americans--Crimes against--Kentucky</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/799595">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">African Americans--Crimes against</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196796948#Person/lewis_lilburn_1812">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lewis</schema:familyName>
+    <schema:givenName>Lilburn</schema:givenName>
+    <schema:name>Lilburn Lewis</schema:name>
+    <schema:deathDate>1812</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1029781">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Murder</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196796948#Person/lewis_isham_1815">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lewis</schema:familyName>
+    <schema:givenName>Isham</schema:givenName>
+    <schema:name>Isham Lewis</schema:name>
+    <schema:deathDate>1815?</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/291126#PublicationEvent/new_york_random_house_1953">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/196796948#Agent/random_house"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204494">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Kentucky.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/222826892">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lewis</schema:familyName>
+    <schema:givenName>Isham</schema:givenName>
+    <schema:name>Isham Lewis</schema:name>
+    <schema:deathDate>1815?</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/222497463">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lewis</schema:familyName>
+    <schema:givenName>Lucy Jefferson</schema:givenName>
+    <schema:name>Lucy Jefferson Lewis</schema:name>
+    <schema:birthDate>1752</schema:birthDate>
+    <schema:deathDate>1811</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/61553765">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Warren</schema:familyName>
+    <schema:givenName>Robert Penn</schema:givenName>
+    <schema:name>Robert Penn Warren</schema:name>
+    <schema:birthDate>1905</schema:birthDate>
+    <schema:deathDate>1989</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/291126">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/291126"/>
+    <schema:dateModified>2017-04-27</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196796948#Person/jefferson_thomas_1743_1826">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Jefferson</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Jefferson</schema:name>
+    <schema:birthDate>1743</schema:birthDate>
+    <schema:deathDate>1826</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/30914463">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lewis</schema:familyName>
+    <schema:givenName>Lilburn</schema:givenName>
+    <schema:name>Lilburn Lewis</schema:name>
+    <schema:deathDate>1812</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196796948#Topic/slavery_kentucky_history">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh2010113253"/>
+    <schema:name xml:lang="en">Slavery--Kentucky--History</schema:name>
+  </rdf:Description>
+</rdf:RDF>

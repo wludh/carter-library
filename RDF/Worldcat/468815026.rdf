@@ -1,0 +1,86 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>(New York)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3901314793#Agent/new_directions_book">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Directions Book</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3901314793#Place/paterson_n_j">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Paterson (N.J.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/468815026">
+    <schema:productID>468815026</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3901314793#Topic/city_and_town_life_poetry"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1202837"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3901314793#Person/williams_william_carlos"/>
+    <schema:about rdf:resource="http://dewey.info/class/811.5/"/>
+    <schema:genre>Poetry</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/468815026"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name>Paterson : (Book five)</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3901314793#Agent/new_directions_book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3901314793#Place/paterson_n_j"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/862081"/>
+    <library:oclcnum>468815026</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3901314793"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/468815026#PublicationEvent/new_york_new_directions_book_1958"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/862081">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>City and town life</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/468815026#PublicationEvent/new_york_new_directions_book_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3901314793#Agent/new_directions_book"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/468815026">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/468815026"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1202837">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New Jersey--Paterson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3901314793#Person/williams_william_carlos">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Williams</schema:familyName>
+    <schema:givenName>William Carlos</schema:givenName>
+    <schema:name>William Carlos Williams</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3901314793#Topic/city_and_town_life_poetry">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85026255"/>
+    <schema:name>City and town life--Poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/811.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

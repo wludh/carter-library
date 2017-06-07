@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/878127333">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/878127333"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/878127333">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:copyrightYear>1959</schema:copyrightYear>
+    <schema:description xml:lang="en">Mink -- Linda -- Flem.</schema:description>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/463776#Topic/snopes_family_fictitious_characters"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/463776#Series/snopes"/>
+    <schema:name xml:lang="en">The mansion</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/463776"/>
+    <schema:bookEdition>First edition, limited [edition].</schema:bookEdition>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/463776#Person/faulkner_william_1897_1962"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>878127333</schema:productID>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/878127333"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/463776#Place/mississippi"/>
+    <library:oclcnum>878127333</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463776#Topic/snopes_family_fictitious_characters">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Snopes family (Fictitious characters)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463776#Series/snopes">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/878127333"/>
+    <schema:name>Snopes ;</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/463776#Person/faulkner_william_1897_1962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463776#Place/mississippi">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Mississippi</schema:name>
+    <schema:name>Mississippi.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463776#Person/faulkner_william_1897_1962">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Faulkner</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Faulkner</schema:name>
+    <schema:birthDate>1897</schema:birthDate>
+    <schema:deathDate>1962,</schema:deathDate>
+    <schema:deathDate>1962</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

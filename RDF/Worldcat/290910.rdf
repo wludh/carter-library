@@ -1,0 +1,97 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:schema="http://schema.org/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/290910#PublicationEvent/new_york_harcourt_brace_and_companyc1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/48288719#Agent/harcourt_brace_and_company"/>
+    <schema:startDate>c1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/290910">
+    <schema:productID>290910</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1117043"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:bookEdition>First edition.</schema:bookEdition>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/290910#PublicationEvent/new_york_harcourt_brace_and_companyc1955"/>
+    <library:oclcnum>290910</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/48288719#Topic/1955"/>
+    <schema:publisher rdf:resource="http://viaf.org/viaf/167837026"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/290910"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/48288719#Agent/harcourt_brace_and_company"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/48288719"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.5/"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">The bride of the Innisfallen, and other stories</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:numberOfPages>207</schema:numberOfPages>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:copyrightYear>1955</schema:copyrightYear>
+    <schema:genre xml:lang="en">Short stories</schema:genre>
+    <schema:creator rdf:resource="http://viaf.org/viaf/4938026"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:genre xml:lang="en">Authors' presentation copies (Provenance)</schema:genre>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/573059602"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <umbel:isLike rdf:resource="http://bnb.data.bl.uk/id/resource/GB5513799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/167837026">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Harcourt Brace &amp; Company,</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1117043">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Short stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/4938026">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Welty</schema:familyName>
+    <schema:givenName>Eudora</schema:givenName>
+    <schema:name>Eudora Welty</schema:name>
+    <schema:birthDate>1909</schema:birthDate>
+    <schema:deathDate>2001</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/573059602">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/290910"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Bride of the Innisfallen, and other stories.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/48288719#Topic/1955">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">1955</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/48288719#Agent/harcourt_brace_and_company">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harcourt, Brace and Company</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/290910">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/290910"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,92 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New-York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424206#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424206#Event/1861_1865">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1861-1865</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424206#Person/warren_robert_penn_1905_1989">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Warren</schema:familyName>
+    <schema:givenName>Robert Penn</schema:givenName>
+    <schema:name>Robert Penn Warren</schema:name>
+    <schema:birthDate>1905</schema:birthDate>
+    <schema:deathDate>1989</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1351658">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <rdf:type rdf:resource="http://bibliograph.net/Meeting"/>
+    <schema:name>American Civil War (1861-1865)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/489935931#PublicationEvent/new_york_random_house_cop_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/52424206#Agent/random_house"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424206#Agent/random_house">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Random House</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/489935931">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:genre>History</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1351658"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/489935931"/>
+    <schema:genre>Fiction</schema:genre>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:copyrightYear>op.</schema:copyrightYear>
+    <library:oclcnum>489935931</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/52424206#Agent/random_house"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/52424206#Place/united_states"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/52424206#Event/1861_1865"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/52424206"/>
+    <schema:productID>489935931</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/489935931#PublicationEvent/new_york_random_house_cop_1961"/>
+    <schema:copyrightYear>1961</schema:copyrightYear>
+    <schema:name>Wilderness a tale of the civil war</schema:name>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/52424206#Person/warren_robert_penn_1905_1989"/>
+    <schema:datePublished>1961</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.5/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/489935931">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/489935931"/>
+    <schema:dateModified>2017-04-28</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

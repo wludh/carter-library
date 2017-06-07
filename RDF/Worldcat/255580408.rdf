@@ -1,0 +1,147 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424150#Place/kentucky">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Kentucky</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/255580408">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/52424150#Topic/kentucky_fiction"/>
+    <library:oclcnum>255580408</library:oclcnum>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204494"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/255580408"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/52424150#Topic/racially_mixed_people"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/255580408#PublicationEvent/new_york_random_house_1955"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/52424150#Topic/plantation_life_fiction"/>
+    <schema:bookEdition>1st print.</schema:bookEdition>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/52424150#Place/kentucky"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/52424150#Topic/war_stories"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/61553765"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1065779"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/52424150#Topic/women_slaves"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/52424150#Topic/historical_fiction"/>
+    <schema:genre>Fiction</schema:genre>
+    <schema:productID>255580408</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/52424150"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name>Band of angels</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/52424150#Topic/plantation_life"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/52424150#Topic/women_slaves_fiction"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/52424150#Topic/new_orleans_la_fiction_history_civil_war_1861_1865"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1086595"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.5/"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/52424150#Agent/random_house"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1178532"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/52424150#Topic/racially_mixed_people_fiction"/>
+    <schema:datePublished>1955</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424150#Topic/war_stories">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>War stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1178532">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Women slaves</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1086595">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Racially mixed people</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424150#Topic/women_slaves">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008113549"/>
+    <schema:name>Women slaves</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424150#Topic/women_slaves_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Women slaves--Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424150#Topic/racially_mixed_people">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008110346"/>
+    <schema:name>Racially mixed people</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424150#Agent/random_house">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Random House</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424150#Topic/racially_mixed_people_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Racially mixed people--Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/255580408">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/255580408"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424150#Topic/plantation_life">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008108938"/>
+    <schema:name>Plantation life</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424150#Topic/historical_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Historical fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204494">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Kentucky.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1065779">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Plantation life</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/61553765">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Warren</schema:familyName>
+    <schema:givenName>Robert Penn</schema:givenName>
+    <schema:name>Robert Penn Warren</schema:name>
+    <schema:birthDate>1905</schema:birthDate>
+    <schema:deathDate>1989</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424150#Topic/plantation_life_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Plantation life--Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424150#Topic/kentucky_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Kentucky--Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/255580408#PublicationEvent/new_york_random_house_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/52424150#Agent/random_house"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/52424150#Topic/new_orleans_la_fiction_history_civil_war_1861_1865">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>New Orleans (La.)--Fiction--History--Civil War, 1861-1865</schema:name>
+  </rdf:Description>
+</rdf:RDF>
