@@ -1,0 +1,75 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/855279936">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1401656"/>
+    <schema:genre>Records and correspondence</schema:genre>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/821688"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:name>I remember : sketch for an autobiography</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/68933968"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1401656#Agent/pantheon"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>855279936</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1401656#Topic/authors_correspondence"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:numberOfPages>191</schema:numberOfPages>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/855279936"/>
+    <schema:productID>855279936</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/855279936#PublicationEvent/new_york_pantheon_1959"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/855279936">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/855279936"/>
+    <schema:dateModified>2017-05-30</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1401656#Topic/authors_correspondence">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85009793"/>
+    <schema:name>Authors--Correspondence</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/68933968">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Pasternak</schema:familyName>
+    <schema:givenName>Boris Leonidovich</schema:givenName>
+    <schema:name>Boris Leonidovich Pasternak</schema:name>
+    <schema:birthDate>1890</schema:birthDate>
+    <schema:deathDate>1960</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/821688">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Authors</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/855279936#PublicationEvent/new_york_pantheon_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1401656#Agent/pantheon"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1401656#Agent/pantheon">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Pantheon</schema:name>
+  </rdf:Description>
+</rdf:RDF>

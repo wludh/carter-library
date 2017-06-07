@@ -1,0 +1,73 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/868359050#PublicationEvent/new_york_william_sloane_associates_c1951">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/500605#Agent/william_sloane_associates"/>
+    <schema:startDate>c1951</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/500605#Agent/william_sloane_associates">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>William Sloane Associates</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/500605#Thing/dreiser_theodore">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Dreiser, Theodore</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/868359050">
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/500605#Series/the_american_men_of_letters_series"/>
+    <schema:copyrightYear>1951</schema:copyrightYear>
+    <schema:creator rdf:resource="http://viaf.org/viaf/59148639"/>
+    <schema:datePublished>1951</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/500605"/>
+    <schema:name>Theodore Dreiser</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/868359050"/>
+    <schema:numberOfPages>267</schema:numberOfPages>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/868359050#PublicationEvent/new_york_william_sloane_associates_c1951"/>
+    <schema:productID>868359050</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/500605#Thing/dreiser_theodore"/>
+    <library:oclcnum>868359050</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/500605#Agent/william_sloane_associates"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/868359050">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/868359050"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/59148639">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Matthiessen</schema:familyName>
+    <schema:givenName>F. O.</schema:givenName>
+    <schema:name>F. O. Matthiessen</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/500605#Series/the_american_men_of_letters_series">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/868359050"/>
+    <schema:name>The American Men of Letters Series</schema:name>
+  </rdf:Description>
+</rdf:RDF>

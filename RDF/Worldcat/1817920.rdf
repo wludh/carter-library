@@ -1,0 +1,150 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570977#Topic/christian_saints">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008100701"/>
+    <schema:name xml:lang="en">Christian saints</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1817920">
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85025130"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/570977"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/570977#Place/great_britain"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/570977#Person/thomas_a_becket_saint_1118_1170"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1817920#PublicationEvent/new_york_harcourt_brace_and_co_1935"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/570977#Topic/christian_saints"/>
+    <schema:genre xml:lang="en">Drama</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/859342"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/570977#Organization/canterbury_cathedral"/>
+    <schema:name xml:lang="en">Murder in the cathedral</schema:name>
+    <schema:copyrightYear>1935</schema:copyrightYear>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1817920"/>
+    <schema:about rdf:resource="http://dewey.info/class/812.5/"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1207174"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/570977#Event/1154_1189"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh90001614"/>
+    <schema:genre xml:lang="en">Historical drama</schema:genre>
+    <library:oclcnum>1817920</library:oclcnum>
+    <schema:datePublished>1935</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/100187947"/>
+    <schema:productID>1817920</schema:productID>
+    <schema:creator rdf:resource="http://viaf.org/viaf/56609282"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1029809"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/570977#Place/canterbury_england"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/859491"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:description xml:lang="en">The story of the murder of Thomas à Becket as seen through the eyes of the great poet.</schema:description>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/570977#Agent/harcourt_brace_and_co"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204623"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570977#Organization/canterbury_cathedral">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Canterbury Cathedral</schema:name>
+    <schema:name>Canterbury Cathedral.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1029809">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Murder victims</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570977#Place/great_britain">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Great Britain</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85025130">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Christian martyrs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1817920">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1817920"/>
+    <schema:dateModified>2017-05-15</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1817920#PublicationEvent/new_york_harcourt_brace_and_co_1935">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/570977#Agent/harcourt_brace_and_co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570977#Place/canterbury_england">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Canterbury (England)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh90001614">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Murder victims</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/100187947">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>à Becket Saint Thomas</schema:name>
+    <schema:birthDate>1118?</schema:birthDate>
+    <schema:deathDate>1170</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570977#Person/thomas_a_becket_saint_1118_1170">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>à Becket Saint Thomas</schema:name>
+    <schema:birthDate>1118?</schema:birthDate>
+    <schema:deathDate>1170</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1207174">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>England--Canterbury.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570977#Event/1154_1189">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1154-1189</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570977#Agent/harcourt_brace_and_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harcourt, Brace and Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204623">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Great Britain.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/812.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/56609282">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Eliot</schema:familyName>
+    <schema:givenName>T. S.</schema:givenName>
+    <schema:givenName>Thomas Stearns</schema:givenName>
+    <schema:name>Thomas Stearns Eliot</schema:name>
+    <schema:birthDate>1888</schema:birthDate>
+    <schema:deathDate>1965</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/859342">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Christian martyrs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/859491">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Christian saints</schema:name>
+  </rdf:Description>
+</rdf:RDF>

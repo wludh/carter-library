@@ -1,0 +1,71 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3856184531#Person/eliot_thomas_stearns_1888_1965">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Eliot</schema:familyName>
+    <schema:givenName>Thomas Stearns</schema:givenName>
+    <schema:name>Thomas Stearns Eliot</schema:name>
+    <schema:birthDate>1888</schema:birthDate>
+    <schema:deathDate>1965</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3856184531#Agent/farrar_straus_&amp;_cudahy">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Farrar, Straus &amp; Cudahy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/750866550">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/750866550"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/750866550">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3856184531#Agent/farrar_straus_&amp;_cudahy"/>
+    <schema:productID>750866550</schema:productID>
+    <schema:name>A symposium for his seventienth birthday</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/750866550"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3856184531#Person/eliot_thomas_stearns_1888_1965"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/750866550#PublicationEvent/new_york_farrar_straus_&amp;_cudahy_1958"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/3856184531#Person/braybrooke_neville_1925"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3856184531"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <library:oclcnum>750866550</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3856184531#Person/braybrooke_neville_1925">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Braybrooke</schema:familyName>
+    <schema:givenName>Neville</schema:givenName>
+    <schema:name>Neville Braybrooke</schema:name>
+    <schema:birthDate>1925</schema:birthDate>
+    <schema:deathDate></schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/750866550#PublicationEvent/new_york_farrar_straus_&amp;_cudahy_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3856184531#Agent/farrar_straus_&amp;_cudahy"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

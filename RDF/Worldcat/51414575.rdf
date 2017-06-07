@@ -1,0 +1,70 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/51414575">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1443059"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1443059#Agent/sun_dial_press"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:datePublished>1945</schema:datePublished>
+    <schema:productID>51414575</schema:productID>
+    <schema:bookEdition>Sun Dial Press reprint ed.</schema:bookEdition>
+    <schema:copyrightYear>1937</schema:copyrightYear>
+    <schema:creator rdf:resource="http://viaf.org/viaf/46775204"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/51414575#PublicationEvent/new_york_sun_dial_press_1945_c_1937"/>
+    <schema:description xml:lang="en">Calico shoes -- Guillotine party -- Can all this grandeur perish?</schema:description>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/51414575"/>
+    <library:oclcnum>51414575</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">The short stories of James T. Farrell</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/46775204">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Farrell</schema:familyName>
+    <schema:givenName>James T.</schema:givenName>
+    <schema:givenName>James Thomas</schema:givenName>
+    <schema:name>James Thomas Farrell</schema:name>
+    <schema:birthDate>1904</schema:birthDate>
+    <schema:deathDate>1979</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/1443059">
+    <schema:name>Short stories.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/51414575#PublicationEvent/new_york_sun_dial_press_1945_c_1937">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1443059#Agent/sun_dial_press"/>
+    <schema:startDate>1945</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1443059#Agent/sun_dial_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Sun Dial Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/51414575">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/51414575"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

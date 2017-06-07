@@ -1,0 +1,105 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nju">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nju</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/56609282">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Eliot</schema:familyName>
+    <schema:givenName>T. S.</schema:givenName>
+    <schema:givenName>Thomas Stearns</schema:givenName>
+    <schema:name>Thomas Stearns Eliot</schema:name>
+    <schema:birthDate>1888</schema:birthDate>
+    <schema:deathDate>1965</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/612047">
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1366166953#Series/a_spectrum_book"/>
+    <schema:description xml:lang="en">Discussions are here presented of Eliot's chief works, with each critical viewpoint illustrated at length. Every aspect of his activity as poet, playwright, critic, and personality is touched.</schema:description>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1366166953#Person/eliot_thomas_stearns_1888_1965"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/56609282"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/612047"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <library:oclcnum>612047</library:oclcnum>
+    <schema:productID>612047</schema:productID>
+    <schema:editor rdf:resource="http://viaf.org/viaf/210881578"/>
+    <schema:name xml:lang="en">T.S. Eliot : a collection of critical essays</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1366166953"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1962</schema:datePublished>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1366166953#Series/twentieth_century_views"/>
+    <schema:about rdf:resource="http://dewey.info/class/811.52/"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1366166953#Person/eliot_t_s_thomas_stearns_1888_1965"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1366166953#Thing/english_poetry"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1366166953#Person/eliot_t_s_1888_1965"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nju"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/811.52/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/612047">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/612047"/>
+    <schema:dateModified>2017-05-16</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/210881578">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kenner</schema:familyName>
+    <schema:givenName>Hugh</schema:givenName>
+    <schema:name>Hugh Kenner</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1366166953#Person/eliot_t_s_1888_1965">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>ELIOT</schema:familyName>
+    <schema:givenName>T. S.</schema:givenName>
+    <schema:name>T. S. ELIOT</schema:name>
+    <schema:birthDate>1888</schema:birthDate>
+    <schema:deathDate>1965</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1366166953#Thing/english_poetry">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>English poetry.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1366166953#Series/a_spectrum_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/612047"/>
+    <schema:name>A Spectrum book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1366166953#Person/eliot_thomas_stearns_1888_1965">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Eliot</schema:familyName>
+    <schema:givenName>Thomas Stearns</schema:givenName>
+    <schema:name>Thomas Stearns Eliot</schema:name>
+    <schema:birthDate>1888</schema:birthDate>
+    <schema:deathDate>1965</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1366166953#Series/twentieth_century_views">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/612047"/>
+    <schema:name>Twentieth century views</schema:name>
+    <schema:name>Twentieth century views.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1366166953#Person/eliot_t_s_thomas_stearns_1888_1965">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Eliot</schema:familyName>
+    <schema:givenName>T. S.</schema:givenName>
+    <schema:givenName>Thomas Stearns</schema:givenName>
+    <schema:name>Thomas Stearns Eliot</schema:name>
+    <schema:birthDate>1888</schema:birthDate>
+    <schema:deathDate>1965</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

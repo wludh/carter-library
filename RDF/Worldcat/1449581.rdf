@@ -1,0 +1,85 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/613084252">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1449581"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Old House of Fear.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1449581">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/891461"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2372662#Person/kirk_russell"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1449581#PublicationEvent/new_york_fleet_pub_corp_1961"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1961</schema:datePublished>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1449581"/>
+    <library:oclcnum>1449581</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">Old House of Fear.</schema:name>
+    <schema:description xml:lang="en">Sent to purchase a remote island in the Hebrides, a lawyer finds a sinister political criminal in control, the owner held captive, and his own life threatened.</schema:description>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2372662"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2372662#Place/hebrides_scotland"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2372662#Agent/fleet_pub_corp"/>
+    <schema:productID>1449581</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1241579"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/613084252"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2372662#Place/hebrides_scotland">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Hebrides (Scotland)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/891461">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Detective and mystery stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1241579">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Scotland--Hebrides.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2372662#Agent/fleet_pub_corp">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Fleet Pub. Corp.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2372662#Person/kirk_russell">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kirk</schema:familyName>
+    <schema:givenName>Russell</schema:givenName>
+    <schema:name>Russell Kirk</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1449581">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1449581"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1449581#PublicationEvent/new_york_fleet_pub_corp_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2372662#Agent/fleet_pub_corp"/>
+    <schema:startDate>1961</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

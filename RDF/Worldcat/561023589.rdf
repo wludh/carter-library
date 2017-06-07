@@ -1,0 +1,70 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/39376770">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Faulkner</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Faulkner</schema:name>
+    <schema:birthDate>1897</schema:birthDate>
+    <schema:deathDate>1962</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/561023589">
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:name xml:lang="en">William Faulkner. Two decades of criticism. [By various authors.] Edited by F.J. Hoffman and O.W. Vickery. [With a list of works on W. Faulkner.].</schema:name>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/1721940"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1854047229#Place/michigan_state_college_press"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/561023589"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/561023589#PublicationEvent/michigan_state_college_press_east_lansing_1954"/>
+    <schema:productID>561023589</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1854047229"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>561023589</library:oclcnum>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/39376770"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1854047229#Agent/east_lansing"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1854047229#Person/hoffman_frederick_john_and_vickery_olga_w"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1854047229#Person/hoffman_frederick_john_and_vickery_olga_w">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>HOFFMAN</schema:familyName>
+    <schema:givenName>Frederick John</schema:givenName>
+    <schema:name>and VICKERY (Olga W.) Frederick John HOFFMAN</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/1721940">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>VICKERY</schema:familyName>
+    <schema:givenName>Olga W.</schema:givenName>
+    <schema:name>Olga W. VICKERY</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/561023589">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/561023589"/>
+    <schema:dateModified>2017-04-13</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1854047229#Agent/east_lansing">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>East Lansing</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/561023589#PublicationEvent/michigan_state_college_press_east_lansing_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1854047229#Place/michigan_state_college_press"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1854047229#Agent/east_lansing"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1854047229#Place/michigan_state_college_press">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Michigan State College Press</schema:name>
+  </rdf:Description>
+</rdf:RDF>
