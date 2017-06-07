@@ -1,0 +1,82 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/459346#Series/beacon_paperback">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/917375362"/>
+    <schema:name>Beacon paperback ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/917375362">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/917375362"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/459346">
+    <schema:name>La trahison des clercs.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/459346#Person/benda_julien_1867_1956">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Benda</schema:familyName>
+    <schema:givenName>Julien</schema:givenName>
+    <schema:name>Julien Benda</schema:name>
+    <schema:birthDate>1867</schema:birthDate>
+    <schema:deathDate>1956</schema:deathDate>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/118658131"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/459346#Agent/beacon_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Beacon Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/917375362#PublicationEvent/boston_beacon_press_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/459346#Agent/beacon_press"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/459346#CreativeWork/la_trahison_des_clercs">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>&lt;&lt;La&gt;&gt; trahison des clercs.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/459346#Person/benda_julien_1867_1956"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/917375362">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/917375362"/>
+    <schema:bookEdition>1. Beacon paperback ed., repr.</schema:bookEdition>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/459346#Series/beacon_paperback"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:name>The betrayal of the intellectuals = La trahison des clercs</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/917375362#PublicationEvent/boston_beacon_press_1955"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/459346#Agent/beacon_press"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/459346#CreativeWork/la_trahison_des_clercs"/>
+    <schema:alternateName>La trahison des clercs</schema:alternateName>
+    <library:oclcnum>917375362</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/459346#Person/benda_julien_1867_1956"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/459346#Person/benda_julien_1867_1956"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/459346"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>917375362</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+</rdf:RDF>
