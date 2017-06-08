@@ -1,0 +1,54 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/561673963">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/561673963"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1288764#Place/henry_regnery_co">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Henry Regnery Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1288764#Agent/chicago">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/561673963#PublicationEvent/henry_regnery_co_chicago_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1288764#Place/henry_regnery_co"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1288764#Agent/chicago"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/561673963">
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1288764#Person/kirk_russell"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1288764#Place/henry_regnery_co"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1288764#Agent/chicago"/>
+    <schema:productID>561673963</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>561673963</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1288764"/>
+    <schema:name xml:lang="en">Beyond the Dreams of Avarice. Essays of a social critic.</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/561673963#PublicationEvent/henry_regnery_co_chicago_1956"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/561673963"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1288764#Person/kirk_russell">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>KIRK</schema:familyName>
+    <schema:givenName>Russell</schema:givenName>
+    <schema:name>Russell KIRK</schema:name>
+  </rdf:Description>
+</rdf:RDF>

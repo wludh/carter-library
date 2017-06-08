@@ -1,0 +1,185 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:schema="http://schema.org/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/902116">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Economics</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/301/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/756407796">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/259560"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Human condition.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/259560">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/259560"/>
+    <schema:dateModified>2017-05-18</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Series/charles_r_walgreen_foundation_lectures">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/259560"/>
+    <schema:name>Charles R. Walgreen Foundation lectures</schema:name>
+    <schema:name>Charles R. Walgreen Foundation lectures.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/259560#PublicationEvent/chicago_university_of_chicago_press_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Agent/university_of_chicago_press"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Topic/sociologia">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Sociologia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Topic/sociologie">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Sociologie</schema:name>
+    <schema:name xml:lang="fr">Sociologie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1145078">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Technology</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Topic/sociology">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Sociology</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Topic/pensee_politique_et_sociale">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Pensée politique et sociale</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Topic/sociale_evolutie">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Sociale evolutie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Topic/humanisme_20e_siecle">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Humanisme--20e siècle</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Topic/arbeit">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Arbeit</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/259560">
+    <library:oclcnum>259560</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:name xml:lang="en">The human condition.</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1145078"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Topic/sociologia"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/756407796"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Topic/economie_politique"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Topic/anthropologie_philosophique"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/105151053"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Topic/sociologie"/>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780226025926"/>
+    <schema:about rdf:resource="http://dewey.info/class/301/"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Topic/technology"/>
+    <schema:awards>American Political Science Association Benjamin E. Lippincott Award, 1975.</schema:awards>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Topic/philosophie"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Topic/humanisme_20e_siecle"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Topic/sociology"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/34680415"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Topic/pensee_politique_et_sociale"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Topic/sociale_evolutie"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Topic/economics"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Series/charles_r_walgreen_foundation_lectures"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Topic/handelen"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1123875"/>
+    <schema:description xml:lang="en">A work of striking originality bursting with unexpected insights, The Human condition is in many respects more relevant now than when it first appeared in 1958. In her study of the state of modern humanity, Hannah Arendt considers humankind from the perspective of the actions of which it is capable. The problems Arendt identified then--diminishing human agency and political freedom, the paradox that as human powers increase through technological and humanistic inquiry, we are less equipped to control the consequences of our actions--continue to confront us today. This new edition, published to coincide with the fortieth anniversary of its original publication, contains an improved and expanded index and a new introduction by noted Arendt scholar Margaret Canovan which incisively analyzes the book's argument and examines its present relevance. A classic in political and social theory, The Human condition is a work that has proved both timeless and perpetually timely.</schema:description>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Agent/university_of_chicago_press"/>
+    <schema:description xml:lang="en">I. The human condition. Vita activa and the human condition ; The term vita activa ; Eternity versus immortality -- II. The public and the private realm. Man : a social or a political animal ; The polis and the household ; The rise of the social ; The public realm : the common ; The private realm : property ; The social and the private ; The location of human activities -- III. Labor. "The labour of our body and the work of our hands" ; The thing-character of the world ; Labor and life ; Labor and fertility ; The privacy of property and wealth ; The instruments of work and the division of labor ; A consumers' society -- IV. Work. The durability of the world ; Reification ; Instrumentality and animal laborans ; Instrumentality and homo faber ; The exchange market ; The permanence of the world and the work of art -- V. Action. The disclosure of the agent in speech and action ; The web of relationships and the enacted stories ; The frailty of human affairs ; The Greek solution ; Power and the space of appearance ; Homo faber and the space of appearance ; The labor movement ; The traditional substitution of making for acting ; The process character of action ; Irreversibility and the power to forgive ; Unpredictability and the power of promise -- VI. The Vita Activa and the modern age. World alienation ; The discovery of the Archimedean point ; Universal versus natural science ; The rise of the Cartesian eoubt ; Introspection and the loss of common sense ; Thought and the modern world view ; The reversal of contemplation and action ; The reversal within the vita activa and the victory of homo faber ; The defeat of homo faber and the principle of happiness ; Life as the highest good ; The victory of the animal laborans.</schema:description>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Topic/technologie"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Topic/arbeit"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/259560#PublicationEvent/chicago_university_of_chicago_press_1958"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/902116"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/34680415#Topic/handlung"/>
+    <umbel:isLike rdf:resource="http://bnb.data.bl.uk/id/resource/GB5813720"/>
+    <schema:productID>259560</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/259560"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Topic/anthropologie_philosophique">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Anthropologie philosophique</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Topic/economie_politique">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Économie politique</schema:name>
+    <schema:name xml:lang="fr">Économie politique</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1123875">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Sociology</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Topic/handelen">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Handelen</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Topic/technologie">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Technologie</schema:name>
+    <schema:name xml:lang="fr">Technologie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/105151053">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Arendt</schema:familyName>
+    <schema:givenName>Hannah</schema:givenName>
+    <schema:name>Hannah Arendt</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+    <schema:deathDate>1975</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Topic/economics">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Economics</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780226025926">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780226025926</schema:isbn>
+    <schema:isbn>0226025926</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Topic/technology">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Technology</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Topic/philosophie">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Philosophie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Topic/handlung">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Handlung</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/34680415#Agent/university_of_chicago_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>University of Chicago Press</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570734#Series/the_works_of_conrad">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/255842367"/>
+    <schema:name>The works of Conrad ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/255842367">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/255842367"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/255842367">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1925</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/570734#Place/edinburgh_u_a"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/255842367#PublicationEvent/edinburgh_u_a_grant_1925"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>255842367</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/570734#Agent/grant"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/stk"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/255842367"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/570734#Series/works_of_conrad"/>
+    <schema:productID>255842367</schema:productID>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/570734#Person/conrad_joseph"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/570734"/>
+    <schema:name>An outcast of the island.</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/570734#Series/the_works_of_conrad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/stk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>stk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570734#Person/conrad_joseph">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Conrad</schema:familyName>
+    <schema:givenName>Joseph</schema:givenName>
+    <schema:name>Joseph Conrad</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/255842367#PublicationEvent/edinburgh_u_a_grant_1925">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/570734#Place/edinburgh_u_a"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/570734#Agent/grant"/>
+    <schema:startDate>1925</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570734#Place/edinburgh_u_a">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Edinburgh u.a.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570734#Agent/grant">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Grant</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/570734#Series/works_of_conrad">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/255842367"/>
+    <schema:name>Works of Conrad ;</schema:name>
+  </rdf:Description>
+</rdf:RDF>

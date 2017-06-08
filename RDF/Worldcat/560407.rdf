@@ -1,0 +1,86 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/569339912">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/560407"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Program for conservatives.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/301.153/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1365907#Topic/konservativismus">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Konservativismus</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/560407#PublicationEvent/chicago_h_regnery_co_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1365907#Agent/h_regnery_co"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/875582">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Conservatism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/560407">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/560407"/>
+    <schema:dateModified>2017-06-07</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1365907#Person/kirk_russell">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kirk</schema:familyName>
+    <schema:givenName>Russell</schema:givenName>
+    <schema:name>Russell Kirk</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1365907#Agent/h_regnery_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>H. Regnery Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/560407">
+    <library:oclcnum>560407</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/560407"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/875582"/>
+    <schema:name xml:lang="en">A program for conservatives.</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1365907"/>
+    <schema:about rdf:resource="http://dewey.info/class/320.1/"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://dewey.info/class/301.153/"/>
+    <schema:productID>560407</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/569339912"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1365907#Topic/konservativismus"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/560407#PublicationEvent/chicago_h_regnery_co_1954"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1365907#Person/kirk_russell"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1365907#Agent/h_regnery_co"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/320.1/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

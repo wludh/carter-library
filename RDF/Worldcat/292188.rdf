@@ -1,0 +1,109 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/61140602#Topic/artists">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2007100472"/>
+    <schema:name xml:lang="en">Artists</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/292188">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/292188"/>
+    <schema:dateModified>2017-04-29</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/574986214">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/292188"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Set this house on fire.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/817553">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Artist's block</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh93000491">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Artist's block</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/61140602#Place/italy">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Italy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/292188">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204565"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/817559"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh93000491"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:copyrightYear>1960</schema:copyrightYear>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">Set this house on fire</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/817553"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807488"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/61140602#Topic/americans_europe"/>
+    <schema:description xml:lang="en">Part 1 -- 10 Chapters -- Epilogue -- About the Author.</schema:description>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>292188</schema:productID>
+    <schema:about rdf:resource="http://dewey.info/class/813.5/"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:oclcnum>292188</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/61140602"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/61140602#Topic/artists"/>
+    <schema:genre xml:lang="en">Psychological fiction</schema:genre>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/292188"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/574986214"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/61140602#Place/italy"/>
+    <schema:author rdf:resource="http://viaf.org/viaf/71398096"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1245064"/>
+    <schema:description xml:lang="en">The day after Peter Leverett met his old friend Mason Flagg in Sambuco, Italy, Mason was found dead. The hours leading up to his death were a nightmare for Peter--both in their violence and in their maddening unreality. The blaze of events which followed was, Peter soon realised, ignited by a conflict between two men: Mason Flagg himself and Cass Kinsolving, a tortured, self-destructive painter, a natural enemy and prey to the monstrous evil of Mason Flagg. Three events--murder, rape and suicide--explode in this relentless and passionate novel, almost overwhelming in its conception of the varieties of good and evil.</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204565">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Italy.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/71398096">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Styron</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Styron</schema:name>
+    <schema:birthDate>1925</schema:birthDate>
+    <schema:deathDate>2006,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1245064">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Europe.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807488">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Americans</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/817559">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Artists</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/61140602#Topic/americans_europe">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2007100746"/>
+    <schema:name xml:lang="en">Americans--Europe</schema:name>
+  </rdf:Description>
+</rdf:RDF>

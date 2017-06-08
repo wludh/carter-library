@@ -1,0 +1,292 @@
+{
+  "@graph" : [ {
+    "@id" : "http://dbpedia.org/resource/New_York_City",
+    "@type" : "schema:Place",
+    "name" : "New York"
+  }, {
+    "@id" : "http://dewey.info/class/891.7308/",
+    "@type" : "schema:Intangible"
+  }, {
+    "@id" : "http://experiment.worldcat.org/entity/work/data/1344431#Agent/dial_press",
+    "@type" : "bgn:Agent",
+    "name" : "Dial Press"
+  }, {
+    "@id" : "http://experiment.worldcat.org/entity/work/data/1344431#CreativeWork/khadzhi_murat",
+    "@type" : "schema:CreativeWork",
+    "creator" : "http://viaf.org/viaf/96987389",
+    "name" : "Khadzhi-Murat."
+  }, {
+    "@id" : "http://experiment.worldcat.org/entity/work/data/1344431#CreativeWork/pervaia_liubov",
+    "@type" : "schema:CreativeWork",
+    "creator" : "http://viaf.org/viaf/41847346",
+    "name" : "Pervai︠a︡ li︠u︡bovʹ."
+  }, {
+    "@id" : "http://experiment.worldcat.org/entity/work/data/1344431#CreativeWork/shinel",
+    "@type" : "schema:CreativeWork",
+    "creator" : "http://viaf.org/viaf/54148306",
+    "name" : "Shinelʹ."
+  }, {
+    "@id" : "http://experiment.worldcat.org/entity/work/data/1344431#CreativeWork/vechnyi_muzh",
+    "@type" : "schema:CreativeWork",
+    "creator" : "http://viaf.org/viaf/104023256",
+    "name" : "Vechnyĭ muzh."
+  }, {
+    "@id" : "http://experiment.worldcat.org/entity/work/data/1344431#CreativeWork/zavist",
+    "@type" : "schema:CreativeWork",
+    "creator" : "http://viaf.org/viaf/54152190",
+    "name" : "Zavistʹ."
+  }, {
+    "@id" : "http://experiment.worldcat.org/entity/work/data/1344431#Series/a_permanent_library_book",
+    "@type" : "bgn:PublicationSeries",
+    "hasPart" : "http://www.worldcat.org/oclc/301532",
+    "name" : "A permanent library book"
+  }, {
+    "@id" : "http://experiment.worldcat.org/entity/work/data/1344431#Series/permanent_library_book",
+    "@type" : "bgn:PublicationSeries",
+    "hasPart" : "http://www.worldcat.org/oclc/301532",
+    "name" : "Permanent library book."
+  }, {
+    "@id" : "http://id.loc.gov/authorities/subjects/sh85115966",
+    "@type" : "schema:Intangible",
+    "name" : {
+      "@language" : "en",
+      "@value" : "Russian fiction"
+    }
+  }, {
+    "@id" : "http://id.loc.gov/vocabulary/countries/nyu",
+    "@type" : "schema:Place",
+    "identifier" : "nyu"
+  }, {
+    "@id" : "http://id.worldcat.org/fast/1102012",
+    "@type" : "schema:Intangible",
+    "name" : {
+      "@language" : "en",
+      "@value" : "Russian fiction"
+    }
+  }, {
+    "@id" : "http://viaf.org/viaf/104023256",
+    "@type" : "schema:Person",
+    "birthDate" : "1821",
+    "deathDate" : "1881",
+    "familyName" : "Dostoyevsky",
+    "givenName" : "Fyodor",
+    "name" : "Fyodor Dostoyevsky"
+  }, {
+    "@id" : "http://viaf.org/viaf/41847346",
+    "@type" : "schema:Person",
+    "birthDate" : "1818",
+    "deathDate" : "1883",
+    "familyName" : "Turgenev",
+    "givenName" : "Ivan Sergeevich",
+    "name" : "Ivan Sergeevich Turgenev"
+  }, {
+    "@id" : "http://viaf.org/viaf/54148306",
+    "@type" : "schema:Person",
+    "birthDate" : "1809",
+    "deathDate" : "1852",
+    "familyName" : "Gogolʹ",
+    "givenName" : "Nikolaĭ Vasilʹevich",
+    "name" : "Nikolaĭ Vasilʹevich Gogolʹ"
+  }, {
+    "@id" : "http://viaf.org/viaf/54152190",
+    "@type" : "schema:Person",
+    "birthDate" : "1899",
+    "deathDate" : "1960",
+    "familyName" : "Olesha",
+    "givenName" : "I︠U︡riĭ Karlovich",
+    "name" : "I︠U︡riĭ Karlovich Olesha"
+  }, {
+    "@id" : "http://viaf.org/viaf/7387402",
+    "@type" : "schema:Person",
+    "birthDate" : "1870",
+    "deathDate" : "1953",
+    "familyName" : "Bunin",
+    "givenName" : "Ivan Alekseevich",
+    "name" : "Ivan Alekseevich Bunin"
+  }, {
+    "@id" : "http://viaf.org/viaf/73974415",
+    "@type" : "schema:Person",
+    "birthDate" : "1908",
+    "deathDate" : "1973,",
+    "familyName" : "Rahv",
+    "givenName" : "Philip",
+    "name" : "Philip Rahv"
+  }, {
+    "@id" : "http://viaf.org/viaf/76318943",
+    "@type" : "schema:Person",
+    "birthDate" : "1831",
+    "deathDate" : "1895",
+    "familyName" : "Leskov",
+    "givenName" : [ "N. S.", "Nikolaĭ Semenovich" ],
+    "name" : "Nikolaĭ Semenovich Leskov"
+  }, {
+    "@id" : "http://viaf.org/viaf/95216565",
+    "@type" : "schema:Person",
+    "birthDate" : "1860",
+    "deathDate" : "1904",
+    "familyName" : "Chekhov",
+    "givenName" : "Anton Pavlovich",
+    "name" : "Anton Pavlovich Chekhov"
+  }, {
+    "@id" : "http://viaf.org/viaf/96987389",
+    "@type" : "schema:Person",
+    "birthDate" : "1828",
+    "deathDate" : "1910",
+    "familyName" : "Tolstoy",
+    "givenName" : "Leo",
+    "name" : "graf Leo Tolstoy"
+  }, {
+    "@id" : "http://www.worldcat.org/oclc/301532",
+    "@type" : [ "schema:Book", "schema:CreativeWork" ],
+    "translationOfWork" : "http://www.worldcat.org/title/-/oclc/301532#CreativeWork/unidentifiedOriginalWork",
+    "oclcnum" : "301532",
+    "placeOfPublication" : [ "http://dbpedia.org/resource/New_York_City", "http://id.loc.gov/vocabulary/countries/nyu" ],
+    "about" : [ "http://dewey.info/class/891.7308/", "http://id.worldcat.org/fast/1102012", "http://id.loc.gov/authorities/subjects/sh85115966" ],
+    "bookFormat" : "bgn:PrintBook",
+    "contributor" : [ "http://viaf.org/viaf/7387402", "http://viaf.org/viaf/41847346", "http://viaf.org/viaf/76318943", "http://viaf.org/viaf/96987389", "http://viaf.org/viaf/104023256", "http://viaf.org/viaf/54148306", "http://viaf.org/viaf/54152190", "http://viaf.org/viaf/95216565" ],
+    "datePublished" : "1951",
+    "editor" : "http://viaf.org/viaf/73974415",
+    "exampleOfWork" : "http://worldcat.org/entity/work/id/1344431",
+    "genre" : [ {
+      "@language" : "en",
+      "@value" : "Fiction"
+    }, {
+      "@language" : "en",
+      "@value" : "Translations"
+    } ],
+    "inLanguage" : "en",
+    "isPartOf" : [ "http://experiment.worldcat.org/entity/work/data/1344431#Series/a_permanent_library_book", "http://experiment.worldcat.org/entity/work/data/1344431#Series/permanent_library_book" ],
+    "isSimilarTo" : "http://www.worldcat.org/oclc/569757637",
+    "name" : {
+      "@language" : "en",
+      "@value" : "Great Russian short novels"
+    },
+    "productID" : "301532",
+    "publication" : "http://www.worldcat.org/title/-/oclc/301532#PublicationEvent/new_york_dial_press_1951",
+    "publisher" : "http://experiment.worldcat.org/entity/work/data/1344431#Agent/dial_press",
+    "seeAlso" : [ "http://experiment.worldcat.org/entity/work/data/1344431#CreativeWork/zavist", "http://experiment.worldcat.org/entity/work/data/1344431#CreativeWork/khadzhi_murat", "http://experiment.worldcat.org/entity/work/data/1344431#CreativeWork/shinel", "http://experiment.worldcat.org/entity/work/data/1344431#CreativeWork/vechnyi_muzh", "http://experiment.worldcat.org/entity/work/data/1344431#CreativeWork/pervaia_liubov" ],
+    "describedby" : "http://www.worldcat.org/title/-/oclc/301532"
+  }, {
+    "@id" : "http://www.worldcat.org/oclc/569757637",
+    "@type" : "schema:CreativeWork",
+    "description" : "Online version:",
+    "isSimilarTo" : "http://www.worldcat.org/oclc/301532",
+    "label" : "Great Russian short novels."
+  }, {
+    "@id" : "http://www.worldcat.org/title/-/oclc/301532",
+    "@type" : [ "genont:ContentTypeGenericResource", "genont:InformationResource" ],
+    "inDataset" : "http://purl.oclc.org/dataset/WorldCat",
+    "about" : "http://www.worldcat.org/oclc/301532",
+    "dateModified" : "2017-06-07"
+  }, {
+    "@id" : "http://www.worldcat.org/title/-/oclc/301532#CreativeWork/unidentifiedOriginalWork",
+    "@type" : "schema:CreativeWork",
+    "inLanguage" : "ru"
+  }, {
+    "@id" : "http://www.worldcat.org/title/-/oclc/301532#PublicationEvent/new_york_dial_press_1951",
+    "@type" : "schema:PublicationEvent",
+    "location" : "http://dbpedia.org/resource/New_York_City",
+    "organizer" : "http://experiment.worldcat.org/entity/work/data/1344431#Agent/dial_press",
+    "startDate" : "1951"
+  } ],
+  "@context" : {
+    "location" : {
+      "@id" : "http://schema.org/location",
+      "@type" : "@id"
+    },
+    "organizer" : {
+      "@id" : "http://schema.org/organizer",
+      "@type" : "@id"
+    },
+    "startDate" : "http://schema.org/startDate",
+    "familyName" : "http://schema.org/familyName",
+    "givenName" : "http://schema.org/givenName",
+    "name" : "http://schema.org/name",
+    "birthDate" : "http://schema.org/birthDate",
+    "deathDate" : "http://schema.org/deathDate",
+    "productID" : "http://schema.org/productID",
+    "oclcnum" : "http://purl.org/library/oclcnum",
+    "isSimilarTo" : {
+      "@id" : "http://schema.org/isSimilarTo",
+      "@type" : "@id"
+    },
+    "placeOfPublication" : {
+      "@id" : "http://purl.org/library/placeOfPublication",
+      "@type" : "@id"
+    },
+    "contributor" : {
+      "@id" : "http://schema.org/contributor",
+      "@type" : "@id"
+    },
+    "datePublished" : "http://schema.org/datePublished",
+    "about" : {
+      "@id" : "http://schema.org/about",
+      "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "genre" : "http://schema.org/genre",
+    "inLanguage" : "http://schema.org/inLanguage",
+    "publisher" : {
+      "@id" : "http://schema.org/publisher",
+      "@type" : "@id"
+    },
+    "bookFormat" : {
+      "@id" : "http://schema.org/bookFormat",
+      "@type" : "@id"
+    },
+    "exampleOfWork" : {
+      "@id" : "http://schema.org/exampleOfWork",
+      "@type" : "@id"
+    },
+    "isPartOf" : {
+      "@id" : "http://schema.org/isPartOf",
+      "@type" : "@id"
+    },
+    "translationOfWork" : {
+      "@id" : "http://bibliograph.net/translationOfWork",
+      "@type" : "@id"
+    },
+    "publication" : {
+      "@id" : "http://schema.org/publication",
+      "@type" : "@id"
+    },
+    "describedby" : {
+      "@id" : "http://www.w3.org/2007/05/powder-s#describedby",
+      "@type" : "@id"
+    },
+    "editor" : {
+      "@id" : "http://schema.org/editor",
+      "@type" : "@id"
+    },
+    "identifier" : "http://purl.org/dc/terms/identifier",
+    "creator" : {
+      "@id" : "http://schema.org/creator",
+      "@type" : "@id"
+    },
+    "hasPart" : {
+      "@id" : "http://schema.org/hasPart",
+      "@type" : "@id"
+    },
+    "label" : "http://www.w3.org/2000/01/rdf-schema#label",
+    "description" : "http://schema.org/description",
+    "dateModified" : "http://schema.org/dateModified",
+    "inDataset" : {
+      "@id" : "http://rdfs.org/ns/void#inDataset",
+      "@type" : "@id"
+    },
+    "schema" : "http://schema.org/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "genont" : "http://www.w3.org/2006/gen/ont#",
+    "wdrs" : "http://www.w3.org/2007/05/powder-s#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "library" : "http://purl.org/library/",
+    "void" : "http://rdfs.org/ns/void#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "bgn" : "http://bibliograph.net/",
+    "pto" : "http://www.productontology.org/id/",
+    "dcterms" : "http://purl.org/dc/terms/"
+  }
+}

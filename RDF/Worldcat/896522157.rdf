@@ -1,0 +1,82 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3944634201#Topic/sublime_the">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Sublime, The</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3944634201#Person/prickard_a_o_arthur_octavius_1843_1939">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Prickard</schema:familyName>
+    <schema:givenName>A. O.</schema:givenName>
+    <schema:givenName>Arthur Octavius</schema:givenName>
+    <schema:name>Arthur Octavius Prickard</schema:name>
+    <schema:birthDate>1843</schema:birthDate>
+    <schema:deathDate>1939</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3944634201#Place/oxford">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Oxford</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/896522157">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3944634201#Agent/clarendon_press"/>
+    <schema:name xml:lang="en">Longinus on the sublime.</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3944634201#Place/oxford"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>896522157</schema:productID>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3944634201#Person/longinus_active_1st_century"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/3944634201#Person/prickard_a_o_arthur_octavius_1843_1939"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/896522157"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3944634201#Topic/sublime_the"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/896522157#PublicationEvent/oxford_clarendon_press1954"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3944634201#Topic/rhetoric_ancient"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3944634201"/>
+    <library:oclcnum>896522157</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/3944634201">
+    <schema:name>On the sublime</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/896522157">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/896522157"/>
+    <schema:dateModified>2017-05-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/896522157#PublicationEvent/oxford_clarendon_press1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3944634201#Place/oxford"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3944634201#Agent/clarendon_press"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3944634201#Agent/clarendon_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Clarendon Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3944634201#Topic/rhetoric_ancient">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Rhetoric, Ancient</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3944634201#Person/longinus_active_1st_century">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Longinus</schema:givenName>
+    <schema:name>Longinus</schema:name>
+  </rdf:Description>
+</rdf:RDF>

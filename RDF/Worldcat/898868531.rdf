@@ -1,0 +1,97 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/898868531#PublicationEvent/new_york_new_directions_cop_1950">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3855430179#Agent/new_directions"/>
+    <schema:startDate>co. 1950</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855430179#Topic/american_poetry_20th_century">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>American poetry--20th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855430179#Person/williams_william_carlos_1883_1963">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Williams</schema:familyName>
+    <schema:givenName>William Carlos</schema:givenName>
+    <schema:name>William Carlos Williams</schema:name>
+    <schema:birthDate>1883</schema:birthDate>
+    <schema:deathDate>1963</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855430179#Series/new_directions_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/898868531"/>
+    <schema:name>New Directions Book.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/898868531">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3855430179#Topic/american_poetry"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3855430179#Event/1900_1999"/>
+    <library:oclcnum>898868531</library:oclcnum>
+    <schema:genre>Gedichten (teksten)</schema:genre>
+    <schema:datePublished>1950</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>The collected later poems of William Carlos Williams.</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3855430179"/>
+    <schema:alternateName>collected later poems</schema:alternateName>
+    <schema:copyrightYear>op.</schema:copyrightYear>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3855430179#Series/a_new_directions_book"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://dewey.info/class/811/"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/898868531#PublicationEvent/new_york_new_directions_cop_1950"/>
+    <schema:numberOfPages>240</schema:numberOfPages>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3855430179#Topic/american_poetry_20th_century"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3855430179#Agent/new_directions"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3855430179#Series/new_directions_book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3855430179#Person/williams_william_carlos_1883_1963"/>
+    <schema:productID>898868531</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/898868531"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855430179#Agent/new_directions">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Directions</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855430179#Series/a_new_directions_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/898868531"/>
+    <schema:name>A New Directions book</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/898868531">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/898868531"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855430179#Topic/american_poetry">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>American poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855430179#Event/1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1900-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/811/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

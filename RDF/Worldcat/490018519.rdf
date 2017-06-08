@@ -1,0 +1,86 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/490018519#PublicationEvent/new_york_harcourt_brace_&amp;_world_cop_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/42099#Agent/harcourt_brace_&amp;_world"/>
+    <schema:startDate>co. 1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1244550">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/42099#Person/o_connor_flannery_1925_1964">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>O'Connor</schema:familyName>
+    <schema:givenName>Flannery</schema:givenName>
+    <schema:name>Flannery O'Connor</schema:name>
+    <schema:birthDate>1925</schema:birthDate>
+    <schema:deathDate>1964</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/42099#Agent/harcourt_brace_&amp;_world">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harcourt, Brace &amp; World</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1007815">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Manners and customs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/490018519">
+    <schema:copyrightYear>op.</schema:copyrightYear>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/42099#Person/o_connor_flannery_1925_1964"/>
+    <schema:productID>490018519</schema:productID>
+    <schema:description>A good man is hard to find -- The river -- The life you save may be your own -- A stroke of good fortune -- A temple of the Holy Ghost -- The artificial nigger -- A circle in the fire -- A late encounter with the enemy -- Good country people -- The displaced person.</schema:description>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1244550"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/490018519"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/490018519#PublicationEvent/new_york_harcourt_brace_&amp;_world_cop_1955"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.5/"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/42099#Agent/harcourt_brace_&amp;_world"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1007815"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:oclcnum>490018519</library:oclcnum>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/42099"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/42099#Place/southern_states"/>
+    <schema:name>A good man is hard to find, and other stories</schema:name>
+    <schema:alternateName>Hard to find, and other stories</schema:alternateName>
+    <schema:genre>Fiction</schema:genre>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/42099#Place/southern_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/490018519">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/490018519"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

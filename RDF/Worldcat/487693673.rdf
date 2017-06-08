@@ -1,0 +1,76 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/363922146#Agent/world_publishing">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>World Publishing</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/363922146#Place/cleveland">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Cleveland</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/487693673">
+    <schema:genre>Collections</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <library:oclcnum>487693673</library:oclcnum>
+    <schema:name>And the Darkness Falls</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/960387"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1067691"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/487693673"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85062084"/>
+    <schema:productID>487693673</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/363922146"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/363922146#Person/karloff_boris"/>
+    <schema:datePublished>1946</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/487693673#PublicationEvent/cleveland_world_publishing_1946"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/363922146#Agent/world_publishing"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/363922146#Place/cleveland"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1067691">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/487693673#PublicationEvent/cleveland_world_publishing_1946">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/363922146#Place/cleveland"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/363922146#Agent/world_publishing"/>
+    <schema:startDate>1946</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/960387">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Horror tales</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/487693673">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/487693673"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/363922146#Person/karloff_boris">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Karloff</schema:familyName>
+    <schema:givenName>Boris</schema:givenName>
+    <schema:name>Boris Karloff</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85062084">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Horror tales</schema:name>
+  </rdf:Description>
+</rdf:RDF>

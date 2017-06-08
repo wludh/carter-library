@@ -1,0 +1,79 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/765174#Agent/john_grant">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>John Grant</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.8/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/stk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>stk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/9457473">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/9457473"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/765174#Agent/john_grant"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/765174#Series/his_works_v_20"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/765174"/>
+    <schema:productID>9457473</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/stk"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/765174#Place/edinburgh"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/315710796"/>
+    <schema:about rdf:resource="http://dewey.info/class/823.8/"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">The rover,</schema:name>
+    <library:oclcnum>9457473</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/9457473#PublicationEvent/edinburgh_london_john_grant_1925"/>
+    <schema:datePublished>1925</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/765174#Place/edinburgh">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Edinburgh</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/9457473">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/9457473"/>
+    <schema:dateModified>2017-04-23</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/315710796">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Conrad</schema:familyName>
+    <schema:givenName>Joseph</schema:givenName>
+    <schema:name>Joseph Conrad</schema:name>
+    <schema:birthDate>1857</schema:birthDate>
+    <schema:deathDate>1924</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/765174#Series/his_works_v_20">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/9457473"/>
+    <schema:name>His Works, v. 20</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/9457473#PublicationEvent/edinburgh_london_john_grant_1925">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/765174#Place/edinburgh"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/765174#Agent/john_grant"/>
+    <schema:startDate>1925</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

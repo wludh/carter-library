@@ -1,0 +1,71 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1489474#Topic/poetry_african_south_english">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85103704"/>
+    <schema:name>Poetry--African, South (English)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/731031507#PublicationEvent/chicago_h_regnery_co_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1489474#Agent/h_regnery_co"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1489474#Agent/h_regnery_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>H. Regnery Co</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/731031507">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1489474#Agent/h_regnery_co"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1489474"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1489474#Person/campbell_roy"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:productID>731031507</schema:productID>
+    <schema:numberOfPages>297</schema:numberOfPages>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1489474#Topic/poetry_african_south_english"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>731031507</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/731031507#PublicationEvent/chicago_h_regnery_co_1955"/>
+    <schema:name>Selected poems</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/731031507"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1955</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <schema:about rdf:resource="http://dewey.info/class/821.91/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/821.91/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/731031507">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/731031507"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1489474#Person/campbell_roy">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Campbell</schema:familyName>
+    <schema:givenName>Roy</schema:givenName>
+    <schema:name>Roy Campbell</schema:name>
+  </rdf:Description>
+</rdf:RDF>

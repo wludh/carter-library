@@ -1,0 +1,94 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3856487511#Series/the_works_of_joseph_conrad">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/719815319"/>
+    <schema:name>The works of Joseph Conrad ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/719815319#PublicationEvent/edinburgh_scotland_j_grant_1925">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3856487511#Place/edinburgh_scotland"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3856487511#Agent/j_grant"/>
+    <schema:startDate>1925</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3856487511#CreativeWork/personal_record_some_reminiscences">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Personal record : some reminiscences.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/stk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>stk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/719815319">
+    <schema:creator rdf:resource="http://viaf.org/viaf/315710796"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3856487511#Place/edinburgh_scotland"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1110214"/>
+    <schema:datePublished>1925</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/719815319#PublicationEvent/edinburgh_scotland_j_grant_1925"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3856487511#Agent/j_grant"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3856487511#Series/works"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3856487511#Series/the_works_of_joseph_conrad"/>
+    <schema:name xml:lang="en">The mirror of the sea : memories &amp; impressions</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/stk"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3856487511"/>
+    <schema:productID>719815319</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/719815319"/>
+    <library:oclcnum>719815319</library:oclcnum>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/3856487511#CreativeWork/personal_record_some_reminiscences"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3856487511#Place/edinburgh_scotland">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Edinburgh Scotland</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3856487511#Series/works">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/719815319"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3856487511#Person/conrad_joseph_1857_1924"/>
+    <schema:name>Works.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3856487511#Person/conrad_joseph_1857_1924">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Conrad</schema:familyName>
+    <schema:givenName>Joseph</schema:givenName>
+    <schema:name>Joseph Conrad</schema:name>
+    <schema:birthDate>1857</schema:birthDate>
+    <schema:deathDate>1924</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3856487511#Agent/j_grant">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>J. Grant</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/315710796">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Conrad</schema:familyName>
+    <schema:givenName>Joseph</schema:givenName>
+    <schema:name>Joseph Conrad</schema:name>
+    <schema:birthDate>1857</schema:birthDate>
+    <schema:deathDate>1924</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/719815319">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/719815319"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1110214">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Seafaring life</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,105 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/849297">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Catholics</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1695327#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/609926052">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/573889"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Morte d'Urban.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/864014">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Clergy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1695327#Topic/catholics">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008100198"/>
+    <schema:name xml:lang="en">Catholics</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/573889#PublicationEvent/garden_city_n_y_doubleday_1962">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1695327#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1695327#Agent/doubleday"/>
+    <schema:startDate>1962</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.54/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/573889">
+    <schema:about rdf:resource="http://dewey.info/class/813.54/"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:description xml:lang="en">The green banana -- A grand place, this -- Anon -- Grey days -- A couple of nights before Christmas -- Sailing against the wind -- The most a man can do -- Second only to Standard Oil -- Dear Billy: -- Twenty-four hours in a strange diocese -- Wrens and starlings -- God writes ... -- ... A bad hand -- Belleisle -- One of our best men.</schema:description>
+    <schema:awards>National Book Award for Fiction, 1963.</schema:awards>
+    <schema:genre xml:lang="en">Religious fiction</schema:genre>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/573889#PublicationEvent/garden_city_n_y_doubleday_1962"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1695327#Topic/clergy"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1695327#Place/garden_city_n_y"/>
+    <schema:productID>573889</schema:productID>
+    <library:oclcnum>573889</library:oclcnum>
+    <schema:description xml:lang="en">Alert priest is led to a re-examination of his principles when he is put in charge of his order's retreat, a dilapitated lake resort.</schema:description>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/609926052"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/110146339"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1695327"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/573889"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1695327#Topic/catholics"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookEdition>[1st ed.].</schema:bookEdition>
+    <schema:datePublished>1962</schema:datePublished>
+    <schema:genre xml:lang="en">Catholic fiction</schema:genre>
+    <schema:name xml:lang="en">Morte d'Urban.</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1695327#Agent/doubleday"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:genre xml:lang="en">Satire</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/849297"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/864014"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1695327#Topic/clergy">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh85026951"/>
+    <schema:name xml:lang="en">Clergy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/110146339">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Powers</schema:familyName>
+    <schema:givenName>J. F.</schema:givenName>
+    <schema:givenName>James Farl</schema:givenName>
+    <schema:name>James Farl Powers</schema:name>
+    <schema:birthDate>1917</schema:birthDate>
+    <schema:deathDate>1999</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/573889">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/573889"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1695327#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+</rdf:RDF>
