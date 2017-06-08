@@ -1,0 +1,121 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/337964">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/337964"/>
+    <schema:dateModified>2017-06-05</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/2908457233">
+    <schema:name>Sinuhe egyptiläinen.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/894.5413/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908457233#Place/egypte">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Égypte</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908457233#Place/egypt">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Egypt</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/33696748">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Walford</schema:familyName>
+    <schema:givenName>Naomi</schema:givenName>
+    <schema:name>Naomi Walford</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908457233#Agent/g_p_putnam_s_sons">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>G.P. Putnam's Sons</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/646872612">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/337964"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Egyptian.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1208755">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Egypt.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/337964">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:genre xml:lang="en">Epic fiction</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908457233#Place/egypt"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/646872612"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:copyrightYear>1949</schema:copyrightYear>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908457233#Topic/novela_finlandesa"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/337964#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2908457233"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">The Egyptian : a novel</schema:name>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:description xml:lang="en">Set in Egypt, more than a thousand years before Christ, it encompasses all of the then-known world. It is told by Sinhue, physician to the Pharaoh, and is the story of his life. Through his eyes are seen innumerable characters, fully drawn and covering the whole panorama of the ancient world.</schema:description>
+    <schema:about rdf:resource="http://dewey.info/class/894.5413/"/>
+    <schema:productID>337964</schema:productID>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2908457233#Agent/g_p_putnam_s_sons"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/337964"/>
+    <schema:datePublished>1949</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/337964#PublicationEvent/new_york_g_p_putnam_s_sons_1949"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/33696748"/>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780399102349"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908457233#Place/egypte"/>
+    <library:oclcnum>337964</library:oclcnum>
+    <schema:genre xml:lang="en">Historical fiction</schema:genre>
+    <schema:description xml:lang="en">The reed boat -- The house of life -- Thebes fever -- Nefernefernefer -- The khabiri -- The day of the false king -- Minea -- The dark house -- The crocodile's tail -- City of the heavens -- Merit -- The water clock measures time -- Aton's kingdom on earth -- The holy war -- Horemheb.</schema:description>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1208755"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/111008219"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/337964#PublicationEvent/new_york_g_p_putnam_s_sons_1949">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2908457233#Agent/g_p_putnam_s_sons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/337964#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Sinuhe egyptiläinen.</schema:name>
+    <schema:inLanguage>fi</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/111008219">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Waltari</schema:familyName>
+    <schema:givenName>Mika</schema:givenName>
+    <schema:name>Mika Waltari</schema:name>
+    <schema:birthDate>1908</schema:birthDate>
+    <schema:deathDate>1979</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780399102349">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780399102349</schema:isbn>
+    <schema:isbn>0399102345</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908457233#Topic/novela_finlandesa">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Novela finlandesa</schema:name>
+  </rdf:Description>
+</rdf:RDF>

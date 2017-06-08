@@ -1,0 +1,75 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/301696472">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/301696472"/>
+    <schema:dateModified>2017-04-18</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/301696472#PublicationEvent/new_york_modern_library_1936">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1395679#Agent/modern_library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1395679#Person/yarmolinsky_avrahm">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Yarmolinsky</schema:familyName>
+    <schema:givenName>Avrahm</schema:givenName>
+    <schema:name>Avrahm Yarmolinsky</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/301696472">
+    <schema:genre xml:lang="fr">Genres littéraires</schema:genre>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1395679"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/301696472#PublicationEvent/new_york_modern_library_1936"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>301696472</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/66477450"/>
+    <schema:productID>301696472</schema:productID>
+    <schema:name>The poems, prose and plays of Alexander Pushkin</schema:name>
+    <schema:copyrightYear>1936</schema:copyrightYear>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1395679#Agent/modern_library"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1395679#Thing/anthologie"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1395679#Person/yarmolinsky_avrahm"/>
+    <schema:alternateName>Poems, prose and plays of Pushkin</schema:alternateName>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/301696472"/>
+    <schema:datePublished>1936</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/66477450"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/66477450">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Pouchkine</schema:familyName>
+    <schema:givenName>Alexandre</schema:givenName>
+    <schema:name>Alexandre Pouchkine</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1395679#Agent/modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Modern Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1395679#Thing/anthologie">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Anthologie</schema:name>
+  </rdf:Description>
+</rdf:RDF>

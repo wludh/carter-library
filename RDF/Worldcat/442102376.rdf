@@ -1,0 +1,134 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463726#CreativeWork/declaration_of_independence">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Declaration of Independence.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463726#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463726#Person/becker_carl_lotus_1873_1945">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Becker</schema:familyName>
+    <schema:givenName>Carl Lotus</schema:givenName>
+    <schema:name>Carl Lotus Becker</schema:name>
+    <schema:birthDate>1873</schema:birthDate>
+    <schema:deathDate>1945</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463726#Place/zdruzene_drzave_amerike">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Združene države Amerike.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463726#Organization/united_states">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463726#Topic/deklaracije">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Deklaracije</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463726#Series/vintage_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/442102376"/>
+    <schema:name>Vintage Book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/442102376">
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/463726#Person/becker_carl_lotus_1873_1945"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>The declaration of independence : a study in the history of political ideas</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/463726#Topic/independence"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/463726#Topic/neodvisnost"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/463726#Topic/deklaracije"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/463726#Series/a_vintage_book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/463726#Agent/vintage_books"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/463726"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1919741"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/463726#Organization/united_states"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/463726#Topic/declaration"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/463726#Place/united_states"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/463726#Place/zdruzene_drzave_amerike"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/442102376"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/463726#Place/united_states_of_america"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/463726#Series/vintage_book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/463726#CreativeWork/declaration_of_independence"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/442102376#PublicationEvent/new_york_vintage_books_1958_cop_1942"/>
+    <library:oclcnum>442102376</library:oclcnum>
+    <schema:productID>442102376</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/463726#Topic/zgodovina_politicne_misli"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/442102376#PublicationEvent/new_york_vintage_books_1958_cop_1942">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/463726#Agent/vintage_books"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463726#Agent/vintage_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Vintage Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463726#Series/a_vintage_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/442102376"/>
+    <schema:name>A Vintage Book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/442102376">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/442102376"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463726#Topic/declaration">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Declaration</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463726#Topic/independence">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Independence</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463726#Topic/neodvisnost">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Neodvisnost</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1919741">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Politics and government</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463726#Topic/zgodovina_politicne_misli">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Zgodovina politične misli</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/463726#Place/united_states_of_america">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States of America.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

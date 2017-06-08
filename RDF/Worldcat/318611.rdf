@@ -1,0 +1,140 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365622407#Place/n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/583289094">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/318611"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Dictionary of American synonyms.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365622407#Topic/english_language_new_words">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008103166"/>
+    <schema:name xml:lang="en">English language--New words</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365622407#Topic/worterbuch">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Wörterbuch</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/911399">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English language--New words</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/318611">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/911399"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/583289094"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807480"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365622407#Topic/english_language_united_states"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/365622407"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365622407#Topic/worterbuch"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/318611"/>
+    <schema:genre xml:lang="en">Dictionaries</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365622407#Topic/synonym"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/911847"/>
+    <library:oclcnum>318611</library:oclcnum>
+    <schema:about rdf:resource="http://dewey.info/class/423/"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/365622407#Person/hogan_homer"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/910920"/>
+    <schema:productID>318611</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365622407#Topic/english_language_new_words"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/318611#PublicationEvent/n_y_philosophical_library_1956"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365622407#Topic/anglais_langue_etats_unis_synonymes_et_antonymes"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365622407#Place/amerikanisches_englisch"/>
+    <schema:name xml:lang="en">Dictionary of American synonyms</schema:name>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/365622407#Agent/philosophical_library"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85043736"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/365622407#Place/n_y"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365622407#Topic/americanismes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365622407#Topic/english_language_united_states">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008103183"/>
+    <schema:name xml:lang="en">English language--United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365622407#Person/hogan_homer">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hogan</schema:familyName>
+    <schema:givenName>Homer</schema:givenName>
+    <schema:name>Homer Hogan</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/910920">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English language</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365622407#Topic/americanismes">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Américanismes</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/318611#PublicationEvent/n_y_philosophical_library_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/365622407#Place/n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/365622407#Agent/philosophical_library"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365622407#Topic/anglais_langue_etats_unis_synonymes_et_antonymes">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Anglais (langue)--États-Unis--Synonymes et antonymes</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365622407#Agent/philosophical_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Philosophical Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807480">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Americanisms</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/911847">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English language--Synonyms and antonyms</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365622407#Place/amerikanisches_englisch">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Amerikanisches Englisch.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/318611">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/318611"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/423/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85043736">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English language--Synonyms and antonyms</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365622407#Topic/synonym">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Synonym</schema:name>
+  </rdf:Description>
+</rdf:RDF>

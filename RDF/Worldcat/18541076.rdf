@@ -1,0 +1,77 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/18541076">
+    <library:oclcnum>18541076</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1910</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/stk"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/21371#Agent/colstons"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/59091022"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/21371#Place/edinburgh"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/21371#Person/omar_khayyam"/>
+    <schema:name xml:lang="en">Rubáiyát of Omar Khayyám.</schema:name>
+    <schema:illustrator rdf:resource="http://viaf.org/viaf/54420453"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/18541076#PublicationEvent/edinburgh_colstons_1910"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/21371"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/18541076"/>
+    <schema:productID>18541076</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21371#Person/omar_khayyam">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Omar Khayyam</schema:givenName>
+    <schema:name>Omar Khayyam.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/stk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>stk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21371#Place/edinburgh">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Edinburgh</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/54420453">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Brangwyn</schema:familyName>
+    <schema:givenName>Frank</schema:givenName>
+    <schema:name>Frank Brangwyn</schema:name>
+    <schema:birthDate>1867</schema:birthDate>
+    <schema:deathDate>1956,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/18541076#PublicationEvent/edinburgh_colstons_1910">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/21371#Place/edinburgh"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/21371#Agent/colstons"/>
+    <schema:startDate>1910</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/59091022">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>FitzGerald</schema:familyName>
+    <schema:givenName>Edward</schema:givenName>
+    <schema:name>Edward FitzGerald</schema:name>
+    <schema:birthDate>1809</schema:birthDate>
+    <schema:deathDate>1883,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21371#Agent/colstons">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>[Colstons]</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/18541076">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/18541076"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,105 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/962768">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/962768#PublicationEvent/new_york_macmillan_co_1949"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/148404233"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1102394"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/962768#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/89861303"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/604983446"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/148404233#Agent/macmillan_co"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/577040281"/>
+    <library:oclcnum>962768</library:oclcnum>
+    <schema:genre xml:lang="en">Translations</schema:genre>
+    <schema:about rdf:resource="http://dewey.info/class/891.71082/"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">A treasury of Russian verse.</schema:name>
+    <schema:productID>962768</schema:productID>
+    <schema:datePublished>1949</schema:datePublished>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/591842374"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/962768"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/148404233#Topic/russian_poetry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1102394">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Russian poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/962768#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>ru</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/604983446">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/962768"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Treasury of Russian verse.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/148404233#Topic/russian_poetry">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008111127"/>
+    <schema:name xml:lang="en">Russian poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/891.71082/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/962768">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/962768"/>
+    <schema:dateModified>2017-06-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/89861303">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Yarmolinsky</schema:familyName>
+    <schema:givenName>Avrahm</schema:givenName>
+    <schema:name>Avrahm Yarmolinsky</schema:name>
+    <schema:birthDate>1890</schema:birthDate>
+    <schema:deathDate>1975,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/577040281">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/962768"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Treasury of Russian verse.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/962768#PublicationEvent/new_york_macmillan_co_1949">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/148404233#Agent/macmillan_co"/>
+    <schema:startDate>1949</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/591842374">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/962768"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Treasury of Russian verse.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/148404233#Agent/macmillan_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Macmillan Co.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

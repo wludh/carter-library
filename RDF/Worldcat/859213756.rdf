@@ -1,0 +1,143 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2859524260#Topic/alienation_social_psychology_russia">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85003540"/>
+    <schema:name xml:lang="en">Alienation (Social psychology)--Russia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2859524260#Series/modern_library_college_editions">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/859213756"/>
+    <schema:name>Modern Library college editions</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/805268">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Alienation (Social psychology)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85051686">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Free will and determinism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2859524260#Agent/modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Modern Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/859213756">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/859213756"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1207312">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Russia.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/891.733/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85115966">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Russian fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2859524260#Place/russia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Russia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/104023256">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dostoyevsky</schema:familyName>
+    <schema:givenName>Fyodor</schema:givenName>
+    <schema:name>Fyodor Dostoyevsky</schema:name>
+    <schema:birthDate>1821</schema:birthDate>
+    <schema:deathDate>1881</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1117348">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Short stories, Russian</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/933968">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Free will and determinism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/859213756">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1207312"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/933968"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2859524260#Place/saint_petersburg_russia"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1117348"/>
+    <schema:name xml:lang="en">Best short stories of Dostoevsky</schema:name>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85051686"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/859213756"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2859524260#Series/modern_library_college_editions"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2859524260#Topic/alienation_social_psychology_russia"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2859524260#Agent/modern_library"/>
+    <schema:about rdf:resource="http://dewey.info/class/891.733/"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2859524260"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2859524260#Topic/short_stories_russian"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/805268"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/104023256"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1102012"/>
+    <schema:description xml:lang="en">Seven short works by the great 19th century Russian author, including the influential novella Notes from Underground.</schema:description>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2859524260#Place/russia"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1212867"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/859213756#PublicationEvent/new_york_modern_library_1955"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85115966"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/859213756#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:productID>859213756</schema:productID>
+    <schema:genre xml:lang="en">Translations</schema:genre>
+    <library:oclcnum>859213756</library:oclcnum>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2859524260#Place/saint_petersburg_russia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Saint Petersburg (Russia)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/859213756#PublicationEvent/new_york_modern_library_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2859524260#Agent/modern_library"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1212867">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Russia (Federation)--Saint Petersburg.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/859213756#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>ru</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2859524260#Topic/short_stories_russian">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008111647"/>
+    <schema:name xml:lang="en">Short stories, Russian</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1102012">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Russian fiction</schema:name>
+  </rdf:Description>
+</rdf:RDF>
