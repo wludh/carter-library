@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2503157#Agent/crest">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Crest</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2503157#Agent/fawcett_publications_inc">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Fawcett Publications, Inc</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/812533923">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/812533923"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/47647264">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hoffman</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Hoffman</schema:name>
+    <schema:birthDate>1925</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/812533923">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/812533923#PublicationEvent/new_york_fawcett_publications_inc_crest_1958"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/812533923"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2503157"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1958</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>812533923</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/47647264"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2503157#Agent/fawcett_publications_inc"/>
+    <schema:name xml:lang="en">Days in the yellow leaf : complete and unabridged</schema:name>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:productID>812533923</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2503157#Agent/crest"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/812533923#PublicationEvent/new_york_fawcett_publications_inc_crest_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2503157#Agent/fawcett_publications_inc"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2503157#Agent/crest"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

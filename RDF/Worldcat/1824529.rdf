@@ -1,0 +1,77 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2675287#Series/gold_medal_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1824529"/>
+    <schema:name>Gold medal books,</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1824529">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1824529"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1824529">
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>1824529</schema:productID>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:name xml:lang="en">All these condemned.</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1824529#PublicationEvent/new_york_fawcett_publications1954"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/891461"/>
+    <schema:genre xml:lang="en">Mystery fiction</schema:genre>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:description xml:lang="en">Ruthlessly, she had woven a web to catch others, but she was the one who was the victim of murder. The sophisticated guests brought their fears and stresses with them for the weekend. They had been fed the same menu of jealousy, greed, shame, and betrayal. The only question was, who had hated her THAT much?</schema:description>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2675287#Series/gold_medal_books"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/7393665"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2675287#Agent/fawcett_publications"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1824529"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2675287"/>
+    <library:oclcnum>1824529</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/891461">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Detective and mystery stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1824529#PublicationEvent/new_york_fawcett_publications1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2675287#Agent/fawcett_publications"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2675287#Agent/fawcett_publications">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Fawcett Publications</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/7393665">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>MacDonald</schema:familyName>
+    <schema:givenName>John D.</schema:givenName>
+    <schema:givenName>John Dann</schema:givenName>
+    <schema:name>John Dann MacDonald</schema:name>
+    <schema:birthDate>1916</schema:birthDate>
+    <schema:deathDate>1986</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/964525433">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/964525433"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/19696377#Topic/welsh_poetry">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Welsh poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/19696377#Topic/welsh_poetry_history_and_criticism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Welsh poetry--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/19696377#Topic/poetry">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/964525433">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/19696377#Topic/poetry"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:description xml:lang="en">This labyrinthine and extraordinary book, first published more than fifty years ago, was the outcome of Graves's vast reading and curious research into strange territories of folklore, mythology, religion and magic. Erudite and impassioned, it is a scholar-poet's quest for the meaning of European myths, a polemic about the relations between man and woman, and also an intensely personal document in which Graves explored the sources of his own inspiration and, as he believed, all true poetry.</schema:description>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <library:oclcnum>964525433</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/19696377#Topic/welsh_poetry_history_and_criticism"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/19696377#Topic/mythology"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/964525433"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/19696377#Topic/welsh_poetry"/>
+    <schema:productID>964525433</schema:productID>
+    <schema:datePublished>1948</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/19696377#Person/graves_robert_1895_1985"/>
+    <schema:description xml:lang="en">Poets and gleemen -- The Battle of Trees -- Dog, roebuck, and lapwing -- The White Goddess -- Gwion's riddle -- A visit to Spiral Castle -- Gwion's riddle solved -- Herculus pn the lotus --- Gwion's heresy --- The tree-alphabet (1) -- The tree-alphabet (2) -- The Song of Amergin -- Palamedes and the cranes -- The roebuck in the thicket -- The seven pillars -- The holy unspeakable name of God -- The lion with the steady hand -- The bull-footed God -- The number of the Beast -- A conversation at Paphos- A.D. 43 -- The waters of the Styx -- The Triple Muse -- Fabulous beasts -- The single poetic theme -- War in Heaven.</schema:description>
+    <schema:name xml:lang="en">The White Goddess : a historical grammar of poetic myth</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/19696377"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/19696377#Person/graves_robert_1895_1985">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Graves</schema:familyName>
+    <schema:givenName>Robert</schema:givenName>
+    <schema:name>Robert Graves</schema:name>
+    <schema:birthDate>1895</schema:birthDate>
+    <schema:deathDate>1985,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/19696377#Topic/mythology">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Mythology</schema:name>
+  </rdf:Description>
+</rdf:RDF>

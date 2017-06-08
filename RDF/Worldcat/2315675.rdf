@@ -1,0 +1,67 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/450879#Person/o_connor_flannery">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>O'Connor</schema:familyName>
+    <schema:givenName>Flannery</schema:givenName>
+    <schema:name>Flannery O'Connor</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/450879#Agent/new_american_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New American Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/450879#Series/signet_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/2315675"/>
+    <schema:name>Signet books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2315675">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2315675"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2315675">
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>2315675</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2315675"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/450879"/>
+    <library:oclcnum>2315675</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1953</schema:datePublished>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/450879#Series/signet_books"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/450879#Agent/new_american_library"/>
+    <schema:copyrightYear>1952</schema:copyrightYear>
+    <schema:name xml:lang="en">Wise blood</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/450879#Person/o_connor_flannery"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2315675#PublicationEvent/new_york_new_american_library_1953_1952"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2315675#PublicationEvent/new_york_new_american_library_1953_1952">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/450879#Agent/new_american_library"/>
+    <schema:startDate>1953</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

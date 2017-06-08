@@ -1,0 +1,96 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768943008#CreativeWork/sea_gull">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Sea gull.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768943008#CreativeWork/three_sisters">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Three sisters.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768943008#Series/modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/883661091"/>
+    <schema:name>Modern library of the world's best books</schema:name>
+    <schema:name>Modern library of the world's best books.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/891.723/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/883661091#PublicationEvent/new_york_modern_library_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3768943008#Agent/modern_library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768943008#CreativeWork/cherry_orchard">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Cherry orchard.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/883661091">
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3768943008#Person/chekhov_anton_pavlovich_1860_1904"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3768943008#Agent/modern_library"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3768943008#Person/chekhov_anton_pavlovich_1860_1904"/>
+    <schema:about rdf:resource="http://dewey.info/class/891.723/"/>
+    <schema:productID>883661091</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:description xml:lang="en">The sea gull. -- Uncle Vanya. -- The three sisters. -- The cherry orchard.</schema:description>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/883661091"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:copyrightYear>1956</schema:copyrightYear>
+    <schema:hasPart rdf:resource="http://experiment.worldcat.org/entity/work/data/3768943008#CreativeWork/uncle_vanya"/>
+    <schema:hasPart rdf:resource="http://experiment.worldcat.org/entity/work/data/3768943008#CreativeWork/cherry_orchard"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3768943008"/>
+    <schema:hasPart rdf:resource="http://experiment.worldcat.org/entity/work/data/3768943008#CreativeWork/sea_gull"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/883661091#PublicationEvent/new_york_modern_library_1956"/>
+    <schema:hasPart rdf:resource="http://experiment.worldcat.org/entity/work/data/3768943008#CreativeWork/three_sisters"/>
+    <schema:name xml:lang="en">Best plays by Chekhov : the sea gull ; Uncle Vanya ; The three sisters ; The cherry orchard</schema:name>
+    <schema:genre xml:lang="en">Translations</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:oclcnum>883661091</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3768943008#Series/modern_library_of_the_world_s_best_books"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/883661091">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/883661091"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768943008#CreativeWork/uncle_vanya">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Uncle Vanya.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768943008#Person/chekhov_anton_pavlovich_1860_1904">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Chekhov</schema:familyName>
+    <schema:givenName>Anton Pavlovich</schema:givenName>
+    <schema:name>Anton Pavlovich Chekhov</schema:name>
+    <schema:birthDate>1860</schema:birthDate>
+    <schema:deathDate>1904</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768943008#Agent/modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Modern Library</schema:name>
+  </rdf:Description>
+</rdf:RDF>

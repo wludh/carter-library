@@ -1,0 +1,120 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/325268">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/325268"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/325268">
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3769644065#Topic/litterature_americaine"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85004351"/>
+    <schema:about rdf:resource="http://dewey.info/class/804/"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/574809031"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44325423"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85077519"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/325268#PublicationEvent/denver_a_swallow1959"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/911989"/>
+    <schema:name xml:lang="en">Collected essays.</schema:name>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3769644065#Place/denver"/>
+    <library:oclcnum>325268</library:oclcnum>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85043833"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3769644065#Topic/litterature_anglaise"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/325268"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/999953"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3769644065"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/cou"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3769644065#Agent/a_swallow"/>
+    <schema:productID>325268</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807113"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/325268#PublicationEvent/denver_a_swallow1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3769644065#Place/denver"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3769644065#Agent/a_swallow"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/804/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3769644065#Place/denver">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Denver</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3769644065#Agent/a_swallow">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>A. Swallow</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/911989">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85004351">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/3769644065">
+    <schema:name>Essays.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3769644065#Topic/litterature_americaine">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Littérature américaine</schema:name>
+    <schema:name xml:lang="en">Littérature américaine</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/44325423">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Tate</schema:familyName>
+    <schema:givenName>Allen</schema:givenName>
+    <schema:name>Allen Tate</schema:name>
+    <schema:birthDate>1899</schema:birthDate>
+    <schema:deathDate>1979</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/574809031">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/325268"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Collected essays.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/999953">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807113">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85077519">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Literature--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/cou">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>cou</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85043833">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English literature--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3769644065#Topic/litterature_anglaise">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Littérature anglaise</schema:name>
+    <schema:name xml:lang="en">Littérature anglaise</schema:name>
+  </rdf:Description>
+</rdf:RDF>
