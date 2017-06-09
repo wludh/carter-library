@@ -1,0 +1,97 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2423794#Person/orwell_george_pseud_van_eric_arthur_blair_1903_1950">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Orwell</schema:familyName>
+    <schema:givenName>George</schema:givenName>
+    <schema:name>pseud. van Eric Arthur Blair George Orwell</schema:name>
+    <schema:birthDate>1903</schema:birthDate>
+    <schema:deathDate>1950</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2423794#Agent/hollis_and_carter">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Hollis and Carter</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2423794#Topic/science_fiction_english_history_and_criticism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Science fiction, English--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2423794#Person/hollis_christopher_maurice_christopher_1902">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hollis</schema:familyName>
+    <schema:givenName>Christopher</schema:givenName>
+    <schema:givenName>Maurice Christopher</schema:givenName>
+    <schema:name>Maurice Christopher Hollis</schema:name>
+    <schema:birthDate>1902</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2423794#Topic/authors_english_20th_century">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Authors, English--20th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2423794#Topic/science_fiction_english">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Science fiction, English</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/906180369#PublicationEvent/london_hollis_and_carter_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2423794#Agent/hollis_and_carter"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.91/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2423794#Topic/authors_english">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Authors, English</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/906180369">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/906180369"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/906180369">
+    <library:oclcnum>906180369</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2423794#Agent/hollis_and_carter"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:numberOfPages>212</schema:numberOfPages>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2423794#Person/hollis_christopher_maurice_christopher_1902"/>
+    <schema:productID>906180369</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2423794#Person/orwell_george_pseud_van_eric_arthur_blair_1903_1950"/>
+    <schema:name>A study of George Orwell : the man and his works</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2423794#Topic/authors_english_20th_century"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2423794#Topic/science_fiction_english"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/906180369#PublicationEvent/london_hollis_and_carter_1956"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/906180369"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2423794#Topic/authors_english"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2423794#Topic/science_fiction_english_history_and_criticism"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://dewey.info/class/823.91/"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2423794"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:genre>Criticism, interpretation, etc.</schema:genre>
+  </rdf:Description>
+</rdf:RDF>

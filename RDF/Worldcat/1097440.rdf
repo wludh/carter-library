@@ -1,0 +1,77 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1097440">
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1388171#Place/garden_city_n_y"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/560857917"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/49244542"/>
+    <library:oclcnum>1097440</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1388171#Agent/doubleday"/>
+    <schema:bookEdition>[1st ed.].</schema:bookEdition>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.54/e19/"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1097440#PublicationEvent/garden_city_n_y_doubleday_1962"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1097440"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1388171"/>
+    <schema:description xml:lang="en">What happens when all the negroes in a southern state suddenly pack up and leave for the north.</schema:description>
+    <schema:productID>1097440</schema:productID>
+    <schema:name xml:lang="en">A different drummer.</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1962</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/49244542">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kelley</schema:familyName>
+    <schema:givenName>William Melvin</schema:givenName>
+    <schema:name>William Melvin Kelley</schema:name>
+    <schema:birthDate>1937</schema:birthDate>
+    <schema:deathDate>2017</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1388171#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/560857917">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1097440"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Different drummer.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1097440">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1097440"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1097440#PublicationEvent/garden_city_n_y_doubleday_1962">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1388171#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1388171#Agent/doubleday"/>
+    <schema:startDate>1962</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1388171#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.54/e19/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

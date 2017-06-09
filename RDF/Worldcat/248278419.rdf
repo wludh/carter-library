@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/248278419#PublicationEvent/bostonst_botolph_society1923">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/467753#Agent/st_botolph_society"/>
+    <schema:startDate>1923</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/248278419">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/248278419"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/467753#Agent/st_botolph_society">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>St. Botolph Society</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/467753#Person/melville_herman_1819_1891">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Melville</schema:familyName>
+    <schema:givenName>Herman</schema:givenName>
+    <schema:name>Herman Melville</schema:name>
+    <schema:birthDate>1819</schema:birthDate>
+    <schema:deathDate>1891</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/467753#Topic/polynesia_description_and_travel_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Polynesia--Description and travel--Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/248278419">
+    <schema:name>Mardi and a voyage thither</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/467753"/>
+    <schema:datePublished>1923</schema:datePublished>
+    <library:oclcnum>248278419</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/248278419#PublicationEvent/bostonst_botolph_society1923"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/467753#Agent/st_botolph_society"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/467753#Person/melville_herman_1819_1891"/>
+    <schema:productID>248278419</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/248278419"/>
+    <schema:bookEdition>1. impr</schema:bookEdition>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/467753#Topic/polynesia_description_and_travel_fiction"/>
+  </rdf:Description>
+</rdf:RDF>

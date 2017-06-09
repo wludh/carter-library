@@ -1,0 +1,84 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/395286#Person/conrad_joseph_1857_1924">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Conrad</schema:familyName>
+    <schema:givenName>Joseph</schema:givenName>
+    <schema:name>Joseph Conrad</schema:name>
+    <schema:birthDate>1857</schema:birthDate>
+    <schema:deathDate>1924</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/863470959#PublicationEvent/edinburgh_john_grant_1925">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/395286#Place/edinburgh"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/395286#Agent/john_grant"/>
+    <schema:startDate>1925</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/395286#Place/edinburgh">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Edinburgh</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/863470959">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/863470959"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/863470959">
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:creator rdf:resource="http://viaf.org/viaf/315710796"/>
+    <schema:productID>863470959</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/395286"/>
+    <library:oclcnum>863470959</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">The Nigger of the "Narcissus" : a tale of the sea.</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/395286#Agent/john_grant"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/395286#Series/works"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/395286#Series/the_works_of_joseph_conrad_in_twenty_volumes"/>
+    <schema:datePublished>1925</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/863470959#PublicationEvent/edinburgh_john_grant_1925"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/395286#Place/edinburgh"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/863470959"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/315710796">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Conrad</schema:familyName>
+    <schema:givenName>Joseph</schema:givenName>
+    <schema:name>Joseph Conrad</schema:name>
+    <schema:birthDate>1857</schema:birthDate>
+    <schema:deathDate>1924</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/395286#Series/the_works_of_joseph_conrad_in_twenty_volumes">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/863470959"/>
+    <schema:name>The Works of Joseph Conrad in Twenty Volumes ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/395286#Series/works">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/863470959"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/395286#Person/conrad_joseph_1857_1924"/>
+    <schema:name>Works.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/395286#Agent/john_grant">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>John Grant</schema:name>
+  </rdf:Description>
+</rdf:RDF>
