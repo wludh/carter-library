@@ -1,0 +1,105 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dewey.info/class/194.9/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1453406#Person/camus_albert_1913_1960">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Camus</schema:familyName>
+    <schema:givenName>Albert</schema:givenName>
+    <schema:name>Albert Camus</schema:name>
+    <schema:birthDate>1913</schema:birthDate>
+    <schema:deathDate>1960</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1042982#PublicationEvent/chicago_h_regnery_co_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1453406#Agent/h_regnery_co"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/794784">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Absurd (Philosophy) in literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1042982">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/918209"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/97000332"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1453406#Agent/h_regnery_co"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1453406#Person/camus_albert_1913_1960"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/59729679"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/B2430"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1042982#PublicationEvent/chicago_h_regnery_co_1958"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1042982"/>
+    <schema:name xml:lang="en">The thought and art of Albert Camus</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:description xml:lang="en">Man, the world, and the Absurd (The marriage feast with the world, the young ideas ; An Absurd line of reasoning ; The literature of the Absurd: The Stranger-a novel, The Misunderstanding-a play, Caligula-a play ; A last word about the Absurd -- Man, the world, and men -- Revolt (Revolt and value ; Revolt in history ; The political philosophy of Revolt ; The esthetics of Revolt ; The literature of Revolt: The Plague-a novel, The State of Siege-a play, The Fall-a confessional narrative ; A last word about Revolt).</schema:description>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/794784"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1060777"/>
+    <library:oclcnum>1042982</library:oclcnum>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:productID>1042982</schema:productID>
+    <schema:about rdf:resource="http://dewey.info/class/194.9/"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1453406"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1060777">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Philosophy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1042982">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1042982"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/B2430">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/97000332">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Camus</schema:familyName>
+    <schema:givenName>Albert</schema:givenName>
+    <schema:name>Albert Camus</schema:name>
+    <schema:birthDate>1913</schema:birthDate>
+    <schema:deathDate>1960</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/918209">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Existentialism in literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1453406#Agent/h_regnery_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>H. Regnery Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/59729679">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hanna</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Hanna</schema:name>
+    <schema:birthDate>1928</schema:birthDate>
+    <schema:deathDate>1990</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

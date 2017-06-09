@@ -1,0 +1,110 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2044314648#Event/1800_1899">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1800-1899</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2044314648#Series/a_capricorn_book_cap_166">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/910382866"/>
+    <schema:name>A Capricorn book, CAP 166</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.4/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/910382866#PublicationEvent/london_oliver_and_boyd_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2044314648#Agent/oliver_and_boyd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2044314648#Person/james_henry_1843_1916">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>James</schema:familyName>
+    <schema:givenName>Henry</schema:givenName>
+    <schema:name>Henry James</schema:name>
+    <schema:birthDate>1843</schema:birthDate>
+    <schema:deathDate>1916</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2044314648#Topic/authors_american">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Authors, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2044314648#Topic/authors_american_19th_century">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Authors, American--19th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2044314648#Topic/ecrivains_americains_19e_siecle_biographies">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Écrivains américains--19e siècle--Biographies</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/910382866">
+    <schema:copyrightYear>1960</schema:copyrightYear>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2044314648#Topic/ecrivains_americains_19e_siecle_biographies"/>
+    <schema:productID>910382866</schema:productID>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2044314648#Person/jefferson_d_w_douglas_william_1912"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2044314648#Person/james_henry_1843_1916"/>
+    <schema:name>Henry James</schema:name>
+    <schema:numberOfPages>120</schema:numberOfPages>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2044314648#Event/1800_1899"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://dewey.info/class/813.4/"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2044314648#Agent/oliver_and_boyd"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2044314648#Series/a_capricorn_book_cap_166"/>
+    <schema:genre>Biography</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2044314648#Series/writers_and_critics"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/910382866#PublicationEvent/london_oliver_and_boyd_1960"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2044314648"/>
+    <library:oclcnum>910382866</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/910382866"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2044314648#Topic/authors_american_19th_century"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2044314648#Topic/authors_american"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2044314648#Person/jefferson_d_w_douglas_william_1912">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Jefferson</schema:familyName>
+    <schema:givenName>D. W.</schema:givenName>
+    <schema:givenName>Douglas William</schema:givenName>
+    <schema:name>Douglas William Jefferson</schema:name>
+    <schema:birthDate>1912</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2044314648#Agent/oliver_and_boyd">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Oliver and Boyd</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/910382866">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/910382866"/>
+    <schema:dateModified>2017-06-07</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2044314648#Series/writers_and_critics">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/910382866"/>
+    <schema:name>Writers and critics</schema:name>
+    <schema:name>Writers and critics.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,113 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1364423#Person/poe_edgar_allan">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Poe</schema:familyName>
+    <schema:givenName>Edgar Allan</schema:givenName>
+    <schema:name>Edgar Allan Poe</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/27079964">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Emerson</schema:familyName>
+    <schema:givenName>Ralph Waldo</schema:givenName>
+    <schema:name>Ralph Waldo Emerson</schema:name>
+    <schema:birthDate>1803</schema:birthDate>
+    <schema:deathDate>1882</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/68936476">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Thoreau</schema:familyName>
+    <schema:givenName>Henry David</schema:givenName>
+    <schema:name>Henry David Thoreau</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1364423#Person/melville_herman">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Melville</schema:familyName>
+    <schema:givenName>Herman</schema:givenName>
+    <schema:name>Herman Melville</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/463168353">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1364423#Person/whitman_walt"/>
+    <schema:productID>463168353</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1364423#Person/bushnell_horace"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1364423#Person/poe_edgar_allan"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/68936476"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/463168353#PublicationEvent/chicago_the_university_of_chicago_press_1959"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/463168353"/>
+    <schema:description>Indhold: Four American symbolists. -- The symbolistic imagination. -An American tradition. -- Toward Melville: Some versions of Emerson. -- Thefool of truth</schema:description>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1364423#Person/feidelson_charles"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/27079964"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1364423#Agent/the_university_of_chicago_press"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1364423"/>
+    <library:oclcnum>463168353</library:oclcnum>
+    <schema:bookEdition>2. impression</schema:bookEdition>
+    <schema:name>Symbolism and American literature</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1364423#Person/hawthorne_nathaniel"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1364423#Person/melville_herman"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1364423#Person/bushnell_horace">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bushnell</schema:familyName>
+    <schema:givenName>Horace</schema:givenName>
+    <schema:name>Horace Bushnell</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/463168353">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/463168353"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/463168353#PublicationEvent/chicago_the_university_of_chicago_press_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1364423#Agent/the_university_of_chicago_press"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1364423#Person/hawthorne_nathaniel">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hawthorne</schema:familyName>
+    <schema:givenName>Nathaniel</schema:givenName>
+    <schema:name>Nathaniel Hawthorne</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1364423#Person/feidelson_charles">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Feidelson</schema:familyName>
+    <schema:givenName>Charles</schema:givenName>
+    <schema:name>Charles Feidelson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1364423#Agent/the_university_of_chicago_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>The University of Chicago Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1364423#Person/whitman_walt">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Whitman</schema:familyName>
+    <schema:givenName>Walt</schema:givenName>
+    <schema:name>Walt Whitman</schema:name>
+  </rdf:Description>
+</rdf:RDF>

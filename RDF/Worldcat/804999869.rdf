@@ -1,0 +1,64 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/69290">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Service</schema:familyName>
+    <schema:givenName>Robert W.</schema:givenName>
+    <schema:givenName>Robert William</schema:givenName>
+    <schema:name>Robert William Service</schema:name>
+    <schema:birthDate>1874</schema:birthDate>
+    <schema:deathDate>1958</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/804999869#PublicationEvent/new_york_barse_&amp;_hopkins_1916">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1816799#Agent/barse_&amp;_hopkins"/>
+    <schema:startDate>1916</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1816799#Agent/barse_&amp;_hopkins">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Barse &amp; Hopkins</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/804999869">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/804999869"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/804999869">
+    <schema:creator rdf:resource="http://viaf.org/viaf/69290"/>
+    <schema:productID>804999869</schema:productID>
+    <schema:name>Rhymes of a Red Cross man</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1916</schema:datePublished>
+    <schema:numberOfPages>192</schema:numberOfPages>
+    <library:oclcnum>804999869</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/804999869#PublicationEvent/new_york_barse_&amp;_hopkins_1916"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1816799#Agent/barse_&amp;_hopkins"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1816799"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/804999869"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+  </rdf:Description>
+</rdf:RDF>

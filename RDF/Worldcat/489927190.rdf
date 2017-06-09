@@ -1,0 +1,115 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020082415#Topic/caractere_national_americain">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Caractère national américain</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020082415#Place/etats_unis">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>États-Unis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/B945">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020082415#Series/doubleday_anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/489927190"/>
+    <schema:name>Doubleday anchor books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020082415#Person/royce_josiah_1855_1916">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Royce</schema:familyName>
+    <schema:givenName>Josiah</schema:givenName>
+    <schema:name>Josiah Royce</schema:name>
+    <schema:birthDate>1855</schema:birthDate>
+    <schema:deathDate>1916</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/191.9/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020082415#Person/james_william_1842_1910">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>James</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William James</schema:name>
+    <schema:birthDate>1842</schema:birthDate>
+    <schema:deathDate>1910</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020082415#Series/anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/489927190"/>
+    <schema:name>Anchor books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020082415#Topic/philosophie_etats_unis">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Philosophie--États-Unis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/489927190">
+    <schema:about rdf:resource="http://dewey.info/class/191.9/"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4020082415#Topic/caractere_national_americain"/>
+    <schema:productID>489927190</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4020082415#Person/royce_josiah_1855_1916"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4020082415#Person/james_william_1842_1910"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name>Character and opinion in the United States</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/489927190#PublicationEvent/new_york_doubleday_&amp;_company_1956"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4020082415#Agent/doubleday_&amp;_company"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4020082415#Series/doubleday_anchor_books"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/489927190"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4020082415#Series/anchor_books"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/4020082415#Person/santayana_george_1863_1952"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4020082415#Topic/philosophie_etats_unis"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4020082415"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4020082415#Place/etats_unis"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/B945"/>
+    <library:oclcnum>489927190</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020082415#Person/santayana_george_1863_1952">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Santayana</schema:familyName>
+    <schema:givenName>George</schema:givenName>
+    <schema:name>George Santayana</schema:name>
+    <schema:birthDate>1863</schema:birthDate>
+    <schema:deathDate>1952,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020082415#Agent/doubleday_&amp;_company">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday &amp; Company</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/489927190#PublicationEvent/new_york_doubleday_&amp;_company_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4020082415#Agent/doubleday_&amp;_company"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/489927190">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/489927190"/>
+    <schema:dateModified>2017-04-27</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

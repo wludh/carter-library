@@ -1,0 +1,82 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dewey.info/class/811.3/e23/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1869836092#Series/new_hogarth_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/3715104"/>
+    <schema:name>New Hogarth library ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/3715104">
+    <schema:author rdf:resource="http://viaf.org/viaf/27068555"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <library:oclcnum>3715104</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/3715104"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://dewey.info/class/811.39/"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/19692618"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>3715104</schema:productID>
+    <schema:about rdf:resource="http://dewey.info/class/811.3/e23/"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1869836092"/>
+    <schema:name xml:lang="en">Selected poems of Herman Melville</schema:name>
+    <schema:datePublished>1943</schema:datePublished>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1869836092#Series/the_new_hogarth_library"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1869836092#Series/new_hogarth_library"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/646988406"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3715104">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/3715104"/>
+    <schema:dateModified>2017-04-25</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/27068555">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Melville</schema:familyName>
+    <schema:givenName>Herman</schema:givenName>
+    <schema:name>Herman Melville</schema:name>
+    <schema:birthDate>1819</schema:birthDate>
+    <schema:deathDate>1891,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/646988406">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/3715104"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Selected poems of Herman Melville.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/19692618">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Plomer</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Plomer</schema:name>
+    <schema:birthDate>1903</schema:birthDate>
+    <schema:deathDate>1973,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1869836092#Series/the_new_hogarth_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/3715104"/>
+    <schema:name>The New Hogarth library ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/811.39/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

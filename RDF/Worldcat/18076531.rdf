@@ -1,0 +1,90 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/4925150">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>H. D.</schema:givenName>
+    <schema:givenName>Hilda Doolittle</schema:givenName>
+    <schema:name>Hilda Doolittle</schema:name>
+    <schema:birthDate>1886</schema:birthDate>
+    <schema:deathDate>1961</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/18076531">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/18076531"/>
+    <schema:dateModified>2017-05-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/18076531#PublicationEvent/new_york_grove_press1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4202310363#Agent/grove_press"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4202310363#Series/an_evergreen_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/18076531"/>
+    <schema:name>An Evergreen book,</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4202310363#Person/h_d_hilda_doolittle_1886_1961">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>H. D.</schema:givenName>
+    <schema:givenName>Hilda Doolittle</schema:givenName>
+    <schema:name>Hilda Doolittle</schema:name>
+    <schema:birthDate>1886</schema:birthDate>
+    <schema:deathDate>1961</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/18076531">
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4202310363#Series/an_evergreen_book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/755005892"/>
+    <schema:about rdf:resource="http://dewey.info/class/811.54/"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/4925150"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/18076531#PublicationEvent/new_york_grove_press1957"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/18076531"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/4925150"/>
+    <schema:name xml:lang="en">H.D. selected poems.</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4202310363#Agent/grove_press"/>
+    <schema:productID>18076531</schema:productID>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4202310363"/>
+    <library:oclcnum>18076531</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4202310363#Person/h_d_hilda_doolittle_1886_1961"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/755005892">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/18076531"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>H.D. selected poems.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/811.54/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4202310363#Agent/grove_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Grove Press</schema:name>
+  </rdf:Description>
+</rdf:RDF>

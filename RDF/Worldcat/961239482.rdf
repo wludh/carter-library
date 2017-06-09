@@ -1,0 +1,64 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/366547845#Agent/meridian_books_new_york">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Meridian Books, New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/366547845#Topic/criticism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/366547845#Person/rahv_philip">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Rahv</schema:familyName>
+    <schema:givenName>Philip</schema:givenName>
+    <schema:name>Philip Rahv</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/366547845#Topic/american_literature_history_and_criticism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/961239482">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/961239482"/>
+    <schema:dateModified>2017-06-07</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/961239482">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/961239482"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/366547845"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/366547845#Topic/criticism"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/961239482#PublicationEvent/meridian_books_new_york_1957"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/366547845#Topic/american_literature_history_and_criticism"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/366547845#Topic/american_literature"/>
+    <library:oclcnum>961239482</library:oclcnum>
+    <schema:name xml:lang="en">Literature in America : an anthology of literary criticism.</schema:name>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:datePublished>1957</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>961239482</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/366547845#Agent/meridian_books_new_york"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/366547845#Person/rahv_philip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/961239482#PublicationEvent/meridian_books_new_york_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/366547845#Agent/meridian_books_new_york"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/366547845#Topic/american_literature">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature</schema:name>
+  </rdf:Description>
+</rdf:RDF>

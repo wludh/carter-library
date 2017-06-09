@@ -1,0 +1,62 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1150947759#Agent/university_of_michigan_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>University of Michigan Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/850006631">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/850006631"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/850006631#PublicationEvent/ann_arbor_university_of_michigan_press_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1150947759#Place/ann_arbor"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1150947759#Agent/university_of_michigan_press"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1150947759#Place/ann_arbor">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Ann Arbor</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/850006631">
+    <schema:productID>850006631</schema:productID>
+    <schema:name xml:lang="en">Dialogues in limbo</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/miu"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1150947759#Agent/university_of_michigan_press"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1150947759"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/850006631#PublicationEvent/ann_arbor_university_of_michigan_press_1957"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1150947759#Place/ann_arbor"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1957</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/850006631"/>
+    <library:oclcnum>850006631</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/59098309"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/miu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>miu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/59098309">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Santayana</schema:familyName>
+    <schema:givenName>George</schema:givenName>
+    <schema:name>George Santayana</schema:name>
+    <schema:birthDate>1863</schema:birthDate>
+    <schema:deathDate>1952</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

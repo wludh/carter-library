@@ -1,0 +1,187 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/town_poor">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Town poor.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44336104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204270">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Maine.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/aunt_cynthy_dallett">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Aunt Cynthy Dallett.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44336104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/Fic/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/martha_s_lady">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Martha's lady.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44336104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/24025678#PublicationEvent/garden_city_n_y_doubleday_anchor_books_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#Agent/doubleday_anchor_books"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/24025678">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/386768"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/24025678"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#Topic/pro_schimmel_caroline_f_donor_schimmel_collection_copy"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/martha_s_lady"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/44336104"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/flight_of_betsey_lane"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/dulham_ladies"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/only_rose"/>
+    <library:oclcnum>24025678</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#Agent/doubleday_anchor_books"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/white_heron"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#Topic/authors_american_maine"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/821764"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#Place/maine"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/24025678#PublicationEvent/garden_city_n_y_doubleday_anchor_books_1954"/>
+    <schema:about rdf:resource="http://dewey.info/class/Fic/"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#Topic/chr_1954"/>
+    <schema:productID>24025678</schema:productID>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/guests_of_mrs_timms"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#Place/garden_city_n_y"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:editor rdf:resource="http://viaf.org/viaf/2480701"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/aunt_cynthy_dallett"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">The country of the pointed firs, and other stories</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44336104"/>
+    <schema:description xml:lang="en">The country of the pointed firs -- A white heron -- The flight of Betsey Lane -- The Dulham ladies -- Going to Shrewsbury -- The only rose -- Miss Tempy's watchers -- Martha's lady -- The guests of Mrs. Timms -- The town poor -- The Hiltons' holiday -- Aunt Cynthy Dallett.</schema:description>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204270"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/hiltons_holiday"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1007815"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/going_to_shrewsbury"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/miss_tempy_s_watchers"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/country_of_the_pointed_firs"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/town_poor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/going_to_shrewsbury">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Going to Shrewsbury.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44336104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/miss_tempy_s_watchers">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Miss Tempy's watchers.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44336104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/44336104">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Jewett</schema:familyName>
+    <schema:givenName>Sarah Orne</schema:givenName>
+    <schema:name>Sarah Orne Jewett</schema:name>
+    <schema:birthDate>1849</schema:birthDate>
+    <schema:deathDate>1909</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#Topic/pro_schimmel_caroline_f_donor_schimmel_collection_copy">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">PRO Schimmel, Caroline F. (donor) (Schimmel Collection copy)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/only_rose">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Only rose.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44336104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/white_heron">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>White heron.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44336104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#Topic/authors_american_maine">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85009808"/>
+    <schema:name xml:lang="en">Authors, American--Maine</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/821764">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Authors, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/hiltons_holiday">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Hiltons' holiday.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44336104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/2480701">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Cather</schema:familyName>
+    <schema:givenName>Willa</schema:givenName>
+    <schema:name>Willa Cather</schema:name>
+    <schema:birthDate>1873</schema:birthDate>
+    <schema:deathDate>1947,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1007815">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Manners and customs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/24025678">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/24025678"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/flight_of_betsey_lane">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Flight of Betsey Lane.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44336104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/guests_of_mrs_timms">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Guests of Mrs. Timms.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44336104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#Topic/chr_1954">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">CHR 1954</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#Agent/doubleday_anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday Anchor Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#Place/maine">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Maine</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/country_of_the_pointed_firs">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Country of the pointed firs.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44336104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/386768#CreativeWork/dulham_ladies">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Dulham ladies.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44336104"/>
+  </rdf:Description>
+</rdf:RDF>

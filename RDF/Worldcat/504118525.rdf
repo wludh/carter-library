@@ -1,0 +1,64 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3859270946#Agent/london">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/504118525">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/504118525"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1948</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/504118525#PublicationEvent/pp_310_victor_gollancz_london_1948"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/3859270946#Person/gawsworth_john_pseud"/>
+    <schema:name xml:lang="en">The Best Short Stories of M.P. Shiel. Selected by John Gawsworth.</schema:name>
+    <library:oclcnum>504118525</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3859270946#Agent/london"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3859270946#Place/pp_310_victor_gollancz"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/54194618"/>
+    <schema:productID>504118525</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3859270946"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/504118525">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/504118525"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/54194618">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Shiel</schema:familyName>
+    <schema:givenName>M. P.</schema:givenName>
+    <schema:givenName>Matthew Phipps</schema:givenName>
+    <schema:name>Matthew Phipps Shiel</schema:name>
+    <schema:birthDate>1865</schema:birthDate>
+    <schema:deathDate>1947</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3859270946#Place/pp_310_victor_gollancz">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Pp. 310. Victor Gollancz</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/504118525#PublicationEvent/pp_310_victor_gollancz_london_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3859270946#Place/pp_310_victor_gollancz"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3859270946#Agent/london"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3859270946#Person/gawsworth_john_pseud">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>GAWSWORTH</schema:familyName>
+    <schema:givenName>John</schema:givenName>
+    <schema:name>pseud. John GAWSWORTH</schema:name>
+  </rdf:Description>
+</rdf:RDF>
