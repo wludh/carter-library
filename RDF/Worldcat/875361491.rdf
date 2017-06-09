@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/320835009#Series/the_new_american_nation_series">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/875361491"/>
+    <schema:name>The new American nation series</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/320835009#Person/mowry_george_edwin">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Mowry</schema:familyName>
+    <schema:givenName>George Edwin</schema:givenName>
+    <schema:name>George Edwin Mowry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/875361491">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/875361491"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/875361491">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/320835009#Person/mowry_george_edwin"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/320835009"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/320835009#Series/the_new_american_nation_series"/>
+    <library:oclcnum>875361491</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>875361491</schema:productID>
+    <schema:numberOfPages>330</schema:numberOfPages>
+    <schema:copyrightYear>op.</schema:copyrightYear>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/875361491"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/320835009#Agent/harper_&amp;_brothers"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/875361491#PublicationEvent/new_york_harper_&amp;_brothers_cop_1958"/>
+    <schema:name>The era of Theodore Roosevelt, 1900-1912</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/875361491#PublicationEvent/new_york_harper_&amp;_brothers_cop_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/320835009#Agent/harper_&amp;_brothers"/>
+    <schema:startDate>co. 1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/320835009#Agent/harper_&amp;_brothers">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harper &amp; brothers</schema:name>
+  </rdf:Description>
+</rdf:RDF>

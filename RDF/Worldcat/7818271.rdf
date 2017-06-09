@@ -1,0 +1,94 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/97990150">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Laughlin</schema:familyName>
+    <schema:givenName>James</schema:givenName>
+    <schema:name>James Laughlin</schema:name>
+    <schema:birthDate>1914</schema:birthDate>
+    <schema:deathDate>1997</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/818/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/7818271">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807113"/>
+    <schema:name xml:lang="en">New directions in prose and poetry 17</schema:name>
+    <library:oclcnum>7818271</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1102612680#Agent/new_directions"/>
+    <schema:description xml:lang="en">Leoun / Jean Cocteau ; translated by Alan Neame -- Gogol's wife / Tommaso Landolfi ; translated by Wayland Young -- A sequence [poem] ; A note on the work of the imagination / Denise Levertov -- The grandmother / John Hawkes -- Wisdom in emptiness : a dialogue / by Daisetz T. Suzuki and Thomas Merton. Knowledge and innocence / by Daisetz T. Suzuki ; The recovery of paradise / by Thomas Merton ; Final remarks / by Daisetz T. Suzuki -- Drake in the southern sea / Ernesto Cardenal ; translated by Thomas Merton -- The jaguar myth &amp; other poems / Pablo Antonio Cuadra ; translated, with a note on the poet, by Thomas Merton -- Six poems / Jorge Carrera Andrade ; translated, with a note on the poet, by Thomas Merton -- An airplane over the house / Martin Walser ; translated by Elisabeth Mann Borgese -- Backyard / by Evans C. Chigounis -- Three poems / Lawrence Ferlinghetti -- Seven prose poems / Francis Ponge ; translated, with a note on the poet, by Richard R. Strawn -- The lion for real / Allen Ginsberg -- The sins of men / Edward Dahlberg -- To a lawn mower / Robert Lowry -- An interview with Ezra Pound / D.G. Bridson -- Autumn / Charles Tomlinson -- Sermon ; Home by dark / James Purdy -- Poems / Jonathan Williams -- Some stories of cronopios and famas / Julio Cortazar ; translated, with a note on the author, by Paul Blackburn -- Another day another dollar / H. Shelby, Jr. -- In the event of / by James Purdy -- Hawk Lawler : chorus ; Three poems / Bob Kaufman -- Clin slot wipe and more tomorrow / Peter Olwyler -- Poems / Jack Kerouac -- The American idiom / William Carlos Williams -- William Carlos Williams' "Paterson" : the search for the redeeming language : a personal epic in five parts / John C. Thirlwall -- The peacock beyond garden walls / by James Purdy -- Non-survivability plus / George G. Kirstein -- The decline of the humanities, or, Where's the bloody horse? / Georg Mann -- Greece / Gregory Corso -- Are these our children? / J.F. Powers -- Kore ; The rain / by Robert Creeley -- End of the cat as a man / by Evans C. Chigounis.</schema:description>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/7818271"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1102612680"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/97990150"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1102612680#Event/1900_1999"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://dewey.info/class/818/"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85004341"/>
+    <schema:datePublished>1961</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/7818271#PublicationEvent/new_york_new_directions_1961"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>7818271</schema:productID>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/1102612680#CreativeWork/new_directions_17"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1102612680#Series/a_new_directions_paperback_ndp103"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1102612680#Event/1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1900-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1102612680#CreativeWork/new_directions_17">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>New directions 17.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1102612680#Series/a_new_directions_paperback_ndp103">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/7818271"/>
+    <schema:name>A New directions paperback NDP103</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/7818271#PublicationEvent/new_york_new_directions_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1102612680#Agent/new_directions"/>
+    <schema:startDate>1961</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807113">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/7818271">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/7818271"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85004341">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature--20th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1102612680#Agent/new_directions">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Directions</schema:name>
+  </rdf:Description>
+</rdf:RDF>

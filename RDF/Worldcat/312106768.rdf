@@ -1,0 +1,78 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4095533722#Person/parrington_vernon_louis">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Parrington</schema:familyName>
+    <schema:givenName>Vernon Louis</schema:givenName>
+    <schema:name>Vernon Louis Parrington</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/312106768">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4095533722"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>312106768</schema:productID>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/4095533722#Person/parrington_vernon_louis"/>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780156551359"/>
+    <library:oclcnum>312106768</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4095533722#Series/a_harvest_book"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4095533722#Series/harvest_book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/312106768"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/4095533722#Place/new_york_ny"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4095533722#Agent/harcourt_brace"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/312106768#PublicationEvent/new_york_ny_harcourt_brace_1954"/>
+    <schema:name>Main currents in American thought 2, 1800 - 1860 : the romantic revolution in America.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/312106768#PublicationEvent/new_york_ny_harcourt_brace_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/4095533722#Place/new_york_ny"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4095533722#Agent/harcourt_brace"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/312106768">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/312106768"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4095533722#Series/a_harvest_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/312106768"/>
+    <schema:name>A Harvest book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4095533722#Series/harvest_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/312106768"/>
+    <schema:name>Harvest book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4095533722#Place/new_york_ny">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, NY</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4095533722#Agent/harcourt_brace">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harcourt, Brace</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780156551359">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780156551359</schema:isbn>
+    <schema:isbn>0156551357</schema:isbn>
+  </rdf:Description>
+</rdf:RDF>

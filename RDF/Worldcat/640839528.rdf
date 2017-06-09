@@ -1,0 +1,42 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/640839528">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/640839528"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/316185637#Person/davis_burke">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Davis</schema:familyName>
+    <schema:givenName>Burke</schema:givenName>
+    <schema:name>Burke Davis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/640839528">
+    <schema:name>Jeb Stuart, the last cavalier.</schema:name>
+    <library:oclcnum>640839528</library:oclcnum>
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/316185637#Person/davis_burke"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>640839528</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/640839528"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/316185637"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/640839528#PublicationEvent/1958"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/640839528#PublicationEvent/1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

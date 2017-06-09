@@ -1,0 +1,141 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2452438578#Topic/litterature_americaine_1600_1775_periode_coloniale">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Littérature américaine--1600-1775 (période coloniale)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1060855">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Philosophy, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2452438578#Agent/harcourt_brace_&amp;_world">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harcourt, Brace &amp; World</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/491070501">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1060855"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1093763"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2452438578#Event/1600_1775"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2452438578#Agent/harcourt_brace_&amp;_world"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2452438578#Topic/philosophie_etats_unis"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2007101045"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2452438578#Person/parrington_vernon_louis_1871_1929"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>491070501</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2452438578"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2452438578#Series/a_harvest_book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2452438578#Place/united_states"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name>Main currents in American thought. Volume 1, The colonial mind 1620-1800</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2452438578#Place/etats_unis"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/491070501"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/491070501#PublicationEvent/new_york_harcourt_brace_&amp;_world_cop_1954"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2452438578#Topic/litterature_americaine_1600_1775_periode_coloniale"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:alternateName>Colonial mind 1620-1800</schema:alternateName>
+    <schema:genre>Criticism, interpretation, etc.</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1711006"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.1/e21/"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1919741"/>
+    <schema:productID>491070501</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/862898"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2452438578#Series/harvest_books"/>
+    <schema:copyrightYear>op.</schema:copyrightYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/491070501#PublicationEvent/new_york_harcourt_brace_&amp;_world_cop_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2452438578#Agent/harcourt_brace_&amp;_world"/>
+    <schema:startDate>co. 1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2452438578#Person/parrington_vernon_louis_1871_1929">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Parrington</schema:familyName>
+    <schema:givenName>Vernon Louis</schema:givenName>
+    <schema:name>Vernon Louis Parrington</schema:name>
+    <schema:birthDate>1871</schema:birthDate>
+    <schema:deathDate>1929</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/862898">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Civilization</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.1/e21/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2007101045">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>American literature--Colonial period, ca. 1600-1775--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2452438578#Topic/philosophie_etats_unis">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Philosophie--États-Unis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2452438578#Place/etats_unis">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>États-Unis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1093763">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Religion</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/491070501">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/491070501"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2452438578#Series/harvest_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/491070501"/>
+    <schema:name>Harvest books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2452438578#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1711006">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>American literature--Colonial period</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1919741">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Politics and government</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2452438578#Event/1600_1775">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1600-1775</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2452438578#Series/a_harvest_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/491070501"/>
+    <schema:name>A Harvest book ;</schema:name>
+  </rdf:Description>
+</rdf:RDF>

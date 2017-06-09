@@ -1,0 +1,126 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/944141565#PublicationEvent/new_york_vintage_books_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2908784290#Agent/vintage_books"/>
+    <schema:startDate>(1955)</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908784290#Place/new_york_state_new_york">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York (State)--New York.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908784290#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908784290#Topic/slums">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Slums</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908784290#Topic/poor_women">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Poor women</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/944141565">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/944141565"/>
+    <schema:dateModified>2017-05-16</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908784290#Place/new_york_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York (N.Y.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908784290#Topic/manners_and_customs">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Manners and customs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908784290#Person/crane_stephen_1871_1900">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Crane</schema:familyName>
+    <schema:givenName>Stephen</schema:givenName>
+    <schema:name>Stephen Crane</schema:name>
+    <schema:birthDate>1871</schema:birthDate>
+    <schema:deathDate>1900</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908784290#Topic/short_stories_american">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Short stories, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908784290#Topic/prostitutes">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Prostitutes</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/944141565">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908784290#Place/new_york_state_new_york"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908784290#Topic/poor_women"/>
+    <schema:numberOfPages>350</schema:numberOfPages>
+    <schema:productID>944141565</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908784290#Topic/manners_and_customs"/>
+    <library:oclcnum>944141565</library:oclcnum>
+    <schema:name xml:lang="en">Stephen Crane: stories and tales.</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908784290#Topic/short_stories_american"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2908784290#Person/crane_stephen_1871_1900"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/944141565#PublicationEvent/new_york_vintage_books_1955"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908784290#Topic/poor_families"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/944141565"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2908784290"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/2908784290#Person/stallman_r_w_robert_wooster_1911_1982"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908784290#Place/united_states"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908784290#Topic/slums"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908784290#Topic/prostitutes"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908784290#Topic/suicide_victims"/>
+    <schema:datePublished>(1955)</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2908784290#Agent/vintage_books"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908784290#Place/new_york_n_y"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908784290#Agent/vintage_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Vintage Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908784290#Person/stallman_r_w_robert_wooster_1911_1982">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Stallman</schema:familyName>
+    <schema:givenName>R. W.</schema:givenName>
+    <schema:givenName>Robert Wooster</schema:givenName>
+    <schema:name>Robert Wooster Stallman</schema:name>
+    <schema:birthDate>1911</schema:birthDate>
+    <schema:deathDate>1982</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908784290#Topic/suicide_victims">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Suicide victims</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908784290#Topic/poor_families">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Poor families</schema:name>
+  </rdf:Description>
+</rdf:RDF>

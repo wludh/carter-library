@@ -1,0 +1,152 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1577214">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1577214"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2007101055">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature--Southern States--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1244550">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/19806874">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Jacobs</schema:familyName>
+    <schema:givenName>Robert D.</schema:givenName>
+    <schema:name>Robert D. Jacobs</schema:name>
+    <schema:birthDate>1918</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/473424351#Event/since_1865">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>Since 1865</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/575485223">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1577214"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>South: modern Southern literature in its cultural setting.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/473424351#Place/southern_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/810.904/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/473424351#Topic/aufsatzsammlung">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Aufsatzsammlung</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1577214#PublicationEvent/garden_city_n_y_doubleday1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/473424351#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/473424351#Agent/doubleday"/>
+    <schema:startDate>1961</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/975769">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Intellectual life</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/473424351#Event/geschichte_1900_1960">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>Geschichte 1900-1960.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/473424351#Place/usa">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>USA</schema:name>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/4078674-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807113">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/473424351#Topic/literatur">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Literatur</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/61553765">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Warren</schema:familyName>
+    <schema:givenName>Robert Penn</schema:givenName>
+    <schema:name>Robert Penn Warren</schema:name>
+    <schema:birthDate>1905</schema:birthDate>
+    <schema:deathDate>1989</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/108283788">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Rubin</schema:familyName>
+    <schema:givenName>Louis D.</schema:givenName>
+    <schema:givenName>Louis Decimus</schema:givenName>
+    <schema:name>Jr. Louis Decimus Rubin</schema:name>
+    <schema:birthDate>1923</schema:birthDate>
+    <schema:deathDate>2013,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1577214">
+    <schema:datePublished>1961</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1244550"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2007101055"/>
+    <schema:productID>1577214</schema:productID>
+    <schema:bookEdition>[1st ed.].</schema:bookEdition>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/473424351#Topic/literatur"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/575485223"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1577214"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/19806874"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/108283788"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/473424351#Event/geschichte_1900_1960"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1577214#PublicationEvent/garden_city_n_y_doubleday1961"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807113"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/473424351#Place/southern_states"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/473424351#Place/garden_city_n_y"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/473424351#Topic/aufsatzsammlung"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/473424351#Agent/doubleday"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/473424351"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/61553765"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/473424351#Place/usa"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/473424351#Event/since_1865"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:description xml:lang="en">Introduction : Southern writing and the changing South -- Southern literature : the historical image / Louis D. Rubin, Jr. -- The Southern temper / Robert B. Heilman -- The sense of place / Frederick J. Hoffman -- Notes on the decline of outrage / James Dickey -- The Pietas of Southern poetry / Louise Cowan -- Two in Richmond : Ellen Glasgow and James Branch Cabell / Louis D. Rubin, Jr. -- William Faulkner : the passion and the penance / Robert D. Jacobs -- "The dark, ruined Helen of his blood" : Thomas Wolfe and the South / C. Hugh Holman -- Robert Penn Warren / Ellington White -- Ceremonies of bravery : John Crowe Ransom / Isabel Gamble MacCaffrey -- Allen Tate : the arrogant circumstance / Louis D. Rubin, Jr., and Robert D. Jacobs -- Donald Davidson / Randall Stewart -- Poets and critics / John Edward Hardy -- Eudora Welty : the sense of place / Robert W. Daniel -- Andrew Lytle / Thomas H. Carter -- Katherine Anne Porter and historic memory / Ray B. West, Jr. -- Art and Miss Gordon / William Van O'Connor -- Notes on Erskine Caldwell / Robert Hazel -- The theme of spiritual isolation in Carson McCullers / Oliver Evans -- The rose and the fox : notes on the Southern drama / Jacob H. Adler -- The continuing renascence : Southern fiction in the fifties / Walter Sullivan -- For further reading : a selected checklist / James B. Meriwether.</schema:description>
+    <schema:name xml:lang="en">South: modern Southern literature in its cultural setting,</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/473424351#Series/dolphin_books"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://dewey.info/class/810.904/"/>
+    <library:oclcnum>1577214</library:oclcnum>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/975769"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/473424351#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/473424351#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/473424351#Series/dolphin_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1577214"/>
+    <schema:name>Dolphin books ;</schema:name>
+  </rdf:Description>
+</rdf:RDF>
