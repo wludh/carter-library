@@ -1,0 +1,107 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1244550">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/862898">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Civilization</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1335262">
+    <schema:name xml:lang="en">The lasting South; fourteen southerners look at their home.</schema:name>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/630964099"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/862898"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2222733#Agent/h_regnery_co"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2222733#Place/southern_states"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2222733"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1335262"/>
+    <schema:productID>1335262</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1335262#PublicationEvent/chicago_h_regnery_co_1957"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1244550"/>
+    <schema:description xml:lang="en">An image of the South / Louis D. Rubin, Jr. -- The Confederate heritage / Richard Barksdale Harwell -- The case for the Confederacy / Clifford Dowdey -- The South and the American union / Richard M. Weaver -- The land / James McBride Dabbs -- The rising tide of faith / Francis Butler Simkins -- Woods and water / Robert D. Jacobs -- The city and the old vision / Walter Sullivan -- Southern religion, mid-century / Robert Raymond Brown -- Education for the uncommon man / Ronald F. Howell -- The view from the window / Ellinton White -- The Southern writer and his region / Robert Hazel -- A Yankee in Dixie / K.V. Hoffman -- Conservatism and the South / James Jackson Kilpatrick.</schema:description>
+    <library:oclcnum>1335262</library:oclcnum>
+    <schema:about rdf:resource="http://dewey.info/class/917.5/"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/575806526"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1957</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/108283788"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/60325759"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/575806526">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1335262"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Lasting South.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/60325759">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kilpatrick</schema:familyName>
+    <schema:givenName>James Jackson</schema:givenName>
+    <schema:name>James Jackson Kilpatrick</schema:name>
+    <schema:birthDate>1920</schema:birthDate>
+    <schema:deathDate>2010,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1335262">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1335262"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/630964099">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1335262"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Lasting South.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2222733#Place/southern_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/917.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1335262#PublicationEvent/chicago_h_regnery_co_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2222733#Agent/h_regnery_co"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2222733#Agent/h_regnery_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>H. Regnery Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/108283788">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Rubin</schema:familyName>
+    <schema:givenName>Louis D.</schema:givenName>
+    <schema:givenName>Louis Decimus</schema:givenName>
+    <schema:name>Jr. Louis Decimus Rubin</schema:name>
+    <schema:birthDate>1923</schema:birthDate>
+    <schema:deathDate>2013,</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

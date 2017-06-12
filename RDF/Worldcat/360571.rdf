@@ -1,0 +1,126 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1411965#Place/tennessee_river_valley">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Tennessee River Valley</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1411965#Place/tennessee_river">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Tennessee River</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/360571">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/360571"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1239887">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States--Tennessee River.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/165703489">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Davidson</schema:familyName>
+    <schema:givenName>Theresa Sherrer</schema:givenName>
+    <schema:name>Theresa Sherrer Davidson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1411965#Agent/rinehart">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Rinehart</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/360571">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1411965#Place/tennessee_river_valley"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/5020468"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1239887"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/360571#PublicationEvent/new_york_rinehart_1946_1948"/>
+    <schema:description xml:lang="en">Volume 1. The old river: frontier to secession. Two rivers in one ; First comers ; The river of the Cherokees ; Myths and games of the Cherokees ; The Carolina traders and their empire ; The brilliant idea of a Scottish baronet ; Captain Demeré builds Fort Loudoun ; The siege and fall of Fort Loudoun ; Stuart's escape and Timberlake's mission ; Rally in the canebrake ; The voyage of the good boat Adventure ; John Sevier and the lost state of Franklin ; Dragging Canoe blockades the river ; Flatboat and keelboat days ; Boatmen and outlaws on the Natchez Trace ; Early steamboat days ; The Indians go West ; The first attack on Muscle Shoals and the Suck ; How it was in the old days ; Secession -- volume 2. The new river: Civil War to TVA. Amphibious warfare: Paducah to Fort Henry ; The battle of Shiloh ; The strategic importance of Muscle Shoals ; Chickamauga and its sequel ; Guerrillas versus gunboats ; Forrest wreaks havoc among the gunboats ; The cost of civil war ; Parson Brownlow and the Ku Klux Klan ; Kingdom in coming ; The last great days of the steamboats ; The uneasy reign of King Kilowatt I ; Trials by jury and otherwise ; At last! The kingdom really comes! ; The TVA makes a new river ; The workings of TVA ; Navigation, new style ; Green lands and great waters ; The battles of TVA ; Journal of a voyage from Chattanooga to Paducah on the good steamboat Gordon C. Greene.</schema:description>
+    <schema:about rdf:resource="http://dewey.info/class/976.8/"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/576053714"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/156182032"/>
+    <library:oclcnum>360571</library:oclcnum>
+    <schema:datePublished>1946/1948</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/126415698"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1411965#Organization/tennessee_valley_authority"/>
+    <schema:name xml:lang="en">The Tennessee</schema:name>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1411965#Series/rivers_of_america"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1275535"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:copyrightYear>1946/1948</schema:copyrightYear>
+    <schema:description xml:lang="en">Vol. 1. The old river, frontier to secession -- v. 2. The new river, Civil War to TVA.</schema:description>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/360571"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>360571</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1411965#Agent/rinehart"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1411965#Place/tennessee_river"/>
+    <schema:illustrator rdf:resource="http://viaf.org/viaf/165703489"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1411965"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/976.8/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1275535">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States--Tennessee River Valley.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1411965#Organization/tennessee_valley_authority">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Tennessee Valley Authority.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/360571#PublicationEvent/new_york_rinehart_1946_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1411965#Agent/rinehart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/126415698">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Tennessee Valley Authority.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1411965#Series/rivers_of_america">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/360571"/>
+    <schema:name>Rivers of America</schema:name>
+    <schema:name>Rivers of America.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/156182032">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Fitzgerald Rivers of America Collection (Library of Congress)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/5020468">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Davidson</schema:familyName>
+    <schema:givenName>Donald</schema:givenName>
+    <schema:name>Donald Davidson</schema:name>
+    <schema:birthDate>1893</schema:birthDate>
+    <schema:deathDate>1968</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/576053714">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/360571"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Tennessee.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+</rdf:RDF>

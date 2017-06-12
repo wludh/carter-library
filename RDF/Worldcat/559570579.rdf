@@ -1,0 +1,56 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/66577749#Agent/new_york">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/66577749#Place/oxford_university_press">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Oxford University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/559570579#PublicationEvent/oxford_university_press_new_york_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/66577749#Place/oxford_university_press"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/66577749#Agent/new_york"/>
+    <schema:startDate>1961</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/559570579">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/559570579"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/559570579">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>559570579</schema:productID>
+    <library:oclcnum>559570579</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/7515765"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/559570579"/>
+    <schema:datePublished>1961</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/66577749#Agent/new_york"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/559570579#PublicationEvent/oxford_university_press_new_york_1961"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/66577749#Place/oxford_university_press"/>
+    <schema:name xml:lang="en">The Emerging South.</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/66577749"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/7515765">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Clark</schema:familyName>
+    <schema:givenName>Thomas Dionysius</schema:givenName>
+    <schema:name>Thomas Dionysius Clark</schema:name>
+    <schema:birthDate>1903</schema:birthDate>
+    <schema:deathDate>2005</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

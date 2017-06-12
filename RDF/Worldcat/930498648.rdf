@@ -1,0 +1,85 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1938298#Topic/race_relations">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Race relations</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1938298#Place/chapel_hill">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chapel Hill</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1938298#Topic/national_characteristics_american">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">National characteristics, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/930498648#PublicationEvent/chapel_hill_univ_of_north_carolina_pr_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1938298#Place/chapel_hill"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1938298#Agent/univ_of_north_carolina_pr"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ncu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ncu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/930498648">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/930498648#PublicationEvent/chapel_hill_univ_of_north_carolina_pr_1960"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1938298#Agent/univ_of_north_carolina_pr"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1938298"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ncu"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1938298#Person/sellers_charles_grier"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1938298#Place/chapel_hill"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1938298#Place/southern_states"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1938298#Topic/race_relations"/>
+    <library:oclcnum>930498648</library:oclcnum>
+    <schema:name xml:lang="en">The southerner as American</schema:name>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1938298#Person/franklin_john_hope_1915_2009"/>
+    <schema:productID>930498648</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/930498648"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1938298#Topic/national_characteristics_american"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1938298#Person/franklin_john_hope_1915_2009">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Franklin</schema:familyName>
+    <schema:givenName>John Hope</schema:givenName>
+    <schema:name>John Hope Franklin</schema:name>
+    <schema:birthDate>1915</schema:birthDate>
+    <schema:deathDate>2009</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1938298#Person/sellers_charles_grier">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Sellers</schema:familyName>
+    <schema:givenName>Charles Grier</schema:givenName>
+    <schema:name>Charles Grier Sellers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/930498648">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/930498648"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1938298#Place/southern_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States</schema:name>
+    <schema:name>Southern States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1938298#Agent/univ_of_north_carolina_pr">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Univ. of North Carolina Pr.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

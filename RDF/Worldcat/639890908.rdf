@@ -1,0 +1,82 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4095904211#Agent/atheneum">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Atheneum</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1075747">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Presidents--Election</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2010106961">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Presidents--United States--Election--1960</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/639890908">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/639890908"/>
+    <schema:dateModified>2017-04-12</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/639890908">
+    <schema:bookEdition>1st ed.</schema:bookEdition>
+    <schema:name xml:lang="en">The making of the President.</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/108819316"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4095904211#Agent/atheneum"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/639890908"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2010106961"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4095904211"/>
+    <schema:productID>639890908</schema:productID>
+    <schema:datePublished>1961</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1075747"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/4095904211#Place/new_york_ny"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4095904211#Event/1960"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/639890908#PublicationEvent/new_york_ny_atheneum_1961"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>639890908</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4095904211#Event/1960">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1960</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/108819316">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>White</schema:familyName>
+    <schema:givenName>Theodore Harold</schema:givenName>
+    <schema:name>Theodore Harold White</schema:name>
+    <schema:birthDate>1915</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4095904211#Place/new_york_ny">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, NY</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/639890908#PublicationEvent/new_york_ny_atheneum_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/4095904211#Place/new_york_ny"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4095904211#Agent/atheneum"/>
+    <schema:startDate>1961</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

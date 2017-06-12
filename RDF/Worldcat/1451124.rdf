@@ -1,0 +1,114 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/951928">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Haunted houses</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1007945">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Mansions--Conservation and restoration</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1451124">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2292155#Place/tennessee"/>
+    <schema:genre xml:lang="en">Psychological fiction</schema:genre>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2292155#Agent/bobbs_merrill_co"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1451124"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.51/"/>
+    <schema:genre xml:lang="en">Ghost stories</schema:genre>
+    <schema:datePublished>1947</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2292155#Place/indianapolis"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2292155"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2292155#Topic/haunted_houses"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/951928"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1007945"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/959347"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2292155#Topic/home_ownership"/>
+    <schema:bookEdition>1st ed.</schema:bookEdition>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1451124#PublicationEvent/indianapolis_bobbs_merrill_co_1947"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/36945235"/>
+    <schema:copyrightYear>1947</schema:copyrightYear>
+    <schema:name xml:lang="en">A name for evil : a novel</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1205353"/>
+    <library:oclcnum>1451124</library:oclcnum>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/inu"/>
+    <schema:productID>1451124</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2292155#Topic/mansions_conservation_and_restoration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/inu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>inu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2292155#Place/tennessee">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Tennessee</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1451124">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1451124"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2292155#Agent/bobbs_merrill_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Bobbs-Merrill Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2292155#Topic/home_ownership">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008105496"/>
+    <schema:name xml:lang="en">Home ownership</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2292155#Place/indianapolis">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Indianapolis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2292155#Topic/haunted_houses">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008105495"/>
+    <schema:name xml:lang="en">Haunted houses</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.51/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1451124#PublicationEvent/indianapolis_bobbs_merrill_co_1947">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2292155#Place/indianapolis"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2292155#Agent/bobbs_merrill_co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/959347">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Home ownership</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2292155#Topic/mansions_conservation_and_restoration">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh86003042"/>
+    <schema:name xml:lang="en">Mansions--Conservation and restoration</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1205353">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Tennessee.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/36945235">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lytle</schema:familyName>
+    <schema:givenName>Andrew Nelson</schema:givenName>
+    <schema:name>Andrew Nelson Lytle</schema:name>
+    <schema:birthDate>1902</schema:birthDate>
+    <schema:deathDate>1995</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>
