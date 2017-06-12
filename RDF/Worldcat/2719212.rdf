@@ -1,0 +1,111 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/59256985#Series/pocket_library_of_great_art">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/2719212"/>
+    <schema:name>Pocket library of great art ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/59256985#Agent/h_n_abrams_in_association_with_pocket_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>H.N. Abrams in association with Pocket Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/ND813">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2719212#PublicationEvent/new_york_h_n_abrams_in_association_with_pocket_books_1953">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/59256985#Agent/h_n_abrams_in_association_with_pocket_books"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2719212">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>2719212</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/59256985"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/100215785"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/46337839"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/59256985#Person/greco_1541_1614"/>
+    <schema:datePublished>1953</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/59256985#Agent/h_n_abrams_in_association_with_pocket_books"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/ND813"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2719212"/>
+    <schema:name xml:lang="en">El Greco (1541-1614)</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2719212#PublicationEvent/new_york_h_n_abrams_in_association_with_pocket_books_1953"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/59256985#Series/the_pocket_library_of_great_art"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/100215785"/>
+    <schema:about rdf:resource="http://dewey.info/class/759.6/"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/988234923"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/59256985#Series/pocket_library_of_great_art"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:oclcnum>2719212</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/759.6/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/59256985#Person/greco_1541_1614">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Greco</schema:givenName>
+    <schema:name>Greco</schema:name>
+    <schema:birthDate>1541?</schema:birthDate>
+    <schema:deathDate>1614</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/46337839">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Matthews</schema:familyName>
+    <schema:givenName>John F.</schema:givenName>
+    <schema:givenName>John Floyd</schema:givenName>
+    <schema:name>John Floyd Matthews</schema:name>
+    <schema:birthDate>1919</schema:birthDate>
+    <schema:deathDate>2003</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/988234923">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/2719212"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Greco.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/59256985#Series/the_pocket_library_of_great_art">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/2719212"/>
+    <schema:name>The Pocket library of great art ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/100215785">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Greco</schema:givenName>
+    <schema:name>Greco</schema:name>
+    <schema:birthDate>1541?</schema:birthDate>
+    <schema:deathDate>1614</schema:deathDate>
+    <schema:familyName>Greco</schema:familyName>
+    <schema:givenName>Le</schema:givenName>
+    <schema:name>Le Greco</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2719212">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2719212"/>
+    <schema:dateModified>2017-05-29</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

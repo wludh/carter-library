@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:schema="http://schema.org/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1761766#CreativeWork/aus_den_flegeljahren_der_menschheit">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Aus den Flegeljahren der Menschheit</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/721249159">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/721249159"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/721249159#PublicationEvent/new_yorkmeridian_books1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1761766#Agent/meridian_books"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/15784553">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Keane</schema:familyName>
+    <schema:givenName>A. H.</schema:givenName>
+    <schema:name>A. H. Keane</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/gw">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>gw</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/721249159">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="de">The Childhood of man</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/gw"/>
+    <library:oclcnum>721249159</library:oclcnum>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:productID>721249159</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/721249159#PublicationEvent/new_yorkmeridian_books1960"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1761766#Series/meridian_books"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/15784553"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1761766#Agent/meridian_books"/>
+    <schema:author rdf:resource="http://viaf.org/viaf/56625363"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/1761766#CreativeWork/aus_den_flegeljahren_der_menschheit"/>
+    <schema:inLanguage>de</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/721249159"/>
+    <umbel:isLike rdf:resource="http://d-nb.info/577712284"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1761766"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1761766#Series/meridian_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/721249159"/>
+    <schema:name>Meridian Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1761766#Agent/meridian_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Meridian Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/56625363">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Frobenius</schema:familyName>
+    <schema:givenName>Leo</schema:givenName>
+    <schema:name>Leo Frobenius</schema:name>
+    <schema:birthDate>1873</schema:birthDate>
+    <schema:deathDate>1938</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

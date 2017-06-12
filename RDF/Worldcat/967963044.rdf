@@ -1,0 +1,75 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/158962842#Agent/collier_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Collier Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/158962842#Agent/collier_macmillan">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Collier-Macmillan</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/967963044">
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/158962842#Person/eaton_clement_1898_1980"/>
+    <schema:productID>967963044</schema:productID>
+    <library:oclcnum>967963044</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1961</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/967963044#PublicationEvent/new_york_collier_books_london_collier_macmillan_1961"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/158962842#Agent/collier_macmillan"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:numberOfPages>349</schema:numberOfPages>
+    <schema:name>A history of the Southern Confederacy</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/158962842#Agent/collier_books"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/158962842"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/967963044"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/158962842#Person/eaton_clement_1898_1980">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Eaton</schema:familyName>
+    <schema:givenName>Clement</schema:givenName>
+    <schema:name>Clement Eaton</schema:name>
+    <schema:birthDate>1898</schema:birthDate>
+    <schema:deathDate>1980</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/967963044">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/967963044"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/967963044#PublicationEvent/new_york_collier_books_london_collier_macmillan_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/158962842#Agent/collier_books"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/158962842#Agent/collier_macmillan"/>
+    <schema:startDate>1961</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+</rdf:RDF>

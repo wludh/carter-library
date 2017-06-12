@@ -1,0 +1,84 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/869931">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/869931"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/N7445">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/815177">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Art</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/869931#PublicationEvent/garden_city_n_y_doubleday_anchor_books_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1561722#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1561722#Agent/doubleday_anchor_books"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/869931">
+    <library:oclcnum>869931</library:oclcnum>
+    <schema:name xml:lang="en">Transformations : critical and speculative essays on art</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/815177"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1561722"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1956</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/869931"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1561722#Place/garden_city_n_y"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/N7445"/>
+    <schema:productID>869931</schema:productID>
+    <schema:about rdf:resource="http://dewey.info/class/704.91/"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/41884144"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/869931#PublicationEvent/garden_city_n_y_doubleday_anchor_books_1956"/>
+    <schema:bookEdition>[2nd ed.].</schema:bookEdition>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1561722#Agent/doubleday_anchor_books"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/564070504"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/704.91/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1561722#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/41884144">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fry</schema:familyName>
+    <schema:givenName>Roger</schema:givenName>
+    <schema:name>Roger Fry</schema:name>
+    <schema:birthDate>1866</schema:birthDate>
+    <schema:deathDate>1934</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/564070504">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/869931"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Transformations.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1561722#Agent/doubleday_anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday Anchor Books</schema:name>
+  </rdf:Description>
+</rdf:RDF>

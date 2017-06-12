@@ -1,0 +1,146 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365349296#Person/nash_paul">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Nash</schema:familyName>
+    <schema:givenName>Paul</schema:givenName>
+    <schema:name>Paul Nash</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365349296#Topic/art_fine_art">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>art [fine art]</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365349296#Person/gauguin_paul">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gauguin</schema:familyName>
+    <schema:givenName>Paul</schema:givenName>
+    <schema:name>Paul Gauguin</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365349296#Person/read_herbert">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Read</schema:familyName>
+    <schema:givenName>Herbert</schema:givenName>
+    <schema:name>Herbert Read</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365349296#Person/klee_paul">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Klee</schema:familyName>
+    <schema:givenName>Paul</schema:givenName>
+    <schema:name>Paul Klee</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/901212524">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/901212524"/>
+    <schema:dateModified>2017-04-12</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365349296#Person/nicholson_ben">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Nicholson</schema:familyName>
+    <schema:givenName>Ben</schema:givenName>
+    <schema:name>Ben Nicholson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365349296#Topic/aesthetics_of_art">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Aesthetics of art</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365349296#Topic/art">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Art</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365349296#Event/anno_1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>anno 1900-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/901212524#PublicationEvent/new_yorkmeridian_books1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Agent/meridian_books"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365349296#Topic/philosophy_of_art">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>philosophy of art</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365349296#Topic/art_criticism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>art criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365349296#Agent/meridian_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Meridian Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365349296#Person/picasso_pablo">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Picasso</schema:familyName>
+    <schema:givenName>Pablo</schema:givenName>
+    <schema:name>Pablo Picasso</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/901212524">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Topic/art_criticism"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/901212524"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Person/pevsner_antoine"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Topic/art_fine_art"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Topic/art"/>
+    <schema:productID>901212524</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Topic/philosophy_of_art"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:name>The Philosophy of Modern Art: collected essays by Herbert Read</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Event/anno_1900_1999"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Person/moore_henry"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Topic/aesthetics_of_art"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Person/gabo_naum"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Person/read_herbert"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>901212524</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Person/gauguin_paul"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Agent/meridian_books"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Person/picasso_pablo"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Person/nash_paul"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/901212524#PublicationEvent/new_yorkmeridian_books1955"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Person/klee_paul"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/365349296#Person/nicholson_ben"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/365349296"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365349296#Person/gabo_naum">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gabo</schema:familyName>
+    <schema:givenName>Naum</schema:givenName>
+    <schema:name>Naum Gabo</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365349296#Person/pevsner_antoine">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Pevsner</schema:familyName>
+    <schema:givenName>Antoine</schema:givenName>
+    <schema:name>Antoine Pevsner</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/365349296#Person/moore_henry">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Moore</schema:familyName>
+    <schema:givenName>Henry</schema:givenName>
+    <schema:name>Henry Moore</schema:name>
+  </rdf:Description>
+</rdf:RDF>

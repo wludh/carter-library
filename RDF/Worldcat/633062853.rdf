@@ -1,0 +1,71 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/633062853">
+    <schema:contributor rdf:resource="http://viaf.org/viaf/9878607"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1377441"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1377441#Agent/doubleday"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookEdition>[Repr. 1954]</schema:bookEdition>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/633062853"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1377441#Series/anchor_books_a"/>
+    <schema:productID>633062853</schema:productID>
+    <library:oclcnum>633062853</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/633062853#PublicationEvent/new_york_doubleday_1954"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name>Aesthetics and history</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1377441#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1377441#Series/anchor_books_a">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/633062853"/>
+    <schema:name>Anchor books. A ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/633062853">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/633062853"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/9878607">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Berenson</schema:familyName>
+    <schema:givenName>Bernard</schema:givenName>
+    <schema:name>Kunsthistoriker Bernard Berenson</schema:name>
+    <schema:birthDate>1865</schema:birthDate>
+    <schema:deathDate>1959</schema:deathDate>
+    <schema:name>Historien d'art Bernard Berenson</schema:name>
+    <schema:name>Art historian Bernard Berenson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/633062853#PublicationEvent/new_york_doubleday_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1377441#Agent/doubleday"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

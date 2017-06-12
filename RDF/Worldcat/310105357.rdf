@@ -1,0 +1,60 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/507455#Person/sypher_wylie">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Sypher</schema:familyName>
+    <schema:givenName>Wylie</schema:givenName>
+    <schema:name>Wylie Sypher</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/507455#Place/carden_city">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Carden City</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/310105357">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/507455"/>
+    <schema:name>Four stages of Renaissance style : transformations in art and literature, 1400 - 1700; With 32 pages of illustrations</schema:name>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/507455#Place/carden_city"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/310105357"/>
+    <library:oclcnum>310105357</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/310105357#PublicationEvent/carden_city_doubleday_1955"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/507455#Series/anchor_books"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/507455#Agent/doubleday"/>
+    <schema:productID>310105357</schema:productID>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/507455#Person/sypher_wylie"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/507455#Series/anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/310105357"/>
+    <schema:name>Anchor books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/310105357">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/310105357"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/310105357#PublicationEvent/carden_city_doubleday_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/507455#Place/carden_city"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/507455#Agent/doubleday"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/507455#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+</rdf:RDF>

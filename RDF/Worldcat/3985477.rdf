@@ -1,0 +1,95 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/3985477">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/3985477"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/7393855"/>
+    <schema:copyrightYear>1954</schema:copyrightYear>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2070282995#Person/rouault_georges_1871_1958"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2070282995#Agent/h_n_abrams_in_association_with_pocket_books"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/16857"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/3985477#PublicationEvent/new_york_h_n_abrams_in_association_with_pocket_books_1954"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2070282995#Series/an_abrams_art_book"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/ND553"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2070282995"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/16857"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:productID>3985477</schema:productID>
+    <library:oclcnum>3985477</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://dewey.info/class/759.4/"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">Georges Rouault.</schema:name>
+    <schema:datePublished>1954</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2070282995#Series/an_abrams_art_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/3985477"/>
+    <schema:name>An Abrams art book</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/7393855">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Maritain</schema:familyName>
+    <schema:givenName>Jacques</schema:givenName>
+    <schema:name>Jacques Maritain</schema:name>
+    <schema:birthDate>1882</schema:birthDate>
+    <schema:deathDate>1973</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3985477">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/3985477"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/ND553">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/16857">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Rouault</schema:familyName>
+    <schema:givenName>Georges</schema:givenName>
+    <schema:name>Georges Rouault</schema:name>
+    <schema:birthDate>1871</schema:birthDate>
+    <schema:deathDate>1958</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2070282995#Person/rouault_georges_1871_1958">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Rouault</schema:familyName>
+    <schema:givenName>Georges</schema:givenName>
+    <schema:name>Georges Rouault</schema:name>
+    <schema:birthDate>1871</schema:birthDate>
+    <schema:deathDate>1958</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/759.4/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2070282995#Agent/h_n_abrams_in_association_with_pocket_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>H.N. Abrams, in association with Pocket Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3985477#PublicationEvent/new_york_h_n_abrams_in_association_with_pocket_books_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2070282995#Agent/h_n_abrams_in_association_with_pocket_books"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

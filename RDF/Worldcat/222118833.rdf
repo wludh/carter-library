@@ -1,0 +1,100 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/222118833">
+    <schema:creator rdf:resource="http://viaf.org/viaf/44307485"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/491288"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/491288#Person/rodker_john"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/222118833"/>
+    <schema:description xml:lang="en">The balance sheet: writing, painting, sculpture, architecture, music, science, religion, philosophy.--Structures for a new spirit.</schema:description>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780486202150"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/222118833#PublicationEvent/new_york_dover_1952"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/491288#Agent/dover"/>
+    <schema:about rdf:resource="http://dewey.info/class/709.04/"/>
+    <schema:datePublished>1952</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/491288#Event/1900_1999"/>
+    <library:oclcnum>222118833</library:oclcnum>
+    <schema:productID>222118833</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/816615"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85007806"/>
+    <schema:name xml:lang="en">Foundations of modern art</schema:name>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/N7438"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/709.04/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/44307485">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ozenfant</schema:familyName>
+    <schema:givenName>Amédée</schema:givenName>
+    <schema:name>Amédée Ozenfant</schema:name>
+    <schema:birthDate>1886</schema:birthDate>
+    <schema:deathDate>1966</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780486202150">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780486202150</schema:isbn>
+    <schema:isbn>0486202151</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/491288#Agent/dover">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Dover</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85007806">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Art, Modern--20th century--History</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/222118833">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/222118833"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/816615">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Art, Modern</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/N7438">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/491288#Event/1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1900-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/222118833#PublicationEvent/new_york_dover_1952">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/491288#Agent/dover"/>
+    <schema:startDate>1952</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/491288#Person/rodker_john">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Rodker</schema:familyName>
+    <schema:givenName>John</schema:givenName>
+    <schema:name>John Rodker</schema:name>
+  </rdf:Description>
+</rdf:RDF>

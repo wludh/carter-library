@@ -1,0 +1,97 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/221421957">
+    <schema:creator rdf:resource="http://viaf.org/viaf/54343141"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/4061525350#Person/salas_xavier_de"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1353864"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/221421957#PublicationEvent/new_york_doubleday_1956"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4061525350#Place/spain"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4061525350#Event/1808_1813"/>
+    <schema:name xml:lang="en">The disasters of war</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4061525350"/>
+    <schema:productID>221421957</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4061525350#Agent/doubleday"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/221421957"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204303"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4061525350#Series/doubleday_anchor_books"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>221421957</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4061525350#Event/1808_1813">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1808-1813</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/221421957">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/221421957"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/221421957#PublicationEvent/new_york_doubleday_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4061525350#Agent/doubleday"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4061525350#Series/doubleday_anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/221421957"/>
+    <schema:name>Doubleday Anchor books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4061525350#Person/salas_xavier_de">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Salas</schema:familyName>
+    <schema:givenName>Xavier de</schema:givenName>
+    <schema:name>Xavier de Salas</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204303">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Spain.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4061525350#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4061525350#Place/spain">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Spain</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1353864">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <rdf:type rdf:resource="http://bibliograph.net/Meeting"/>
+    <schema:name>Napoleonic Conquest of Spain (1808-1813)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/54343141">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Goya Lucientes</schema:familyName>
+    <schema:givenName>Francisco Jose de</schema:givenName>
+    <schema:name>Francisco Jose de Goya Lucientes</schema:name>
+    <schema:birthDate>1746</schema:birthDate>
+    <schema:deathDate>1828</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>
