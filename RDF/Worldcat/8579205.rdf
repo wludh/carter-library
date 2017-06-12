@@ -1,0 +1,90 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354578545#Topic/science_fiction_american">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Science fiction, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354578545#Agent/avon_book_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Avon Book Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/8579205#PublicationEvent/new_york_avon_book_co_1944">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/354578545#Agent/avon_book_co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/8579205">
+    <schema:creator rdf:resource="http://viaf.org/viaf/9850578"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:datePublished>1944</schema:datePublished>
+    <library:oclcnum>8579205</library:oclcnum>
+    <schema:productID>8579205</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/354578545#Agent/avon_book_co"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/8579205"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/354578545#Series/murder_mystery_monthly"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:copyrightYear>1944</schema:copyrightYear>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">Dwellers in the mirage</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:genre xml:lang="en">Adventure fiction</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/354578545#Topic/science_fiction_american"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/354578545#Topic/cherokee_indians"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/354578545"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/8579205#PublicationEvent/new_york_avon_book_co_1944"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/354578545#Place/alaska"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204480"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354578545#Topic/cherokee_indians">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Cherokee Indians</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204480">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Alaska.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/9850578">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Merritt</schema:familyName>
+    <schema:givenName>Abraham</schema:givenName>
+    <schema:name>Abraham Merritt</schema:name>
+    <schema:birthDate>1884</schema:birthDate>
+    <schema:deathDate>1943</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/8579205">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/8579205"/>
+    <schema:dateModified>2017-04-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354578545#Series/murder_mystery_monthly">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/8579205"/>
+    <schema:name>Murder mystery monthly ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354578545#Place/alaska">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Alaska</schema:name>
+  </rdf:Description>
+</rdf:RDF>

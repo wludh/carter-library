@@ -1,0 +1,53 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/819735825">
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2517305515#Agent/h_mifflin"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/819735825"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/819735825#PublicationEvent/boston_h_mifflin_1960"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2517305515"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>819735825</schema:productID>
+    <schema:name>Selections from Ralph Waldo Emerson ; an organic anthology.</schema:name>
+    <library:oclcnum>819735825</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/819735825#PublicationEvent/boston_h_mifflin_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2517305515#Agent/h_mifflin"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2517305515#Agent/h_mifflin">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>H. Mifflin</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/819735825">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/819735825"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,112 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dewey.info/class/759.9492/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/34455429">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Delevoy</schema:familyName>
+    <schema:givenName>Robert L.</schema:givenName>
+    <schema:name>Robert L. Delevoy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/95761864">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bruegel</schema:familyName>
+    <schema:givenName>Pieter</schema:givenName>
+    <schema:name>Pieter Bruegel</schema:name>
+    <schema:birthDate>approximately 1525</schema:birthDate>
+    <schema:deathDate>1569</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/ND673">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/8398757#Agent/skira">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Skira</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/564904#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:language>und</dcterms:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/8398757#Place/geneva">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Geneva</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/8398757#Series/taste_of_our_time">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/564904"/>
+    <schema:name>Taste of our time ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/564904">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/566008722"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>564904</schema:productID>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/8398757#Agent/skira"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/ND673"/>
+    <schema:about rdf:resource="http://dewey.info/class/759.9492/"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/95761864"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/8398757#Series/the_taste_of_our_time"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/564904"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/8398757#Person/bruegel_pieter_approximately_1525_1569"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/8398757"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/34455429"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:description xml:lang="en">The life of Bruegel : an unclear profile -- The measure of all things : Natura naturans -- Everyday life : the topsy-turvy world -- The anatomy of disorder : Testimonies of the times -- Man's place in the universe : Natura naturata -- Impracticable wisdom : Vanitas vanitatum -- Documents.</schema:description>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/564904#PublicationEvent/genevaskira1959"/>
+    <library:oclcnum>564904</library:oclcnum>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/564904#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/8398757#Series/taste_of_our_time"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/8398757#Place/geneva"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/sz"/>
+    <schema:name xml:lang="en">Bruegel: historical and critical study.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/564904#PublicationEvent/genevaskira1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/8398757#Place/geneva"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/8398757#Agent/skira"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/sz">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>sz</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/566008722">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/564904"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Bruegel.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/564904">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/564904"/>
+    <schema:dateModified>2017-04-28</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/8398757#Series/the_taste_of_our_time">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/564904"/>
+    <schema:name>The Taste of our time,</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/8398757#Person/bruegel_pieter_approximately_1525_1569">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bruegel</schema:familyName>
+    <schema:givenName>Pieter</schema:givenName>
+    <schema:name>Pieter Bruegel</schema:name>
+    <schema:birthDate>approximately 1525</schema:birthDate>
+    <schema:deathDate>1569</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

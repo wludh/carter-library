@@ -1,0 +1,62 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1781427969#Person/fitts_dudley_1903_1968">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fitts</schema:familyName>
+    <schema:givenName>Dudley</schema:givenName>
+    <schema:name>Dudley Fitts</schema:name>
+    <schema:birthDate>1903</schema:birthDate>
+    <schema:deathDate>1968</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1781427969#Agent/new_directions">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Directions</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/937987790">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/937987790"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/937987790">
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:productID>937987790</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1781427969#Person/fitts_dudley_1903_1968"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1781427969#Agent/new_directions"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1781427969"/>
+    <library:oclcnum>937987790</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/937987790"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name>Poems from the Greek anthology</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/937987790#PublicationEvent/new_york_new_directions_1956"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/937987790#PublicationEvent/new_york_new_directions_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1781427969#Agent/new_directions"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

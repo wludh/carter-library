@@ -1,0 +1,92 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/213629132#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/213629132#Series/vintage_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/21472103"/>
+    <schema:name>Vintage book</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/213629132#Agent/vintage_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Vintage Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/21472103">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/21472103"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/21472103#PublicationEvent/new_york_vintage_books1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/213629132#Agent/vintage_books"/>
+    <schema:startDate>1961</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/109026674">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Donald</schema:familyName>
+    <schema:givenName>David Herbert</schema:givenName>
+    <schema:name>David Herbert Donald</schema:name>
+    <schema:birthDate>1920</schema:birthDate>
+    <schema:deathDate>2009</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/21472103">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/213629132"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <schema:bookEdition>[1st Vintage ed.].</schema:bookEdition>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/213629132#Person/lincoln_abraham_president_united_states"/>
+    <schema:genre xml:lang="en">Sermons</schema:genre>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:datePublished>1961</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/21472103"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/21472103#PublicationEvent/new_york_vintage_books1961"/>
+    <schema:about rdf:resource="http://dewey.info/class/973.7/"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>21472103</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/213629132#Series/vintage_book"/>
+    <schema:name xml:lang="en">Lincoln reconsidered; essays on the Civil War era.</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://viaf.org/viaf/109026674"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/213629132#Agent/vintage_books"/>
+    <library:oclcnum>21472103</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/213629132#Place/united_states"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/973.7/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/213629132#Person/lincoln_abraham_president_united_states">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lincoln</schema:familyName>
+    <schema:givenName>Abraham</schema:givenName>
+    <schema:name>President United States Abraham Lincoln</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

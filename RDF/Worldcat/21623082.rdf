@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/19096590#Agent/lion_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Lion Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/21623082#PublicationEvent/new_york_city_lion_books_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/19096590#Place/new_york_city"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/19096590#Agent/lion_books"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/115898887">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Moon</schema:familyName>
+    <schema:givenName>Bucklin</schema:givenName>
+    <schema:name>Bucklin Moon</schema:name>
+    <schema:birthDate>1911</schema:birthDate>
+    <schema:deathDate>1984</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/19096590#Person/saroyan_william_1908_1981">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Saroyan</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Saroyan</schema:name>
+    <schema:birthDate>1908</schema:birthDate>
+    <schema:deathDate>1981</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/837324">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Boxing stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/19096590#Place/new_york_city">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York City</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/19096590#CreativeWork/dear_baby">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Dear baby.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/19096590#Person/saroyan_william_1908_1981"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/21623082">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/19096590#Place/new_york_city"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/21623082#PublicationEvent/new_york_city_lion_books_1954"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/115898887"/>
+    <library:oclcnum>21623082</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/21623082"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/837324"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/19096590#Person/saroyan_william_1908_1981"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">Champs and bums</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/19096590#Agent/lion_books"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/19096590"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/19096590#CreativeWork/dear_baby"/>
+    <schema:productID>21623082</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/21623082">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/21623082"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

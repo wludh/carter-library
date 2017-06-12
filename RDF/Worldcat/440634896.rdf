@@ -1,0 +1,78 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/918026417#Agent/meridian_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Meridian Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/440634896">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/440634896"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/440634896">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/918026417"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/918026417#CreativeWork/and_the_mills_of_the_kavanaughs"/>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/918026417#Person/lowell_robert_1917_1977"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/918026417#Person/lowell_robert_1917_1977"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/440634896"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/918026417#Agent/meridian_books"/>
+    <schema:bookEdition>1st print.</schema:bookEdition>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>440634896</schema:productID>
+    <schema:name>Lord Weary's castle ; and The mills of the Kavanaughs : two volumes of poems</schema:name>
+    <schema:datePublished>1961</schema:datePublished>
+    <schema:hasPart rdf:resource="http://experiment.worldcat.org/entity/work/data/918026417#CreativeWork/and_the_mills_of_the_kavanaughs"/>
+    <library:oclcnum>440634896</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/440634896#PublicationEvent/new_york_meridian_books_1961"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/918026417#Series/meridian_books"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/918026417#CreativeWork/and_the_mills_of_the_kavanaughs">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>and The mills of the Kavanaughs.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/918026417#Person/lowell_robert_1917_1977"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/918026417#Series/meridian_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/440634896"/>
+    <schema:name>Meridian books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/918026417#Person/lowell_robert_1917_1977">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lowell</schema:familyName>
+    <schema:givenName>Robert</schema:givenName>
+    <schema:name>Robert Lowell</schema:name>
+    <schema:birthDate>1917</schema:birthDate>
+    <schema:deathDate>1977</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/440634896#PublicationEvent/new_york_meridian_books_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/918026417#Agent/meridian_books"/>
+    <schema:startDate>1961</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

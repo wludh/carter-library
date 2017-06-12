@@ -1,0 +1,80 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1457106#Series/">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/255953956"/>
+    <schema:name></schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/255953956">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/255953956"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1457106#Place/new_york_ny">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, NY</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/100295394">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Nock</schema:familyName>
+    <schema:givenName>Albert Jay</schema:givenName>
+    <schema:name>Albert Jay Nock</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/41866059">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Jefferson</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Jefferson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1457106#Series/american_century_series">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/255953956"/>
+    <schema:name>American century series</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1457106#Agent/hill_&amp;_wang">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Hill &amp; Wang</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/255953956#PublicationEvent/new_york_nyhill_&amp;_wang_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1457106#Place/new_york_ny"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1457106#Agent/hill_&amp;_wang"/>
+    <schema:startDate>(1960)</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/255953956">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1457106"/>
+    <schema:name>Jefferson</schema:name>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/41866059"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1457106#Place/new_york_ny"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1457106#Series/american_century_series"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1457106#Agent/hill_&amp;_wang"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/100295394"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/255953956"/>
+    <schema:productID>255953956</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>255953956</library:oclcnum>
+    <schema:datePublished>(1960)</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/255953956#PublicationEvent/new_york_nyhill_&amp;_wang_1960"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1457106#Series/"/>
+  </rdf:Description>
+</rdf:RDF>

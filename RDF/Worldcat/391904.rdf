@@ -1,0 +1,106 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/391904">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/391904"/>
+    <schema:dateModified>2017-04-22</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1046150">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Opera--Dramaturgy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1528056#Topic/opera_dramaturgie">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Opéra--Dramaturgie</schema:name>
+    <schema:name xml:lang="en">Opéra - Dramaturgie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1528056#Agent/a_a_knopf">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>A.A. Knopf</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1528056#Topic/oper">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Oper</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85094903">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Opera--Dramaturgy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/593037761">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/391904"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Opera as drama.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/ML3858">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1528056#Topic/drama">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Drama</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/42583">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kerman</schema:familyName>
+    <schema:givenName>Joseph</schema:givenName>
+    <schema:name>Joseph Kerman</schema:name>
+    <schema:birthDate>1924</schema:birthDate>
+    <schema:deathDate>2014</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/391904#PublicationEvent/new_york_a_a_knopf_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1528056#Agent/a_a_knopf"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/391904">
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/ML3858"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1528056"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85094903"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/42583"/>
+    <library:oclcnum>391904</library:oclcnum>
+    <schema:about rdf:resource="http://dewey.info/class/782/"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/593037761"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/391904"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1046150"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1528056#Agent/a_a_knopf"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:bookEdition>[1st ed.].</schema:bookEdition>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:name xml:lang="en">Opera as drama</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1528056#Topic/drama"/>
+    <schema:description xml:lang="en">Introduction: Opera as drama -- THE TRADITION: Orpheus: the neoclassic vision -- The dark ages -- Action and the musical continuity -- Mozart -- Otello: traditional opera and the image of Shakespeare -- REFORM: Opera as sung play -- Opera as symphonic poem -- RETRENCHMENT: Wozzeck and The Rake's Progress -- Drama and the alternative.</schema:description>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1528056#Topic/oper"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1528056#Topic/opera_dramaturgie"/>
+    <schema:productID>391904</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/391904#PublicationEvent/new_york_a_a_knopf_1956"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/782/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>
