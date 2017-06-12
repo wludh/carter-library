@@ -1,0 +1,116 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/116738800#Person/jackson_stonewall_1824_1863">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Jackson</schema:familyName>
+    <schema:givenName>Stonewall</schema:givenName>
+    <schema:name>Stonewall Jackson</schema:name>
+    <schema:birthDate>1824</schema:birthDate>
+    <schema:deathDate>1863</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/116738800#Person/tate_allen_1899_1979">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Tate</schema:familyName>
+    <schema:givenName>Allen</schema:givenName>
+    <schema:name>Allen Tate</schema:name>
+    <schema:birthDate>1899</schema:birthDate>
+    <schema:deathDate>1979</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1351658">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <rdf:type rdf:resource="http://bibliograph.net/Meeting"/>
+    <schema:name>American Civil War (1861-1865)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/miu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>miu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/806549846">
+    <schema:productID>806549846</schema:productID>
+    <schema:about rdf:resource="http://dewey.info/class/923.573/"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/miu"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/116738800#Agent/university_of_michigan_press"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/806549846#PublicationEvent/ann_arbor_university_of_michigan_press_1957"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/116738800#Person/jackson_stonewall_1824_1863"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/116738800#Person/tate_allen_1899_1979"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/30335431"/>
+    <schema:about rdf:resource="http://dewey.info/class/973.7/"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/116738800#Place/ann_arbor"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/116738800#Place/united_states"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/806549846"/>
+    <schema:genre>History</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name>Stonewall Jackson : the good soldier</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>806549846</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/116738800"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1351658"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/116738800#Series/ann_arbor_paperbacks"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/116738800#Event/1861_1865"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/116738800#Event/1861_1865">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1861-1865</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/116738800#Series/ann_arbor_paperbacks">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/806549846"/>
+    <schema:name>Ann arbor paperbacks ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/116738800#Place/ann_arbor">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Ann Arbor</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/806549846">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/806549846"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/116738800#Agent/university_of_michigan_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>University of Michigan Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/116738800#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/806549846#PublicationEvent/ann_arbor_university_of_michigan_press_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/116738800#Place/ann_arbor"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/116738800#Agent/university_of_michigan_press"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/973.7/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/30335431">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Jackson</schema:familyName>
+    <schema:givenName>Stonewall</schema:givenName>
+    <schema:name>Stonewall Jackson</schema:name>
+    <schema:birthDate>1824</schema:birthDate>
+    <schema:deathDate>1863</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/923.573/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,77 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1026058">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Moral education</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/613261696">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/20360645"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Moral education in school and home.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/20360645">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/20360645"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/33646211">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Engleman</schema:familyName>
+    <schema:givenName>J. O.</schema:givenName>
+    <schema:givenName>James Ozro</schema:givenName>
+    <schema:name>James Ozro Engleman</schema:name>
+    <schema:birthDate>1873</schema:birthDate>
+    <schema:deathDate>1943</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/20360645">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4239767#Agent/b_h_sanborn"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/20360645#PublicationEvent/chicago_b_h_sanborn_1920_1918"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <schema:copyrightYear>1918</schema:copyrightYear>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/20360645"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4239767"/>
+    <schema:productID>20360645</schema:productID>
+    <schema:name xml:lang="en">Moral education in school and home</schema:name>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/33646211"/>
+    <library:oclcnum>20360645</library:oclcnum>
+    <schema:datePublished>1920</schema:datePublished>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/613261696"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1026058"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/20360645#PublicationEvent/chicago_b_h_sanborn_1920_1918">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4239767#Agent/b_h_sanborn"/>
+    <schema:startDate>1920</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4239767#Agent/b_h_sanborn">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>B.H. Sanborn</schema:name>
+  </rdf:Description>
+</rdf:RDF>

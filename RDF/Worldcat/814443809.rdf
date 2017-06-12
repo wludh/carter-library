@@ -1,0 +1,60 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/814443809">
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1390027#Place/chapel_hill"/>
+    <library:oclcnum>814443809</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1390027#Agent/university_of_north_carol"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">Scotch-Irish, the social history.</schema:name>
+    <schema:datePublished>1962</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>814443809</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ncu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/814443809"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1390027#Person/leyburn_james_graham"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/814443809#PublicationEvent/chapel_hill_university_of_north_carol_1962"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1390027"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1390027#Person/leyburn_james_graham">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Leyburn</schema:familyName>
+    <schema:givenName>James Graham</schema:givenName>
+    <schema:name>James Graham Leyburn</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/814443809#PublicationEvent/chapel_hill_university_of_north_carol_1962">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1390027#Place/chapel_hill"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1390027#Agent/university_of_north_carol"/>
+    <schema:startDate>1962</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1390027#Agent/university_of_north_carol">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>University Of North Carol</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ncu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ncu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1390027#Place/chapel_hill">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chapel Hill</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/814443809">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/814443809"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

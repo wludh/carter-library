@@ -1,0 +1,78 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502147#Topic/teaching_freedom_of">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Teaching, Freedom of</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/906048245#PublicationEvent/chicago_regnery_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/502147#Agent/regnery"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502147#Person/kirk_russell_russell_amos_1918_1994">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kirk</schema:familyName>
+    <schema:givenName>Russell</schema:givenName>
+    <schema:givenName>Russell Amos</schema:givenName>
+    <schema:name>Russell Amos Kirk</schema:name>
+    <schema:birthDate>1918</schema:birthDate>
+    <schema:deathDate>1994</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/906048245">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/906048245"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/906048245">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:numberOfPages>210</schema:numberOfPages>
+    <schema:productID>906048245</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/906048245"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/502147#Topic/teaching_freedom_of"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/502147#Agent/regnery"/>
+    <library:oclcnum>906048245</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/906048245#PublicationEvent/chicago_regnery_1955"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/502147#Person/kirk_russell_russell_amos_1918_1994"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/502147#Topic/liberte_de_l_enseignement"/>
+    <schema:name>Academic freedom : an essay in definition</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/502147"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <schema:about rdf:resource="http://dewey.info/class/371.1/"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502147#Agent/regnery">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Regnery</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502147#Topic/liberte_de_l_enseignement">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Liberté de l'enseignement</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/371.1/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

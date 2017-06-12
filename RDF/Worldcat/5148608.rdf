@@ -1,0 +1,87 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/5148608">
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/5148608"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2034126"/>
+    <schema:name xml:lang="en">Indian days of the long ago</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1243255"/>
+    <library:oclcnum>5148608</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/969633"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/5148608#PublicationEvent/yonkers_on_hudson_n_y_world_book_co_1918"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2034126#Topic/indians_north_american_history"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2034126#Agent/world_book_co"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1104021"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1918</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/31995046"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>5148608</schema:productID>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2034126#Place/yonkers_on_hudson_n_y"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh89003112"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5148608">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/5148608"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/31995046">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Curtis</schema:familyName>
+    <schema:givenName>Edward S.</schema:givenName>
+    <schema:name>Edward S. Curtis</schema:name>
+    <schema:birthDate>1868</schema:birthDate>
+    <schema:deathDate>1952</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh89003112">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Indians of North America--West (U.S.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2034126#Place/yonkers_on_hudson_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Yonkers-on-Hudson, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/969633">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Indians of North America</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2034126#Topic/indians_north_american_history">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Indians, North American--history</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/5148608#PublicationEvent/yonkers_on_hudson_n_y_world_book_co_1918">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2034126#Place/yonkers_on_hudson_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2034126#Agent/world_book_co"/>
+    <schema:startDate>1918</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2034126#Agent/world_book_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>World Book Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1243255">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States, West.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1104021">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Salish Indians</schema:name>
+  </rdf:Description>
+</rdf:RDF>

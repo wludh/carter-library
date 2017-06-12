@@ -1,0 +1,71 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/246046099">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/246046099"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/ND588"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>246046099</library:oclcnum>
+    <schema:bookEdition>Reissued</schema:bookEdition>
+    <schema:name>Hans Holbein the Younger : a critical monograph</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4007992#Topic/holbein_hans"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>246046099</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4007992"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/59077275"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxk"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4007992#Agent/duckworth"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/246046099#PublicationEvent/londonduckworth1914"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1914</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/246046099#PublicationEvent/londonduckworth1914">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4007992#Agent/duckworth"/>
+    <schema:startDate>1914</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/59077275">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ford</schema:familyName>
+    <schema:givenName>Ford Madox</schema:givenName>
+    <schema:name>Ford Madox Ford</schema:name>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/118639064"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4007992#Topic/holbein_hans">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Holbein, Hans</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/ND588">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4007992#Agent/duckworth">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Duckworth</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/246046099">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/246046099"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

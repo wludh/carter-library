@@ -1,0 +1,108 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1144565">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Teaching</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1107575">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">School management and organization</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1107681">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">School principals</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7719414#Series/laidlaw_progressive_education_series">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/3107955"/>
+    <schema:name>Laidlaw progressive education series</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/371.2/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3107955">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/3107955"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/78441242">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hillegas</schema:familyName>
+    <schema:givenName>Milo B.</schema:givenName>
+    <schema:givenName>Milo Burdette</schema:givenName>
+    <schema:name>Milo Burdette Hillegas</schema:name>
+    <schema:birthDate>1872</schema:birthDate>
+    <schema:deathDate>1961</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1107844">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">School superintendents</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3107955#PublicationEvent/chicago_new_yorklaidlaw_brothers_1931">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/7719414#Agent/laidlaw_brothers"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/3107955">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/578391639"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/7719414#Series/laidlaw_progressive_education_series"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/3107955"/>
+    <schema:name xml:lang="en">The elements of classroom supervision,</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1107575"/>
+    <schema:datePublished>1931</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/7719414#Agent/laidlaw_brothers"/>
+    <schema:about rdf:resource="http://dewey.info/class/371.2/"/>
+    <library:oclcnum>3107955</library:oclcnum>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1144565"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/3107955#PublicationEvent/chicago_new_yorklaidlaw_brothers_1931"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1107844"/>
+    <schema:alternateName>Classroom supervision</schema:alternateName>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1107681"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/78441242"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/7719414"/>
+    <schema:productID>3107955</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/578391639">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/3107955"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Elements of classroom supervision.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7719414#Agent/laidlaw_brothers">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Laidlaw Brothers</schema:name>
+  </rdf:Description>
+</rdf:RDF>

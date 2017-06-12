@@ -1,0 +1,71 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/918251631#PublicationEvent/garden_city_ny_doubleday_1972">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/49056652#Place/garden_city_ny"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/49056652#Agent/doubleday"/>
+    <schema:startDate>1972</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/917.740340924/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/49056652#Place/garden_city_ny">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, NY</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780385074605">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780385074605</schema:isbn>
+    <schema:isbn>0385074603</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/49056652#Person/catton_bruce">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Catton</schema:familyName>
+    <schema:givenName>Bruce</schema:givenName>
+    <schema:name>Bruce Catton</schema:name>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/151057850"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/918251631">
+    <library:oclcnum>918251631</library:oclcnum>
+    <schema:datePublished>1972</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/49056652#Place/garden_city_ny"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/49056652"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/49056652#Person/catton_bruce"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/49056652#Agent/doubleday"/>
+    <schema:about rdf:resource="http://dewey.info/class/917.740340924/"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780385074605"/>
+    <schema:productID>918251631</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/918251631#PublicationEvent/garden_city_ny_doubleday_1972"/>
+    <schema:name>Waiting for the morning train : an American boyhood</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/918251631"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/918251631">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/918251631"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/49056652#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+</rdf:RDF>

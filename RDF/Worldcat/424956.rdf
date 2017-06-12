@@ -1,0 +1,100 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/424956">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/424956"/>
+    <schema:dateModified>2017-04-29</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/144145512#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/144145512#Event/1861_1865">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1861-1865</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/91577674">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Davis</schema:familyName>
+    <schema:givenName>Burke</schema:givenName>
+    <schema:name>Burke Davis</schema:name>
+    <schema:birthDate>1913</schema:birthDate>
+    <schema:deathDate>2006</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/424956">
+    <library:oclcnum>424956</library:oclcnum>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/562263961"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/144145512#Agent/holt_rinehart_and_winston"/>
+    <schema:description xml:lang="en">Why the boom? -- The travail of Wilmer McLean -- House divided -- Firsts -- The first battle -- Mr. Lincoln's beard -- The blockade -- Music, music -- War in the air -- The machine gun -- A general's grammar -- How young they were! -- Famous onlookers -- Which war? -- John Brown ignites a war -- The Widow Fritchie -- Imported warriors -- The Rains brothers -- Riots on the home front -- The inner man -- Was Stonewall Jackson a hypochondriac? -- The marvelous ram Albemarle -- Some oddities of this odd war -- Spies at work -- The Gettysburg Address -- The hero of Gettysburg -- Sex in the Civil War -- The submarine Hunley -- Lincoln's subs -- What they said about U.S. Grant -- Dixie -- Symbols of the lost cause -- The perfect battle -- The human side of Robert E. Lee -- Aftermath-at-arms -- The price in blood -- The war is not over -- Atrocities -- The folklore.</schema:description>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>424956</schema:productID>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookEdition>[1st ed.].</schema:bookEdition>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/144145512#Event/1861_1865"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/144145512#Place/united_states"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/144145512"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/91577674"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1351658"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/424956#PublicationEvent/new_york_holt_rinehart_and_winston1960"/>
+    <schema:name xml:lang="en">Our incredible Civil War.</schema:name>
+    <schema:about rdf:resource="http://dewey.info/class/973.7/e19/"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/424956"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:description xml:lang="en">A panorama of facts, anecdotes and legends about many aspects of the Civil War.</schema:description>
+    <schema:genre xml:lang="en">Anecdotes</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1351658">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <rdf:type rdf:resource="http://bibliograph.net/Meeting"/>
+    <schema:name>American Civil War (1861-1865)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/562263961">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/424956"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Our incredible Civil War.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/973.7/e19/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/144145512#Agent/holt_rinehart_and_winston">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Holt, Rinehart and Winston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/424956#PublicationEvent/new_york_holt_rinehart_and_winston1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/144145512#Agent/holt_rinehart_and_winston"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

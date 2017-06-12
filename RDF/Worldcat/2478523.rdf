@@ -1,0 +1,98 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/557908834">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/2478523"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>American heroes, myth and reality.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5177925#Place/washington">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Washington</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/609881580">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/2478523"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>American heroes, myth and reality.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2478523">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/609881580"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <schema:productID>2478523</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/5177925#Agent/public_affairs_press"/>
+    <schema:name xml:lang="en">American heroes, myth and reality.</schema:name>
+    <schema:genre xml:lang="en">Biography</schema:genre>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/5177925"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/557908834"/>
+    <library:oclcnum>2478523</library:oclcnum>
+    <schema:about rdf:resource="http://dewey.info/class/920.073/"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/5177925#Place/united_states"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2478523#PublicationEvent/washington_public_affairs_press1954"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2478523"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/100546759"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/5177925#Place/washington"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/955558"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/dcu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2478523#PublicationEvent/washington_public_affairs_press1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/5177925#Place/washington"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/5177925#Agent/public_affairs_press"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/955558">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Heroes</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5177925#Agent/public_affairs_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Public Affairs Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/dcu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>dcu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5177925#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/100546759">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fishwick</schema:familyName>
+    <schema:givenName>Marshall W.</schema:givenName>
+    <schema:givenName>Marshall William</schema:givenName>
+    <schema:name>Marshall William Fishwick</schema:name>
+    <schema:birthDate>1923</schema:birthDate>
+    <schema:deathDate>2006</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/920.073/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2478523">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2478523"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

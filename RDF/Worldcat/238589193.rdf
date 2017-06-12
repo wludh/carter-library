@@ -1,0 +1,103 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69627609#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/238589193">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:productID>238589193</schema:productID>
+    <schema:copyrightYear>1945</schema:copyrightYear>
+    <schema:creator rdf:resource="http://viaf.org/viaf/108761227"/>
+    <schema:datePublished>1953</schema:datePublished>
+    <schema:name xml:lang="en">The age of Jackson</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>238589193</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/69627609#Event/1829_1837"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/69627609#Agent/little_brown_and_co"/>
+    <schema:description xml:lang="en">Prologue: 1829 -- End of Arcadia -- Keepers of the Jeffersonian conscience -- Background for revolution -- The first year -- The men around the president -- Beginnings of the Bank War -- Veto -- Counterattack -- Hard money -- Credo of the workingmen -- Stirrings in the Bay State -- George Bancroft and radicalism in Massachusetts -- Radicalism in New York -- Rise of the Locofocos -- The pattern of Locofocoism -- The third term -- Panic -- Divorce of bank and state -- The Southern dilemma -- Radicalism at high water -- The Whig counterreformation -- 1840 -- Jacksonian democracy as an intellectual movement -- Jacksonian democracy and the law -- Jacksonian democracy and industrialism -- Jacksonian democracy and religion -- Jacksonian democracy and utopia -- Jacksonian democracy and literature -- Tyler too -- Minorities and majorities -- Cloud on the horizon -- Gathering of the storm -- Free Soil -- The storm approaches -- "Our federal union--" -- Traditions of democracy.</schema:description>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/69627609#Person/jackson_andrew_1767_1845"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1919741"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/69627609#Place/united_states"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/100194661"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/69627609"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/238589193"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/238589193#PublicationEvent/boston_little_brown_and_co_1953_1945"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/238589193#PublicationEvent/boston_little_brown_and_co_1953_1945">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/69627609#Agent/little_brown_and_co"/>
+    <schema:startDate>1953</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/108761227">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Schlesinger</schema:familyName>
+    <schema:givenName>Arthur M.</schema:givenName>
+    <schema:givenName>Arthur Meier</schema:givenName>
+    <schema:name>Jr. Arthur Meier Schlesinger</schema:name>
+    <schema:birthDate>1917</schema:birthDate>
+    <schema:deathDate>2007</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69627609#Agent/little_brown_and_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Little, Brown and Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/238589193">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/238589193"/>
+    <schema:dateModified>2017-05-16</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/100194661">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Jackson</schema:familyName>
+    <schema:givenName>Andrew</schema:givenName>
+    <schema:name>Andrew Jackson</schema:name>
+    <schema:birthDate>1767</schema:birthDate>
+    <schema:deathDate>1845</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69627609#Person/jackson_andrew_1767_1845">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Jackson</schema:familyName>
+    <schema:givenName>Andrew</schema:givenName>
+    <schema:name>Andrew Jackson</schema:name>
+    <schema:birthDate>1767</schema:birthDate>
+    <schema:deathDate>1845</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/69627609#Event/1829_1837">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1829-1837</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1919741">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Politics and government</schema:name>
+  </rdf:Description>
+</rdf:RDF>

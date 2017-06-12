@@ -1,0 +1,90 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/402257#Event/1865_1898">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1865-1898</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/402257#Series/the_new_american_nation_series">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/761991749"/>
+    <schema:name>The New American Nation series</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/761991749#PublicationEvent/new_york_harper_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/402257#Agent/harper"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/402257#Agent/harper">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harper</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/402257#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/973.8/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/761991749">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/761991749"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/761991749">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/761991749"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/402257#Series/the_new_american_nation_series"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/761991749#PublicationEvent/new_york_harper_1959"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <library:oclcnum>761991749</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/402257#Place/united_states"/>
+    <schema:name xml:lang="en">Politics, reform, and expansion, 1890-1900.</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/402257"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/13360880"/>
+    <schema:about rdf:resource="http://dewey.info/class/973.8/"/>
+    <schema:description xml:lang="en">The 1890's in American history saw a swing away from emphasis on rural and farm life and the increased importance of cities, industrialization, labor unions, and immigration.</schema:description>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/402257#Agent/harper"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>761991749</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/402257#Event/1865_1898"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:bookEdition>1st ed.</schema:bookEdition>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/13360880">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Faulkner</schema:familyName>
+    <schema:givenName>Harold Underwood</schema:givenName>
+    <schema:name>Harold Underwood Faulkner</schema:name>
+    <schema:birthDate>1890</schema:birthDate>
+    <schema:deathDate>1968</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>
