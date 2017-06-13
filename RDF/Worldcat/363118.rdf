@@ -1,0 +1,97 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/431782617#Person/fishwick_marshall_william">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fishwick</schema:familyName>
+    <schema:givenName>Marshall William</schema:givenName>
+    <schema:name>Marshall William Fishwick</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/363118">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/363118"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/363118">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/431782617"/>
+    <schema:name xml:lang="en">The Virginia tradition,</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204597"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/dcu"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1155558"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/431782617#Place/virginia"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/574663769"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1007815"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/431782617#Agent/public_affairs_press"/>
+    <library:oclcnum>363118</library:oclcnum>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1033342"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/431782617#Person/fishwick_marshall_william"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/363118"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/431782617#Place/washington"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/363118#PublicationEvent/washington_public_affairs_press1956"/>
+    <schema:productID>363118</schema:productID>
+    <schema:about rdf:resource="http://dewey.info/class/917.55/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1155558">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Travel</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1033342">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">National characteristics, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/574663769">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/363118"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Virginia tradition.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/431782617#Agent/public_affairs_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Public Affairs Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1007815">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Manners and customs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/363118#PublicationEvent/washington_public_affairs_press1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/431782617#Place/washington"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/431782617#Agent/public_affairs_press"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/dcu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>dcu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/431782617#Place/virginia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Virginia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204597">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Virginia.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/917.55/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/431782617#Place/washington">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Washington</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,157 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85031494">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Consumers--United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/758525#PublicationEvent/new_york_vanguard_press1951">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/433153244#Agent/vanguard_press"/>
+    <schema:startDate>1951</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/433153244#Topic/industriegesellschaft">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Industriegesellschaft</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85001159">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Advertising--Psychological aspects</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/758525">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/876410"/>
+    <schema:datePublished>1951</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/433153244#Topic/industriegesellschaft"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/433153244#Topic/massenmedien"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/433153244"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/797734"/>
+    <schema:name xml:lang="en">The mechanical bride: folklore of industrial man.</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/433153244#Topic/volkskultur"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/433153244#Topic/reclamedrukwerk"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/433153244#Topic/psychologie_sociale"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/758525#PublicationEvent/new_york_vanguard_press1951"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/433153244#Topic/beeldcultuur"/>
+    <library:oclcnum>758525</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/433153244#Agent/vanguard_press"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85001159"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/609805982"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/433153244#Topic/consommateurs_etats_unis"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/433153244#Place/usa"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/14198"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1122816"/>
+    <schema:description xml:lang="en">"This brilliant and witty approach to the contemporary scene revolutionized the study of communication theory in our time. Marshall McLuhan's famous pronouncement that 'the medium is the message' is revealed, in this seminal work, by the 'media' themselves--the original advertisements; the contemporary heroes from Tarzan to Superman; the executive gimmicks of 'know how' and 'plain talk' that constitute the folklore of industrial man. Professor McLuhan's penetrating and probing approach has invaluable insights for all readers--general reader or educator, management man or creative writer--indeed, for every consumer or creator in every field. ... Long a famous 'underground' work, The mechanical bride is now obviously the book that pointed the way toward untangling the complicated web of today's communications."--Jacket.</schema:description>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://dewey.info/class/301.15/"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/433153244#Topic/publicite"/>
+    <schema:productID>758525</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/758525"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85031494"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/433153244#Topic/werbung"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/797734">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Advertising--Psychological aspects</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/609805982">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/758525"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Mechanical bride.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/876410">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Consumers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/433153244#Topic/volkskultur">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Volkskultur</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/758525">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/758525"/>
+    <schema:dateModified>2017-05-15</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/14198">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>McLuhan</schema:familyName>
+    <schema:givenName>Marshall</schema:givenName>
+    <schema:name>Marshall McLuhan</schema:name>
+    <schema:birthDate>1911</schema:birthDate>
+    <schema:deathDate>1980</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/433153244#Topic/beeldcultuur">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Beeldcultuur</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/301.15/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/433153244#Topic/werbung">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Werbung</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1122816">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Social psychology</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/433153244#Topic/publicite">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Publicité</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/433153244#Agent/vanguard_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Vanguard Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/433153244#Topic/massenmedien">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Massenmedien</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/433153244#Topic/reclamedrukwerk">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Reclamedrukwerk</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/433153244#Topic/psychologie_sociale">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Psychologie sociale</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/433153244#Place/usa">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>USA.</schema:name>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/4078704-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/433153244#Topic/consommateurs_etats_unis">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Consommateurs--États-Unis</schema:name>
+    <schema:name xml:lang="fr">Consommateurs--États-Unis</schema:name>
+  </rdf:Description>
+</rdf:RDF>

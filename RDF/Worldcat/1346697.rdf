@@ -1,0 +1,88 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2242630#Place/virginia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Virginia</schema:name>
+    <schema:name>Virginia.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2242630#Agent/dodd_mead">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Dodd, Mead</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1346697">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1346697"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1346697#PublicationEvent/new_york_dodd_mead_1961"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204597"/>
+    <schema:description xml:lang="en">From the middle of the sixteenth century to the middle of the twentieth, the Old Dominion was dominated by the lives and legends of a dozen great men: John Smith, William Berkeley, William Byrd, George Mason, George Washington, Thomas Jefferson, John Randolph, Robert E. Lee, Thomas Martin, Thomas Nelson Page, James Branch Cabell, and George Marshall.</schema:description>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:genre xml:lang="en">Biographie</schema:genre>
+    <schema:url rdf:resource="http://catdir.loc.gov/catdir/toc/arl0701/61015982.html"/>
+    <schema:description xml:lang="en">Gentlemen's inheritance -- John Smith -- William Berkeley -- William Byrd II -- George Mason -- George Washington -- Gentlemen of the valley -- Thomas Jefferson -- Cavalier training -- Randolph of Roanoke -- Robert E. Lee -- Thomas Martin -- Thomas Nelson Page -- James Branch Cabell -- Virginia ladies -- Hound and horn country -- George Marshall.</schema:description>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:genre xml:lang="en">Biography</schema:genre>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>1346697</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2242630"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/586072899"/>
+    <schema:productID>1346697</schema:productID>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2242630#Person/fishwick_marshall_william"/>
+    <schema:about rdf:resource="http://dewey.info/class/920.0755/"/>
+    <schema:name xml:lang="en">Gentlemen of Virginia.</schema:name>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:datePublished>1961</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2242630#Agent/dodd_mead"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2242630#Place/virginia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/920.0755/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204597">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Virginia.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/586072899">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1346697"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Gentlemen of Virginia.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1346697#PublicationEvent/new_york_dodd_mead_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2242630#Agent/dodd_mead"/>
+    <schema:startDate>1961</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1346697">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1346697"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2242630#Person/fishwick_marshall_william">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fishwick</schema:familyName>
+    <schema:givenName>Marshall William</schema:givenName>
+    <schema:name>Marshall William Fishwick</schema:name>
+  </rdf:Description>
+</rdf:RDF>

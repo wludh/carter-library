@@ -1,0 +1,105 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1220831#PublicationEvent/new_york_harper_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/253818713#Agent/harper"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/253818713#Series/regions_of_america">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1220831"/>
+    <schema:name>Regions of America.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1220831">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1220831"/>
+    <schema:dateModified>2017-04-29</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/253818713#Agent/harper">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harper</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/975.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/253818713#Series/a_regions_of_american_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1220831"/>
+    <schema:name>A Regions of American book</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/253818713#Place/virginia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Virginia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/100546759">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fishwick</schema:familyName>
+    <schema:givenName>Marshall W.</schema:givenName>
+    <schema:givenName>Marshall William</schema:givenName>
+    <schema:name>Marshall William Fishwick</schema:name>
+    <schema:birthDate>1923</schema:birthDate>
+    <schema:deathDate>2006,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/574650762">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1220831"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Virginia.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204597">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Virginia.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/253818713#Place/virginie">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Virginie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1220831">
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/253818713#Series/a_regions_of_american_book"/>
+    <schema:productID>1220831</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/253818713"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/253818713#Agent/harper"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204597"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/253818713#Place/virginie"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1220831"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://dewey.info/class/975.5/"/>
+    <schema:alternateName>New look at the Old Dominion</schema:alternateName>
+    <schema:bookEdition>[1st ed.].</schema:bookEdition>
+    <library:oclcnum>1220831</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1220831#PublicationEvent/new_york_harper_1959"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/574650762"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:author rdf:resource="http://viaf.org/viaf/100546759"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/253818713#Series/regions_of_america"/>
+    <schema:name xml:lang="en">Virginia: a new look at the Old Dominion.</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/253818713#Place/virginia"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

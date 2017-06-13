@@ -1,0 +1,98 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/43182238#Place/virginia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Virginia.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/vau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>vau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/43182238#Person/bing_john_p">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bing</schema:familyName>
+    <schema:givenName>John P.</schema:givenName>
+    <schema:name>John P. Bing</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/43182238#Topic/hospitals_virginia_martinsville_history">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85062285"/>
+    <schema:name xml:lang="en">Hospitals--Virginia--Martinsville--History</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/961166">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Hospitals</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/43182238#Topic/hospitals_virginia_henry_county_history">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85062285"/>
+    <schema:name xml:lang="en">Hospitals--Virginia--Henry County--History</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/7374698">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/7374698"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1208411">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Virginia--Henry County.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/7374698">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/vau"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/43182238#Person/bing_john_p"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/7374698"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1208411"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/43182238#Topic/hospitals_virginia_henry_county_history"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1222254"/>
+    <schema:copyrightYear>1977</schema:copyrightYear>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/961166"/>
+    <schema:productID>7374698</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/43182238#Topic/hospitals_virginia_martinsville_history"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/43182238"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/43182238#Place/virginia"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/43182238#Agent/bassett_print_co"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/43182238#Place/bassett_va"/>
+    <schema:datePublished>1977</schema:datePublished>
+    <schema:name xml:lang="en">The hands : a history of hospitals in Martinsville and Henry County, Virginia</schema:name>
+    <library:oclcnum>7374698</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/7374698#PublicationEvent/bassett_va_bassett_print_co_1977"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/43182238#Topic/hospitals_history"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/43182238#Topic/hospitals_history">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Hospitals--history</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1222254">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Virginia--Martinsville.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/7374698#PublicationEvent/bassett_va_bassett_print_co_1977">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/43182238#Place/bassett_va"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/43182238#Agent/bassett_print_co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/43182238#Agent/bassett_print_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Bassett Print. Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/43182238#Place/bassett_va">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Bassett, Va.</schema:name>
+  </rdf:Description>
+</rdf:RDF>
