@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354026796#Person/mason_f_van_wyck_francis_van_wyck_1901_1978">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Mason</schema:familyName>
+    <schema:givenName>F. van Wyck</schema:givenName>
+    <schema:givenName>Francis van Wyck</schema:givenName>
+    <schema:name>Francis van Wyck Mason</schema:name>
+    <schema:birthDate>1901</schema:birthDate>
+    <schema:deathDate>1978</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/956681374">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/956681374"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/956681374#PublicationEvent/garden_city_n_y_doubleday_1949">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/354026796#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/354026796#Agent/doubleday"/>
+    <schema:startDate>1949</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354026796#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354026796#Person/morgan_henry_1635_1688">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Morgan</schema:familyName>
+    <schema:givenName>Henry</schema:givenName>
+    <schema:name>Henry Morgan</schema:name>
+    <schema:birthDate>1635?</schema:birthDate>
+    <schema:deathDate>1688</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/956681374">
+    <schema:name xml:lang="en">Cutlass empire. [Illustrations by John Alan Maxwell].</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/956681374"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/354026796#Place/garden_city_n_y"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/354026796#Agent/doubleday"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/354026796"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/354026796#Person/mason_f_van_wyck_francis_van_wyck_1901_1978"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/956681374#PublicationEvent/garden_city_n_y_doubleday_1949"/>
+    <schema:datePublished>1949</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/354026796#Person/morgan_henry_1635_1688"/>
+    <schema:numberOfPages>396</schema:numberOfPages>
+    <schema:productID>956681374</schema:productID>
+    <library:oclcnum>956681374</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/354026796#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+</rdf:RDF>

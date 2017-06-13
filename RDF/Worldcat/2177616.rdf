@@ -1,0 +1,93 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/499912#Agent/philosophical_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Philosophical Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2177616">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/499912#Agent/philosophical_library"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:productID>2177616</schema:productID>
+    <schema:creator rdf:resource="http://viaf.org/viaf/13325702"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2177616"/>
+    <schema:name xml:lang="en">Heinrich Heine, a biography.</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/499912"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2177616#PublicationEvent/new_york_philosophical_library1957"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:oclcnum>2177616</library:oclcnum>
+    <schema:about rdf:resource="http://dewey.info/class/928.3/"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/574891645"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/499912#Person/heine_heinrich_1797_1856"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/34457918"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/34457918">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Heine</schema:familyName>
+    <schema:givenName>Heinrich</schema:givenName>
+    <schema:name>Heinrich Heine</schema:name>
+    <schema:birthDate>1797</schema:birthDate>
+    <schema:deathDate>1856</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/13325702">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Butler</schema:familyName>
+    <schema:givenName>E. M.</schema:givenName>
+    <schema:givenName>Eliza Marian</schema:givenName>
+    <schema:name>Eliza Marian Butler</schema:name>
+    <schema:birthDate>1885</schema:birthDate>
+    <schema:deathDate>1959</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/928.3/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/499912#Person/heine_heinrich_1797_1856">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Heine</schema:familyName>
+    <schema:givenName>Heinrich</schema:givenName>
+    <schema:name>Heinrich Heine</schema:name>
+    <schema:birthDate>1797</schema:birthDate>
+    <schema:deathDate>1856</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2177616">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2177616"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/574891645">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/2177616"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Heinrich Heine.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2177616#PublicationEvent/new_york_philosophical_library1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/499912#Agent/philosophical_library"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

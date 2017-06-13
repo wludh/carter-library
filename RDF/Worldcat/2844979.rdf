@@ -1,0 +1,74 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2844979">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2844979"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2844979#PublicationEvent/new_york_random_house_1946"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/363920538#Agent/random_house"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/363920538"/>
+    <schema:copyrightYear>1946</schema:copyrightYear>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>2844979</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>2844979</library:oclcnum>
+    <schema:description xml:lang="en">Introduction -- Requiem / Robert A. Heinlein -- Forgetfulness / Don A. Stuatr -- Nerves / Lester Del Rey -- The sands of time / P. Schuyler Miller -- The proud robot / Lewis Padgett -- Black destroyer / A.E. Van Vogt -- Symbiotica / Eric Frank Russell -- Seeds of the dusk / Raymond Z. Gallun -- Heavy planet / Lee Gregor -- Time locker / Lewis Padgett -- The link / Cleve Cartmill -- Mechanical mice / Maurice A. Hugi -- V-2 rocket cargo ship / Willy Ley -- Adam and no Eve / Alfred Bester -- Nightfall / Isaac Asimov -- A matter of size / Harry Bates -- As never was / P. Schuyler Miller -- Q.U.R. / Anthony Boucher -- Who goes there? / Don A. Smart -- The roads must roll / Robert A. Heinlein -- Asylum / A.E. Van Vogt -- Quietus / Ross Rocklynne -- The twonky / Lewis Padgett -- Time-travel happens / A.M. Phillips -- Robot's return / Robert Moore Williams -- The blue giraffe / L. Sprague de Camp -- Flight into darkness / Webb Marlowe -- The weapons shop / A.E. Van Vogt -- Farewell to the master / Harry Bates -- Within the pyramid / R. DeWitt Miller -- He who shrank / Henry Hasse -- By his bootstraps / Anson MacDonald -- The star mouse / Fredric Brown -- Correspondence course / Raymond F. Jones -- Brain / S. Fowler Wright.</schema:description>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/363920538#Person/mccomas_j_francis"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1108566"/>
+    <schema:name xml:lang="en">Adventures in time and space : an anthology of modern science-fiction stories</schema:name>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/363920538#Person/healy_raymond_j"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:datePublished>1946</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2844979">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2844979"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1108566">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Science fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/363920538#Agent/random_house">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Random House</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2844979#PublicationEvent/new_york_random_house_1946">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/363920538#Agent/random_house"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/363920538#Person/healy_raymond_j">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Healy</schema:familyName>
+    <schema:givenName>Raymond J.</schema:givenName>
+    <schema:name>Raymond J. Healy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/363920538#Person/mccomas_j_francis">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>McComas</schema:familyName>
+    <schema:givenName>J. Francis</schema:givenName>
+    <schema:name>J Francis McComas</schema:name>
+  </rdf:Description>
+</rdf:RDF>

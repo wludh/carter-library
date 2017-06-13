@@ -1,0 +1,77 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/11758630#PublicationEvent/norfolk_conn_new_directions_1939">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/51702959#Place/norfolk_conn"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/51702959#Agent/new_directions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/51702959#Place/norfolk_conn">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Norfolk, Conn.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/11758630">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/11758630"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/59086729">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Miller</schema:familyName>
+    <schema:givenName>Henry</schema:givenName>
+    <schema:name>Henry Miller</schema:name>
+    <schema:birthDate>1891</schema:birthDate>
+    <schema:deathDate>1980</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/11758630">
+    <schema:creator rdf:resource="http://viaf.org/viaf/59086729"/>
+    <library:oclcnum>11758630</library:oclcnum>
+    <schema:datePublished>1939</schema:datePublished>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/647437494"/>
+    <schema:about rdf:resource="http://dewey.info/class/818.5/"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/51702959#Place/norfolk_conn"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name xml:lang="en">The cosmological eye</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/11758630#PublicationEvent/norfolk_conn_new_directions_1939"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/51702959"/>
+    <schema:description xml:lang="en">Short stories, sketches, essays, and an autobiographical note.</schema:description>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/51702959#Agent/new_directions"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:productID>11758630</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ctu"/>
+    <schema:description xml:lang="en">A word from the publisher -- Peace! It's wonderful! -- Max -- The golden age -- Reflections on "extasy" -- Scenario -- The universe of death -- Jabberwhorl Cronstadt -- An open letter to surrealists everywhere -- Via Dieppe-Newhaven -- Hamlet: a letter -- Into the night life -- Un etre etoilique -- The tailor shop -- Glittering pie -- The Brooklyn Bridge -- Autobiographical note.</schema:description>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/11758630"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:copyrightYear>1939</schema:copyrightYear>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/647437494">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/11758630"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Cosmological eye.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ctu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ctu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/818.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/51702959#Agent/new_directions">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Directions</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,110 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/366322354#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/366322354#Agent/grosset_&amp;_dunlap">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Grosset &amp; Dunlap</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1351668">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <rdf:type rdf:resource="http://bibliograph.net/Meeting"/>
+    <schema:name>American Revolution (1775-1783)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/606077946">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/3659785"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Stars on the sea.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/3659785">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/366322354#Agent/grosset_&amp;_dunlap"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/3659785"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/606077946"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/366322354#Event/1775_1783"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/57912804"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/366322354#Place/newport_r_i"/>
+    <schema:productID>3659785</schema:productID>
+    <schema:datePublished>1940</schema:datePublished>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/366322354#Place/united_states"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/3659785#PublicationEvent/new_york_grosset_&amp;_dunlap_by_arrangement_with_lippincott_1940"/>
+    <library:oclcnum>3659785</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/366322354"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1351668"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.52/"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/366322354#Agent/by_arrangement_with_lippincott"/>
+    <schema:copyrightYear>1940</schema:copyrightYear>
+    <schema:description xml:lang="en">Love story of a privateersman and a young girl, set in the early days of the American Revolution.</schema:description>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <schema:name xml:lang="en">Stars on the sea</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/366322354#Event/1775_1783">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1775-1783</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/366322354#Place/newport_r_i">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Newport (R.I.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/366322354#Agent/by_arrangement_with_lippincott">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>By arrangement with Lippincott</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/57912804">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Mason</schema:familyName>
+    <schema:givenName>F. van Wyck</schema:givenName>
+    <schema:givenName>Francis van Wyck</schema:givenName>
+    <schema:name>Francis van Wyck Mason</schema:name>
+    <schema:birthDate>1901</schema:birthDate>
+    <schema:deathDate>1978</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.52/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3659785#PublicationEvent/new_york_grosset_&amp;_dunlap_by_arrangement_with_lippincott_1940">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/366322354#Agent/grosset_&amp;_dunlap"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/366322354#Agent/by_arrangement_with_lippincott"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3659785">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/3659785"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

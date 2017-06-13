@@ -1,0 +1,61 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/432900735#Agent/thomas">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Thomas</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/432900735#Place/springfield">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Springfield</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/695404425">
+    <schema:name>A doctor's book of hours, including some dimensions of the emotions</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/432900735"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:numberOfPages>397</schema:numberOfPages>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/695404425#PublicationEvent/springfield_thomas_1955"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>695404425</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/695404425"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/432900735#Agent/thomas"/>
+    <schema:productID>695404425</schema:productID>
+    <schema:datePublished>1955</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/432900735#Place/springfield"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/432900735#Person/moore_merrill"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/695404425#PublicationEvent/springfield_thomas_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/432900735#Place/springfield"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/432900735#Agent/thomas"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/695404425">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/695404425"/>
+    <schema:dateModified>2017-03-31</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/432900735#Person/moore_merrill">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Moore</schema:familyName>
+    <schema:givenName>Merrill</schema:givenName>
+    <schema:name>Merrill Moore</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,76 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/505179769">
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/miu"/>
+    <schema:name xml:lang="en">Case record from a sonnetorium.</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/505179769"/>
+    <library:oclcnum>505179769</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/5513821#Agent/twayne_publishers"/>
+    <schema:illustrator rdf:resource="http://viaf.org/viaf/105372100"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/5513821"/>
+    <schema:productID>505179769</schema:productID>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:datePublished>1951</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807464"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/505179769#PublicationEvent/new_york_twayne_publishers1951"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/50755368"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/505179769#PublicationEvent/new_york_twayne_publishers1951">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/5513821#Agent/twayne_publishers"/>
+    <schema:startDate>1951</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/105372100">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gorey</schema:familyName>
+    <schema:givenName>Edward</schema:givenName>
+    <schema:name>Edward Gorey</schema:name>
+    <schema:birthDate>1925</schema:birthDate>
+    <schema:deathDate>2000,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5513821#Agent/twayne_publishers">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Twayne Publishers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/50755368">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Moore</schema:familyName>
+    <schema:givenName>Merrill</schema:givenName>
+    <schema:name>Merrill Moore</schema:name>
+    <schema:birthDate>1903</schema:birthDate>
+    <schema:deathDate>1957</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/miu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>miu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/505179769">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/505179769"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807464">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American wit and humor, Pictorial</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,93 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dewey.info/class/330.975/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1337502">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1337502"/>
+    <schema:dateModified>2017-05-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1244550">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/55211991#Person/twelve_southerners">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Twelve southerners</schema:givenName>
+    <schema:name>Twelve southerners.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/55211991#Agent/peter_smith">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Peter Smith</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1919811">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Social conditions</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1337502#PublicationEvent/new_york_peter_smith_1951_1930">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/55211991#Agent/peter_smith"/>
+    <schema:startDate>1951</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/894362355">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1337502"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>I'll take my stand.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/901974">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Economic history</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/55211991#Place/southern_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States.</schema:name>
+    <schema:name>Southern States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1337502">
+    <schema:about rdf:resource="http://dewey.info/class/330.975/"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1919811"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/55211991#Agent/peter_smith"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/55211991#Person/twelve_southerners"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/55211991"/>
+    <schema:productID>1337502</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1337502#PublicationEvent/new_york_peter_smith_1951_1930"/>
+    <library:oclcnum>1337502</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">I'll take my stand : the South and the agrarian tradition</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/901974"/>
+    <schema:datePublished>1951</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/55211991#Place/southern_states"/>
+    <schema:description xml:lang="en">Reconstructed but unregenerate / by J.C. Ransom -- A mirror for artists / by Donald Davidson -- The irrepressible conflict / by F.L. Owsley -- Education, past and present / by J.G. Fletcher -- A critique of the philosophy of progress / by L.H. Lanier -- Remarks on the southern religion / by Allen Tate -- Whither southern economy? / by H.C. Nixon -- The hind tit / by A.N. Lytle -- The briar patch / by R.P. Warren -- The life and death of cousin Lucius / by J.D. Wade -- William Remington : a study in individualism / by H.B. Kline -- Not in memoriam, but in defense / by Stark Young.</schema:description>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/894362355"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1244550"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1337502"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+  </rdf:Description>
+</rdf:RDF>
