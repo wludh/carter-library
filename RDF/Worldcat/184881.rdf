@@ -1,0 +1,126 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/951928">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Haunted houses</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/184881#PublicationEvent/chicago_new_york_scott_foresman_and_co_1919">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/265504#Agent/scott_foresman_and_co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/265504#Series/the_lake_english_classics">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/184881"/>
+    <schema:name>The Lake English classics</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.3/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/265504#Place/salem_mass">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Salem (Mass.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1205839">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Massachusetts--Salem.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/30328543">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Herrick</schema:familyName>
+    <schema:givenName>Robert</schema:givenName>
+    <schema:name>Robert Herrick</schema:name>
+    <schema:birthDate>1868</schema:birthDate>
+    <schema:deathDate>1938,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/184881">
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/265504#Topic/haunted_houses"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/265504#Series/lake_english_classics"/>
+    <library:oclcnum>184881</library:oclcnum>
+    <schema:editor rdf:resource="http://viaf.org/viaf/30328543"/>
+    <schema:genre xml:lang="en">Historical fiction</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1205839"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:genre xml:lang="en">Domestic fiction</schema:genre>
+    <schema:about rdf:resource="http://dewey.info/class/813.3/"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/894216120"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44435463"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/265504#Place/salem_mass"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/951928"/>
+    <schema:genre xml:lang="en">Occult fiction</schema:genre>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/265504#Series/the_lake_english_classics"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/184881"/>
+    <schema:name xml:lang="en">The House of the seven gables</schema:name>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/184881#PublicationEvent/chicago_new_york_scott_foresman_and_co_1919"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:copyrightYear>1919</schema:copyrightYear>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/265504"/>
+    <schema:datePublished>1919</schema:datePublished>
+    <schema:productID>184881</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/265504#Agent/scott_foresman_and_co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/894216120">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/184881"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>House of the seven gables.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/265504#Series/lake_english_classics">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/184881"/>
+    <schema:name>Lake English classics.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/265504#Agent/scott_foresman_and_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Scott, Foresman and Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/44435463">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hawthorne</schema:familyName>
+    <schema:givenName>Nathaniel</schema:givenName>
+    <schema:name>Nathaniel Hawthorne</schema:name>
+    <schema:birthDate>1804</schema:birthDate>
+    <schema:deathDate>1864</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/265504#Topic/haunted_houses">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008105495"/>
+    <schema:name xml:lang="en">Haunted houses</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/184881">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/184881"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

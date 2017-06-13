@@ -1,0 +1,117 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1458786#Person/thomas_caitlin">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Thomas</schema:familyName>
+    <schema:givenName>Caitlin</schema:givenName>
+    <schema:name>Caitlin Thomas</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/4903689">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Thomas</schema:familyName>
+    <schema:givenName>Caitlin</schema:givenName>
+    <schema:name>Caitlin Thomas</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/928.2/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1523317">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1523317"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1458786#Topic/spouses">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Spouses</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1458786#Topic/authors_english">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh85009863"/>
+    <schema:name xml:lang="en">Authors, English</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1458786#Topic/authors_welsh">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Authors, Welsh</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/576076788">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1523317"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Leftover life to kill.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1458786#Person/thomas_dylan_1914_1953">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Thomas</schema:familyName>
+    <schema:givenName>Dylan</schema:givenName>
+    <schema:name>Dylan Thomas</schema:name>
+    <schema:birthDate>1914</schema:birthDate>
+    <schema:deathDate>1953</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/73860698">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Thomas</schema:familyName>
+    <schema:givenName>Dylan</schema:givenName>
+    <schema:name>Dylan Thomas</schema:name>
+    <schema:birthDate>1914</schema:birthDate>
+    <schema:deathDate>1953</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85010014">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Authors, Welsh</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1458786#Topic/spouses_great_britain">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh93004932"/>
+    <schema:name xml:lang="en">Spouses--Great Britain</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1458786#Place/great_britain">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Great Britain.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1523317">
+    <schema:bookEdition>[1st American ed.].</schema:bookEdition>
+    <schema:genre xml:lang="en">Biography</schema:genre>
+    <schema:genre xml:lang="en">Autobiographies</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:about rdf:resource="http://dewey.info/class/928.2/"/>
+    <schema:productID>1523317</schema:productID>
+    <schema:about rdf:resource="http://viaf.org/viaf/4903689"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:copyrightYear>1957</schema:copyrightYear>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1458786#Person/thomas_caitlin"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1458786#Topic/authors_welsh"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1458786#Topic/authors_english"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1458786#Topic/spouses"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1458786#Person/thomas_dylan_1914_1953"/>
+    <library:oclcnum>1523317</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1458786"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/576076788"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1523317"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1458786#Place/great_britain"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/73860698"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1458786#Topic/spouses_great_britain"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/4903689"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85010014"/>
+    <schema:name xml:lang="en">Leftover life to kill</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+</rdf:RDF>

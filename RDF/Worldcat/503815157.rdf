@@ -1,0 +1,56 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/503815157">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/503815157"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/503815157#PublicationEvent/pp_ix_101_j_m_dent_&amp;_sons_london_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3858475914#Place/pp_ix_101_j_m_dent_&amp;_sons"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3858475914#Agent/london"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3858475914#Place/pp_ix_101_j_m_dent_&amp;_sons">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Pp. ix. 101. J.M. Dent &amp; Sons</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/73860698">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Thomas</schema:familyName>
+    <schema:givenName>Dylan</schema:givenName>
+    <schema:name>Dylan Thomas</schema:name>
+    <schema:birthDate>1914</schema:birthDate>
+    <schema:deathDate>1953</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3858475914#Agent/london">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/503815157">
+    <schema:name xml:lang="en">Under Milk Wood. A play for voices. Preface and musical settings by Daniel Jones.</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3858475914"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3858475914#Agent/london"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/73860698"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3858475914#Place/pp_ix_101_j_m_dent_&amp;_sons"/>
+    <schema:productID>503815157</schema:productID>
+    <library:oclcnum>503815157</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/503815157"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/503815157#PublicationEvent/pp_ix_101_j_m_dent_&amp;_sons_london_1954"/>
+  </rdf:Description>
+</rdf:RDF>

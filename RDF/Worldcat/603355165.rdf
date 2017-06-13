@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/603355165">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/196605305#Person/zabel_morton_dauwen"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/603355165#PublicationEvent/new_york_viking_press_1951"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:numberOfPages>696</schema:numberOfPages>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1951</schema:datePublished>
+    <schema:productID>603355165</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/196605305#Series/viking_portable_library"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/196605305"/>
+    <schema:name>The portable Henry James</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/196605305#Person/james_henry_1843_1916"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/196605305#Agent/viking_press"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/196605305#Series/the_viking_portable_library"/>
+    <library:oclcnum>603355165</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/603355165"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/603355165#PublicationEvent/new_york_viking_press_1951">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/196605305#Agent/viking_press"/>
+    <schema:startDate>1951</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196605305#Series/the_viking_portable_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/603355165"/>
+    <schema:name>The Viking portable library</schema:name>
+    <schema:name>The Viking portable library ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196605305#Series/viking_portable_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/603355165"/>
+    <schema:name>Viking portable library.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196605305#Person/zabel_morton_dauwen">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Zabel</schema:familyName>
+    <schema:givenName>Morton Dauwen</schema:givenName>
+    <schema:name>Morton Dauwen Zabel</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196605305#Person/james_henry_1843_1916">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>James</schema:familyName>
+    <schema:givenName>Henry</schema:givenName>
+    <schema:name>Henry James</schema:name>
+    <schema:birthDate>1843</schema:birthDate>
+    <schema:deathDate>1916</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/603355165">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/603355165"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196605305#Agent/viking_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Viking Press</schema:name>
+  </rdf:Description>
+</rdf:RDF>
