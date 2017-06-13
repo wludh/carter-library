@@ -1,0 +1,80 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4865069">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/4865069"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/15015052#Series/vagrom_chapbooks">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/4865069"/>
+    <schema:name>Vagrom chapbooks ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1000529">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Little magazines</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/15015052#Place/corona_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Corona, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/613096246">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/4865069"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Twigs as varied bent.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/38609018">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>May</schema:familyName>
+    <schema:givenName>James Boyer</schema:givenName>
+    <schema:name>James Boyer May</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/4865069">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/4865069#PublicationEvent/corona_n_y_sparrow_magazine_1954"/>
+    <schema:productID>4865069</schema:productID>
+    <schema:datePublished>1954</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/15015052#Place/corona_n_y"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/4865069"/>
+    <schema:alternateName>Recent part of little magazines in literature</schema:alternateName>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/15015052"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/38609018"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/613096246"/>
+    <schema:name xml:lang="en">Twigs as varied bent : the recent part of little magazines in literature</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/15015052#Agent/sparrow_magazine"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/15015052#Series/vagrom_chapbooks"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1000529"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>4865069</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/15015052#Agent/sparrow_magazine">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Sparrow Magazine</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4865069#PublicationEvent/corona_n_y_sparrow_magazine_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/15015052#Place/corona_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/15015052#Agent/sparrow_magazine"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,65 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/26560149">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/26560149"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/14767483">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Chambers</schema:familyName>
+    <schema:givenName>Robert W.</schema:givenName>
+    <schema:givenName>Robert William</schema:givenName>
+    <schema:name>Robert William Chambers</schema:name>
+    <schema:birthDate>1865</schema:birthDate>
+    <schema:deathDate>1933</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1130605#Agent/chatto_&amp;_windus">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Chatto &amp; Windus</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/26560149">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1899</schema:datePublished>
+    <schema:description xml:lang="en">The repairer of reputations.--The mask.--The court of the dragon.--The yellow sign.--The demoiselle d'Ys.--The prophets' paradise.--The street of the four winds.--The street of the first shell.--The street of Our Lady of the Fields.--Rue Barrée.</schema:description>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1130605"/>
+    <schema:productID>26560149</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1130605#Agent/chatto_&amp;_windus"/>
+    <library:oclcnum>26560149</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/26560149#PublicationEvent/london_chatto_&amp;_windus_1899"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:bookEdition>New ed.</schema:bookEdition>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:name xml:lang="en">The king in yellow</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/26560149"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/14767483"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/26560149#PublicationEvent/london_chatto_&amp;_windus_1899">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1130605#Agent/chatto_&amp;_windus"/>
+    <schema:startDate>1899</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+</rdf:RDF>

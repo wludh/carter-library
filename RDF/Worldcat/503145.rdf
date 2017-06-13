@@ -1,0 +1,88 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/942405">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Ghost stories, Chinese</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/503145#PublicationEvent/denver_new_collector_s_group_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1089009#Place/denver"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1089009#Agent/new_collector_s_group"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/503145">
+    <schema:description xml:lang="en">The soul of the great bell.--The story of Ming-Y.--The legend of Tchi-Niu.--The return of Yen-Tchin-King.--The tradition of the tea-plant.--The tale of the porcelain-god.</schema:description>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh96001450"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1089009"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.4/"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1089009#Agent/new_collector_s_group"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/995592"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1089009#Place/denver"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/503145#PublicationEvent/denver_new_collector_s_group_1948"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1206073"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/cou"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/503145"/>
+    <schema:productID>503145</schema:productID>
+    <schema:creator rdf:resource="http://viaf.org/viaf/12034"/>
+    <schema:datePublished>1948</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/942405"/>
+    <library:oclcnum>503145</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name xml:lang="en">Some Chinese ghosts.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/503145">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/503145"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1089009#Place/denver">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Denver</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/995592">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Legends</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/12034">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hearn</schema:familyName>
+    <schema:givenName>Lafcadio</schema:givenName>
+    <schema:name>Lafcadio Hearn</schema:name>
+    <schema:birthDate>1850</schema:birthDate>
+    <schema:deathDate>1904,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1089009#Agent/new_collector_s_group">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Collector's Group</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1206073">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>China.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.4/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh96001450">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Legends--China</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/cou">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>cou</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

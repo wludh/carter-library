@@ -1,0 +1,93 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dewey.info/class/811.4/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/965593395#PublicationEvent/boston_little_brown1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2288167769#Agent/little_brown"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2288167769#Topic/women_poets_american">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Women poets, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2288167769#Topic/american_poetry_19th_century">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American poetry--19th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2288167769#Topic/american_poetry_women_authors">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American poetry--Women authors</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2288167769#Agent/little_brown">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Little, Brown</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2288167769#Topic/american_poetry">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/965593395">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2288167769"/>
+    <schema:numberOfPages>770</schema:numberOfPages>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2288167769#Topic/american_poetry"/>
+    <schema:name xml:lang="en">Complete poems.</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2288167769#Agent/little_brown"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/965593395"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2288167769#Person/dickinson_emily_1830_1886"/>
+    <schema:about rdf:resource="http://dewey.info/class/811.4/"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2288167769#Topic/american_poetry_19th_century"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2288167769#Topic/american_poetry_women_authors"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2288167769#Topic/women_poets_american"/>
+    <library:oclcnum>965593395</library:oclcnum>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2288167769#Event/1800_1899"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/965593395#PublicationEvent/boston_little_brown1960"/>
+    <schema:productID>965593395</schema:productID>
+    <schema:bookEdition>[1st ed.].</schema:bookEdition>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/965593395">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/965593395"/>
+    <schema:dateModified>2017-05-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2288167769#Person/dickinson_emily_1830_1886">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dickinson</schema:familyName>
+    <schema:givenName>Emily</schema:givenName>
+    <schema:name>Emily Dickinson</schema:name>
+    <schema:birthDate>1830</schema:birthDate>
+    <schema:deathDate>1886</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2288167769#Event/1800_1899">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1800-1899</schema:name>
+  </rdf:Description>
+</rdf:RDF>

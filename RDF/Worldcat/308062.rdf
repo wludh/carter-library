@@ -1,0 +1,101 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/881.082/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/9847466">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hadas</schema:familyName>
+    <schema:givenName>Moses</schema:givenName>
+    <schema:name>Moses Hadas</schema:name>
+    <schema:birthDate>1900</schema:birthDate>
+    <schema:deathDate>1966,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502923630#Topic/greek_poetry">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008105421"/>
+    <schema:name xml:lang="en">Greek poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502923630#Series/modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/308062"/>
+    <schema:name>Modern library of the world's best books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/308062#PublicationEvent/new_york_modern_library1953">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/502923630#Agent/modern_library"/>
+    <schema:startDate>1953</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502923630#Agent/modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Modern Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/308062">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">The Greek poets.</schema:name>
+    <schema:bookEdition>[1st Modern Library ed.].</schema:bookEdition>
+    <library:oclcnum>308062</library:oclcnum>
+    <schema:description xml:lang="en">A collection of Greek poetry from the earliest times to the 5th century A.D.</schema:description>
+    <schema:about rdf:resource="http://dewey.info/class/881.082/"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/502923630#Series/modern_library_of_the_world_s_best_books"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/308062#PublicationEvent/new_york_modern_library1953"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/947503"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:genre xml:lang="en">Translations</schema:genre>
+    <schema:datePublished>1953</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>308062</schema:productID>
+    <schema:description xml:lang="en">Homer: Iliad -- Homer: Odyssey -- Hesiod -- Homeric hymns -- Batrachomyomachia -- Xenophanes -- Parmenides -- Empedocles -- Callinus -- Tyrtaeus -- Mimnermus -- Solon -- Theognis -- Archilochus -- Semonides -- Sappho -- Alcaeus -- Anacreon -- Ancreontics -- Alcman -- Arion -- Ibycus -- Simonides -- Pindar -- Bacchylides -- Delphian oracle -- Hybrias -- Callistratus -- Swallow song -- Aeschylus -- Sophocles -- Euripides -- Thucydides -- Timotheus -- Aristophanes -- Eupolis -- Metagenes -- Epicharmus -- Praxilla -- Parrhasius -- Plato -- Aristotle -- Epitaph for Chaeroneia -- Processional for Demetrius Poliorcetes -- Erinna -- Antiphanes -- Anaxandrides -- Alexis -- Menander -- Philemon -- Diphilus -- Lycophron -- Cleanthes -- Aratus -- Callimachus -- Addaeus -- Anyte -- Simmias -- Asclepiades -- Posidippus -- Metrodorus -- Hedylus -- Leonidas of Tarentum -- Nossis -- Moero -- Apollonius of Rhodes -- Theocritus -- Herodas -- Moschus -- Alexandrian erotic fragment -- Alcaeus of Messene -- Dionysius -- Dioscorides -- Antipater of Sidon -- Bion -- Meleager -- Philodemus -- Archias -- Crinagoras -- Automedon -- Marcus Argentarius -- Antipater of Thessalonica -- Evenus -- Philip of Thessalonica -- Lucilius -- Antiphilus -- Lucian -- Ammianus -- Babrius -- Oppian -- Quintus of Smyrna -- Palladas -- Aesop -- Glyco -- Nonnos -- Tryphiodorus -- Colluthus -- Rufinus -- Macedonius -- Joannes Barbocollas -- Paul the silentiary -- Agathias -- Musaeus -- Synesius.</schema:description>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/502923630"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/579462058"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/502923630#Topic/greek_poetry"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/502923630#Series/the_modern_library_of_the_world_s_best_books_208"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/308062"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/9847466"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/502923630#Agent/modern_library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/308062">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/308062"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502923630#Series/the_modern_library_of_the_world_s_best_books_208">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/308062"/>
+    <schema:name>The Modern library of the world's best books [208]</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/947503">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Greek poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/579462058">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/308062"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Greek poets.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

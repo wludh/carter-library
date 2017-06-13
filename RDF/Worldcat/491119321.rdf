@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2224764041#Person/dickinson_emily_1830_1886">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dickinson</schema:familyName>
+    <schema:givenName>Emily</schema:givenName>
+    <schema:name>Emily Dickinson</schema:name>
+    <schema:birthDate>1830</schema:birthDate>
+    <schema:deathDate>1886</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2224764041#Agent/harper_&amp;_brothers">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harper &amp; Brothers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2224764041#Person/todd_mabel_loomis_1856_1932">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Todd</schema:familyName>
+    <schema:givenName>Mabel Loomis</schema:givenName>
+    <schema:name>Mabel Loomis Todd</schema:name>
+    <schema:birthDate>1856</schema:birthDate>
+    <schema:deathDate>1932</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/491119321">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/491119321"/>
+    <schema:dateModified>2017-04-06</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/491119321#PublicationEvent/new_york_london_harper_&amp;_brothers_1931">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2224764041#Agent/harper_&amp;_brothers"/>
+    <schema:startDate>1931</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/491119321">
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/491119321"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2224764041#Agent/harper_&amp;_brothers"/>
+    <schema:editor rdf:resource="http://experiment.worldcat.org/entity/work/data/2224764041#Person/todd_mabel_loomis_1856_1932"/>
+    <schema:bookEdition>New and enlarged edition.</schema:bookEdition>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2224764041#Person/dickinson_emily_1830_1886"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>491119321</schema:productID>
+    <library:oclcnum>491119321</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2224764041"/>
+    <schema:about rdf:resource="http://dewey.info/class/928.1/"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1931</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Letters of Emily Dickinson</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/491119321#PublicationEvent/new_york_london_harper_&amp;_brothers_1931"/>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/2224764041#Person/dickinson_emily_1830_1886"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/928.1/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+</rdf:RDF>

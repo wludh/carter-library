@@ -1,0 +1,102 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/273229#PublicationEvent/new_york_hendricks_house1953">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/350686730#Agent/hendricks_house"/>
+    <schema:startDate>1953</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/557724625">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/273229"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Emerson handbook.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/273229">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/273229"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/350686730#Agent/hendricks_house">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Hendricks House</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/35699650">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Carpenter</schema:familyName>
+    <schema:givenName>Frederic Ives</schema:givenName>
+    <schema:name>Frederic Ives Carpenter</schema:name>
+    <schema:birthDate>1903</schema:birthDate>
+    <schema:deathDate>1991</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/27079964">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Emerson</schema:familyName>
+    <schema:givenName>Ralph Waldo</schema:givenName>
+    <schema:name>Ralph Waldo Emerson</schema:name>
+    <schema:birthDate>1803</schema:birthDate>
+    <schema:deathDate>1882</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/350686730#Person/emerson_ralph_waldo_1803_1882">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Emerson</schema:familyName>
+    <schema:givenName>Ralph Waldo</schema:givenName>
+    <schema:name>Ralph Waldo Emerson</schema:name>
+    <schema:birthDate>1803</schema:birthDate>
+    <schema:deathDate>1882</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/273229">
+    <schema:name xml:lang="en">Emerson handbook.</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/557724625"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/350686730#Person/emerson_ralph_waldo_1803_1882"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/273229#PublicationEvent/new_york_hendricks_house1953"/>
+    <schema:about rdf:resource="http://dewey.info/class/928.1/"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/35699650"/>
+    <schema:description xml:lang="en">Biographical and critical study.</schema:description>
+    <library:oclcnum>273229</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/350686730"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/350686730#Series/handbooks_of_american_literature"/>
+    <schema:productID>273229</schema:productID>
+    <schema:description xml:lang="en">Part I: Emerson's biography -- Problems and interpretations -- The two sides of the face -- Heredity and original genius -- From weakness to strength -- Beyond tragedy -- The problem of vocation -- Loves and friendships -- Reform and anti-slavery -- The chief biographies -- Bibliography: part I: bibliographies: biographies, biographical articles -- Part II: Emerson's prose and poetry -- The prose works: the unpublished manuscripts, method and style -- The poetry: aesthetic and poetic theory -- Bibliography: part II: text: textual criticism and aesthetic theory -- Part III: Emerson's ideas -- The ideal and the real -- Transcendental idealism: mysticism: transcendentalism, romanticism, optimism and evil, "the American dream" -- Yankee realism: pragmatism: experience and nature, politics and individualism, puritanism and "the moral law", the genteel tradition -- Bibliography: part III: the background of Emerson's ideas, critical studies of Emerson's ideas -- Part IV: Emerson and world literature -- Sources: the ancients: the moderns -- Influences: America, nineteenth century: American reputation, America, twentieth century, England, France and Belgium, Germany, other countries -- Conclusion -- Bibliography: Part IV.</schema:description>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://viaf.org/viaf/27079964"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/273229"/>
+    <schema:datePublished>1953</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/350686730#Agent/hendricks_house"/>
+    <schema:genre xml:lang="en">Handbooks and manuals</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/928.1/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/350686730#Series/handbooks_of_american_literature">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/273229"/>
+    <schema:name>Handbooks of American literature</schema:name>
+    <schema:name>Handbooks of American literature.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

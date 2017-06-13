@@ -1,0 +1,64 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4706612">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/4706612"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/4706612">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/6132"/>
+    <schema:datePublished>1941</schema:datePublished>
+    <schema:bookEdition>"Modern Abridged ed."</schema:bookEdition>
+    <schema:creator rdf:resource="http://viaf.org/viaf/50566653"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/6132#Agent/whitman_pub_co"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/wiu"/>
+    <schema:productID>4706612</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/4706612"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:oclcnum>4706612</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/4706612#PublicationEvent/racine_wis_whitman_pub_co_1941"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/6132#Place/racine_wis"/>
+    <schema:name xml:lang="en">The adventures of Huckleberry Finn (Tom Sawyer's comrade)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/6132#Agent/whitman_pub_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Whitman Pub. Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4706612#PublicationEvent/racine_wis_whitman_pub_co_1941">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/6132#Place/racine_wis"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/6132#Agent/whitman_pub_co"/>
+    <schema:startDate>1941</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/6132#Place/racine_wis">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Racine, Wis.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/wiu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>wiu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/50566653">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Twain</schema:familyName>
+    <schema:givenName>Mark</schema:givenName>
+    <schema:name>Mark Twain</schema:name>
+    <schema:birthDate>1835</schema:birthDate>
+    <schema:deathDate>1910</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>
