@@ -1,0 +1,75 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/988220239">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/543491"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Throne of Saturn</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/74661637">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wright</schema:familyName>
+    <schema:givenName>S. Fowler</schema:givenName>
+    <schema:givenName>Sydney Fowler</schema:givenName>
+    <schema:name>Sydney Fowler Wright</schema:name>
+    <schema:birthDate>1874</schema:birthDate>
+    <schema:deathDate>1965</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1108566">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Science fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1117043">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Short stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/543491">
+    <schema:datePublished>1949</schema:datePublished>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/988220239"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/543491"/>
+    <schema:productID>543491</schema:productID>
+    <schema:genre xml:lang="en">Science fiction</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/74661637"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">The throne of Saturn</schema:name>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:description xml:lang="en">Justice.--This night.--Brain.--Appeal.--Proof.--P.N. 40.--Automata.--The rat.--Rule.--Choice.--The temperature of Gehenna Sue.--Original sin.</schema:description>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1108566"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/wiu"/>
+    <schema:illustrator rdf:resource="http://viaf.org/viaf/10148752015341200614"/>
+    <library:oclcnum>543491</library:oclcnum>
+    <schema:genre xml:lang="en">Short stories</schema:genre>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1573773"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1117043"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/543491">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/543491"/>
+    <schema:dateModified>2017-05-28</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/10148752015341200614">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Clyne</schema:familyName>
+    <schema:givenName>Ronald</schema:givenName>
+    <schema:name>Ronald Clyne</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/wiu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>wiu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

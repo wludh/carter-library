@@ -1,0 +1,91 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/283050">
+    <schema:datePublished>1964</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://dewey.info/class/811.54/e22/"/>
+    <schema:name xml:lang="en">Helmets : poems</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/283050#PublicationEvent/middletown_conn_wesleyan_university_press_1964"/>
+    <schema:description xml:lang="en">The dusk of horses -- Fence wire -- At Darien Bridge -- Chenille -- On the Coosawattee -- Winter trout -- Springer Mountain -- Cherrylog Road -- The scarred girl -- Kudzu -- The beholders -- The poisoned man -- In the marble quarry -- A folk singer of the thirties -- The being -- Breath -- The ice skin -- Bums, on waking -- Goodbye to serpents -- In the child's night -- Approaching prayer -- The driver -- Horses and prisoners -- Drinking from a helmet.</schema:description>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1439664#Agent/wesleyan_university_press"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/561981689"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:copyrightYear>1964</schema:copyrightYear>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ctu"/>
+    <schema:bookEdition>1st ed.</schema:bookEdition>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/283050"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1439664"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1067691"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1439664#Series/the_wesleyan_poetry_program"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1439664#Series/wesleyan_poetry_program"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/109230203"/>
+    <schema:productID>283050</schema:productID>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1439664#Place/middletown_conn"/>
+    <library:oclcnum>283050</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/561981689">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/283050"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Helmets, poems.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/109230203">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dickey</schema:familyName>
+    <schema:givenName>James</schema:givenName>
+    <schema:name>James Dickey</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/283050">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/283050"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1439664#Series/the_wesleyan_poetry_program">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/283050"/>
+    <schema:name>The Wesleyan poetry program</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/811.54/e22/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1439664#Series/wesleyan_poetry_program">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/283050"/>
+    <schema:name>Wesleyan poetry program.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ctu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ctu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1439664#Agent/wesleyan_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Wesleyan University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1067691">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1439664#Place/middletown_conn">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Middletown, Conn.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/283050#PublicationEvent/middletown_conn_wesleyan_university_press_1964">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1439664#Place/middletown_conn"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1439664#Agent/wesleyan_university_press"/>
+  </rdf:Description>
+</rdf:RDF>

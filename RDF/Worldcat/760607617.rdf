@@ -1,0 +1,75 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1787469#Person/wolfe_thomas_1900_1938">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wolfe</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Wolfe</schema:name>
+    <schema:birthDate>1900</schema:birthDate>
+    <schema:deathDate>1938</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/760607617#PublicationEvent/new_yorkcharles_scribner_s_sons1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1787469#Agent/charles_scribner_s_sons"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/811.52/e22/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/760607617">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1787469"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>760607617</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/760607617#PublicationEvent/new_yorkcharles_scribner_s_sons1948"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1787469#Person/barnes_john_s"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1787469#Agent/charles_scribner_s_sons"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://dewey.info/class/811.52/e22/"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1787469#Person/wolfe_thomas_1900_1938"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/760607617"/>
+    <schema:name>A stone, a leaf, a door poems</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>760607617</schema:productID>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:datePublished>1948</schema:datePublished>
+    <schema:numberOfPages>166</schema:numberOfPages>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/760607617">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/760607617"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1787469#Agent/charles_scribner_s_sons">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Charles Scribner's Sons</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1787469#Person/barnes_john_s">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Barnes</schema:familyName>
+    <schema:givenName>John S.</schema:givenName>
+    <schema:name>John S Barnes</schema:name>
+  </rdf:Description>
+</rdf:RDF>
