@@ -1,0 +1,88 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/839780025#Place/baltimore">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Baltimore</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/983809207#PublicationEvent/baltimore_johns_hopkins_press1966_c1953">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/839780025#Place/baltimore"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/839780025#Agent/johns_hopkins_press"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/983809207">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/839780025"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/983809207#PublicationEvent/baltimore_johns_hopkins_press1966_c1953"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/839780025#Person/jacobs_robert_d_1918"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/839780025#Topic/american_literature"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/983809207"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/839780025#Place/southern_states"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/839780025#Place/baltimore"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mdu"/>
+    <library:oclcnum>983809207</library:oclcnum>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/839780025#Person/rubin_louis_d_jr_louis_decimus_1923_2013"/>
+    <schema:datePublished>1953</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>983809207</schema:productID>
+    <schema:name xml:lang="en">Southern renascence: the literature of the modern South,</schema:name>
+    <schema:numberOfPages>444</schema:numberOfPages>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/839780025#Agent/johns_hopkins_press"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/839780025#Topic/american_literature_southern_states_history_and_criticism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/983809207">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/983809207"/>
+    <schema:dateModified>2017-06-07</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/839780025#Topic/american_literature">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/839780025#Topic/american_literature_southern_states_history_and_criticism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature--Southern States--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mdu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mdu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/839780025#Agent/johns_hopkins_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Johns Hopkins Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/839780025#Place/southern_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/839780025#Person/jacobs_robert_d_1918">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Jacobs</schema:familyName>
+    <schema:givenName>Robert D.</schema:givenName>
+    <schema:name>Robert D. Jacobs</schema:name>
+    <schema:birthDate>1918</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/839780025#Person/rubin_louis_d_jr_louis_decimus_1923_2013">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Rubin</schema:familyName>
+    <schema:givenName>Louis D.</schema:givenName>
+    <schema:givenName>Louis Decimus</schema:givenName>
+    <schema:name>Jr. Louis Decimus Rubin</schema:name>
+    <schema:birthDate>1923</schema:birthDate>
+    <schema:deathDate>2013</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

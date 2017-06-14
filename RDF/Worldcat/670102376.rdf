@@ -1,0 +1,82 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1406534#Person/davidson_donald">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Davidson</schema:familyName>
+    <schema:givenName>Donald</schema:givenName>
+    <schema:name>Donald Davidson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2007101055">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature--Southern States--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1244550">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1406534#Place/athens_ga">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Athens, GA</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807113">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/670102376#PublicationEvent/athens_ga_university_of_georgia_press_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1406534#Place/athens_ga"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1406534#Agent/university_of_georgia_press"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/gau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>gau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1406534#Agent/university_of_georgia_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>University of Georgia Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1406534#Place/southern_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/670102376">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/670102376"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/670102376">
+    <schema:productID>670102376</schema:productID>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2007101055"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1406534#Place/athens_ga"/>
+    <library:oclcnum>670102376</library:oclcnum>
+    <schema:datePublished>1958</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1406534#Agent/university_of_georgia_press"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/670102376"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/670102376#PublicationEvent/athens_ga_university_of_georgia_press_1958"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1406534"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/gau"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:name xml:lang="en">Southern writers in the modern world : Eugenia Dorothy Blount Lamar Memorial Lectures, 1957</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1244550"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807113"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1406534#Person/davidson_donald"/>
+    <schema:genre xml:lang="en">Literature</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1406534#Place/southern_states"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,79 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/18119876">
+    <schema:productID>18119876</schema:productID>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:datePublished>1980</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1394903#Place/baton_rouge"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/18119876"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:copyrightYear>1958</schema:copyrightYear>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>18119876</library:oclcnum>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807113"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/18119876#PublicationEvent/baton_rouge_louisiana_state_university_press_1958"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85004351"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/miu"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">American literature &amp; Christian doctrine</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/859755"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/56727244"/>
+    <schema:alternateName>American literature and Christian doctrine</schema:alternateName>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1394903#Agent/louisiana_state_university_press"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1394903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/56727244">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Stewart</schema:familyName>
+    <schema:givenName>Randall</schema:givenName>
+    <schema:name>Randall Stewart</schema:name>
+    <schema:birthDate>1896</schema:birthDate>
+    <schema:deathDate>1964</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/18119876">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/18119876"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1394903#Place/baton_rouge">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Baton Rouge</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807113">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/18119876#PublicationEvent/baton_rouge_louisiana_state_university_press_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1394903#Place/baton_rouge"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1394903#Agent/louisiana_state_university_press"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/miu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>miu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1394903#Agent/louisiana_state_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Louisiana State University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85004351">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/859755">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Christianity in literature</schema:name>
+  </rdf:Description>
+</rdf:RDF>

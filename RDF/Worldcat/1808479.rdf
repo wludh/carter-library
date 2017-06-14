@@ -1,0 +1,106 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1808479">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1808479"/>
+    <schema:dateModified>2017-06-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/20955523#Person/palmer_william_1824_1856">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Palmer</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Palmer</schema:name>
+    <schema:birthDate>1824</schema:birthDate>
+    <schema:deathDate>1856</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/13612955">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Palmer</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Palmer</schema:name>
+    <schema:birthDate>1824</schema:birthDate>
+    <schema:deathDate>1856</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1049233">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Outlaws</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1808479#PublicationEvent/garden_city_n_y_doubleday_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/20955523#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/20955523#Agent/doubleday"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/20955523#Topic/outlaws">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008108737"/>
+    <schema:name xml:lang="en">Outlaws</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/68929835">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Graves</schema:familyName>
+    <schema:givenName>Robert</schema:givenName>
+    <schema:name>Robert Graves</schema:name>
+    <schema:birthDate>1895</schema:birthDate>
+    <schema:deathDate>1985</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/558008922">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1808479"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>They hanged my saintly Billy.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/20955523#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.91/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1808479">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/20955523#Person/palmer_william_1824_1856"/>
+    <schema:name xml:lang="en">They hanged my saintly Billy : the life and death of Dr. William Palmer</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/13612955"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1808479"/>
+    <library:oclcnum>1808479</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/20955523#Place/garden_city_n_y"/>
+    <schema:bookEdition>1st ed.</schema:bookEdition>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/20955523#Agent/doubleday"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1049233"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:genre xml:lang="en">Biographical fiction</schema:genre>
+    <schema:about rdf:resource="http://dewey.info/class/823.91/"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/558008922"/>
+    <schema:productID>1808479</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1808479#PublicationEvent/garden_city_n_y_doubleday_1957"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/20955523"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/68929835"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/20955523#Topic/outlaws"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/20955523#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+</rdf:RDF>

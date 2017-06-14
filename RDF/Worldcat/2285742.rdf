@@ -1,0 +1,115 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204271">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>England--London.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/298361#Topic/store_decoration_japan">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Store decoration - Japan</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1007815">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Manners and customs</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/298361#Event/1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1900-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2285742">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/298361#Agent/viking_press"/>
+    <schema:name xml:lang="en">Under the net, a novel.</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/298361#Topic/specialty_stores_japan"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1007815"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/298361#Place/london_england"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/298361#Topic/fashion_boutiques"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/570739547"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/298361"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/89499452"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/298361#Event/1900_1999"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/298361#Topic/store_decoration_japan"/>
+    <schema:description xml:lang="en">Under the Net begins with protagonist James "Jake" Donahue returning to England to find his friend and almost constant companion Peter "Finn" O'Finney waiting to tell him the sad news that the two of them have been asked by Jake's current girlfriend, Magdalen "Madge" Casement, to leave their apartment. The two men have been living there for free. Madge has found a new boyfriend, Samuel "Sacred Sammy" Starfield, who has promised to make her famous.</schema:description>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/298361#Topic/fashion_store_tokyo_japan"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2285742#PublicationEvent/new_york_viking_press_1954"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204271"/>
+    <library:oclcnum>2285742</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/298361#Topic/specialty_shops"/>
+    <schema:productID>2285742</schema:productID>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2285742"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/298361#Topic/fashion_store_tokyo_japan">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Fashion store (Tokyo, Japan)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2285742">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2285742"/>
+    <schema:dateModified>2017-06-07</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/298361#Agent/viking_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Viking Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/298361#Place/london_england">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London (England)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/298361#Topic/fashion_boutiques">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Fashion boutiques</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/570739547">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/2285742"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Under the net.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/298361#Topic/specialty_shops">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Specialty shops</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/298361#Topic/specialty_stores_japan">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Specialty stores - Japan</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2285742#PublicationEvent/new_york_viking_press_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/298361#Agent/viking_press"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/89499452">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Murdoch</schema:familyName>
+    <schema:givenName>Iris</schema:givenName>
+    <schema:name>Iris Murdoch</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

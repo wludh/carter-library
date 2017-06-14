@@ -1,0 +1,166 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/600636#Event/1904_1914">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1904-1914</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/65295694">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Zabel</schema:familyName>
+    <schema:givenName>Morton Dauwen</schema:givenName>
+    <schema:name>Morton Dauwen Zabel</schema:name>
+    <schema:birthDate>1901</schema:birthDate>
+    <schema:deathDate>1964</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/867976">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">College students</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/600636#Topic/college_students">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008100489"/>
+    <schema:name xml:lang="en">College students</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/943700#PublicationEvent/new_york_new_directions_1951">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/600636#Agent/new_directions"/>
+    <schema:startDate>1951</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/600636#Series/new_classics_new_directions_publishing_corp">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/943700"/>
+    <schema:name>New classics (New Directions Publishing Corp.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.7/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/609550162">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/943700"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Under Western eyes.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/600636#Series/the_new_classics_series">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/943700"/>
+    <schema:name>The New classics series</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/600636#Place/russia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Russia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/600636#Agent/new_directions">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Directions</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/600636#Topic/terrorism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008112708"/>
+    <schema:name xml:lang="en">Terrorism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/600636#Place/saint_petersburg_russia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Saint Petersburg (Russia)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/943700">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/943700"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/600636#Topic/bombings">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2007102077"/>
+    <schema:name xml:lang="en">Bombings</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1207312">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Russia.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/315710796">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Conrad</schema:familyName>
+    <schema:givenName>Joseph</schema:givenName>
+    <schema:name>Joseph Conrad</schema:name>
+    <schema:birthDate>1857</schema:birthDate>
+    <schema:deathDate>1924</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/943700">
+    <schema:about rdf:resource="http://dewey.info/class/823.7/"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/600636#Topic/terrorism"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>943700</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1212867"/>
+    <library:oclcnum>943700</library:oclcnum>
+    <schema:genre xml:lang="en">Political fiction</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/600636#Place/geneva_switzerland"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/600636"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/600636#Place/saint_petersburg_russia"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/65295694"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/600636#Event/1904_1914"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/835818"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/867976"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/600636#Series/the_new_classics_series"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1211819"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/315710796"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/609550162"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/943700"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:name xml:lang="en">Under Western eyes</schema:name>
+    <schema:datePublished>1951</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/600636#Agent/new_directions"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/600636#Topic/college_students"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1207312"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/600636#Place/russia"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/943700#PublicationEvent/new_york_new_directions_1951"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1148101"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/600636#Topic/bombings"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/600636#Series/new_classics_new_directions_publishing_corp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1211819">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Switzerland--Geneva.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/600636#Place/geneva_switzerland">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Geneva (Switzerland)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/835818">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Bombings</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1148101">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Terrorism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1212867">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Russia (Federation)--Saint Petersburg.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

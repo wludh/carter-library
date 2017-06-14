@@ -1,0 +1,81 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nju">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nju</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807348">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2008102955">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English poetry--20th century--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/687894">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2007101081"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1395517#Event/1900_1999"/>
+    <schema:about rdf:resource="http://dewey.info/class/811.509/"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nju"/>
+    <schema:name xml:lang="en">The metamorphic tradition in modern poetry : essays on the work of Ezra Pound, Wallace Stevens, William Carlos Williams, T.S. Eliot, Hart Crane, Randall Jarrell, and William Butler Yeats / by Sister M. Bernetta Quinn.</schema:name>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2008102955"/>
+    <schema:productID>687894</schema:productID>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/1395517#Person/quinn_mary_bernetta"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1395517"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/586860597"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807348"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/687894"/>
+    <library:oclcnum>687894</library:oclcnum>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/912278"/>
+    <schema:datePublished>1955</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/586860597">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/687894"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Metamorphic tradition in modern poetry.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/912278">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2007101081">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American poetry--20th century--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/811.509/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/687894">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/687894"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1395517#Person/quinn_mary_bernetta">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Quinn</schema:familyName>
+    <schema:givenName>Mary Bernetta</schema:givenName>
+    <schema:name>Mary Bernetta Quinn</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1395517#Event/1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1900-1999</schema:name>
+  </rdf:Description>
+</rdf:RDF>

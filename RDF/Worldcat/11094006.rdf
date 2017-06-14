@@ -1,0 +1,90 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dewey.info/class/F755/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/11094006#PublicationEvent/boston_little_brown_and_co_1945">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2908871943#Agent/little_brown_and_co"/>
+    <schema:startDate>1945</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204623">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Great Britain.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/82444721">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Forester</schema:familyName>
+    <schema:givenName>C. S.</schema:givenName>
+    <schema:givenName>Cecil Scott</schema:givenName>
+    <schema:name>Cecil Scott Forester</schema:name>
+    <schema:birthDate>1899</schema:birthDate>
+    <schema:deathDate>1966</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908871943#Event/1789_1820">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1789-1820</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908871943#Place/great_britain">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Great Britain</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/11094006">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1945</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204623"/>
+    <schema:about rdf:resource="http://dewey.info/class/F755/"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908871943#Event/1789_1820"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2908871943#Agent/little_brown_and_co"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908871943#Topic/sea_stories"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:name xml:lang="en">Commodore Hornblower</schema:name>
+    <schema:productID>11094006</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/11094006"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <library:oclcnum>11094006</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:genre xml:lang="en">War stories</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908871943#Place/great_britain"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2908871943"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/11094006#PublicationEvent/boston_little_brown_and_co_1945"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/82444721"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908871943#Agent/little_brown_and_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Little, Brown and Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/11094006">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/11094006"/>
+    <schema:dateModified>2017-05-22</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908871943#Topic/sea_stories">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Sea stories</schema:name>
+  </rdf:Description>
+</rdf:RDF>

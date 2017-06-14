@@ -1,0 +1,88 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1205283">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>France--Paris.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/996540">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Lesbians</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/380419#Place/paris_france">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Paris (France)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/6537835">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/6537835"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/380419#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/380419#Topic/lesbians">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008106911"/>
+    <schema:name xml:lang="en">Lesbians</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.9/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/54941676">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hall</schema:familyName>
+    <schema:givenName>Radclyffe</schema:givenName>
+    <schema:name>Radclyffe Hall</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/380419#Agent/blue_ribbon_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Blue Ribbon Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/6537835#PublicationEvent/garden_city_n_y_blue_ribbon_books_1928">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/380419#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/380419#Agent/blue_ribbon_books"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/6537835">
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1928</schema:datePublished>
+    <schema:genre xml:lang="en">Love stories</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1205283"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/6537835"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://dewey.info/class/823.9/"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/380419#Topic/lesbians"/>
+    <schema:name xml:lang="en">The well of loneliness</schema:name>
+    <schema:productID>6537835</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>6537835</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/380419#Place/paris_france"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/380419"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/380419#Place/garden_city_n_y"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:creator rdf:resource="http://viaf.org/viaf/54941676"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/6537835#PublicationEvent/garden_city_n_y_blue_ribbon_books_1928"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/380419#Agent/blue_ribbon_books"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/996540"/>
+    <schema:copyrightYear>1928</schema:copyrightYear>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,73 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1426267#Place/sauk_city_wis">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Sauk City, Wis.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/366139">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/366139"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/366139#PublicationEvent/sauk_city_wis_arkham_house_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1426267#Place/sauk_city_wis"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1426267#Agent/arkham_house"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/920756">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Fantasy fiction, English</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/54152830">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dunsany</schema:familyName>
+    <schema:name>Lord Dunsany</schema:name>
+    <schema:birthDate>1878</schema:birthDate>
+    <schema:deathDate>1957</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.912/e21/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/366139">
+    <schema:about rdf:resource="http://dewey.info/class/823.912/e21/"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/366139"/>
+    <schema:name xml:lang="en">The fourth book of Jorkens</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1426267"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/920756"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1426267#Agent/arkham_house"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1426267#Place/sauk_city_wis"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/366139#PublicationEvent/sauk_city_wis_arkham_house_1948"/>
+    <schema:genre xml:lang="en">Fantasy fiction</schema:genre>
+    <schema:datePublished>1948</schema:datePublished>
+    <schema:creator rdf:resource="http://viaf.org/viaf/54152830"/>
+    <schema:genre xml:lang="en">Horror fiction</schema:genre>
+    <schema:productID>366139</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/wiu"/>
+    <library:oclcnum>366139</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1426267#Agent/arkham_house">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Arkham House</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/wiu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>wiu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

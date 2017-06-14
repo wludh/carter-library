@@ -1,0 +1,138 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/190791#PublicationEvent/durham_n_c_duke_university_press_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3768962198#Place/durham_n_c"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3768962198#Agent/duke_university_press"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/810.9/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/17223898">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Harris</schema:familyName>
+    <schema:givenName>Joel Chandler</schema:givenName>
+    <schema:name>Joel Chandler Harris</schema:name>
+    <schema:birthDate>1848</schema:birthDate>
+    <schema:deathDate>1908</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/575381781">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/190791"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>South in American literature, 1607-1900.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/190791">
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3768962198#Person/harris_joel_chandler_1848_1908"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/17223898"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1244550"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3768962198#Topic/litterature_americaine_etats_unis_sud_histoire_et_critique"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3768962198#Place/durham_n_c"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2007101055"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3768962198"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/575381781"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://dewey.info/class/810.9/"/>
+    <library:oclcnum>190791</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3768962198#Agent/duke_university_press"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3768962198#Person/stowe_harriet_beecher_1811_1896"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ncu"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807113"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/65249235"/>
+    <schema:productID>190791</schema:productID>
+    <schema:about rdf:resource="http://viaf.org/viaf/32003151"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/190791#PublicationEvent/durham_n_c_duke_university_press_1954"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/190791"/>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780822300915"/>
+    <schema:name xml:lang="en">The South in American literature, 1607-1900</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2007101055">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature--Southern States--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1244550">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768962198#Person/stowe_harriet_beecher_1811_1896">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Stowe</schema:familyName>
+    <schema:givenName>Harriet Beecher</schema:givenName>
+    <schema:name>Harriet Beecher Stowe</schema:name>
+    <schema:birthDate>1811</schema:birthDate>
+    <schema:deathDate>1896</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768962198#Topic/litterature_americaine_etats_unis_sud_histoire_et_critique">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Littérature américaine--États-Unis (Sud)--Histoire et critique</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ncu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ncu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768962198#Agent/duke_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Duke University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768962198#Person/harris_joel_chandler_1848_1908">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Harris</schema:familyName>
+    <schema:givenName>Joel Chandler</schema:givenName>
+    <schema:name>Joel Chandler Harris</schema:name>
+    <schema:birthDate>1848</schema:birthDate>
+    <schema:deathDate>1908</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780822300915">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780822300915</schema:isbn>
+    <schema:isbn>0822300915</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768962198#Place/durham_n_c">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Durham, N.C.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807113">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/32003151">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Stowe</schema:familyName>
+    <schema:givenName>Harriet Beecher</schema:givenName>
+    <schema:name>Harriet Beecher Stowe</schema:name>
+    <schema:birthDate>1811</schema:birthDate>
+    <schema:deathDate>1896</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/65249235">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hubbell</schema:familyName>
+    <schema:givenName>Jay B.</schema:givenName>
+    <schema:givenName>Jay Broadus</schema:givenName>
+    <schema:name>Jay Broadus Hubbell</schema:name>
+    <schema:birthDate>1885</schema:birthDate>
+    <schema:deathDate>1979</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/190791">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/190791"/>
+    <schema:dateModified>2017-06-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

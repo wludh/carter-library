@@ -1,0 +1,109 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487680741#Topic/diplomats_egypt_alexandria">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85038202"/>
+    <schema:name xml:lang="en">Diplomats--Egypt--Alexandria</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/710665">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1208911"/>
+    <schema:about rdf:resource="http://dewey.info/class/823.912/"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2487680741#Place/alejandria_egipto"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://viaf.org/viaf/68928525"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/894415"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2487680741#Place/alexandria_egypt"/>
+    <schema:productID>710665</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/710665"/>
+    <library:oclcnum>710665</library:oclcnum>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2487680741#Series/alexandria_quartet"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:copyrightYear>1958</schema:copyrightYear>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/710665#PublicationEvent/new_york_e_p_dutton_1959_1958"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2487680741#Agent/e_p_dutton"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2487680741"/>
+    <schema:genre xml:lang="en">Love stories</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2487680741#Topic/diplomats_egypt_alexandria"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name xml:lang="en">Mountolive : a novel</schema:name>
+    <schema:description xml:lang="en">British Ambassador David Mountolive enters the intrigues of the interwoven community of characters.</schema:description>
+    <schema:genre xml:lang="en">Romance fiction</schema:genre>
+    <schema:bookEdition>[1st American ed.].</schema:bookEdition>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/710665">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/710665"/>
+    <schema:dateModified>2017-06-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/894415">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Diplomats</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487680741#Series/alexandria_quartet">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/710665"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2487680741#Person/durrell_lawrence"/>
+    <schema:name>Alexandria quartet ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487680741#Person/durrell_lawrence">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Durrell</schema:familyName>
+    <schema:givenName>Lawrence</schema:givenName>
+    <schema:name>Lawrence Durrell</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487680741#Place/alexandria_egypt">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Alexandria (Egypt)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487680741#Place/alejandria_egipto">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>ALEJANDRIA (EGIPTO)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/68928525">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Durrell</schema:familyName>
+    <schema:givenName>Lawrence</schema:givenName>
+    <schema:name>Lawrence Durrell</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/710665#PublicationEvent/new_york_e_p_dutton_1959_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2487680741#Agent/e_p_dutton"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2487680741#Agent/e_p_dutton">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>E.P. Dutton</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.912/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1208911">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Egypt--Alexandria.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

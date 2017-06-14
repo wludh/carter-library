@@ -1,0 +1,102 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/855945231">
+    <schema:description xml:lang="en">Copy 2 in Circulation.</schema:description>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/433528702"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2007101080"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/855945231#PublicationEvent/new_york_n_y_american_book_company_1903"/>
+    <library:oclcnum>855945231</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/433528702#Event/1800_1899"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/433528702#Agent/american_book_company"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/433528702#Topic/poets_american_southern_states"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1067794"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/77559216"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/433528702#Place/new_york_n_y"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:name xml:lang="en">Poets of the South; a series of biographical and critical studies with typical poems, annotated,</schema:name>
+    <schema:productID>855945231</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1244550"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807348"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/855945231"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:datePublished>1903</schema:datePublished>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2009114836"/>
+    <schema:description xml:lang="en">Minor poets of the South. -- Edgar Allan Poe. -- Paul Hamilton Hayne. -- Henry Timrod. -- Sidney Lanier. -- Abram J. Ryan. -- Illustrative selections.</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1244550">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/433528702#Event/1800_1899">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1800-1899</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/433528702#Place/new_york_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/433528702#Topic/poets_american_southern_states">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85103735"/>
+    <schema:name xml:lang="en">Poets, American--Southern States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/855945231#PublicationEvent/new_york_n_y_american_book_company_1903">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/433528702#Place/new_york_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/433528702#Agent/american_book_company"/>
+    <schema:startDate>1903</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/433528702#Agent/american_book_company">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>American Book Company</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/77559216">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Painter</schema:familyName>
+    <schema:givenName>F. V. N.</schema:givenName>
+    <schema:givenName>Franklin Verzelius Newton</schema:givenName>
+    <schema:name>Franklin Verzelius Newton Painter</schema:name>
+    <schema:birthDate>1852</schema:birthDate>
+    <schema:deathDate>1931</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807348">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1067794">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Poets, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/855945231">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/855945231"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2007101080">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American poetry--19th century--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2009114836">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American poetry--Southern States</schema:name>
+  </rdf:Description>
+</rdf:RDF>

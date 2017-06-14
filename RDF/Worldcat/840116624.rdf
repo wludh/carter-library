@@ -1,0 +1,86 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/883735">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/840116624">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/840116624"/>
+    <schema:dateModified>2017-05-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/801/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/578596#Agent/the_swallow_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>The Swallow Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807113">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/51773371">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Winters</schema:familyName>
+    <schema:givenName>Yvor</schema:givenName>
+    <schema:name>Yvor Winters</schema:name>
+    <schema:birthDate>1900</schema:birthDate>
+    <schema:deathDate>1968</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/840116624#PublicationEvent/new_york_the_swallow_press_1947">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/578596#Agent/the_swallow_press"/>
+    <schema:startDate>1947</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85004351">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/840116624">
+    <schema:alternateName>Maule's curse</schema:alternateName>
+    <schema:datePublished>1947</schema:datePublished>
+    <schema:name xml:lang="en">In defense of reason</schema:name>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807113"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/883735"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/840116624#PublicationEvent/new_york_the_swallow_press_1947"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85004351"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>840116624</library:oclcnum>
+    <schema:productID>840116624</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:alternateName>Primitivism and decadence</schema:alternateName>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/578596"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/51773371"/>
+    <schema:description xml:lang="en">Primitivism and decadence -- Maule's curse -- The anatomy of nonsence -- The significance of The bridge by Hart Crane.</schema:description>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/840116624"/>
+    <schema:alternateName>Anatomy of nonsense</schema:alternateName>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/578596#Agent/the_swallow_press"/>
+    <schema:about rdf:resource="http://dewey.info/class/801/"/>
+  </rdf:Description>
+</rdf:RDF>

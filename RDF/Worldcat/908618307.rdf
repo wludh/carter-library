@@ -1,0 +1,85 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1396107#Agent/university_of_north_carolina_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>University of North Carolina Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/810.9/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1396107#Organization/fugitives_group">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Fugitives (Group)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1396107#Topic/american_literature_southern_states_history_and_criticism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature--Southern States--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/908618307">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/908618307"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1396107#Place/southern_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1396107#Person/bradbury_john_m">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bradbury</schema:familyName>
+    <schema:givenName>John M.</schema:givenName>
+    <schema:name>John M. Bradbury</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ncu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ncu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1396107#Topic/american_literature">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/908618307#PublicationEvent/chapel_hill_university_of_north_carolina_press_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1396107#Place/chapel_hill"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1396107#Agent/university_of_north_carolina_press"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1396107#Place/chapel_hill">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chapel Hill</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/908618307">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1396107#Agent/university_of_north_carolina_press"/>
+    <schema:about rdf:resource="http://dewey.info/class/810.9/"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ncu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/908618307#PublicationEvent/chapel_hill_university_of_north_carolina_press_1958"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/908618307"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1396107#Topic/american_literature_southern_states_history_and_criticism"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1396107#Topic/american_literature"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1396107#Place/southern_states"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1396107#Place/chapel_hill"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1396107#Person/bradbury_john_m"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1396107#Organization/fugitives_group"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:copyrightYear>1958</schema:copyrightYear>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1396107"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:name xml:lang="en">The fugitives; a critical account.</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>908618307</schema:productID>
+    <library:oclcnum>908618307</library:oclcnum>
+  </rdf:Description>
+</rdf:RDF>

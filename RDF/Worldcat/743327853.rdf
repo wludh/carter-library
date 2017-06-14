@@ -1,0 +1,86 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dewey.info/class/810.9/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/743327853">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/743327853"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2007101055">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature--Southern States--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1244550">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Southern States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020282613#CreativeWork/fugitive">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Fugitive.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/743327853#PublicationEvent/louisiana_state_university_press1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4020282613#Agent/louisiana_state_university_press"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/743327853">
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/38331560"/>
+    <schema:about rdf:resource="http://dewey.info/class/810.9/"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/743327853#PublicationEvent/louisiana_state_university_press1959"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2007101055"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/743327853"/>
+    <library:oclcnum>743327853</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4020282613"/>
+    <schema:name xml:lang="en">The Fugitive group.</schema:name>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:productID>743327853</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4020282613#CreativeWork/fugitive"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4020282613#Agent/louisiana_state_university_press"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1244550"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/lau"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4020282613#Topic/the_fugitives"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807113"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020282613#Agent/louisiana_state_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Louisiana State University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807113">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/lau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>lau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/38331560">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Cowan</schema:familyName>
+    <schema:givenName>Louise</schema:givenName>
+    <schema:name>Louise Cowan</schema:name>
+    <schema:birthDate>1916</schema:birthDate>
+    <schema:deathDate>2015</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4020282613#Topic/the_fugitives">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">The Fugitives</schema:name>
+  </rdf:Description>
+</rdf:RDF>
