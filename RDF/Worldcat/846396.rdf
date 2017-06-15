@@ -1,0 +1,109 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3497#Topic/young_men">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008114024"/>
+    <schema:name xml:lang="en">Young men</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.8/e20/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3497#Topic/parent_and_child">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008108892"/>
+    <schema:name xml:lang="en">Parent and child</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/49578292">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Butler</schema:familyName>
+    <schema:givenName>Samuel</schema:givenName>
+    <schema:name>Samuel Butler</schema:name>
+    <schema:birthDate>1835</schema:birthDate>
+    <schema:deathDate>1902</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3497#Topic/children_of_clergy">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008100486"/>
+    <schema:name xml:lang="en">Children of clergy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3497#Topic/middle_class">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008107441"/>
+    <schema:name xml:lang="en">Middle class</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/846396">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3497#Topic/pro_adams_mark_b_autograph_donor_adams_collection_copy"/>
+    <schema:name xml:lang="en">The way of all flesh.</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3497#Topic/middle_class"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/846396#PublicationEvent/new_york_washington_square_press1959"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3497#Topic/chr_1959"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/846396"/>
+    <schema:genre xml:lang="en">Science fiction</schema:genre>
+    <schema:productID>846396</schema:productID>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3497#Agent/washington_square_press"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3497"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3497#Topic/conflict_of_generations"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3497#Topic/children_of_clergy"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:about rdf:resource="http://dewey.info/class/823.8/e20/"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:oclcnum>846396</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3497#Topic/parent_and_child"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3497#Topic/young_men"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/49578292"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3497#Agent/washington_square_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Washington Square Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3497#Topic/pro_adams_mark_b_autograph_donor_adams_collection_copy">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">PRO Adams, Mark B. (autograph) (donor) (Adams Collection copy)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/846396#PublicationEvent/new_york_washington_square_press1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3497#Agent/washington_square_press"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3497#Topic/chr_1959">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">CHR 1959</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/846396">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/846396"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3497#Topic/conflict_of_generations">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008100117"/>
+    <schema:name xml:lang="en">Conflict of generations</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,79 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780393095913">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780393095913</schema:isbn>
+    <schema:isbn>0393095916</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3375389960#Person/shakespeare_william">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Shakespeare</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Shakespeare</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3375389960#Agent/norton">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Norton</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3375389960#Person/hoy_cyrus">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hoy</schema:familyName>
+    <schema:givenName>Cyrus</schema:givenName>
+    <schema:name>Cyrus Hoy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3375389960#Series/a_norton_critical_edition">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/728662182"/>
+    <schema:name>A Norton critical edition</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/728662182">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/728662182"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/728662182">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/728662182"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3375389960#Agent/norton"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3375389960"/>
+    <schema:name>Hamlet : an authoritative text, intellectual backgrounds, extracts from the sources, essays in criticism</schema:name>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/3375389960#Person/hoy_cyrus"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:datePublished>1963</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3375389960#Series/a_norton_critical_edition"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780393095913"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/728662182#PublicationEvent/new_york_norton_1963"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3375389960#Person/shakespeare_william"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>728662182</schema:productID>
+    <library:oclcnum>728662182</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/728662182#PublicationEvent/new_york_norton_1963">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3375389960#Agent/norton"/>
+    <schema:startDate>1963</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

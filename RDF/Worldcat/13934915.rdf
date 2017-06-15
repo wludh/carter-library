@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54447261#Agent/pocket_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Pocket Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54447261#Person/wright_lee">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wright</schema:familyName>
+    <schema:givenName>Lee</schema:givenName>
+    <schema:name>Lee Wright</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/13934915">
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/54447261#Place/new_york_n_y"/>
+    <schema:about rdf:resource="http://dewey.info/class/808.8/"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/891461"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/54447261#Person/wright_lee"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/13934915"/>
+    <schema:description xml:lang="en">The farewell murder / by Dashiell Hammett -- The House of Three Candles / by Erle Stanley Gardner -- The adventurous exploit of the cave of Ali Baba / by Dorothy Sayers -- The man who liked Dickens / by Evelyn Waugh -- The absent minded coterie / by Robert Barr -- The hounds of fate / by Saki -- The price of the head / by John Russell -- Cocaine / by Cornell Woolrich -- Twenty cents' worth of murder / by Stephen Leacock -- Watson was a woman / by Rex Stout -- Whodunit / by Elliot Paul -- About these mystery stories / by P.G. Wodehouse -- The perfect murder / by Edmond Pearson -- Dictators, Democrats, and detectives / by Howard Haycraft -- Katharine Nairn / by William Roughead -- The adventure of the mark of Cain / by Ellery Queen -- Brahma / by Ralph Waldo Emerson -- The jackdaw of Rheims / by Thomas Ingoldsby -- What the bullet sang / by Bret Harte -- Lord Randal / Anonymous -- Ballad of the gibbet / by Francois Villon -- My last duchess / by Robert Browning -- The city in the sea / by Edgar Allen Poe -- Faustine / by Algernon Charles Swinburne -- On the eve of his execution / by Chidiock Tichborne -- The Bridge of Sighs / by Thomas Hood -- La belle dame sans merci / by John Keats -- The problem of the amnesia case -- The abandoned picnic -- The one armed soldier -- How well do you know your famous detectives?</schema:description>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/54447261"/>
+    <schema:name xml:lang="en">The pocket mystery reader</schema:name>
+    <schema:alternateName>Mystery reader</schema:alternateName>
+    <schema:datePublished>1942</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:oclcnum>13934915</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>13934915</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/13934915#PublicationEvent/new_york_n_y_pocket_books_1942"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/54447261#Agent/pocket_books"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:genre xml:lang="en">Mystery and detective fiction</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54447261#Place/new_york_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/891461">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Detective and mystery stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/13934915">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/13934915"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/808.8/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/13934915#PublicationEvent/new_york_n_y_pocket_books_1942">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/54447261#Place/new_york_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/54447261#Agent/pocket_books"/>
+    <schema:startDate>1942</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

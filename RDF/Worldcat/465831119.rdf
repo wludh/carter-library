@@ -1,0 +1,71 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4720536#Agent/hill_and_wang">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Hill and Wang</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/12354552">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Granville-Barker</schema:familyName>
+    <schema:givenName>Harley</schema:givenName>
+    <schema:name>Harley Granville-Barker</schema:name>
+    <schema:birthDate>1877</schema:birthDate>
+    <schema:deathDate>1946</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/465831119">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/465831119"/>
+    <schema:dateModified>2017-04-25</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4720536#Series/a_dramabook">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/465831119"/>
+    <schema:name>A Dramabook,</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/465831119#PublicationEvent/new_york_hill_and_wang_1957_1946">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4720536#Agent/hill_and_wang"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/465831119">
+    <schema:productID>465831119</schema:productID>
+    <schema:creator rdf:resource="http://viaf.org/viaf/12354552"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/465831119"/>
+    <library:oclcnum>465831119</library:oclcnum>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4720536#Series/a_dramabook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/465831119#PublicationEvent/new_york_hill_and_wang_1957_1946"/>
+    <schema:copyrightYear>1946</schema:copyrightYear>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4720536"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4720536#Agent/hill_and_wang"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:bookEdition>1st Dramabook ed.</schema:bookEdition>
+    <schema:numberOfPages>284</schema:numberOfPages>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Preface to Hamlet.</schema:name>
+    <schema:datePublished>1957</schema:datePublished>
+  </rdf:Description>
+</rdf:RDF>
