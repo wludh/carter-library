@@ -1,0 +1,112 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4202375369#Agent/louisiana_state_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Louisiana State University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4202375369#Person/wolfe_thomas">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wolfe</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Wolfe</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/54155795">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wolfe</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Wolfe</schema:name>
+    <schema:birthDate>1900</schema:birthDate>
+    <schema:deathDate>1938</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4202375369#Topic/umwelt">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Umwelt</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/290949">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/290949"/>
+    <schema:dateModified>2017-05-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/290949#PublicationEvent/baton_rouge_louisiana_state_university_press1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/4202375369#Place/baton_rouge"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4202375369#Agent/louisiana_state_university_press"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/575650422">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/290949"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Thomas Wolfe.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4202375369#Topic/jugend">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Jugend</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4202375369#Person/wolfe_thomas_1900_1938">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wolfe</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Wolfe</schema:name>
+    <schema:birthDate>1900</schema:birthDate>
+    <schema:deathDate>1938</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/108283788">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Rubin</schema:familyName>
+    <schema:givenName>Louis D.</schema:givenName>
+    <schema:givenName>Louis Decimus</schema:givenName>
+    <schema:name>Jr. Louis Decimus Rubin</schema:name>
+    <schema:birthDate>1923</schema:birthDate>
+    <schema:deathDate>2013</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/lau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>lau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/290949">
+    <schema:description xml:lang="en">The form of autobiographical fiction -- The time of Thomas Wolfe -- Intimations of immortality -- The town -- The city -- The mother and the father -- The way home.</schema:description>
+    <schema:name xml:lang="en">Thomas Wolfe : the weather of his youth.</schema:name>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/575650422"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/290949"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/108283788"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4202375369#Topic/jugend"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/290949#PublicationEvent/baton_rouge_louisiana_state_university_press1955"/>
+    <schema:about rdf:resource="http://dewey.info/class/813.5/"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4202375369#Person/wolfe_thomas"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/lau"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:about rdf:resource="http://viaf.org/viaf/54155795"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/4202375369#Place/baton_rouge"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4202375369#Person/wolfe_thomas_1900_1938"/>
+    <schema:productID>290949</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4202375369#Topic/umwelt"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>290949</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4202375369"/>
+    <schema:genre xml:lang="en">Biography</schema:genre>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4202375369#Agent/louisiana_state_university_press"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4202375369#Place/baton_rouge">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Baton Rouge</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

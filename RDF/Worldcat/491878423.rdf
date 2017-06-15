@@ -1,0 +1,85 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197747077#Series/new_classics_series">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/491878423"/>
+    <schema:name>New classics series.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/491878423">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/197747077#Agent/new_directions_book"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/491878423"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>491878423</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/491878423#PublicationEvent/new_york_new_directions_book_cop_1949"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/197747077#Series/the_new_classics_series"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/197747077#Person/williams_william_carlos_1883_1963"/>
+    <schema:copyrightYear>op.</schema:copyrightYear>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/197747077#Series/new_classics_series"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/197747077"/>
+    <schema:datePublished>1949</schema:datePublished>
+    <library:oclcnum>491878423</library:oclcnum>
+    <schema:name>Selected poems</schema:name>
+    <schema:genre xml:lang="en">Biography</schema:genre>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/197747077#Person/jarrell_randall_1914_1965"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197747077#Agent/new_directions_book">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New directions Book</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197747077#Person/jarrell_randall_1914_1965">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Jarrell</schema:familyName>
+    <schema:givenName>Randall</schema:givenName>
+    <schema:name>Randall Jarrell</schema:name>
+    <schema:birthDate>1914</schema:birthDate>
+    <schema:deathDate>1965,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197747077#Series/the_new_classics_series">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/491878423"/>
+    <schema:name>The new classics series</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197747077#Person/williams_william_carlos_1883_1963">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Williams</schema:familyName>
+    <schema:givenName>William Carlos</schema:givenName>
+    <schema:name>William Carlos Williams</schema:name>
+    <schema:birthDate>1883</schema:birthDate>
+    <schema:deathDate>1963,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/491878423#PublicationEvent/new_york_new_directions_book_cop_1949">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/197747077#Agent/new_directions_book"/>
+    <schema:startDate>co. 1949</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/491878423">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/491878423"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

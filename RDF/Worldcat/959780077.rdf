@@ -1,0 +1,65 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/343627553#Agent/madowell_obolensky_new_york">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>MaDowell Obolensky, New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/959780077#PublicationEvent/madowell_obolensky_new_york_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/343627553#Agent/madowell_obolensky_new_york"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/959780077">
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/343627553#Person/williams_william_carlos"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/343627553#Topic/williams_william_carlos_1883_1963"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/959780077#PublicationEvent/madowell_obolensky_new_york_1957"/>
+    <schema:name xml:lang="en">The selected letters of William Carlos Williams.</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/343627553"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>959780077</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/343627553#Topic/poets_american_20th_century"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/343627553#Agent/madowell_obolensky_new_york"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/959780077"/>
+    <library:oclcnum>959780077</library:oclcnum>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/343627553#Person/thirlwall_john_c"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/343627553#Person/thirlwall_john_c">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Thirlwall</schema:familyName>
+    <schema:givenName>John C.</schema:givenName>
+    <schema:name>John C. Thirlwall</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/343627553#Topic/williams_william_carlos_1883_1963">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Williams, William Carlos, 1883-1963</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/959780077">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/959780077"/>
+    <schema:dateModified>2017-05-13</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/343627553#Topic/poets_american_20th_century">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Poets, American--20th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/343627553#Person/williams_william_carlos">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Williams</schema:familyName>
+    <schema:givenName>William Carlos</schema:givenName>
+    <schema:name>William Carlos Williams</schema:name>
+  </rdf:Description>
+</rdf:RDF>

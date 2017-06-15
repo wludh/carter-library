@@ -1,0 +1,67 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1863012174#Place/norfolk_conn">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Norfolk, Conn.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/868357955#PublicationEvent/norfolk_conn_new_directions_books_c1950">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1863012174#Place/norfolk_conn"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1863012174#Agent/new_directions_books"/>
+    <schema:startDate>c1950</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1863012174#Thing/williams_william_carlos">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Williams, William Carlos</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/868357955">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/868357955"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/868357955">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1863012174"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1863012174#Person/koch_vivienne"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1863012174#Thing/williams_william_carlos"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/868357955#PublicationEvent/norfolk_conn_new_directions_books_c1950"/>
+    <schema:productID>868357955</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/868357955"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1863012174#Place/norfolk_conn"/>
+    <schema:datePublished>1950</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1863012174#Agent/new_directions_books"/>
+    <schema:copyrightYear>1950</schema:copyrightYear>
+    <library:oclcnum>868357955</library:oclcnum>
+    <schema:name>William Carlos Williams</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:numberOfPages>278</schema:numberOfPages>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1863012174#Agent/new_directions_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Directions Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1863012174#Person/koch_vivienne">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Koch</schema:familyName>
+    <schema:givenName>Vivienne</schema:givenName>
+    <schema:name>Vivienne Koch</schema:name>
+  </rdf:Description>
+</rdf:RDF>

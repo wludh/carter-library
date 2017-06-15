@@ -1,0 +1,91 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/8907731#Place/philadelphia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Philadelphia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/8907731#Event/1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1900-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/8907731#Topic/short_stories_american_20th_century">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85121819"/>
+    <schema:name xml:lang="en">Short stories, American--20th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/8907731#Topic/short_stories_american">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Short stories, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/176215">
+    <schema:about rdf:resource="http://dewey.info/class/818.4/"/>
+    <schema:bookEdition>[1st ed.].</schema:bookEdition>
+    <schema:datePublished>1962</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/557928191"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/8907731#Event/1900_1999"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/176215#PublicationEvent/philadelphia_lippincott1962"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/pau"/>
+    <schema:productID>176215</schema:productID>
+    <schema:name xml:lang="en">Pull down vanity, and other stories.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/66482085"/>
+    <schema:description xml:lang="en">The teeth. -- The fear of innocence. -- An expense of spirit. -- Nobody ever died from it. -Pull down vanity. -- The stain. -- Nude croquet. -- The danceing of Rev. Hershl with the withered hand.</schema:description>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/176215"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/8907731#Topic/short_stories_american_20th_century"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/8907731#Place/philadelphia"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/8907731"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/8907731#Agent/lippincott"/>
+    <library:oclcnum>176215</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/8907731#Topic/short_stories_american"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/818.4/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/176215">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/176215"/>
+    <schema:dateModified>2017-04-27</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/pau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>pau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/176215#PublicationEvent/philadelphia_lippincott1962">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/8907731#Place/philadelphia"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/8907731#Agent/lippincott"/>
+    <schema:startDate>1962</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/66482085">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fiedler</schema:familyName>
+    <schema:givenName>Leslie A.</schema:givenName>
+    <schema:name>Leslie A. Fiedler</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/8907731#Agent/lippincott">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Lippincott</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/557928191">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/176215"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Pull down vanity.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+</rdf:RDF>
