@@ -1,0 +1,100 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1781463928#Agent/hill_and_wang">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Hill and Wang</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1781463928#Series/mermaid_series">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/855424996"/>
+    <schema:name>Mermaid series.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/44323561">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ford</schema:familyName>
+    <schema:givenName>John</schema:givenName>
+    <schema:name>John Ford</schema:name>
+    <schema:birthDate>1586</schema:birthDate>
+    <schema:deathDate>approximately 1640</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1781463928#Series/mermaid_dramabook">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/855424996"/>
+    <schema:name>Mermaid dramabook ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/855424996">
+    <schema:alternateName>'Tis pity she's a whore</schema:alternateName>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1781463928#Series/mermaid_dramabook"/>
+    <schema:alternateName>Perkin Warbeck</schema:alternateName>
+    <schema:name xml:lang="en">John Ford : (five plays)</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/855424996#PublicationEvent/new_york_hill_and_wang_1957"/>
+    <schema:alternateName>Ford</schema:alternateName>
+    <schema:description xml:lang="en">The lover's melancholy. -- 'Tis pity she's a whore. -- The broken heart. -- Love's sacrifice. -- Perkin Warbeck.</schema:description>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/855424996"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:alternateName>Broken heart</schema:alternateName>
+    <schema:alternateName>Love's sacrifice</schema:alternateName>
+    <schema:productID>855424996</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1781463928#Series/md"/>
+    <library:oclcnum>855424996</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1781463928#Agent/hill_and_wang"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/44323561"/>
+    <schema:alternateName>Lover's melancholy</schema:alternateName>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1781463928"/>
+    <schema:about rdf:resource="http://dewey.info/class/822.38/"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/41861098"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1781463928#Series/mermaid_series"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/855424996#PublicationEvent/new_york_hill_and_wang_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1781463928#Agent/hill_and_wang"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1781463928#Series/md">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/855424996"/>
+    <schema:name>MD ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/822.38/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/41861098">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ellis</schema:familyName>
+    <schema:givenName>Havelock</schema:givenName>
+    <schema:name>Havelock Ellis</schema:name>
+    <schema:birthDate>1859</schema:birthDate>
+    <schema:deathDate>1939</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/855424996">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/855424996"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

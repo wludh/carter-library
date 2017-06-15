@@ -1,0 +1,87 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/387136#Topic/private_investigators_california_los_angeles">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008110036"/>
+    <schema:name xml:lang="en">Private investigators--California--Los Angeles</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1077503">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Private investigators</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/310728551">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Marlowe</schema:familyName>
+    <schema:givenName>Philip</schema:givenName>
+    <schema:name>(Fictitious character) Philip Marlowe</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2204478">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1077503"/>
+    <library:oclcnum>2204478</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/387136#Person/marlowe_philip_fictitious_character"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/387136"/>
+    <schema:bookEdition>Pocket book edition.</schema:bookEdition>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:copyrightYear>1940</schema:copyrightYear>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/387136#Series/pocket_book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2204478"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/891461"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/310728551"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:genre xml:lang="en">Detective and mystery fiction</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>2204478</schema:productID>
+    <schema:author rdf:resource="http://viaf.org/viaf/39374901"/>
+    <schema:name xml:lang="en">Farewell, my lovely</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:datePublished>1943</schema:datePublished>
+    <schema:genre xml:lang="en">Mystery fiction</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/387136#Topic/private_investigators_california_los_angeles"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/387136#Series/pocket_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/2204478"/>
+    <schema:name>Pocket book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/891461">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Detective and mystery stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/39374901">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Chandler</schema:familyName>
+    <schema:givenName>Raymond</schema:givenName>
+    <schema:name>Raymond Chandler</schema:name>
+    <schema:birthDate>1888</schema:birthDate>
+    <schema:deathDate>1959,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2204478">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2204478"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/387136#Person/marlowe_philip_fictitious_character">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Marlowe</schema:familyName>
+    <schema:givenName>Philip</schema:givenName>
+    <schema:name>(Fictitious character) Philip Marlowe</schema:name>
+  </rdf:Description>
+</rdf:RDF>

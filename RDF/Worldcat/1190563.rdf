@@ -1,0 +1,98 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/47577673#Agent/faber_and_faber">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Faber and Faber</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/fic/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1190563">
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780571060191"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:name xml:lang="en">Free fall</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/47577673#Event/1900_1999"/>
+    <umbel:isLike rdf:resource="http://bnb.data.bl.uk/id/resource/GB5914185"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/910817"/>
+    <library:oclcnum>1190563</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1190563"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/47577673"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/89500102"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:description xml:lang="en">Somehow, somewhere, Sammy Mountjoy lost his freedom, the faculty of free will 'that cannot be debated but only experienced, like a colour or the taste of potatoes'.</schema:description>
+    <schema:productID>1190563</schema:productID>
+    <schema:about rdf:resource="http://dewey.info/class/fic/"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/47577673#Agent/faber_and_faber"/>
+    <schema:genre xml:lang="en">Uncorrected proofs (Printing)</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780571062843"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1190563#PublicationEvent/london_faber_and_faber_1959"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85043367"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1190563">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1190563"/>
+    <schema:dateModified>2017-04-27</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/47577673#Event/1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1900-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/910817">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/89500102">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Golding</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Golding</schema:name>
+    <schema:birthDate>1911</schema:birthDate>
+    <schema:deathDate>1993</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780571060191">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780571060191</schema:isbn>
+    <schema:isbn>0571060196</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1190563#PublicationEvent/london_faber_and_faber_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/47577673#Agent/faber_and_faber"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780571062843">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780571062843</schema:isbn>
+    <schema:isbn>0571062849</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85043367">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English fiction--20th century</schema:name>
+  </rdf:Description>
+</rdf:RDF>

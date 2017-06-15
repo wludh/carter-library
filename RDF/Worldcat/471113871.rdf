@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/471113871#PublicationEvent/boston_houghton_mifflin_cop_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/327394#Agent/houghton_mifflin"/>
+    <schema:startDate>co. 1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/327394#Person/swift_jonathan">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Swift</schema:familyName>
+    <schema:givenName>Jonathan</schema:givenName>
+    <schema:name>Jonathan Swift</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/64134592">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Landa</schema:familyName>
+    <schema:givenName>Louis A.</schema:givenName>
+    <schema:name>Louis A. Landa</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/471113871">
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/471113871#PublicationEvent/boston_houghton_mifflin_cop_1960"/>
+    <schema:copyrightYear>op.</schema:copyrightYear>
+    <schema:productID>471113871</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/471113871"/>
+    <library:oclcnum>471113871</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/327394#Agent/houghton_mifflin"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/327394#Person/swift_jonathan"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/327394"/>
+    <schema:name>Gulliver's travels</schema:name>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/64134592"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/327394#Agent/houghton_mifflin">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Houghton Mifflin</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/471113871">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/471113871"/>
+    <schema:dateModified>2017-04-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

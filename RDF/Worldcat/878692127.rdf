@@ -1,0 +1,88 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2452537065#Place/new_york_etc">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York etc.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/821.1/a21/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2452537065#Agent/rinehart">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Rinehart</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/878692127#PublicationEvent/new_york_etc_rinehart_c1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2452537065#Place/new_york_etc"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2452537065#Agent/rinehart"/>
+    <schema:startDate>c1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2452537065#Person/rosenberg_james_l">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Rosenberg</schema:familyName>
+    <schema:givenName>James L.</schema:givenName>
+    <schema:name>James L. Rosenberg</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2452537065#Series/rinehart_editions">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/878692127"/>
+    <schema:name>Rinehart editions ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780030088803">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780030088803</schema:isbn>
+    <schema:isbn>0030088801</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/2452537065">
+    <schema:name>Gawain and the Grene Knight.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/878692127">
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2452537065#Series/rinehart_editions"/>
+    <schema:about rdf:resource="http://dewey.info/class/821.1/a21/"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2452537065"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:productID>878692127</schema:productID>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780030088803"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/878692127#PublicationEvent/new_york_etc_rinehart_c1959"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/2452537065#Person/rosenberg_james_l"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/878692127"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/2452537065#Person/kreuzer_james_r"/>
+    <schema:copyrightYear>1959</schema:copyrightYear>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2452537065#Agent/rinehart"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2452537065#Place/new_york_etc"/>
+    <schema:name>Sir Gawain and the Green Knight</schema:name>
+    <schema:numberOfPages>86</schema:numberOfPages>
+    <library:oclcnum>878692127</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/878692127">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/878692127"/>
+    <schema:dateModified>2017-04-13</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2452537065#Person/kreuzer_james_r">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kreuzer</schema:familyName>
+    <schema:givenName>James R.</schema:givenName>
+    <schema:name>James R. Kreuzer</schema:name>
+  </rdf:Description>
+</rdf:RDF>

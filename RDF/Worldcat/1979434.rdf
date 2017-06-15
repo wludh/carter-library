@@ -1,0 +1,76 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1979434">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1979434"/>
+    <schema:dateModified>2017-06-11</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1979434#PublicationEvent/new_york_n_y_avon_book_co_1944">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/4160953246#Place/new_york_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4160953246#Agent/avon_book_co"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4160953246#Series/murder_mystery_monthly">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1979434"/>
+    <schema:name>Murder mystery monthly.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1979434">
+    <schema:copyrightYear>1944</schema:copyrightYear>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1979434#PublicationEvent/new_york_n_y_avon_book_co_1944"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4160953246#Series/murder_mystery_monthly"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/39374901"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/4160953246#Place/new_york_n_y"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1979434"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4160953246#Agent/avon_book_co"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:description xml:lang="en">Goldfish.--Spanish blood.--Blackmailers don't shoot.--Guns at Cyrano's--Nevada gas.</schema:description>
+    <schema:genre xml:lang="en">Mystery fiction</schema:genre>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:name xml:lang="en">Five murderers,</schema:name>
+    <schema:datePublished>1944</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>1979434</library:oclcnum>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/891461"/>
+    <schema:productID>1979434</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4160953246"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/891461">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Detective and mystery stories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4160953246#Place/new_york_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/39374901">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Chandler</schema:familyName>
+    <schema:givenName>Raymond</schema:givenName>
+    <schema:name>Raymond Chandler</schema:name>
+    <schema:birthDate>1888</schema:birthDate>
+    <schema:deathDate>1959</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4160953246#Agent/avon_book_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Avon Book Co.</schema:name>
+  </rdf:Description>
+</rdf:RDF>
