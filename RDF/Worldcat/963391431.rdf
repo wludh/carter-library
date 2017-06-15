@@ -1,0 +1,75 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3759239098#Agent/cumberlege">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Cumberlege</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3759239098#Agent/oxford_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Oxford University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3759239098#Person/hutchinson_thomas">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hutchinson</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Hutchinson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/963391431#PublicationEvent/london_cumberlege_oxford_university_press_stampa_1952">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3759239098#Agent/cumberlege"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3759239098#Agent/oxford_university_press"/>
+    <schema:startDate>stama 1952</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/963391431">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/963391431"/>
+    <schema:dateModified>2017-05-29</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3759239098#Person/shelley_percy_bysshe">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Shelley</schema:familyName>
+    <schema:givenName>Percy Bysshe</schema:givenName>
+    <schema:name>Percy Bysshe Shelley</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/963391431">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3759239098"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/3759239098#Person/hutchinson_thomas"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3759239098#Agent/oxford_university_press"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/963391431"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>stama 1952</schema:datePublished>
+    <schema:name>The complete poetical works of Percy Bysshe Shelley</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/963391431#PublicationEvent/london_cumberlege_oxford_university_press_stampa_1952"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3759239098#Person/shelley_percy_bysshe"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3759239098#Agent/cumberlege"/>
+    <schema:numberOfPages>918</schema:numberOfPages>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1952</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:productID>963391431</schema:productID>
+    <library:oclcnum>963391431</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,81 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/4839843">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/4839843#PublicationEvent/london_new_york_john_lane_1899"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/4839843"/>
+    <schema:bookEdition>4th ed.</schema:bookEdition>
+    <library:oclcnum>4839843</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1771494"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/654132724"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/101042729"/>
+    <schema:name xml:lang="en">The coming of love : Rhona Boswell's story : and other poems</schema:name>
+    <schema:about rdf:resource="http://dewey.info/class/821/"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1771494#Agent/john_lane"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1899</schema:datePublished>
+    <schema:productID>4839843</schema:productID>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4839843">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/4839843"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4839843#PublicationEvent/london_new_york_john_lane_1899">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1771494#Agent/john_lane"/>
+    <schema:startDate>1899</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/654132724">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/4839843"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Coming of love.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/101042729">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Watts-Dunton</schema:familyName>
+    <schema:givenName>Theodore</schema:givenName>
+    <schema:name>Theodore Watts-Dunton</schema:name>
+    <schema:birthDate>1832</schema:birthDate>
+    <schema:deathDate>1914</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/821/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1771494#Agent/john_lane">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>John Lane</schema:name>
+  </rdf:Description>
+</rdf:RDF>

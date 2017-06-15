@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/9847864">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hopkins</schema:familyName>
+    <schema:givenName>Gerard Manley</schema:givenName>
+    <schema:name>Gerard Manley Hopkins</schema:name>
+    <schema:birthDate>1844</schema:birthDate>
+    <schema:deathDate>1889</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2413691">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2413691"/>
+    <schema:dateModified>2017-05-20</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2413691#PublicationEvent/harmondsworth_middlesexpenguin_books1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2893347790#Place/harmondsworth_middlesex"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2893347790#Agent/penguin_books"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2893347790#Series/penguin_poets">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/2413691"/>
+    <schema:name>Penguin poets.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2893347790#Person/hopkins_gerard_manley_1844_1889">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hopkins</schema:familyName>
+    <schema:givenName>Gerard Manley</schema:givenName>
+    <schema:name>Gerard Manley Hopkins</schema:name>
+    <schema:birthDate>1844</schema:birthDate>
+    <schema:deathDate>1889</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2893347790#Agent/penguin_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Penguin Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/828.8/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2893347790#Place/harmondsworth_middlesex">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Harmondsworth, Middlesex</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2413691">
+    <schema:creator rdf:resource="http://viaf.org/viaf/9847864"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://viaf.org/viaf/9847864"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2893347790#Person/hopkins_gerard_manley_1844_1889"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2413691#PublicationEvent/harmondsworth_middlesexpenguin_books1954"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2893347790#Series/penguin_poets"/>
+    <schema:about rdf:resource="http://dewey.info/class/828.8/"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2893347790#Agent/penguin_books"/>
+    <schema:genre xml:lang="en">Records and correspondence</schema:genre>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2893347790#Place/harmondsworth_middlesex"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2893347790"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">Poems and prose.</schema:name>
+    <library:oclcnum>2413691</library:oclcnum>
+    <schema:productID>2413691</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2413691"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+  </rdf:Description>
+</rdf:RDF>
