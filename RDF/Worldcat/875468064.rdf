@@ -1,0 +1,70 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1406133#Person/mudrick_marvin">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Mudrick</schema:familyName>
+    <schema:givenName>Marvin</schema:givenName>
+    <schema:name>Marvin Mudrick</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.7/a22/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1406133#Agent/princeton_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Princeton University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1406133#Thing/austen_jane">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Austen, Jane.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/875468064">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/875468064"/>
+    <schema:name>Jane Austen : irony as defense and discovery</schema:name>
+    <schema:datePublished>1952</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/1406133#Person/mudrick_marvin"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1406133"/>
+    <schema:productID>875468064</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1406133#Thing/austen_jane"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1406133#Agent/princeton_university_press"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1406133#Place/princeton_n_j"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/875468064#PublicationEvent/princeton_n_j_princeton_university_press_1952"/>
+    <schema:numberOfPages>267</schema:numberOfPages>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <library:oclcnum>875468064</library:oclcnum>
+    <schema:about rdf:resource="http://dewey.info/class/823.7/a22/"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/875468064#PublicationEvent/princeton_n_j_princeton_university_press_1952">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1406133#Place/princeton_n_j"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1406133#Agent/princeton_university_press"/>
+    <schema:startDate>1952</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/875468064">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/875468064"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1406133#Place/princeton_n_j">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Princeton, N.J.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

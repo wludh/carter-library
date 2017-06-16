@@ -1,0 +1,99 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85043366">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English fiction--19th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/910817">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1189637#Place/edinburgh">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Edinburgh</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1189637#Series/his_works_v_17">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/9454749"/>
+    <schema:name>His Works, v. 17</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/315710796">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Conrad</schema:familyName>
+    <schema:givenName>Joseph</schema:givenName>
+    <schema:name>Joseph Conrad</schema:name>
+    <schema:birthDate>1857</schema:birthDate>
+    <schema:deathDate>1924</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/9454749">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/9454749"/>
+    <schema:dateModified>2017-04-24</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1189637#Event/1800_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1800-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/stk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>stk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.912/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/9454749#PublicationEvent/edinburgh_london_john_grant_1925">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1189637#Place/edinburgh"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1189637#Agent/john_grant"/>
+    <schema:startDate>1925</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85043367">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English fiction--20th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1189637#Agent/john_grant">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>John Grant</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/9454749">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1189637"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/stk"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85043366"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/9454749"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:creator rdf:resource="http://viaf.org/viaf/315710796"/>
+    <schema:name xml:lang="en">The arrow of gold, a story between two notes,</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/910817"/>
+    <schema:productID>9454749</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1189637#Event/1800_1999"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1189637#Series/his_works_v_17"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85043367"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/9454749#PublicationEvent/edinburgh_london_john_grant_1925"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1189637#Agent/john_grant"/>
+    <schema:about rdf:resource="http://dewey.info/class/823.912/"/>
+    <schema:datePublished>1925</schema:datePublished>
+    <library:oclcnum>9454749</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1189637#Place/edinburgh"/>
+  </rdf:Description>
+</rdf:RDF>

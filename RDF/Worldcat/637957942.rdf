@@ -1,0 +1,103 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7544718#Topic/governesses">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Governesses</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7544718#Topic/uncles">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Uncles</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7544718#Topic/orphans">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Orphans</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7544718#Person/le_fanu_joseph_sheridan_1814_1873">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Le Fanu</schema:familyName>
+    <schema:givenName>Joseph Sheridan</schema:givenName>
+    <schema:name>Joseph Sheridan Le Fanu</schema:name>
+    <schema:birthDate>1814</schema:birthDate>
+    <schema:deathDate>1873</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7544718#Topic/orphans_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Orphans--Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7544718#Topic/murderers">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Murderers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7544718#Topic/uncles_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Uncles--Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/637957942">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/7544718#Topic/governesses_fiction"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/7544718#Topic/orphans_fiction"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/7544718#Topic/murderers_fiction"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/7544718#Topic/governesses"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>637957942</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/7544718#Topic/uncles"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/7544718#Topic/murderers"/>
+    <schema:datePublished>1947</schema:datePublished>
+    <library:oclcnum>637957942</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/7544718#Agent/cresset_press"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/7544718#Person/le_fanu_joseph_sheridan_1814_1873"/>
+    <schema:name>Uncle Silas : a tale of Bartram-Haugh</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/7544718#Topic/uncles_fiction"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/7544718#Topic/orphans"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/7544718"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/637957942"/>
+    <schema:genre>Fiction</schema:genre>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/637957942#PublicationEvent/london_cresset_press_1947"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7544718#Agent/cresset_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Cresset Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7544718#Topic/murderers_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Murderers--Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/637957942#PublicationEvent/london_cresset_press_1947">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/7544718#Agent/cresset_press"/>
+    <schema:startDate>1947</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/637957942">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/637957942"/>
+    <schema:dateModified>2017-06-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/7544718#Topic/governesses_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Governesses--Fiction</schema:name>
+  </rdf:Description>
+</rdf:RDF>

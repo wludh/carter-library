@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/30884845#PublicationEvent/new_york_macmillan_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/196528339#Agent/macmillan"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196528339#Agent/macmillan">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Macmillan</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/46768718">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Yeats</schema:familyName>
+    <schema:givenName>W. B.</schema:givenName>
+    <schema:givenName>William Butler</schema:givenName>
+    <schema:name>William Butler Yeats</schema:name>
+    <schema:birthDate>1865</schema:birthDate>
+    <schema:deathDate>1939</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/30884845">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/30884845"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/30884845#PublicationEvent/new_york_macmillan_1959"/>
+    <library:oclcnum>30884845</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>30884845</schema:productID>
+    <schema:description xml:lang="en">The Tower (1928) (contd.) -- My Descendants ; The Road At My Door ; The Stare's Nest By My Window ; I See Phantoms Of Hatred And Of The Heart's Fullness And Of The Coming Emptiness -- Nineteen Hundred And Nineteen -- The Wheel -- Youth And Age -- The New Faces -- A Prayer For My Son -- Two Songs From A Play -- Fragments -- Leda And The Swan -- On A Picture Of A Black Centaur By Edmund Dulac -- Among School Children -- Colonus' Praise -- Wisdom -- The Hero, The Girl And The Fool -- Owen Aherne And His Dancers -- A Man Young And Old : First Love ; Human Dignity ; The Mermaid ; The Death Of The Hare ; The Empty Cup ; His Memories ; The Friends Of His Youth ; Summer And Spring ; The Secrets Of The Old ; His Wildness ; From 'Oedipus At Colonus' -- The Three Monuments -- All Souls' Night -- The Winding Stair and Other Poems (1933) -- In Memory Of Eva Gore-Booth And Con Markiewicz -- Death -- A Dialogue Of Self And Soul -- Blood And The Moon -- Oil And Blood -- Veronica's Napkin -- Symbols -- Spilt Milk -- The Nineteenth Century And After -- Statistics -- Three Movements -- The Seven Sages -- The Crazed Moon -- Coole Park, 1929 -- Coole Park and Ballylee, 1931 -- For Anne Gregory -- Swift's Epitaph -- At Algeciras: A Meditation Upon Death -- The Choice -- Mohini Chatterjee -- Byzantium -- The Mother Of God -- Vacillation -- Quarrel In Old Age -- The Results Of Thought -- Gratitude To The Unknown Instructors -- Remorse For Intemperate Speech -- Stream And Sun At Glendalough -- Words For Music Perhaps : Crazy Jane And The Bishop ; Crazy Jane Reproved ; Crazy Jane On The Day Of Judgment ; Crazy Jane And Jack The Journeyman ; Crazy Jane On God ; Crazy Jane Talks With The Bishop ; Crazy Jane Grown Old Looks At The Dancers ; Girl's Song ; Young Man's Song ; Her Anxiety ; His Confidence ; Love's Loneliness ; Her Dream ; His Bargain ; Three Things ; Lullaby.</schema:description>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:genre xml:lang="en">Poetry</schema:genre>
+    <schema:description xml:lang="en">Lyrical -- Crossways (1889) -- The Song Of The Happy Shepherd -- The Sad Shepherd -- The Cloak, The Boat, And The Shoes -- Anashuya And Vijaya -- The Indian Upon God -- The Indian To His Love -- The Falling Of The Leaves -- Ephemera -- the Madness Of King Goll -- The Stolen Child -- To An Isle In The Water -- Down By The Salley Gardens -- The Meditation Of The Old Fisherman -- The Ballad Of Father O'Hart -- The Ballad Of Moll Magee -- The Ballad Of The Foxhunter -- The Rose (1893) -- To The Rose Upon The Rood Of Time -- Fergus And The Druid -- Cuchulain's Fight With The Sea -- The Rose Of The World -- The Rose Of Peace -- The Rose Of Battle -- A Faery Song -- The Lake Isle Of Innisfree -- A Cradle Song -- The Pity Of Love -- The Sorrow Of Love -- When You Are Old -- The White Birds -- A Dream Of Death -- The Countess Cathleen In Paradise -- Who Goes With Fergus? -- The Man Who Dreamed Of Faeryland -- The Dedication To A Book Of Stories Selected From The Irish Novelists -- The Lamentation Of The Old Pensioner -- The Ballad Of Father Gilligan -- The Two Trees -- To Some I Have Talked With By The Fire -- To Ireland In The Coming Times -- The Wind Among the Reeds (1899) -- The Hosting Of The Sidhe -- The Everlasting Voices -- The Moods -- The Lover Tells Of The Rose In His Heart -- The Host Of The Air -- The Fish -- The Unappeasable Host -- Into The Twilight -- The Song Of Wandering Aengus -- The Song Of The Old Mother -- The Heart Of The Woman -- The Lover Mourns For The Loss Of Love -- He Mourns For The Change That Has Come Upon Him And His Beloved, And Longs For The End Of The World -- He Bids His Beloved Be At Peace -- He Reproves The Curlew -- He Remembers Forgotten Beauty -- A Poet To His Beloved -- He Gives His Beloved Certain Rhymes -- To His Heart, Bidding It Have No Fear -- The Cap And Bells -- The Valley Of The Black Pig -- The Lover Asks Forgiveness Because Of His Many Moods -- He Tells Of A Valley Full Of Lovers -- He Tells Of The Perfect Beauty -- He Hears The Cry Of The Sedge -- He Thinks Of Those Who Have Spoken Evil Of His Beloved -- The Blessed -- The Secret Rose -- Maid Quiet.</schema:description>
+    <schema:datePublished>1959</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:description xml:lang="en">Words For Music Perhaps (contd.) -- After Long Silence ; Mad As The Mist And Snow ; Those Dancing Days Are Gone ; 'I Am Of Ireland' ; The Dancer At Cruachan And Cro-Patrick ; Tom The Lunatic ; Tom At Cruachan ; Old Tom Again ; The Delphic Oracle Upon Plotinus -- A Woman Young and Old : Father And Child ; Before The World Was Made ; A First Confession ; Her Triumph ; Consolation ; Chosen ; Parting ; Her Vision In The Wood ; A Last Confession ; Meeting ; From the 'Antigone' -- From A Full Moon In March (1935) -- Parnell's Funeral -- Three Songs To The Same Tune -- Alternative Song For The Severed Head In 'The King Of The Great Clock Tower' -- Two Songs Rewritten For The Tune's Sake -- A Prayer For Old Age -- Church And State -- Supernatural Songs : Ribh At The Tomb Of Baile And Aillinn ; Ribh Denounces Patrick ; Ribh In Ecstasy ; There ; Ribh Considers Christian Love Insufficient ; He and She ; What Magic Drum? ; Whence Had They Come? ; The Four Ages Of Man ; Conjunctions ; A Needle's Eye ; Meru -- Last Poems (1936-1939) -- The Gyres -- Lapis Lazuli -- Imitated From The Japanese -- Sweet Dancer -- The Three Bushes -- The Lady's First Song -- The Lady's Second Song -- The Lady's Third Song -- The Lover's Song -- The Chambermaid's First Song -- The Chambermaid's Second Song -- An Acre Of Grass -- What Then? -- Beautiful Lofty Things -- A Crazed Girl -- To Dorothy Wellesley -- The Curse Of Cromwell -- Roger Casement -- The Ghost Of Roger Casement -- The O'Rahilly -- Come Gather Round Me, Parnellites -- The Wild Old Wicked Man -- The Great Day -- Parnell -- What Was Lost -- The Spur -- A Drunken Man's Praise Of Sobriety -- The Pilgrim -- Colonel Martin -- A Model For The Laureate -- The Old Stone Cross -- The Spirit Medium -- Those Images -- The Municipal Gallery Revisited -- Are You Content? -- Three Songs To The One Burden.</schema:description>
+    <schema:name xml:lang="en">The collected poems of W.B. Yeats.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/46768718"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/196528339#Agent/macmillan"/>
+    <schema:description xml:lang="en">The Wind Among The Reeds (1899) (contd.) -- The Travail Of Passion -- The Lover Pleads With His Friend For Old Friends -- The Lover Speaks To The Hearers Of His Songs In Coming Days -- The Poet Pleads With The Elemental Powers -- He Wishes His Beloved Were Dead -- He Wishes For The Cloths Of Heaven -- He Thinks Of His Past Greatness When A Part Of The Constellations Of Heaven -- The Fiddler Of Dooney -- In the Seven Woods (1904) -- In The Seven Woods -- The Arrow -- The Folly Of Being Comforted -- Old Memory -- Never Give All The Heart -- The Withering Of The Boughs -- Adam's Curse -- Red Hanrahan's Song About Ireland -- The Old Men Admiring Themselves In The Water -- Under The Moon -- The Ragged Wood -- O Do Not Love Too Long -- The Players Ask For A Blessing On The Psalteries And On Themselves -- The Happy Townland -- from The Green Helmet and Other Poems (1910) -- His Dream -- A Woman Homer Sung -- Words -- No Second Troy -- Reconciliation -- King And No King -- Peace -- Against Unworthy Praise -- The Fascination Of What's Difficult -- A Drinking Song -- The Coming Of Wisdom With Time -- On Hearing That The Students Of Our New Universary Have Joined The Agitation Against Immoral Literature -- To A Poet, Who Would Have Me Praise Certain Bad Poets, Imitators Of His And Mine -- The Mask -- Upon A House Shaken By The Land Agitation -- At The Abbey Theatre -- These Are The Clouds -- At Galway Races -- A Friend's Illness -- All Things Can Tempt Me -- Brown Penny -- Responsibilities (1914) -- Pardon, Old Fathers -- The Grey Rock -- To A Wealthy Man Who Promised A Second Subscription To The Dublin Municipal Gallery If It Were Proved The People Wanted Pictures -- September 1913 -- To A Friend Whose Work Has Come To Nothing -- Paudeen -- To A Shade -- When Helen Lived -- On Those That Hated 'The Playboy Of The Western World', 1907 -- The Three Beggars -- The Three Hermits -- Beggar To Beggar Cried -- Running To Paradise -- The Hour Before Dawn -- A Son From 'The Player Queen' -- The Realists : The Witch ; The Peacock -- The Mountain Tomb : To A Child Dancing In The Wind ; Two Years Later -- A Memory Of Youth -- Fallen Majesty.</schema:description>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1067691"/>
+    <schema:description xml:lang="en">Responsibilities (1914) (contd.) -- Friends -- The Cold Heaven -- That The Night Come -- An Appointment -- The Magi -- The Dolls -- A Coat -- While I, from That Reed-Throated Whisperer -- The Wild Swans at Coole (1919) -- The Wild Swans At Coole -- In Memory Of Major Robert Gregory -- An Irish Airman Foresees His Death -- Men Improve With The Years -- The Collar-Bone Of A Hare -- Under The Round Tower -- Solomon To Sheba -- The Living Beauty -- A Song -- To A Young Beauty -- To A Young Girl -- The Scholars -- Tom O'Roughley -- Shepherd And Goatherd -- Lines Written In Dejection -- The Dawn -- On Woman -- The Fisherman -- The Hawk -- Memory -- Her Praise -- The People -- His Phoenix -- A Thought From Propertius -- Broken Dreams -- A Deep-Sworn Vow -- Presences -- The Balloon Of The Mind -- To A Squirrel At Kyle-Na-No -- On Being Asked For A War Poem -- In Memory Of Alfred Pollexfen -- Upon A Dying Lady : Her Courtesy ; Certain Artists Bring Her Dolls And Drawings ; She Turns The Dolls' Faces To The Wall ; The End Of Day ; Her Race ; Her Courage ; Her Friends Bring Her A Christmas Tree -- Ego Dominus Tuus -- A Prayer On Coming Into My House -- The Phases Of The Moon -- The Cat And The Moon -- The Saint And The Hunchback -- Two Songs Of A Fool -- Another Song Of A Fool -- The Double Vision of Michael Robartes -- Michael Robartes and the Dancer (1921) -- Michael Robartes And The Dancer -- Solomon And The Witch -- An Image From A Past Life -- Under Saturn -- Easter 1916 -- Sixteen Dead Men -- The Rose Tree -- On A Political Prisoner -- The Leaders Of The Crowd -- Towards Break Of Day -- Demon And Beast -- The Second Coming -- A Prayer For My Daughter -- A Meditation In Time Of War -- To Be Carved On A Stone At Thor Ballylee -- The Tower (1928) -- Sailing To Byzantium -- The Tower -- Meditations In Time Of Civil War : Ancestral Houses ; My House ; My Table.</schema:description>
+    <schema:description xml:lang="en">Last Poems (1936-1936) (contd.) -- In Tara's Halls -- The Statues -- News For The Delphic Oracle -- Three Marching Songs -- Long-Legged Fly -- A Bronze Head -- A Stick Of Incense -- John Kinsella's Lament For Mrs. Mary Moore -- Hound Voice -- High Talk -- The Apparitions -- A Nativity -- Why Should Not Old Men Be Mad? -- The Statesman's Holiday -- Crazy Jane On The Mountain -- The Circus Animals' Desertion -- Politics -- The Man And The Echo -- Cuchulain Comforted -- The Black Tower -- Under Ben Bulben -- Narrative And Dramatic -- The Wanderings Of Oisin (1889) -- The Old Age Of Queen Maeve (1903) -- Baile And Aillinn (1903) -- The Shadowy Waters (1906) : Introductory Lines ; The Harp of Aengus ; The Shadowy Waters -- The Two Kings (1914) -- The Gift of Harun Al-Rashid (1923).</schema:description>
+    <schema:about rdf:resource="http://dewey.info/class/821/"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/196528339"/>
+    <schema:bookEdition>Definitive ed., with the author's final revisions.</schema:bookEdition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/821/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1067691">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/30884845">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/30884845"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/196528339">
+    <schema:name>Poems</schema:name>
+  </rdf:Description>
+</rdf:RDF>

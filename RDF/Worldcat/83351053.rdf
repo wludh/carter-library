@@ -1,0 +1,78 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/83351053">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/83351053"/>
+    <schema:dateModified>2017-04-01</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855489349#Person/milnes_richard_monckton_baron_houghton_1809_1885">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Milnes</schema:familyName>
+    <schema:givenName>Richard Monckton</schema:givenName>
+    <schema:name>Baron Houghton Richard Monckton Milnes</schema:name>
+    <schema:birthDate>1809</schema:birthDate>
+    <schema:deathDate>1885</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/120711335">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Milnes</schema:familyName>
+    <schema:givenName>Richard Monckton</schema:givenName>
+    <schema:name>Baron Houghton Richard Monckton Milnes</schema:name>
+    <schema:birthDate>1809</schema:birthDate>
+    <schema:deathDate>1885</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855489349#Agent/farrar_straus_&amp;_cudahy">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Farrar, Straus &amp; Cudahy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/83351053#PublicationEvent/new_york_farrar_straus_&amp;_cudahy1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3855489349#Agent/farrar_straus_&amp;_cudahy"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/83351053">
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3855489349#Person/pope_hennessy_james"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/83351053#PublicationEvent/new_york_farrar_straus_&amp;_cudahy1955"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:oclcnum>83351053</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/83351053"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3855489349"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3855489349#Person/milnes_richard_monckton_baron_houghton_1809_1885"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">Monckton Milnes: the flight of youth, 1851-1885.</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>83351053</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://viaf.org/viaf/120711335"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3855489349#Agent/farrar_straus_&amp;_cudahy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855489349#Person/pope_hennessy_james">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Pope-Hennessy</schema:familyName>
+    <schema:givenName>James</schema:givenName>
+    <schema:name>James Pope-Hennessy</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,71 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829670032#Agent/oxford_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Oxford University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/977932217">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/977932217"/>
+    <schema:productID>977932217</schema:productID>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2829670032#Person/wordsworth_william_1770_1850"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/977932217#PublicationEvent/london_oxford_university_press_1933_1953_printing"/>
+    <schema:name xml:lang="en">The prelude : or, Growth of a poet's mind</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2829670032"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2829670032#Agent/oxford_university_press"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/2829670032#Person/de_selincourt_ernest_1870_1943"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>977932217</library:oclcnum>
+    <schema:datePublished>1933</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829670032#Person/de_selincourt_ernest_1870_1943">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>De Selincourt</schema:familyName>
+    <schema:givenName>Ernest</schema:givenName>
+    <schema:name>Ernest De Selincourt</schema:name>
+    <schema:birthDate>1870</schema:birthDate>
+    <schema:deathDate>1943</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/977932217">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/977932217"/>
+    <schema:dateModified>2017-06-03</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/977932217#PublicationEvent/london_oxford_university_press_1933_1953_printing">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2829670032#Agent/oxford_university_press"/>
+    <schema:startDate>1933</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829670032#Person/wordsworth_william_1770_1850">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wordsworth</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Wordsworth</schema:name>
+    <schema:birthDate>1770</schema:birthDate>
+    <schema:deathDate>1850</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

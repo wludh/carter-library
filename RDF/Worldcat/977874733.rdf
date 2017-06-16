@@ -1,0 +1,87 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1182260#Person/wells_h_g_herbert_george_1866_1946">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wells</schema:familyName>
+    <schema:givenName>H. G.</schema:givenName>
+    <schema:givenName>Herbert George</schema:givenName>
+    <schema:name>Herbert George Wells</schema:name>
+    <schema:birthDate>1866</schema:birthDate>
+    <schema:deathDate>1946</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1182260#CreativeWork/mister_britling_sees_it_through">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Mister Britling sees it through.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1182260#Event/1914_1918">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1914-1918</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1182260#Agent/macmillan">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Macmillan</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1182260#Meeting/world_war_1914_1918">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <rdf:type rdf:resource="http://bibliograph.net/Meeting"/>
+    <schema:name>World War (1914-1918)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/977874733">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/977874733"/>
+    <schema:dateModified>2017-05-11</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/977874733">
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1182260#Person/wells_h_g_herbert_george_1866_1946"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1182260#Meeting/world_war_1914_1918"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/977874733#PublicationEvent/new_york_macmillan_1917"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/977874733"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1182260"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1182260#Event/1914_1918"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1182260#Agent/macmillan"/>
+    <schema:name xml:lang="en">Mr. Britling sees it through</schema:name>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/1182260#CreativeWork/mister_britling_sees_it_through"/>
+    <library:oclcnum>977874733</library:oclcnum>
+    <schema:bookEdition>24th print.</schema:bookEdition>
+    <schema:datePublished>1917</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1182260#Topic/world_war_1914_1918"/>
+    <schema:productID>977874733</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1182260#Topic/world_war_1914_1918">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">World War, 1914-1918</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/977874733#PublicationEvent/new_york_macmillan_1917">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1182260#Agent/macmillan"/>
+    <schema:startDate>1917</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

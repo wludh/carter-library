@@ -1,0 +1,100 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/108009826#Topic/historical_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Historical fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/108009826#Person/scott_walter_1771_1832">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Scott</schema:familyName>
+    <schema:givenName>Walter</schema:givenName>
+    <schema:name>Walter Scott</schema:name>
+    <schema:birthDate>1771</schema:birthDate>
+    <schema:deathDate>1832</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/108009826#Series/riverside_editions">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/898812399"/>
+    <schema:name>Riverside editions ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/108009826#Person/johnson_edgar">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Johnson</schema:familyName>
+    <schema:givenName>Edgar</schema:givenName>
+    <schema:name>Edgar Johnson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/108009826#Topic/biographical_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Biographical fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/898812399#PublicationEvent/boston_houghton_mifflin_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/108009826#Agent/houghton_mifflin"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/108009826#Place/scotland">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Scotland</schema:name>
+    <schema:name>Scotland.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/898812399">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/898812399"/>
+    <schema:dateModified>2017-04-02</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/108009826#Topic/outlaws">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Outlaws</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/108009826#Agent/houghton_mifflin">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Houghton Mifflin</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/898812399">
+    <schema:name>Rob Roy</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:numberOfPages>399</schema:numberOfPages>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/108009826#Series/riverside_editions"/>
+    <schema:productID>898812399</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/108009826"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/108009826#Agent/houghton_mifflin"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/108009826#Topic/outlaws"/>
+    <schema:genre>Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:genre>Romans (teksten)</schema:genre>
+    <library:oclcnum>898812399</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/898812399"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/108009826#Place/scotland"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/898812399#PublicationEvent/boston_houghton_mifflin_1956"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/108009826#Topic/historical_fiction"/>
+    <schema:genre>History</schema:genre>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/108009826#Person/johnson_edgar"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/108009826#Topic/biographical_fiction"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/108009826#Person/scott_walter_1771_1832"/>
+  </rdf:Description>
+</rdf:RDF>

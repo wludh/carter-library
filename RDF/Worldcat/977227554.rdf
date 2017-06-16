@@ -1,0 +1,74 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/977227554#PublicationEvent/edinburghj_grant1925">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/502539#Place/edinburgh"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/502539#Agent/j_grant"/>
+    <schema:startDate>1925</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/stk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>stk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502539#Place/edinburgh">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Edinburgh</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/977227554">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/977227554"/>
+    <schema:dateModified>2017-05-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502539#Person/conrad_joseph_1857_1924">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Conrad</schema:familyName>
+    <schema:givenName>Joseph</schema:givenName>
+    <schema:name>Joseph Conrad</schema:name>
+    <schema:birthDate>1857</schema:birthDate>
+    <schema:deathDate>1924</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502539#Agent/j_grant">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>J. Grant</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/977227554">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/977227554"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">Almayer's folly; a story of an eastern river [and Tales of unrest].</schema:name>
+    <schema:datePublished>1925</schema:datePublished>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/502539#Person/conrad_joseph_1857_1924"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>977227554</library:oclcnum>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/502539#Series/his_works_v_1"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/502539#Agent/j_grant"/>
+    <schema:productID>977227554</schema:productID>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/502539#Place/edinburgh"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/502539#CreativeWork/tales_of_unrest"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/502539"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/stk"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/977227554#PublicationEvent/edinburghj_grant1925"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502539#CreativeWork/tales_of_unrest">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Tales of unrest.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502539#Series/his_works_v_1">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/977227554"/>
+    <schema:name>His Works, v. 1</schema:name>
+  </rdf:Description>
+</rdf:RDF>
