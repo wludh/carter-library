@@ -1,0 +1,124 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/525203#Agent/a_l_burt_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>A.L. Burt Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/10408143#PublicationEvent/new_york_a_l_burt_co_190">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/525203#Agent/a_l_burt_co"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/525203#Place/virginia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Virginia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1351658">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <rdf:type rdf:resource="http://bibliograph.net/Meeting"/>
+    <schema:name>American Civil War (1861-1865)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/826/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/69058592">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Henty</schema:familyName>
+    <schema:givenName>G. A.</schema:givenName>
+    <schema:givenName>George Alfred</schema:givenName>
+    <schema:name>George Alfred Henty</schema:name>
+    <schema:birthDate>1832</schema:birthDate>
+    <schema:deathDate>1902</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/10408143#Audience">
+    <rdf:type rdf:resource="http://schema.org/PeopleAudience"/>
+    <schema:audienceType xml:lang="en">Juvenile</schema:audienceType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/525203#Person/lee_robert_e_robert_edward_1807_1870">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lee</schema:familyName>
+    <schema:givenName>Robert E.</schema:givenName>
+    <schema:givenName>Robert Edward</schema:givenName>
+    <schema:name>Robert Edward Lee</schema:name>
+    <schema:birthDate>1807</schema:birthDate>
+    <schema:deathDate>1870</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/525203#Event/1861_1865">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1861-1865</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204597">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Virginia.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/52983535">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lee</schema:familyName>
+    <schema:givenName>Robert E.</schema:givenName>
+    <schema:givenName>Robert Edward</schema:givenName>
+    <schema:name>Robert Edward Lee</schema:name>
+    <schema:birthDate>1807</schema:birthDate>
+    <schema:deathDate>1870</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/525203#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/10408143">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/10408143"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/10408143">
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/10408143"/>
+    <schema:name xml:lang="en">With Lee in Virginia. A story of the American Civil War.</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/525203#Person/lee_robert_e_robert_edward_1807_1870"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/525203#Agent/a_l_burt_co"/>
+    <schema:productID>10408143</schema:productID>
+    <library:oclcnum>10408143</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/525203#Place/united_states"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <schema:about rdf:resource="http://dewey.info/class/826/"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/525203"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/10408143#PublicationEvent/new_york_a_l_burt_co_190"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/69058592"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1351658"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/525203#Event/1861_1865"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/52983535"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204597"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/525203#Place/virginia"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:audience rdf:resource="http://www.worldcat.org/title/-/oclc/10408143#Audience"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+</rdf:RDF>

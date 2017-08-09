@@ -1,0 +1,93 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2643412061#Agent/garden_city_pub">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Garden City Pub.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/54152849#PublicationEvent/garden_city_ny_garden_city_pub_1936">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2643412061#Place/garden_city_ny"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2643412061#Agent/garden_city_pub"/>
+    <schema:startDate>1936</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/54152849">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/54152849"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/24685053">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kent</schema:familyName>
+    <schema:givenName>Rockwell</schema:givenName>
+    <schema:name>Rockwell Kent</schema:name>
+    <schema:birthDate>1882</schema:birthDate>
+    <schema:deathDate>1971</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/54152849">
+    <schema:datePublished>1936</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2643412061"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2643412061#Place/garden_city_ny"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2643412061#Agent/garden_city_pub"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/64127368"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://dewey.info/class/822.3/"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/133777"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/24685053"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/96994048"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/54152849#PublicationEvent/garden_city_ny_garden_city_pub_1936"/>
+    <schema:productID>54152849</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/54152849"/>
+    <schema:name xml:lang="en">The complete works of Shakespeare. The Cambridge edition text.</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>54152849</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/64127368">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wright</schema:familyName>
+    <schema:givenName>William Aldis</schema:givenName>
+    <schema:name>William Aldis Wright</schema:name>
+    <schema:birthDate>1831</schema:birthDate>
+    <schema:deathDate>1914</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/96994048">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Shakespeare</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Shakespeare</schema:name>
+    <schema:birthDate>1564</schema:birthDate>
+    <schema:deathDate>1616</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/133777">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Morley</schema:familyName>
+    <schema:givenName>Christopher</schema:givenName>
+    <schema:name>Christopher Morley</schema:name>
+    <schema:birthDate>1890</schema:birthDate>
+    <schema:deathDate>1957</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2643412061#Place/garden_city_ny">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, NY</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/822.3/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

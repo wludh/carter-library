@@ -1,0 +1,70 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/255793157">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/255793157"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/255793157">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3855285668"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/255793157"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>255793157</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/255793157#PublicationEvent/new_york_russell_1956"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3855285668#Agent/russell"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:bookEdition>Harbor scholar's classics ed.</schema:bookEdition>
+    <library:oclcnum>255793157</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/3855285668#Person/brooks_van_wyck_1886_1963"/>
+    <schema:name>History of a literary radical and other papers</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3855285668#Person/bourne_randolph_silliman"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855285668#Person/bourne_randolph_silliman">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bourne</schema:familyName>
+    <schema:givenName>Randolph Silliman</schema:givenName>
+    <schema:name>Randolph Silliman Bourne</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/255793157#PublicationEvent/new_york_russell_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3855285668#Agent/russell"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855285668#Person/brooks_van_wyck_1886_1963">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Brooks</schema:familyName>
+    <schema:givenName>Van Wyck</schema:givenName>
+    <schema:name>Van Wyck Brooks</schema:name>
+    <schema:birthDate>1886</schema:birthDate>
+    <schema:deathDate>1963</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3855285668#Agent/russell">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Russell</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

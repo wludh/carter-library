@@ -1,0 +1,110 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/222741087">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/222741087"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1959719#Event/1702_1714">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1702-1714</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1959719#Agent/dutton">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Dutton</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1959719#Agent/dent">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Dent</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/95208604">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Thackeray</schema:familyName>
+    <schema:givenName>William Makepeace</schema:givenName>
+    <schema:name>William Makepeace Thackeray</schema:name>
+    <schema:birthDate>1811</schema:birthDate>
+    <schema:deathDate>1863</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/222741087#PublicationEvent/london_dent_new_york_dutton_1931">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1959719#Agent/dent"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1959719#Agent/dutton"/>
+    <schema:startDate>1931</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204623">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Great Britain.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1959719#Place/great_britain">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Great Britain</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.822/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1959719#Series/everyman_s_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/222741087"/>
+    <schema:name>Everyman's library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/69786588">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Jerrold</schema:familyName>
+    <schema:givenName>Walter</schema:givenName>
+    <schema:name>Walter Jerrold</schema:name>
+    <schema:birthDate>1865</schema:birthDate>
+    <schema:deathDate>1929</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/222741087">
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1959719#Series/everyman_s_library"/>
+    <library:oclcnum>222741087</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1959719#Event/1702_1714"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1959719#Place/great_britain"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204623"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1959719#Agent/dent"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>222741087</schema:productID>
+    <schema:about rdf:resource="http://dewey.info/class/823.822/"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/95208604"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/222741087#PublicationEvent/london_dent_new_york_dutton_1931"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/222741087"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/69786588"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1959719#Agent/dutton"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">The history of Henry Esmond, esq.</schema:name>
+    <schema:datePublished>1931</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1959719"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,76 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/805512">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Allegories</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1134397">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1134397"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1134397">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2051105"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/890077"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">Terra; an allegory,</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2051105#Agent/philosophical_library"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/805512"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1134397"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/91260248"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>1134397</schema:productID>
+    <schema:about rdf:resource="http://dewey.info/class/818.5/"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1134397#PublicationEvent/new_york_philosophical_library1953"/>
+    <schema:datePublished>1953</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>1134397</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2051105#Agent/philosophical_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Philosophical Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/890077">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Democracy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/91260248">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Birren</schema:familyName>
+    <schema:givenName>Faber</schema:givenName>
+    <schema:name>Faber Birren</schema:name>
+    <schema:birthDate>1900</schema:birthDate>
+    <schema:deathDate>1988</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1134397#PublicationEvent/new_york_philosophical_library1953">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2051105#Agent/philosophical_library"/>
+    <schema:startDate>1953</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/818.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

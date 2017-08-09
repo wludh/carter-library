@@ -1,0 +1,76 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3372657658#Person/blake_william_1757_1827">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Blake</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Blake</schema:name>
+    <schema:birthDate>1757</schema:birthDate>
+    <schema:deathDate>1827</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/977839731">
+    <schema:name xml:lang="en">Selected poetry and prose.</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3372657658#Agent/modern_library"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3372657658#Series/the_modern_library_of_the_world_s_best_books_285"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/977839731"/>
+    <schema:datePublished>1953</schema:datePublished>
+    <schema:bookEdition>Edited, with an introd. by Northrop Frye.</schema:bookEdition>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/3372657658#Person/frye_northrop"/>
+    <library:oclcnum>977839731</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/977839731#PublicationEvent/new_york_modern_library1953"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>977839731</schema:productID>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3372657658#Person/blake_william_1757_1827"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3372657658"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3372657658#Agent/modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Modern Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/977839731#PublicationEvent/new_york_modern_library1953">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3372657658#Agent/modern_library"/>
+    <schema:startDate>1953</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3372657658#Series/the_modern_library_of_the_world_s_best_books_285">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/977839731"/>
+    <schema:name>The Modern Library of the world's best books [285]</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/977839731">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/977839731"/>
+    <schema:dateModified>2017-07-07</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3372657658#Person/frye_northrop">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Frye</schema:familyName>
+    <schema:givenName>Northrop</schema:givenName>
+    <schema:name>Northrop Frye</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

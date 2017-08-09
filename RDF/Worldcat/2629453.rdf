@@ -1,0 +1,110 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5745101#Person/gibson_james">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gibson</schema:familyName>
+    <schema:givenName>James</schema:givenName>
+    <schema:name>James Gibson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2629453#PublicationEvent/philadelphia_prime_press_1949">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/5745101#Place/philadelphia"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/5745101#Agent/prime_press"/>
+    <schema:startDate>1949</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/591.92/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780399102936">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780399102936</schema:isbn>
+    <schema:isbn>0399102930</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/654685497">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/2629453"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Exiles of time.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5745101#Topic/time">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008112902"/>
+    <schema:name xml:lang="en">Time</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5745101#Place/philadelphia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Philadelphia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1009386">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Marine animals</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1108635">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Science fiction, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2629453">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2629453"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1151043">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Time</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/79499129">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bond</schema:familyName>
+    <schema:givenName>Nelson Slade</schema:givenName>
+    <schema:name>Nelson Slade Bond</schema:name>
+    <schema:birthDate>1908</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/pau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>pau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2629453">
+    <schema:datePublished>1949</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1009386"/>
+    <schema:productID>2629453</schema:productID>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/pau"/>
+    <library:oclcnum>2629453</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/79499129"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2629453#PublicationEvent/philadelphia_prime_press_1949"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/5745101#Topic/time"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/654685497"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/5745101#Place/philadelphia"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">Exiles of time</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780399102936"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/5745101"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1108635"/>
+    <schema:illustrator rdf:resource="http://experiment.worldcat.org/entity/work/data/5745101#Person/gibson_james"/>
+    <schema:genre xml:lang="en">Science fiction</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1151043"/>
+    <schema:about rdf:resource="http://dewey.info/class/591.92/"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2629453"/>
+    <schema:bookEdition>[1st ed.].</schema:bookEdition>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/5745101#Agent/prime_press"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5745101#Agent/prime_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Prime Press</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,74 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dewey.info/class/824/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/358547#PublicationEvent/new_york_john_lane_1905">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/498356#Agent/john_lane"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/14767719">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Chesterton</schema:familyName>
+    <schema:givenName>G. K.</schema:givenName>
+    <schema:givenName>Gilbert Keith</schema:givenName>
+    <schema:name>Gilbert Keith Chesterton</schema:name>
+    <schema:birthDate>1874</schema:birthDate>
+    <schema:deathDate>1936</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/999953">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/358547">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/358547"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/358547">
+    <schema:description xml:lang="en">Introductory remarks on the importance of orthodoxy [sic] -- On the negative spirit. -- On Mr. Rudyard Kipling and making the world small. -- Mr. Bernard Shaw. -- Mr. H.G. Wells and the giants. -- Christmas and aesthetes. -- Omar and the sacred vine. -- The mildness of the yellow press. -- The moods of Mr. George Moore. -- On sandals and simplicity. -- Science and the savages. -- Paganism and Mr. Lowes Dickinson. -- Celts and Celtophiles. -- On certain modern writers and the institution of the family. -- On smart novelists and the smart set. -- On Mr. McCabe and a divine frivolity. -- On the wit of Whistler. -- The fallacy of the young nation. -- Slum novelists and the slums. -- Concluding remarks on the importance of orthodoxy.</schema:description>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/358547#PublicationEvent/new_york_john_lane_1905"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/498356#Agent/john_lane"/>
+    <schema:bookEdition>[6th ed.].</schema:bookEdition>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/999953"/>
+    <library:oclcnum>358547</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/498356"/>
+    <schema:about rdf:resource="http://dewey.info/class/824/"/>
+    <schema:datePublished>1905</schema:datePublished>
+    <schema:name xml:lang="en">Heretics.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/14767719"/>
+    <schema:productID>358547</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/358547"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/498356#Agent/john_lane">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>John Lane</schema:name>
+  </rdf:Description>
+</rdf:RDF>
