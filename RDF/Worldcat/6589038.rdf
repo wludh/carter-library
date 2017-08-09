@@ -1,0 +1,99 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/583967#Place/mexico">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Mexico</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/583967#Series/the_works_of_h_rider_haggard">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/6589038"/>
+    <schema:name>The Works of H. Rider Haggard</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/6589038">
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1211700"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/583967#Agent/mckinlay_stone_&amp;_mackenzie"/>
+    <schema:name xml:lang="en">Montezuma's daughter : a romance</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/9841446"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/6589038#PublicationEvent/new_york_mckinlay_stone_&amp;_mackenzie_1909_1892"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1352532"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:oclcnum>6589038</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/583967"/>
+    <schema:datePublished>1909</schema:datePublished>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/583967#Series/the_works_of_h_rider_haggard"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/583967#Event/1519_1540"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/583967#Place/mexico"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:copyrightYear>1892</schema:copyrightYear>
+    <schema:productID>6589038</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/6589038"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/583967#Series/works_of_h_rider_haggard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1211700">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Mexico.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/583967#Event/1519_1540">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1519-1540</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/6589038#PublicationEvent/new_york_mckinlay_stone_&amp;_mackenzie_1909_1892">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/583967#Agent/mckinlay_stone_&amp;_mackenzie"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/6589038">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/6589038"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/583967#Agent/mckinlay_stone_&amp;_mackenzie">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>McKinlay, Stone &amp; Mackenzie</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/583967#Series/works_of_h_rider_haggard">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/6589038"/>
+    <schema:name>Works of H. Rider Haggard.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1352532">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <rdf:type rdf:resource="http://bibliograph.net/Meeting"/>
+    <schema:name>Conquest of Mexico (1519-1540)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/9841446">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Haggard</schema:familyName>
+    <schema:givenName>H. Rider</schema:givenName>
+    <schema:givenName>Henry Rider</schema:givenName>
+    <schema:name>Henry Rider Haggard</schema:name>
+    <schema:birthDate>1856</schema:birthDate>
+    <schema:deathDate>1925</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

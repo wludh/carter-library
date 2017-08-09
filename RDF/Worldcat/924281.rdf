@@ -1,0 +1,140 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1169333">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Voyages, Imaginary</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/14777110">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Swift</schema:familyName>
+    <schema:givenName>Jonathan</schema:givenName>
+    <schema:name>Jonathan Swift</schema:name>
+    <schema:birthDate>1667</schema:birthDate>
+    <schema:deathDate>1745</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/924281">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/924281"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829712185#Topic/viajes_imaginarios_novela">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">VIAJES IMAGINARIOS--NOVELA</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829712185#Topic/travelers">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008112707"/>
+    <schema:name xml:lang="en">Travelers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1155691">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Travelers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/924281#PublicationEvent/new_york_modern_library1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2829712185#Agent/modern_library"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/615711146">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/924281"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Gulliver's travels, and other writings.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829712185#Agent/modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Modern Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829712185#Topic/satira">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">SATIRA</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829712185#Topic/utopias">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008113158"/>
+    <schema:name xml:lang="en">Utopias</schema:name>
+    <schema:name xml:lang="en">Utopías</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829712185#Topic/novela_fantastica">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Novela fantástica</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.5/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829712185#Topic/voyages_imaginary">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008113321"/>
+    <schema:name xml:lang="en">Voyages, Imaginary</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/924281">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2829712185#Topic/travelers"/>
+    <schema:name xml:lang="en">Gulliver's travels, and other writings. With an introd. and commentaries by Ricardo Quintana.</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/924281"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2829712185#Topic/satira"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <library:oclcnum>924281</library:oclcnum>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1163359"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/924281#PublicationEvent/new_york_modern_library1958"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:genre xml:lang="en">Early works</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2829712185#Topic/utopias"/>
+    <schema:genre xml:lang="en">Fantastic fiction</schema:genre>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2829712185#Series/modern_library_of_the_world_s_best_books"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2829712185#Topic/voyages_imaginary"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2829712185#Topic/novela_fantastica"/>
+    <schema:productID>924281</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2829712185#Agent/modern_library"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:description xml:lang="en">Appreciated by children as an adventure story and by adults as a devastating satire of society, "Gulliver's Travels" is a fascinating blend of travelogue, realism, symbolism, and fantastic voyage--all with a serious philosophical intent.</schema:description>
+    <schema:description xml:lang="en">Gulliver's travels -- A tale of a tub, The battle of the books, A discourse concerning the mechanical operation of the spirit -- Resolutions, A meditation upon a broom-stick, Thoughts on various subjects 1699-1706 -- From the Partridge-Bickerstaff Papers 1708-1709 -- Some miscellaneous prose pieces 1710-1712 -- Some later prose pieces 1724-1731 -- From the journal to Stella -- From Swift's correspondence -- Some verse pieces 1709-1733.</schema:description>
+    <schema:about rdf:resource="http://dewey.info/class/827.52/"/>
+    <schema:about rdf:resource="http://dewey.info/class/823.5/"/>
+    <schema:genre xml:lang="en">Satire</schema:genre>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2829712185#Topic/viajes_imaginarios_novela"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/14777110"/>
+    <schema:genre xml:lang="en">Utopias</schema:genre>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2829712185"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1155691"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1169333"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/615711146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829712185#Series/modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/924281"/>
+    <schema:name>Modern library of the world's best books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/827.52/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1163359">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Utopias</schema:name>
+  </rdf:Description>
+</rdf:RDF>

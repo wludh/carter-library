@@ -1,0 +1,60 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4131505605#Person/doyle_arthur_conan">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Doyle</schema:familyName>
+    <schema:givenName>Arthur Conan</schema:givenName>
+    <schema:name>Arthur Conan Doyle</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/632103742#PublicationEvent/garden_city_ny_garden_city_publ_co_1938">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/4131505605#Place/garden_city_ny"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4131505605#Agent/garden_city_publ_co"/>
+    <schema:startDate>1938</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/632103742">
+    <schema:name>The complete Sherlock Holmes : With a preface by Christopher Morley</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4131505605"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>632103742</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>632103742</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/632103742"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/4131505605#Place/garden_city_ny"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/632103742#PublicationEvent/garden_city_ny_garden_city_publ_co_1938"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/4131505605#Person/doyle_arthur_conan"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4131505605#Agent/garden_city_publ_co"/>
+    <schema:datePublished>1938</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4131505605#Agent/garden_city_publ_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Garden City Publ. Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/632103742">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/632103742"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4131505605#Place/garden_city_ny">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, NY</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

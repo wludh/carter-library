@@ -1,0 +1,112 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1032683">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <rdf:type rdf:resource="http://bibliograph.net/Meeting"/>
+    <schema:name>Napoleonic Wars (1800-1815)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/447841#Place/boston_mass">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston, Mass.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/447841#Topic/napoleonic_wars_1800_1815">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008108200"/>
+    <schema:name xml:lang="en">Napoleonic Wars, 1800-1815</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780316289085">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780316289085</schema:isbn>
+    <schema:isbn>0316289086</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/447841#Place/great_britain">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Great Britain</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/960314">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Hornblower, Horatio (Fictitious character)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/364434">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/364434"/>
+    <schema:dateModified>2017-07-29</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/447841#Agent/little_brown_and_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Little, Brown and Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/82444721">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Forester</schema:familyName>
+    <schema:givenName>C. S.</schema:givenName>
+    <schema:givenName>Cecil Scott</schema:givenName>
+    <schema:name>Cecil Scott Forester</schema:name>
+    <schema:birthDate>1899</schema:birthDate>
+    <schema:deathDate>1966</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/364434">
+    <schema:genre xml:lang="en">Sea stories</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>364434</library:oclcnum>
+    <schema:datePublished>1946</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/447841#Place/boston_mass"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name xml:lang="en">Lord Hornblower</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/447841#Event/1800_1899"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/364434#PublicationEvent/boston_mass_little_brown_and_co_1946"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/447841#Topic/napoleonic_wars_1800_1815"/>
+    <schema:genre xml:lang="en">War stories</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204623"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/447841#Agent/little_brown_and_co"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1032683"/>
+    <schema:genre xml:lang="en">Naval history</schema:genre>
+    <schema:genre xml:lang="en">Historical fiction</schema:genre>
+    <schema:creator rdf:resource="http://viaf.org/viaf/82444721"/>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780316289085"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/447841#Place/great_britain"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/960314"/>
+    <schema:productID>364434</schema:productID>
+    <schema:description xml:lang="en">Once again the indomitable Hornblower risks his career in the fight against Napoleon. Allied with him is his old love Marie. She is by no means the least of the obstacles in the way of his return to the arms of Lady Barbara.</schema:description>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/447841"/>
+    <schema:about rdf:resource="http://dewey.info/class/823.9/"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/364434"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204623">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Great Britain.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/364434#PublicationEvent/boston_mass_little_brown_and_co_1946">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/447841#Place/boston_mass"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/447841#Agent/little_brown_and_co"/>
+    <schema:startDate>1946</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.9/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/447841#Event/1800_1899">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1800-1899</schema:name>
+  </rdf:Description>
+</rdf:RDF>

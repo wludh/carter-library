@@ -1,0 +1,85 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4095485557#Event/1800_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1800-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85004386">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>American poetry--19th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807348">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>American poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4095485557#Person/untermeyer_louis">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Untermeyer</schema:familyName>
+    <schema:givenName>Louis</schema:givenName>
+    <schema:name>Louis Untermeyer</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/811.0822/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/474234603">
+    <schema:productID>474234603</schema:productID>
+    <schema:about rdf:resource="http://dewey.info/class/811.0822/"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85004386"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4095485557#Event/1800_1999"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1942</schema:datePublished>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85004387"/>
+    <schema:name>Modern American poetry : a critical anthology</schema:name>
+    <schema:bookEdition>6. rev. ed.</schema:bookEdition>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/474234603"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4095485557"/>
+    <library:oclcnum>474234603</library:oclcnum>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807348"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/4095485557#Person/untermeyer_louis"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4095485557#Agent/harcourt_brace_and_company"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/474234603#PublicationEvent/new_york_harcourt_brace_and_company_1942"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4095485557#Agent/harcourt_brace_and_company">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harcourt, Brace and Company</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85004387">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>American poetry--20th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/474234603#PublicationEvent/new_york_harcourt_brace_and_company_1942">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4095485557#Agent/harcourt_brace_and_company"/>
+    <schema:startDate>1942</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/474234603">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/474234603"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

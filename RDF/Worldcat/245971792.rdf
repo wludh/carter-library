@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/429801872#Agent/univ_of_kentucky_pr">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Univ. of Kentucky Pr.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/429801872#Person/bryant_joseph_allen">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bryant</schema:familyName>
+    <schema:givenName>Joseph Allen</schema:givenName>
+    <schema:name>Joseph Allen Bryant</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/429801872#Place/lexington">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Lexington</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/245971792#PublicationEvent/lexingtonuniv_of_kentucky_pr_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/429801872#Place/lexington"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/429801872#Agent/univ_of_kentucky_pr"/>
+    <schema:startDate>1961</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/429801872#Topic/christentum_swd_id_40100741">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Christentum ; SWD-ID: 40100741</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/245971792">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/245971792"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/429801872#Topic/shakespeare_william_swd_id_40547140">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Shakespeare, William ; SWD-ID: 40547140</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/96994048">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Shakespeare</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Shakespeare</schema:name>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/118613723"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/245971792">
+    <library:oclcnum>245971792</library:oclcnum>
+    <schema:productID>245971792</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/429801872#Topic/shakespeare_william_swd_id_40547140"/>
+    <schema:name>Hippolyta's view : some christian aspects of Shakespeare's plays</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/245971792#PublicationEvent/lexingtonuniv_of_kentucky_pr_1961"/>
+    <schema:datePublished>1961</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/429801872#Agent/univ_of_kentucky_pr"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/245971792"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/429801872#Person/bryant_joseph_allen"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/429801872#Place/lexington"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/429801872#Topic/christentum_swd_id_40100741"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/429801872#Topic/drama_swd_id_40128994"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/96994048"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/429801872"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/429801872#Topic/drama_swd_id_40128994">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Drama ; SWD-ID: 40128994</schema:name>
+  </rdf:Description>
+</rdf:RDF>

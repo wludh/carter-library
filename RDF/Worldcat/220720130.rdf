@@ -1,0 +1,61 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/12035695#Person/wells_carolyn">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wells</schema:familyName>
+    <schema:givenName>Carolyn</schema:givenName>
+    <schema:name>Carolyn Wells</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/220720130#PublicationEvent/philadelphia_lippincott_1929">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/12035695#Place/philadelphia"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/12035695#Agent/lippincott"/>
+    <schema:startDate>1929</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/12035695#Place/philadelphia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Philadelphia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/220720130">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/220720130"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/pau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>pau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/220720130">
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/12035695#Place/philadelphia"/>
+    <schema:productID>220720130</schema:productID>
+    <library:oclcnum>220720130</library:oclcnum>
+    <schema:name xml:lang="en">Triple murder : a Fleming Stone story.</schema:name>
+    <schema:datePublished>1929</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/220720130#PublicationEvent/philadelphia_lippincott_1929"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/12035695#Person/wells_carolyn"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/12035695"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/pau"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/220720130"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/12035695#Agent/lippincott"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/12035695#Agent/lippincott">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Lippincott</schema:name>
+  </rdf:Description>
+</rdf:RDF>

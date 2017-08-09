@@ -1,0 +1,94 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/14392206#Person/abel_lionel_1910_2001">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Abel</schema:familyName>
+    <schema:givenName>Lionel</schema:givenName>
+    <schema:name>Lionel Abel</schema:name>
+    <schema:birthDate>1910</schema:birthDate>
+    <schema:deathDate>2001</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/14392206#Topic/american_drama_20th_century">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>American drama--20th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/812.08/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/14392206#Topic/american_drama">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>American drama</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/14392206#Agent/new_directions">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Directions</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/898988756">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/898988756"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/898988756">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/14392206#Topic/american_drama_20th_century"/>
+    <schema:alternateName>death of Odysseus</schema:alternateName>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/14392206#Topic/drama"/>
+    <schema:alternateName>Five plays for a new theatre</schema:alternateName>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name>Playbook : five plays for a new theatre.</schema:name>
+    <schema:productID>898988756</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/14392206#Topic/american_drama"/>
+    <schema:numberOfPages>298</schema:numberOfPages>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/898988756"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/14392206#Topic/drama_20th_century"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/898988756#PublicationEvent/new_york_new_directions_1956"/>
+    <schema:about rdf:resource="http://dewey.info/class/812.08/"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/14392206#Agent/new_directions"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/14392206#Person/abel_lionel_1910_2001"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/14392206"/>
+    <library:oclcnum>898988756</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/14392206#Event/1900_1999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/898988756#PublicationEvent/new_york_new_directions_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/14392206#Agent/new_directions"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/14392206#Topic/drama_20th_century">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Drama--20th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/14392206#Event/1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1900-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/14392206#Topic/drama">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Drama</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/56179222#Series/+the_modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/246221643"/>
+    <schema:name>+The modern library ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/56179222#Agent/modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Modern Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/246221643#PublicationEvent/new_york_nymodern_library1944">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/56179222#Place/new_york_ny"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/56179222#Agent/modern_library"/>
+    <schema:startDate>1944</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/56179222#Place/new_york_ny">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, NY</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/246221643">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/246221643"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/56179222#Topic/american_poetry_20th_century">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>American poetry--20th century</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/246221643">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/56179222#Series/+the_modern_library"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/246221643#PublicationEvent/new_york_nymodern_library1944"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/56179222"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/246221643"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/71433883"/>
+    <schema:productID>246221643</schema:productID>
+    <schema:name>Twentieth-century American poetry</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/56179222#Topic/american_poetry_20th_century"/>
+    <schema:datePublished>1944</schema:datePublished>
+    <library:oclcnum>246221643</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/56179222#Place/new_york_ny"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/56179222#Agent/modern_library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/71433883">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Aiken</schema:familyName>
+    <schema:givenName>Conrad</schema:givenName>
+    <schema:name>Conrad Aiken</schema:name>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/118644149"/>
+  </rdf:Description>
+</rdf:RDF>

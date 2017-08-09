@@ -1,0 +1,93 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/341545504#Topic/american_essays">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American essays</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/953435904#PublicationEvent/new_york_ny_thomas_y_crowell_company_c1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/341545504#Place/new_york_ny"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/341545504#Agent/thomas_y_crowell_company"/>
+    <schema:startDate>c1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/953435904">
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/341545504#Place/new_york_ny"/>
+    <schema:about rdf:resource="http://dewey.info/class/814.082/"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/341545504"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/341545504#Place/united_states"/>
+    <schema:copyrightYear>1960</schema:copyrightYear>
+    <library:oclcnum>953435904</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">American literary essays</schema:name>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/341545504#Person/leary_lewis_lewis_gaston_1906_1990"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/341545504#Agent/thomas_y_crowell_company"/>
+    <schema:productID>953435904</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/953435904"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/341545504#Topic/civilization"/>
+    <schema:description xml:lang="en">Possibilities: What is an American / Hector St. John de Crevecoeur -- English writers on America / Washington Irving -- American scholar / Ralph Waldo Emerson -- National literature / James Kirk Paulding -- Nationality in American letters / Edgar Allan Poe -- Democratic American Genius / Walt Whitman -- Absent things in American life / Henry James -- Art &amp; Democracy / Art Dean Howells -- American culture / H.L. Mencken -- Humor in America / Constance Rourke -- Reality in America / Lionel Trilling -- Traditions in American literature / William Asn O'Connor -- What is American about America? / John A. Kouwenhoven -- People: Portion of an autobiography / Benjamin Franklin -- Fenimore Cooper's literary offenses / Mark Twain -- Edgar Poe's Significance / Walt Whitman -- Hawthorne and his Mosses / Herman Melville -- Emerson / John Jay Chapman -- Thoreau / James Russel Lowell -- Craft of Herman Melville / R.P. Blackmur -- Walt Whitman / Henry David Thoreau -- Walt Whitman: Dandy-upside-down / Sidney Lanier -- Emily Dickinson / Allen Tate -- Where I lived, and what I lived for / Henry David Thoreau -- New England reformers / Ralph Waldo Emerson -- Brahmin caste of New England / Oliver Wendell Holmes -- Education of Henry Adams / Henry Adams -- Attitudes toward Henry James / Philip Rahv -- Poetry: Poet / Ralph Waldo Emerson -- Heresy of the didactic / Edgar Allen Poe -- Backward glance / Walt Whitman -- Elements and function of poetry / George Santayana -- Poet's trade / Amy Lowell -- Poetry in America / H.L. Mencken -- Tradition and the individual talent / T.S. Eliot -- Figure a poem makes / Robert Frost -- Poetry / E.B. White -- Anglo-American difference / W.H. Auden -- New Poetry / Donald Hall -- Prose Fiction: Tale Proper / Edgar Allan Poe -- Romance as epic / William Gilmore Simms -- Romance and the novel: Four extracts / Nathaniel Hawthorne -- Realism in literature / Oliver Wendell Holmes -- Some remarks on fiction: Three extracts -- Subjects for American fiction / William Dean Howells -- Rise of the short story / Bret Harte -- Local color in art / Hamlin Garland -- Novel with a purpose / Frank Norris -- Art of fiction / Henry James -- Social themes in American realism / James T. Farrell -- Broken circuit: Romance and the American novel / Richard Chase -- Prospects: Self-reliance / Ralph Waldo Emerson -- Gettysburg Address / Abraham Lincoln -- Prospects of literature / Logan Pearsall Smith -- On literature today / Van Wyck Brooks -- We're on the road / William Barrett -- Stockholm address to the youth of Japan / William Faulkner.</schema:description>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/341545504#Series/american_literary_forms"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/341545504#Topic/american_essays"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/953435904#PublicationEvent/new_york_ny_thomas_y_crowell_company_c1960"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:numberOfPages>318</schema:numberOfPages>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/341545504#Agent/thomas_y_crowell_company">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Thomas Y. Crowell Company</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/814.082/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/953435904">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/953435904"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/341545504#Person/leary_lewis_lewis_gaston_1906_1990">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Leary</schema:familyName>
+    <schema:givenName>Lewis</schema:givenName>
+    <schema:givenName>Lewis Gaston</schema:givenName>
+    <schema:name>Lewis Gaston Leary</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+    <schema:deathDate>1990</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/341545504#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/341545504#Topic/civilization">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Civilization</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/341545504#Place/new_york_ny">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, NY</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/341545504#Series/american_literary_forms">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/953435904"/>
+    <schema:name>American literary forms</schema:name>
+    <schema:name>American literary forms.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

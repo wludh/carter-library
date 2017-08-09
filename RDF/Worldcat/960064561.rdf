@@ -1,0 +1,82 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2345606#Person/flecker_james_elroy_1884_1915">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Flecker</schema:familyName>
+    <schema:givenName>James Elroy</schema:givenName>
+    <schema:name>James Elroy Flecker</schema:name>
+    <schema:birthDate>1884</schema:birthDate>
+    <schema:deathDate>1915</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2345606#Agent/macdonald">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Macdonald</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2345606#Person/goldring_douglas_1887_1960">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Goldring</schema:familyName>
+    <schema:givenName>Douglas</schema:givenName>
+    <schema:name>Douglas Goldring</schema:name>
+    <schema:birthDate>1887</schema:birthDate>
+    <schema:deathDate>1960</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/960064561">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/960064561"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/960064561">
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/960064561"/>
+    <schema:name xml:lang="en">Life interests,</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2345606"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:genre xml:lang="en">Records and correspondence</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2345606#Person/lawrence_d_h_david_herbert_1885_1930"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/960064561#PublicationEvent/london_macdonald1948"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2345606#Person/flecker_james_elroy_1884_1915"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2345606#Agent/macdonald"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1948</schema:datePublished>
+    <library:oclcnum>960064561</library:oclcnum>
+    <schema:productID>960064561</schema:productID>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2345606#Person/goldring_douglas_1887_1960"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/960064561#PublicationEvent/london_macdonald1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2345606#Agent/macdonald"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2345606#Person/lawrence_d_h_david_herbert_1885_1930">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lawrence</schema:familyName>
+    <schema:givenName>D. H.</schema:givenName>
+    <schema:givenName>David Herbert</schema:givenName>
+    <schema:name>David Herbert Lawrence</schema:name>
+    <schema:birthDate>1885</schema:birthDate>
+    <schema:deathDate>1930</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

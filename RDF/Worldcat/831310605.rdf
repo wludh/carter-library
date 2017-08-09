@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2863453845#Place/alexandria_egypt">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Alexandria (Egypt)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/831310605">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/831310605"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2863453845#Agent/dutton">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Dutton</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/831310605#PublicationEvent/new_yorkdutton1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2863453845#Agent/dutton"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/831310605">
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:genre>Fiction</schema:genre>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/831310605#PublicationEvent/new_yorkdutton1960"/>
+    <schema:bookEdition>[1st ed.]</schema:bookEdition>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2863453845"/>
+    <library:oclcnum>831310605</library:oclcnum>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2863453845#Agent/dutton"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2863453845#Person/durrell_lawrence"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1208911"/>
+    <schema:productID>831310605</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/831310605"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2863453845#Place/alexandria_egypt"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name>Clea : a novel. a novel</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2863453845#Person/durrell_lawrence">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Durrell</schema:familyName>
+    <schema:givenName>Lawrence</schema:givenName>
+    <schema:name>Lawrence Durrell</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1208911">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Egypt--Alexandria</schema:name>
+  </rdf:Description>
+</rdf:RDF>

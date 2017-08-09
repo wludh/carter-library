@@ -1,0 +1,84 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1142422">
+    <library:oclcnum>1142422</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/498296#Place/new_york_n_y"/>
+    <schema:productID>1142422</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/591071886"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:description xml:lang="en">An anthology of science fiction.</schema:description>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/498296#Agent/crown_publishers"/>
+    <schema:description xml:lang="en">The nightmare / Chan Davis -- Tomorrow's children / Poul Anderson and F.N. Waldrop -- The last objective / Paul Carter -- Loophole / Arthur C. Clarke -- The figure / Edward Grendon -- The great fog / H.F. Heard -- The chrysalis / P. Schuyler Miller -- Living fossil / L. Sprague De Camp -- N Day / Philip Latham -- With folded hands / Jack Williamson -- No woman born / C.L. Moore -- With flaming swords / Cleve Cartmill -- Children of the "Betsy-B." / Malcolm Jameson -- Child's play / William Tenn -- The person from Porlock / Raymond F. Jones.</schema:description>
+    <schema:datePublished>1948</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1142422#PublicationEvent/new_york_n_y_crown_publishers_1948"/>
+    <schema:about rdf:resource="http://dewey.info/class/808.83/"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/498296"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1142422"/>
+    <schema:description xml:lang="en">Juggernaut / A.E. Van Vogt -- The eternal man / D.D. Sharp -- Mimsy were the borogoves / Lewis Padgett -- Time and time again / H. Beam Piper -- Housing shortage / Harry Walton -- Flight of the Dawn Star / Robert Moore Williams -- Vintage season / Lawrence O'Donnell -- Of Jovian build / Oscar J. Friend -- Wings across the cosmos / Polton Cross -- The embassy / Martin Pearson -- Dark Mission / Lester Del Rey -- The eternal equations / Murray Leinster -- It's great to be back / Robert A. Heinlein -- Tools / Clifford D. Simak -- Rescue party / Arthur C. Clarke.</schema:description>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1108566"/>
+    <schema:copyrightYear>1948</schema:copyrightYear>
+    <schema:genre xml:lang="en">Science fiction</schema:genre>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/99873514"/>
+    <schema:name xml:lang="en">A treasury of science fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/498296#Place/new_york_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1108566">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Science fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1142422#PublicationEvent/new_york_n_y_crown_publishers_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/498296#Place/new_york_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/498296#Agent/crown_publishers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1142422">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1142422"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/99873514">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Conklin</schema:familyName>
+    <schema:givenName>Groff</schema:givenName>
+    <schema:name>Groff Conklin</schema:name>
+    <schema:birthDate>1904</schema:birthDate>
+    <schema:deathDate>1968</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/808.83/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/498296#Agent/crown_publishers">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Crown Publishers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/591071886">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1142422"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Treasury of science fiction.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+</rdf:RDF>

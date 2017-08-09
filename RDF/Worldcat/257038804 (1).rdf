@@ -1,0 +1,95 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/501708#Series/">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/257038804"/>
+    <schema:name></schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/822.33/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/501708#Place/princeton_nj">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Princeton NJ</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/501708#Person/hubler_edward">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hubler</schema:familyName>
+    <schema:givenName>Edward</schema:givenName>
+    <schema:name>Edward Hubler</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/96994048">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Shakespeare</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Shakespeare</schema:name>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/118613723"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/257038804">
+    <schema:name>The sense of Shakespeare's sonnets</schema:name>
+    <schema:bookEdition>2. print</schema:bookEdition>
+    <schema:productID>257038804</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/501708#Topic/shakespeare_william_1564_1616_sonnets"/>
+    <schema:datePublished>1952</schema:datePublished>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/501708#Series/princeton_studies_in_english"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>257038804</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/257038804"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/501708#Person/hubler_edward"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/96994048"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/501708#Place/princeton_nj"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/501708#Topic/sonnets_english_history_and_criticism"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/501708#Series/"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/257038804#PublicationEvent/princeton_njprinceton_univ_press1952"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/501708"/>
+    <schema:about rdf:resource="http://dewey.info/class/822.33/"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/501708#Agent/princeton_univ_press"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/501708#Topic/sonnets_english_history_and_criticism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Sonnets, English--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/501708#Series/princeton_studies_in_english">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/257038804"/>
+    <schema:name>Princeton studies in English</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/501708#Topic/shakespeare_william_1564_1616_sonnets">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Shakespeare, William--1564-1616--Sonnets</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/257038804#PublicationEvent/princeton_njprinceton_univ_press1952">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/501708#Place/princeton_nj"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/501708#Agent/princeton_univ_press"/>
+    <schema:startDate>1952</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/257038804">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/257038804"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/501708#Agent/princeton_univ_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Princeton Univ. Press</schema:name>
+  </rdf:Description>
+</rdf:RDF>

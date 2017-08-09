@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/800495770">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:copyrightYear>op.</schema:copyrightYear>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/499014#Person/untermeyer_louis_1885_1977"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://dewey.info/class/811.008/e19/"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/499014#Agent/library_publishers"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/499014#Topic/poesie_americaine_anthologies"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/800495770#PublicationEvent/new_york_library_publishers_cop_1952"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>800495770</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807348"/>
+    <library:oclcnum>800495770</library:oclcnum>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780836961607"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/800495770"/>
+    <schema:name>Early American Poets</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/499014"/>
+    <schema:datePublished>1952</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/499014#Topic/poesie_americaine_anthologies">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Poésie américaine--Anthologies</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807348">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>American poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780836961607">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780836961607</schema:isbn>
+    <schema:isbn>0836961609</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/800495770#PublicationEvent/new_york_library_publishers_cop_1952">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/499014#Agent/library_publishers"/>
+    <schema:startDate>co. 1952</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/499014#Agent/library_publishers">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Library Publishers</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/499014#Person/untermeyer_louis_1885_1977">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Untermeyer</schema:familyName>
+    <schema:givenName>Louis</schema:givenName>
+    <schema:name>Louis Untermeyer</schema:name>
+    <schema:birthDate>1885</schema:birthDate>
+    <schema:deathDate>1977,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/811.008/e19/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/800495770">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/800495770"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>
