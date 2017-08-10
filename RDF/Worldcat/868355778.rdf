@@ -1,0 +1,60 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/868355778#PublicationEvent/london_faber_and_faber_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/309039857#Agent/faber_and_faber"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/309039857#Person/fraser_g_s">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fraser</schema:familyName>
+    <schema:givenName>G. S.</schema:givenName>
+    <schema:name>G. S. Fraser</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/868355778">
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/309039857#Person/fraser_g_s"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <library:oclcnum>868355778</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name>Vision and Rethoric : Studies in Modern Poetry</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/868355778"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/309039857"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/868355778#PublicationEvent/london_faber_and_faber_1959"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/309039857#Agent/faber_and_faber"/>
+    <schema:productID>868355778</schema:productID>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/309039857#Agent/faber_and_faber">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Faber and Faber</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/868355778">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/868355778"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

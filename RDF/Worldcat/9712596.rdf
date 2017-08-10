@@ -1,0 +1,62 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/43144016#Person/carter_thomas_h_1931_1963">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Carter</schema:familyName>
+    <schema:givenName>Thomas H.</schema:givenName>
+    <schema:name>Thomas H. Carter</schema:name>
+    <schema:birthDate>1931</schema:birthDate>
+    <schema:deathDate>1963</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/vau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>vau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/9712596">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/9712596"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/43144016#Agent/bassett_print_corp">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Bassett Print. Corp.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/43144016#Place/bassett_va">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Bassett. Va.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/9712596#PublicationEvent/bassett_va_bassett_print_corp_1964">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/43144016#Place/bassett_va"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/43144016#Agent/bassett_print_corp"/>
+    <schema:startDate>1964</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/9712596">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/43144016"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>9712596</schema:productID>
+    <library:oclcnum>9712596</library:oclcnum>
+    <schema:datePublished>1964</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/9712596"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/vau"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/43144016#Person/carter_thomas_h_1931_1963"/>
+    <schema:name xml:lang="en">Signs of the times : poems</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/43144016#Agent/bassett_print_corp"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/9712596#PublicationEvent/bassett_va_bassett_print_corp_1964"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/43144016#Place/bassett_va"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,73 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2564865831#Place/new_haven">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New Haven</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/490839214#PublicationEvent/new_haven_yale_university_press_1949_cop_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2564865831#Place/new_haven"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2564865831#Agent/yale_university_press"/>
+    <schema:startDate>1949</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/490839214">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/490839214"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2564865831#Person/hawthorne_nathaniel_1804_1864">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hawthorne</schema:familyName>
+    <schema:givenName>Nathaniel</schema:givenName>
+    <schema:name>Nathaniel Hawthorne</schema:name>
+    <schema:birthDate>1804</schema:birthDate>
+    <schema:deathDate>1864</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/490839214">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2564865831#Agent/yale_university_press"/>
+    <schema:productID>490839214</schema:productID>
+    <schema:copyrightYear>1948</schema:copyrightYear>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ctu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2564865831#Person/hawthorne_nathaniel_1804_1864"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>490839214</library:oclcnum>
+    <schema:genre xml:lang="en">Biography</schema:genre>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/2564865831#Person/stewart_randall_1896_1964"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/490839214"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/490839214#PublicationEvent/new_haven_yale_university_press_1949_cop_1948"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2564865831"/>
+    <schema:datePublished>1949</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name>Nathaniel Hawthorne a biography</schema:name>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2564865831#Place/new_haven"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ctu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ctu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2564865831#Agent/yale_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Yale University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2564865831#Person/stewart_randall_1896_1964">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Stewart</schema:familyName>
+    <schema:givenName>Randall</schema:givenName>
+    <schema:name>Randall Stewart</schema:name>
+    <schema:birthDate>1896</schema:birthDate>
+    <schema:deathDate>1964</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,66 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/926757202">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>926757202</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3901011603#Topic/english_poetry_early_modern_to"/>
+    <schema:datePublished>1949</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/926757202#PublicationEvent/new_york_william_sloane_associates1949"/>
+    <schema:name xml:lang="en">Elizabethan lyrics, from the original texts.</schema:name>
+    <schema:productID>926757202</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3901011603"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/3901011603#Person/ault_norman_ed"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3901011603#Agent/william_sloane_associates"/>
+    <schema:bookEdition>3d ed.</schema:bookEdition>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/926757202"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3901011603#Topic/english_poetry_early_modern_to">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English poetry--Early modern (to</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/926757202">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/926757202"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3901011603#Agent/william_sloane_associates">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>William Sloane Associates</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3901011603#Person/ault_norman_ed">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ault</schema:familyName>
+    <schema:givenName>Norman ed</schema:givenName>
+    <schema:name>Norman ed Ault</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/926757202#PublicationEvent/new_york_william_sloane_associates1949">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3901011603#Agent/william_sloane_associates"/>
+    <schema:startDate>1949</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

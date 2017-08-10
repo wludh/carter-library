@@ -1,0 +1,67 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/58650650#Agent/eyre_&amp;_spottiswoode">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Eyre &amp; Spottiswoode</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/58650650#Person/tate_allen">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Tate</schema:familyName>
+    <schema:givenName>Allen</schema:givenName>
+    <schema:name>Allen Tate</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/488386100">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1958</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:productID>488386100</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/58650650#Person/cecil_david"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/488386100#PublicationEvent/london_eyre_&amp;_spottiswoode_1958"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/488386100"/>
+    <schema:name>Modern verse in English : with critical introductions on British and Amerian poetry and biographical notes on the poets included</schema:name>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/58650650#Agent/eyre_&amp;_spottiswoode"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/58650650#Person/tate_allen"/>
+    <library:oclcnum>488386100</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/58650650"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/58650650#Person/cecil_david">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Cecil</schema:familyName>
+    <schema:givenName>David</schema:givenName>
+    <schema:name>David Cecil</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/488386100">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/488386100"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/488386100#PublicationEvent/london_eyre_&amp;_spottiswoode_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/58650650#Agent/eyre_&amp;_spottiswoode"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

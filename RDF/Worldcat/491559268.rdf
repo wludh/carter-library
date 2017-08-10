@@ -1,0 +1,82 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dewey.info/class/821.91082/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/491559268#PublicationEvent/norfolk_conn_new_directions_1949">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/397313448#Place/norfolk_conn"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/397313448#Agent/new_directions"/>
+    <schema:startDate>1949</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/397313448#Place/norfolk_conn">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Norfolk, Conn.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/491559268">
+    <schema:productID>491559268</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/397313448#Agent/new_directions"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/397313448"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ctu"/>
+    <schema:about rdf:resource="http://dewey.info/class/821.91082/"/>
+    <library:oclcnum>491559268</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/397313448#Event/1900_1999"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/491559268"/>
+    <schema:numberOfPages>311</schema:numberOfPages>
+    <schema:name>The new British poets : an anthology.</schema:name>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85043938"/>
+    <schema:datePublished>1949</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/912278"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/397313448#Person/rexroth_kenneth_1905_1982"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/397313448#Place/norfolk_conn"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/491559268#PublicationEvent/norfolk_conn_new_directions_1949"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ctu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ctu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/491559268">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/491559268"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/397313448#Agent/new_directions">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Directions</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/912278">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>English poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/397313448#Event/1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1900-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/397313448#Person/rexroth_kenneth_1905_1982">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Rexroth</schema:familyName>
+    <schema:givenName>Kenneth</schema:givenName>
+    <schema:name>Kenneth Rexroth</schema:name>
+    <schema:birthDate>1905</schema:birthDate>
+    <schema:deathDate>1982,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85043938">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>English poetry--20th century</schema:name>
+  </rdf:Description>
+</rdf:RDF>
