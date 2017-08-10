@@ -1,0 +1,77 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4417262015#Event/1500_1700">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1500-1700</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4417262015#Series/galaxy_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/979897061"/>
+    <schema:name>Galaxy book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/979897061">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/979897061"/>
+    <schema:dateModified>2017-07-27</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4417262015#Agent/oxford_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Oxford University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4417262015#Topic/english_poetry_early_modern_1500_1700">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>English poetry--Early modern, 1500-1700</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4417262015#Topic/english_poetry_early_modern">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>English poetry--Early modern</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/979897061">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4417262015#Topic/english_poetry_early_modern_1500_1700"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/979897061"/>
+    <schema:productID>979897061</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4417262015#Event/1500_1700"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4417262015"/>
+    <schema:name>Metaphysical lyrics &amp; poems of the seventeenth century.</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/4417262015#Topic/english_poetry_early_modern"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/4417262015#Person/grierson_herbert_john_clifford_sir_1866_1960"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4417262015#Series/galaxy_book"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:numberOfPages>244</schema:numberOfPages>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4417262015#Agent/oxford_university_press"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4417262015#Series/a_galaxy_book_gb19"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/979897061#PublicationEvent/oxford_university_press_1959"/>
+    <library:oclcnum>979897061</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4417262015#Series/a_galaxy_book_gb19">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/979897061"/>
+    <schema:name>A Galaxy book, GB19</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/979897061#PublicationEvent/oxford_university_press_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4417262015#Agent/oxford_university_press"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4417262015#Person/grierson_herbert_john_clifford_sir_1866_1960">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Grierson</schema:familyName>
+    <schema:givenName>Herbert John Clifford</schema:givenName>
+    <schema:name>Sir Herbert John Clifford Grierson</schema:name>
+    <schema:birthDate>1866</schema:birthDate>
+    <schema:deathDate>1960</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

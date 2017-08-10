@@ -1,0 +1,54 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dewey.info/class/828.6/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3887054764#Place/new_york_holt">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, Holt.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/503307076">
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3887054764#Place/new_york_holt"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">Rasselas, poems, and selected prose. : Ed. with an introd. and notes by Bertrand H. Bronson.</schema:name>
+    <schema:about rdf:resource="http://dewey.info/class/828.6/"/>
+    <schema:productID>503307076</schema:productID>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3887054764#Person/johnson_samuel_1709_1784"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/503307076#PublicationEvent/new_york_holt_1958"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/503307076"/>
+    <library:oclcnum>503307076</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3887054764"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3887054764#Person/johnson_samuel_1709_1784">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Johnson</schema:familyName>
+    <schema:givenName>Samuel</schema:givenName>
+    <schema:name>Samuel Johnson</schema:name>
+    <schema:birthDate>1709</schema:birthDate>
+    <schema:deathDate>1784</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/503307076#PublicationEvent/new_york_holt_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3887054764#Place/new_york_holt"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/503307076">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/503307076"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

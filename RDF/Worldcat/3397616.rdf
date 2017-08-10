@@ -1,0 +1,93 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943651289#Person/yeats_w_b_william_butler_1865_1939">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Yeats</schema:familyName>
+    <schema:givenName>W. B.</schema:givenName>
+    <schema:givenName>William Butler</schema:givenName>
+    <schema:name>William Butler Yeats</schema:name>
+    <schema:birthDate>1865</schema:birthDate>
+    <schema:deathDate>1939</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/645751037">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/3397616"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Permanence of Yeats.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/3397616">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3943651289"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/162257965"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:description xml:lang="en">The seven sacred trances -- J Middleton Murry -- Edmund Wilson -- R P Blackmur -- Cleanth Brooks, Jr -- J C Ransom -- Allen Tate -- David Daiches -- Arthur Mizener -- F R Leavis -- Stephen spender -- D S Savage -- Joseph Warren Beach -- Austin Warren -- Eric Bentley -- Kenneth Burke -- W Y Tindall -- Donald Davidson -- Elder Olson -- A Norma Jeffares -- Delmore Schwartz -- T S Eliot -- W H Auden -- Morton Dauwen Zabel -- Walter E Houghton.</schema:description>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3943651289#Series/collier_books"/>
+    <library:oclcnum>3397616</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1961</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:productID>3397616</schema:productID>
+    <schema:editor rdf:resource="http://viaf.org/viaf/106970226"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/46768718"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/645751037"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3943651289#Person/yeats_w_b_william_butler_1865_1939"/>
+    <schema:about rdf:resource="http://dewey.info/class/821.8/"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/3397616"/>
+    <schema:name xml:lang="en">The permanence of Yeats</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/46768718">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Yeats</schema:familyName>
+    <schema:givenName>W. B.</schema:givenName>
+    <schema:givenName>William Butler</schema:givenName>
+    <schema:name>William Butler Yeats</schema:name>
+    <schema:birthDate>1865</schema:birthDate>
+    <schema:deathDate>1939</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/3397616">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/3397616"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/162257965">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Steinmann</schema:familyName>
+    <schema:givenName>Martin</schema:givenName>
+    <schema:name>Martin Steinmann</schema:name>
+    <schema:birthDate>1915</schema:birthDate>
+    <schema:deathDate>1998,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3943651289#Series/collier_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/3397616"/>
+    <schema:name>Collier books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/106970226">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hall</schema:familyName>
+    <schema:givenName>James</schema:givenName>
+    <schema:name>James Hall</schema:name>
+    <schema:birthDate>1917</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/821.8/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

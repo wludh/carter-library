@@ -1,0 +1,124 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1881828751#Event/1500_1600">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1500-1600</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1881828751#Series/dramabooks_d1">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/952091"/>
+    <schema:name>Dramabooks, D1</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/822.33/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1881828751#Person/shakespeare_william_1564_1616">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Shakespeare</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Shakespeare</schema:name>
+    <schema:birthDate>1564</schema:birthDate>
+    <schema:deathDate>1616</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/952091">
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2008103081"/>
+    <schema:description xml:lang="en">Part I : The spirit of the age -- Part II : Technique -- Order -- Conventions and traditions -- The stage -- Space, time -- Action -- The characters -- Language -- Part III : The themes -- Index.</schema:description>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:oclcnum>952091</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/952091#PublicationEvent/new_york_hill_and_wang_1956"/>
+    <schema:name xml:lang="en">Shakespeare and the Elizabethans.</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1710950"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/569774758"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1881828751#Person/fluchere_henri"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/952091#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1881828751#Series/dramabooks_d1"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1881828751#Event/1500_1600"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1881828751#Series/dramabook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1881828751#Agent/hill_and_wang"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1881828751#Topic/theatre_anglais_16e_siecle_histoire_et_critique"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/952091"/>
+    <schema:productID>952091</schema:productID>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1881828751#Person/shakespeare_william_1564_1616"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1881828751"/>
+    <schema:about rdf:resource="http://dewey.info/class/822.33/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1710950">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English drama--Early modern and Elizabethan</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1881828751#Series/dramabook">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/952091"/>
+    <schema:name>Dramabook ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/952091#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Shakespeare, dramaturge élisabéthain.</schema:name>
+    <dcterms:language>und</dcterms:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2008103081">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English drama--Early modern and Elizabethan, 1500-1600--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/569774758">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/952091"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Shakespeare and the Elizabethans.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1881828751#Topic/theatre_anglais_16e_siecle_histoire_et_critique">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="fr">Théâtre anglais--16e siècle--Histoire et critique</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1881828751#Agent/hill_and_wang">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Hill and Wang</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1881828751#Person/fluchere_henri">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fluchère</schema:familyName>
+    <schema:givenName>Henri</schema:givenName>
+    <schema:name>Henri Fluchère</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/952091#PublicationEvent/new_york_hill_and_wang_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1881828751#Agent/hill_and_wang"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/952091">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/952091"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/1881828751">
+    <schema:name>Shakespeare, dramaturge élisabéthain.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

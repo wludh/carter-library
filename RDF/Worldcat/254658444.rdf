@@ -1,0 +1,119 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/355301396#CreativeWork/trent_s_last_case">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Trent's last case.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/22138375"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/355301396#Series/the_modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/254658444"/>
+    <schema:name>The Modern library of the world's best books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/254658444">
+    <schema:alternateName>Before the fact</schema:alternateName>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/355301396#Person/berkeley_anthony_1893_1971"/>
+    <library:oclcnum>254658444</library:oclcnum>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/22138375"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/89734277"/>
+    <schema:datePublished>1941</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/254658444#PublicationEvent/new_york_modern_library_1941"/>
+    <schema:productID>254658444</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:alternateName>Trent's last case</schema:alternateName>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:description xml:lang="en">Before the fact, by Frances Iles -- Trent's last case, by E.C. Bentley -- House of the arrow, by Alfred E. Mason.</schema:description>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:name xml:lang="en">Three famous murder novels</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/355301396"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/355301396#Series/the_modern_library_of_the_world_s_best_books"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/355301396#CreativeWork/trent_s_last_case"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/355301396#CreativeWork/before_the_fact"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/254658444"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/69683019"/>
+    <schema:alternateName>House of the arrow</schema:alternateName>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/355301396#Agent/modern_library"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/355301396#CreativeWork/house_of_the_arrow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/89734277">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Mason</schema:familyName>
+    <schema:givenName>A. E. W.</schema:givenName>
+    <schema:givenName>Alfred Edward Woodley</schema:givenName>
+    <schema:name>Alfred Edward Woodley Mason</schema:name>
+    <schema:birthDate>1865</schema:birthDate>
+    <schema:deathDate>1948</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/355301396#Agent/modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Modern Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/254658444#PublicationEvent/new_york_modern_library_1941">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/355301396#Agent/modern_library"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/254658444">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/254658444"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/22138375">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bentley</schema:familyName>
+    <schema:givenName>E. C.</schema:givenName>
+    <schema:givenName>Edmund Clerihew</schema:givenName>
+    <schema:name>Edmund Clerihew Bentley</schema:name>
+    <schema:birthDate>1875</schema:birthDate>
+    <schema:deathDate>1956</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/69683019">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Cerf</schema:familyName>
+    <schema:givenName>Bennett Alfred</schema:givenName>
+    <schema:name>Bennett Alfred Cerf</schema:name>
+    <schema:birthDate>1898</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/355301396#Person/berkeley_anthony_1893_1971">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Berkeley</schema:familyName>
+    <schema:givenName>Anthony</schema:givenName>
+    <schema:name>Anthony Berkeley</schema:name>
+    <schema:birthDate>1893</schema:birthDate>
+    <schema:deathDate>1971</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/355301396#CreativeWork/before_the_fact">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Before the fact.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/355301396#Person/berkeley_anthony_1893_1971"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/355301396#CreativeWork/house_of_the_arrow">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>House of the arrow.</schema:name>
+    <schema:creator rdf:resource="http://viaf.org/viaf/89734277"/>
+  </rdf:Description>
+</rdf:RDF>

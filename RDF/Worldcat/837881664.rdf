@@ -1,0 +1,65 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/837881664#PublicationEvent/duke_univ_press1942">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/4770176#Place/duke_univ_press"/>
+    <schema:startDate>1942</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/837881664">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/837881664"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/250270664">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ward</schema:familyName>
+    <schema:givenName>Charles Eugene</schema:givenName>
+    <schema:name>Charles Eugene Ward</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/837881664">
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/4770176#Place/duke_univ_press"/>
+    <library:oclcnum>837881664</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4770176"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/837881664#PublicationEvent/duke_univ_press1942"/>
+    <schema:name>The letters of John Dryden : with letters addressed to him</schema:name>
+    <schema:productID>837881664</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/837881664"/>
+    <schema:datePublished>1942</schema:datePublished>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/250270664"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/68937979"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4770176#Place/duke_univ_press">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Duke Univ. Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/68937979">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dryden</schema:familyName>
+    <schema:givenName>John</schema:givenName>
+    <schema:name>John Dryden</schema:name>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/118680897"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/4770176">
+    <schema:name>Correspondence</schema:name>
+  </rdf:Description>
+</rdf:RDF>

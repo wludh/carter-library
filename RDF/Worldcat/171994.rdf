@@ -1,0 +1,134 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/57857313#Series/ann_arbor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/171994"/>
+    <schema:name>Ann Arbor books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/57857313#Place/england">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>England.</schema:name>
+    <schema:sameAs rdf:resource="http://d-nb.info/gnd/4014770-8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/171994">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/171994"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/9941009">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Harrison</schema:familyName>
+    <schema:givenName>G. B.</schema:givenName>
+    <schema:givenName>George Bagshawe</schema:givenName>
+    <schema:name>George Bagshawe Harrison</schema:name>
+    <schema:birthDate>1894</schema:birthDate>
+    <schema:deathDate>1991</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2008112837">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Theater--England--London--History</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204271">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>England--London.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/822.09/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/miu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>miu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/57857313#Event/1500_1600">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1500-1600</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/171994#PublicationEvent/ann_arboruniversity_of_michigan_press1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/57857313#Place/ann_arbor"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/57857313#Agent/university_of_michigan_press"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/570541051">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/171994"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Elizabethan plays and players.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/57857313#Place/ann_arbor">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Ann Arbor</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1710950">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English drama--Early modern and Elizabethan</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1149217">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Theater</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/57857313#Event/geschichte_1500_1600">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>Geschichte 1500-1600.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/57857313#Agent/university_of_michigan_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>University of Michigan Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/822.309/e23/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/57857313#Event/geschichte_1559_1603">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>Geschichte 1559-1603.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2008103081">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English drama--Early modern and Elizabethan, 1500-1600--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/171994">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">Elizabethan plays and players.</schema:name>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2008112837"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/171994"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1710950"/>
+    <schema:about rdf:resource="http://dewey.info/class/822.09/"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/57857313"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/57857313#Event/geschichte_1500_1600"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1149217"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/570541051"/>
+    <schema:productID>171994</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/57857313#Series/ann_arbor_books"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/57857313#Agent/university_of_michigan_press"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/57857313#Place/ann_arbor"/>
+    <library:oclcnum>171994</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/miu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/57857313#Event/geschichte_1559_1603"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/9941009"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/57857313#Place/england"/>
+    <schema:description xml:lang="en">The building of the theatre -- John Lyly -- Stage and university -- New dramatists -- Greene turns playwright -- The death of Greene -- The death of Marlowe -- Edward Alleyn and the Admiral's Men -- The Chamberlain's Men -- The humours -- Ben Jonson -- The Globe -- Boy players -- Essex's rebellion -- The stage war -- The end of an era.</schema:description>
+    <schema:about rdf:resource="http://dewey.info/class/822.309/e23/"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/171994#PublicationEvent/ann_arboruniversity_of_michigan_press1956"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204271"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2008103081"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/57857313#Event/1500_1600"/>
+  </rdf:Description>
+</rdf:RDF>

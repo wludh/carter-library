@@ -1,0 +1,87 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/781964125">
+    <schema:about rdf:resource="http://dewey.info/class/821.4082/"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>781964125</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1710963"/>
+    <schema:numberOfPages>330</schema:numberOfPages>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/115347198#Agent/penguin_books"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxk"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/115347198"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85043935"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name>The metaphysical poets</schema:name>
+    <schema:about rdf:resource="http://dewey.info/class/821.008/e21/"/>
+    <library:oclcnum>781964125</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/781964125#PublicationEvent/harmondsworth_penguin_books_1957"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/781964125"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/115347198#Place/harmondsworth"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/115347198#Event/1500_1700"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/115347198#Person/gardner_helen_helen_louise_1908_1986"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/821.4082/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/781964125#PublicationEvent/harmondsworth_penguin_books_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/115347198#Place/harmondsworth"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/115347198#Agent/penguin_books"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1710963">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>English poetry--Early modern</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/115347198#Person/gardner_helen_helen_louise_1908_1986">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gardner</schema:familyName>
+    <schema:givenName>Helen</schema:givenName>
+    <schema:givenName>Helen Louise</schema:givenName>
+    <schema:name>Helen Louise Gardner</schema:name>
+    <schema:birthDate>1908</schema:birthDate>
+    <schema:deathDate>1986</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/115347198#Agent/penguin_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Penguin Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85043935">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>English poetry--Early modern, 1500-1700</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/115347198#Event/1500_1700">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1500-1700</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/115347198#Place/harmondsworth">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Harmondsworth</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/781964125">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/781964125"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/821.008/e21/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

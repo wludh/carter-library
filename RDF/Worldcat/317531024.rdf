@@ -1,0 +1,97 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/910817">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/317531024#PublicationEvent/boston_beacon_press_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1786583#Agent/beacon_press"/>
+    <schema:startDate>1959</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/317531024">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/910817"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1786583#Series/beacon_paperback"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1786583#Event/1900_1999"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/317531024"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:genre xml:lang="en">Reviews</schema:genre>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1786583#Agent/beacon_press"/>
+    <library:oclcnum>317531024</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/41843502"/>
+    <schema:productID>317531024</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1786583"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh2008103094"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/836401"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/317531024#PublicationEvent/boston_beacon_press_1959"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1786583#Topic/books"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">Novels &amp; novelists.</schema:name>
+    <schema:datePublished>1959</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/41843502">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Mansfield</schema:familyName>
+    <schema:givenName>Katherine</schema:givenName>
+    <schema:name>Katherine Mansfield</schema:name>
+    <schema:birthDate>1888</schema:birthDate>
+    <schema:deathDate>1923</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh2008103094">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English fiction--20th century--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1786583#Series/beacon_paperback">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/317531024"/>
+    <schema:name>Beacon paperback,</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/317531024">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/317531024"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1786583#Event/1900_1999">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1900-1999</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/836401">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1786583#Agent/beacon_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Beacon Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1786583#Topic/books">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh85015752"/>
+    <schema:name xml:lang="en">Books</schema:name>
+  </rdf:Description>
+</rdf:RDF>

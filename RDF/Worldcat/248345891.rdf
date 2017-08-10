@@ -1,0 +1,88 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/822.33/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/248345891">
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1007387503#Series/dramabook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:name>Samuel Johnson on Shakespeare</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1007387503#Person/wimsatt_william_kurtz"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/248345891"/>
+    <library:oclcnum>248345891</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1007387503#Agent/hill_and_wang"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1007387503#Topic/shakespeare_william_early_works_to_1800_criticism_and_interpretation"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1007387503"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/248345891#PublicationEvent/new_york_hill_and_wang_1960"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1007387503#Person/johnson_samuel"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://dewey.info/class/822.33/"/>
+    <schema:productID>248345891</schema:productID>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1007387503#Series/a_dramabook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1007387503#Series/dramabook">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/248345891"/>
+    <schema:name>Dramabook ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1007387503#Series/a_dramabook">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/248345891"/>
+    <schema:name>A Dramabook ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1007387503#Person/wimsatt_william_kurtz">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wimsatt</schema:familyName>
+    <schema:givenName>William Kurtz</schema:givenName>
+    <schema:name>William Kurtz Wimsatt</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1007387503#Agent/hill_and_wang">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Hill and Wang</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1007387503#Person/johnson_samuel">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Johnson</schema:familyName>
+    <schema:givenName>Samuel</schema:givenName>
+    <schema:name>Samuel Johnson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1007387503#Topic/shakespeare_william_early_works_to_1800_criticism_and_interpretation">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Shakespeare, William--Early works to 1800--Criticism and interpretation</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/248345891#PublicationEvent/new_york_hill_and_wang_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1007387503#Agent/hill_and_wang"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/248345891">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/248345891"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dewey.info/class/822.3309/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768488852#Series/doubleday_anchor_books_174">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/748996728"/>
+    <schema:name>Doubleday Anchor Books, 174</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768488852#Person/shakespeare_william_1564_1616">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Shakespeare</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Shakespeare</schema:name>
+    <schema:birthDate>1564</schema:birthDate>
+    <schema:deathDate>1616</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/748996728#PublicationEvent/garden_city_ny_doubleday_anchor_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3768488852#Place/garden_city_ny"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3768488852#Agent/doubleday_anchor"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/748996728">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/748996728#PublicationEvent/garden_city_ny_doubleday_anchor_1956"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <library:oclcnum>748996728</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3768488852"/>
+    <schema:bookEdition>2nd ed., rev. &amp; enlarged.</schema:bookEdition>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3768488852#Place/garden_city_ny"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3768488852#Person/shakespeare_william_1564_1616"/>
+    <schema:name xml:lang="en">An approach to Shakespeare</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3768488852#Series/doubleday_anchor_books_174"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/4944544"/>
+    <schema:about rdf:resource="http://dewey.info/class/822.3309/"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/748996728"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>748996728</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3768488852#Agent/doubleday_anchor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768488852#Place/garden_city_ny">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, NY</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3768488852#Agent/doubleday_anchor">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday Anchor</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/4944544">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Traversi</schema:familyName>
+    <schema:givenName>Derek</schema:givenName>
+    <schema:name>Derek Traversi</schema:name>
+    <schema:birthDate>1912</schema:birthDate>
+    <schema:deathDate>2005</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/748996728">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/748996728"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>
