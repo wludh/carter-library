@@ -1,0 +1,91 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/54232494#PublicationEvent/new_york_appleton_century_crofts_inc_1939">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3856142216#Agent/appleton_century_crofts_inc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3856142216#Agent/appleton_century_crofts_inc">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Appleton-Century-Crofts, Inc.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/807113">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">American literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/61553765">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Warren</schema:familyName>
+    <schema:givenName>Robert Penn</schema:givenName>
+    <schema:name>Robert Penn Warren</schema:name>
+    <schema:birthDate>1905</schema:birthDate>
+    <schema:deathDate>1989</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/68946341">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Brooks</schema:familyName>
+    <schema:givenName>Cleanth</schema:givenName>
+    <schema:name>Cleanth Brooks</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+    <schema:deathDate>1994</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/41525145">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Purser</schema:familyName>
+    <schema:givenName>John Thibaut</schema:givenName>
+    <schema:name>John Thibaut Purser</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/54232494">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/54232494"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/54232494">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:name xml:lang="en">An Approach to Literature : a collection of prose and verse, with analyses and discussions</schema:name>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/61553765"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/61553765"/>
+    <schema:bookEdition>Rev. ed.</schema:bookEdition>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1939</schema:datePublished>
+    <schema:copyrightYear>1939</schema:copyrightYear>
+    <schema:creator rdf:resource="http://viaf.org/viaf/68946341"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/41525145"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/807113"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/911989"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3856142216#Agent/appleton_century_crofts_inc"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3856142216"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/54232494"/>
+    <schema:copyrightYear>1936</schema:copyrightYear>
+    <schema:productID>54232494</schema:productID>
+    <library:oclcnum>54232494</library:oclcnum>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/54232494#PublicationEvent/new_york_appleton_century_crofts_inc_1939"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/911989">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English literature</schema:name>
+  </rdf:Description>
+</rdf:RDF>

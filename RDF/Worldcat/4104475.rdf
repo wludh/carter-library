@@ -1,0 +1,79 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/57853562">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Finkel</schema:familyName>
+    <schema:givenName>Donald</schema:givenName>
+    <schema:name>Donald Finkel</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5494493#Agent/scribner">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Scribner</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4104475">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/4104475"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/808.81/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5494493#Person/stone_walter">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Stone</schema:familyName>
+    <schema:givenName>Walter</schema:givenName>
+    <schema:name>Walter Stone</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4104475#PublicationEvent/new_york_scribner_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/5494493#Agent/scribner"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/5494493#Person/baro_gene">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Baro</schema:familyName>
+    <schema:givenName>Gene</schema:givenName>
+    <schema:name>Gene Baro</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/4104475">
+    <schema:about rdf:resource="http://dewey.info/class/808.81/"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>4104475</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/4104475#PublicationEvent/new_york_scribner_1959"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/5494493#Agent/scribner"/>
+    <schema:name xml:lang="en">Poets of today. VI: Gene Baro. Northwind: poems.--Donald Finkel. The clothing's new emperor: poems.--Walter Stone. Poems, 1955-1958.</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/5494493"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/5494493#Person/baro_gene"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/5494493#Person/stone_walter"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/4104475"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>4104475</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/57853562"/>
+    <schema:description xml:lang="en">Northwind and other poems / Gene Baro -- The clothing's new emperor and other poems / Donald Finkel -- Poems, 1955-1958 / Walter Stone.</schema:description>
+  </rdf:Description>
+</rdf:RDF>

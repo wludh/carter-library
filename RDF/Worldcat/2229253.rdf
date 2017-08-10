@@ -1,0 +1,81 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/652331737">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/2229253"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Crowning privilege.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2229253">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/2229253"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/821.004/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/2229253#PublicationEvent/garden_city_n_y_doubleday_1956_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/196625066#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/196625066#Agent/doubleday"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196625066#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/68929835">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Graves</schema:familyName>
+    <schema:givenName>Robert</schema:givenName>
+    <schema:name>Robert Graves</schema:name>
+    <schema:birthDate>1895</schema:birthDate>
+    <schema:deathDate>1985</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/912278">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/2229253">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/68929835"/>
+    <schema:name xml:lang="en">The crowning privilege; collected essays on poetry.</schema:name>
+    <schema:bookEdition>[1st American ed.].</schema:bookEdition>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/196625066#Place/garden_city_n_y"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/196625066"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/2229253"/>
+    <schema:about rdf:resource="http://dewey.info/class/821.004/"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>2229253</schema:productID>
+    <schema:description xml:lang="en">The Clark lectures, 1954-1955.--Various essays on poetry.--The common asphodel.</schema:description>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/196625066#Agent/doubleday"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>2229253</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/2229253#PublicationEvent/garden_city_n_y_doubleday_1956_1955"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/912278"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/652331737"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/196625066#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+</rdf:RDF>

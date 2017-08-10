@@ -1,0 +1,99 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1400004#Person/donne_john_1572_1631">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Donne</schema:familyName>
+    <schema:givenName>John</schema:givenName>
+    <schema:name>John Donne</schema:name>
+    <schema:birthDate>1572</schema:birthDate>
+    <schema:deathDate>1631</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1400004#Topic/english_poetry_early_modern_1500_1700_history_and_criticism">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English poetry--Early modern, 1500-1700--History and criticism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/821.09/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1400004#Event/1500_1700">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1500-1700</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/945375513">
+    <schema:about rdf:resource="http://dewey.info/class/821.09/"/>
+    <schema:productID>945375513</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/945375513#PublicationEvent/new_york_noonday_press_1958"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1400004"/>
+    <schema:name xml:lang="en">The Donne tradition; a study in English poetry from Donne to the death of Cowley.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1400004#Person/williamson_george_1898_1968"/>
+    <schema:genre xml:lang="en">Criticism, interpretation, etc.</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1400004#Topic/english_poetry_early_modern_1500_1700_history_and_criticism"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:numberOfPages>264</schema:numberOfPages>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1400004#Event/1500_1700"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/945375513"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1400004#Topic/english_poetry_early_modern"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1400004#Agent/noonday_press"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:bookEdition>Noonday Paperbound ed.</schema:bookEdition>
+    <library:oclcnum>945375513</library:oclcnum>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1400004#Series/noonday_paperbooks"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1400004#Person/donne_john_1572_1631"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1400004#Series/noonday_paperbooks">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/945375513"/>
+    <schema:name>Noonday paperbooks,</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/945375513">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/945375513"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1400004#Agent/noonday_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Noonday Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1400004#Person/williamson_george_1898_1968">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Williamson</schema:familyName>
+    <schema:givenName>George</schema:givenName>
+    <schema:name>George Williamson</schema:name>
+    <schema:birthDate>1898</schema:birthDate>
+    <schema:deathDate>1968</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/945375513#PublicationEvent/new_york_noonday_press_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1400004#Agent/noonday_press"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1400004#Topic/english_poetry_early_modern">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English poetry--Early modern</schema:name>
+  </rdf:Description>
+</rdf:RDF>
