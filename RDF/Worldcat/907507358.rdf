@@ -1,0 +1,92 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/907507358">
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1849980094#Person/ovidius_naso_p_publius_43_v_chr_17_18"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1849980094#Person/humphries_rolfe"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/907507358#CreativeWork/unidentifiedOriginalWork"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1849980094#Place/bloomington"/>
+    <library:oclcnum>907507358</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/907507358"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/907507358#PublicationEvent/bloomington_indiana_university_press_1955"/>
+    <schema:numberOfPages>401</schema:numberOfPages>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1849980094#Topic/metamorphosis"/>
+    <schema:name>Metamorphoses</schema:name>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:genre>Gedichten (teksten)</schema:genre>
+    <schema:genre>Vertalingen (vorm)</schema:genre>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1849980094"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1849980094#Agent/indiana_university_press"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://dewey.info/class/871.2/"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>907507358</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/inu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1849980094#Topic/mythology_classical"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1849980094#Agent/indiana_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Indiana University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/907507358#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:language>und</dcterms:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/907507358">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/907507358"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1849980094#Person/ovidius_naso_p_publius_43_v_chr_17_18">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ovidius Naso</schema:familyName>
+    <schema:givenName>P.</schema:givenName>
+    <schema:givenName>Publius</schema:givenName>
+    <schema:name>Publius Ovidius Naso</schema:name>
+    <schema:birthDate>43 v. Chr.</schema:birthDate>
+    <schema:deathDate>17/18</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1849980094#Person/humphries_rolfe">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Humphries</schema:familyName>
+    <schema:givenName>Rolfe</schema:givenName>
+    <schema:name>Rolfe Humphries</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/907507358#PublicationEvent/bloomington_indiana_university_press_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1849980094#Place/bloomington"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1849980094#Agent/indiana_university_press"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/inu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>inu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1849980094#Topic/mythology_classical">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Mythology, Classical</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1849980094#Topic/metamorphosis">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Metamorphosis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/871.2/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1849980094#Place/bloomington">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Bloomington</schema:name>
+  </rdf:Description>
+</rdf:RDF>

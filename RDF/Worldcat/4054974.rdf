@@ -1,0 +1,69 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/4054974">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2245062#Agent/clarendon_press"/>
+    <schema:productID>4054974</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/4054974"/>
+    <schema:about rdf:resource="http://dewey.info/class/487.6/"/>
+    <schema:datePublished>1940</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/993373"/>
+    <schema:editor rdf:resource="http://experiment.worldcat.org/entity/work/data/2245062#Person/freeman_c_e"/>
+    <schema:inLanguage>la</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2245062#Place/oxford"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/4054974#PublicationEvent/oxford_clarendon_press1940"/>
+    <library:oclcnum>4054974</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2245062"/>
+    <schema:name>Latin poetry from Catullus to Claudian; an easy reader.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2245062#Agent/clarendon_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Clarendon Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/993373">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Latin poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4054974#PublicationEvent/oxford_clarendon_press1940">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2245062#Place/oxford"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2245062#Agent/clarendon_press"/>
+    <schema:startDate>1940</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2245062#Place/oxford">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Oxford</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4054974">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/4054974"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/487.6/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2245062#Person/freeman_c_e">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Freeman</schema:familyName>
+    <schema:givenName>C. E.</schema:givenName>
+    <schema:name>C. E. Freeman</schema:name>
+  </rdf:Description>
+</rdf:RDF>

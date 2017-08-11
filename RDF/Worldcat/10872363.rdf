@@ -1,0 +1,132 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/10872363#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>la</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/104162705">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Sallust</schema:givenName>
+    <schema:name>Sallust</schema:name>
+    <schema:birthDate>86 B.C.</schema:birthDate>
+    <schema:deathDate>34 BC</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/10872363">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/10872363"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1352536">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <rdf:type rdf:resource="http://bibliograph.net/Meeting"/>
+    <schema:name>Conspiracy of Catiline (Rome : 65-62 B.C.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908633355#Person/catiline_approximately_108_b_c_62_b_c">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Catiline</schema:givenName>
+    <schema:name>Catiline</schema:name>
+    <schema:birthDate>approximately 108 B.C.</schema:birthDate>
+    <schema:deathDate>62 BC</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/984778">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <rdf:type rdf:resource="http://bibliograph.net/Meeting"/>
+    <schema:name>Jugurthine War (111-105 B.C.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/10872363">
+    <schema:alternateName>Jugurthine war</schema:alternateName>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204885"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908633355#Place/rome"/>
+    <schema:productID>10872363</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/104162705"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2908633355#Series/students_literal_translations"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85070981"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2908633355"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2908633355#Agent/translation_pub_co"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/984778"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/988919811"/>
+    <schema:datePublished>1931</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/10872363#PublicationEvent/new_york_translation_pub_co_1931"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/10872363"/>
+    <schema:name xml:lang="en">Sallust's Conspiracy of Catiline and the Jugurthine war</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1352536"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/10872363#CreativeWork/unidentifiedOriginalWork"/>
+    <library:oclcnum>10872363</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908633355#Person/catiline_approximately_108_b_c_62_b_c"/>
+    <schema:alternateName>Sallust's Catiline and Jugurthine war</schema:alternateName>
+    <schema:about rdf:resource="http://viaf.org/viaf/84032760"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:alternateName>Conspiracy of Catiline</schema:alternateName>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2908633355#Event/111_62_b_c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/84032760">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Catiline</schema:givenName>
+    <schema:name>Catiline</schema:name>
+    <schema:birthDate>approximately 108 B.C.</schema:birthDate>
+    <schema:deathDate>62 BC</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908633355#Place/rome">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Rome</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908633355#Series/students_literal_translations">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/10872363"/>
+    <schema:name>Students' literal translations</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/10872363#PublicationEvent/new_york_translation_pub_co_1931">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2908633355#Agent/translation_pub_co"/>
+    <schema:startDate>1931</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908633355#Event/111_62_b_c">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>111-62 B.C</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2908633355#Agent/translation_pub_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Translation Pub. Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/988919811">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/10872363"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Sallust's Conspiracy of Catiline and the Jugurthine war.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204885">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Rome (Empire)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85070981">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Jugurthine War, 111-105 B.C</schema:name>
+  </rdf:Description>
+</rdf:RDF>

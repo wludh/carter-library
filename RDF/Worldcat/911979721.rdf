@@ -1,0 +1,155 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/451212#Person/blackmur_r_p">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Blackmur</schema:familyName>
+    <schema:givenName>R. P.</schema:givenName>
+    <schema:name>R. P. Blackmur</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/451212#Person/de_la_mare_walter">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>De la Mare</schema:familyName>
+    <schema:givenName>Walter</schema:givenName>
+    <schema:name>Walter De la Mare</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/451212#Person/stevens_wallace">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Stevens</schema:familyName>
+    <schema:givenName>Wallace</schema:givenName>
+    <schema:name>Wallace Stevens</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/451212#Person/williams_william_carlos_1883_1963">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Williams</schema:familyName>
+    <schema:givenName>William Carlos</schema:givenName>
+    <schema:name>William Carlos Williams</schema:name>
+    <schema:birthDate>1883</schema:birthDate>
+    <schema:deathDate>1963</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/451212#Agent/vintage">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Vintage</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/451212#Person/jarrell_randall_1914_1965">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Jarrell</schema:familyName>
+    <schema:givenName>Randall</schema:givenName>
+    <schema:name>Randall Jarrell</schema:name>
+    <schema:birthDate>1914</schema:birthDate>
+    <schema:deathDate>1965</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/451212#Person/whitman_walt_1819_1892">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Whitman</schema:familyName>
+    <schema:givenName>Walt</schema:givenName>
+    <schema:name>Walt Whitman</schema:name>
+    <schema:birthDate>1819</schema:birthDate>
+    <schema:deathDate>1892</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/451212#Person/corbiere_tristan">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Corbière</schema:familyName>
+    <schema:givenName>Tristan</schema:givenName>
+    <schema:name>Tristan Corbière</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/451212#Topic/poesia_s_20_historia_y_critica_ensayos">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Poesía--s.20--Historia y crítica--Ensayos</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/451212#Person/moore_marianne_1887_1972">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Moore</schema:familyName>
+    <schema:givenName>Marianne</schema:givenName>
+    <schema:name>Marianne Moore</schema:name>
+    <schema:birthDate>1887</schema:birthDate>
+    <schema:deathDate>1972</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/911979721">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/911979721"/>
+    <schema:dateModified>2017-07-24</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/451212#Person/rukeyser_muriel">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Rukeyser</schema:familyName>
+    <schema:givenName>Muriel</schema:givenName>
+    <schema:name>Muriel Rukeyser</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/911979721#PublicationEvent/new_york_vintage_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/451212#Agent/vintage"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/911979721">
+    <schema:productID>911979721</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/451212#Person/blackmur_r_p"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/911979721"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/451212#Person/de_la_mare_walter"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/451212#Person/corbiere_tristan"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/911979721#PublicationEvent/new_york_vintage_1955"/>
+    <schema:name>Poetry and the age</schema:name>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/451212#Person/frost_robert_1874_1963"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/451212#Agent/vintage"/>
+    <library:oclcnum>911979721</library:oclcnum>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/451212#Person/jarrell_randall_1914_1965"/>
+    <schema:numberOfPages>240</schema:numberOfPages>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/451212#Person/whitman_walt_1819_1892"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/451212#Person/ransom_john"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookEdition>[1st ed., repr.].</schema:bookEdition>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/451212#Person/moore_marianne_1887_1972"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/451212#Topic/poesia_s_20_historia_y_critica_ensayos"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/451212#Person/stevens_wallace"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/451212"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/451212#Person/rukeyser_muriel"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/451212#Person/comfort_alex_1920"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/451212#Person/williams_william_carlos_1883_1963"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/451212#Person/comfort_alex_1920">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Comfort</schema:familyName>
+    <schema:givenName>Alex</schema:givenName>
+    <schema:name>Alex Comfort</schema:name>
+    <schema:birthDate>1920</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/451212#Person/frost_robert_1874_1963">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Frost</schema:familyName>
+    <schema:givenName>Robert</schema:givenName>
+    <schema:name>Robert Frost</schema:name>
+    <schema:birthDate>1874</schema:birthDate>
+    <schema:deathDate>1963</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/451212#Person/ransom_john">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ransom</schema:familyName>
+    <schema:givenName>John</schema:givenName>
+    <schema:name>John Ransom</schema:name>
+  </rdf:Description>
+</rdf:RDF>

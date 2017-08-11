@@ -1,0 +1,89 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2866060793#Series/loeb_classical_library">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/855288726"/>
+    <schema:name>Loeb classical library.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/855288726">
+    <schema:inLanguage>la</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2866060793#Person/catullus_gaius_valerius"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2866060793#Place/cambridge_mass"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2866060793#Agent/heinemann"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/855288726#PublicationEvent/cambridge_mass_harvard_university_press_london_heinemann_1950"/>
+    <schema:name>Catullus, Tibullus, and Pervigilium Veneris.</schema:name>
+    <schema:datePublished>1950</schema:datePublished>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2866060793#Series/loeb_classical_library"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2866060793#Agent/harvard_university_press"/>
+    <schema:about rdf:resource="http://dewey.info/class/874.1/"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <library:oclcnum>855288726</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/855288726"/>
+    <schema:productID>855288726</schema:productID>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2866060793#Series/loeb_classical_library_latin_authors"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2866060793"/>
+    <schema:bookEdition>[Rev. ed.].</schema:bookEdition>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/874.1/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2866060793#Place/cambridge_mass">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Cambridge, Mass.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2866060793#Agent/heinemann">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Heinemann</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/855288726">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/855288726"/>
+    <schema:dateModified>2017-07-29</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2866060793#Agent/harvard_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harvard University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2866060793#Series/loeb_classical_library_latin_authors">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/855288726"/>
+    <schema:name>Loeb classical library. Latin authors</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/855288726#PublicationEvent/cambridge_mass_harvard_university_press_london_heinemann_1950">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2866060793#Place/cambridge_mass"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2866060793#Agent/harvard_university_press"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2866060793#Agent/heinemann"/>
+    <schema:startDate>1950</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2866060793#Person/catullus_gaius_valerius">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Catullus</schema:familyName>
+    <schema:givenName>Gaius Valerius</schema:givenName>
+    <schema:name>Gaius Valerius Catullus</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,99 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/B2778">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/849829">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Causation</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/82088490">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kant</schema:familyName>
+    <schema:givenName>Immanuel</schema:givenName>
+    <schema:name>Immanuel Kant</schema:name>
+    <schema:birthDate>1724</schema:birthDate>
+    <schema:deathDate>1804</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/988194">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Knowledge, Theory of</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/163887105#Series/modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/304734"/>
+    <schema:name>Modern library of the world's best books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/163887105">
+    <schema:name>Kritik der reinen Vernunft.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/304734">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/304734"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/304734#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Kritik der reinen Vernunft.</schema:name>
+    <schema:inLanguage>de</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/121/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/51772529">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Smith</schema:familyName>
+    <schema:givenName>Norman Kemp</schema:givenName>
+    <schema:name>Norman Kemp Smith</schema:name>
+    <schema:birthDate>1872</schema:birthDate>
+    <schema:deathDate>1958,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1091272">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Reason</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/163887105#Series/the_modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/304734"/>
+    <schema:name>The Modern library of the world's best books ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/304734">
+    <schema:creator rdf:resource="http://viaf.org/viaf/82088490"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/163887105#Series/modern_library_of_the_world_s_best_books"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/849829"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/163887105"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/51772529"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/304734#CreativeWork/unidentifiedOriginalWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">Critique of pure reason</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/304734"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1091272"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/988194"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/B2778"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:bookEdition>Abridged edition.</schema:bookEdition>
+    <schema:productID>304734</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://dewey.info/class/121/"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/163887105#Series/the_modern_library_of_the_world_s_best_books"/>
+    <library:oclcnum>304734</library:oclcnum>
+  </rdf:Description>
+</rdf:RDF>

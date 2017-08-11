@@ -1,0 +1,91 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4241318268#Person/grene_david">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Grene</schema:familyName>
+    <schema:givenName>David</schema:givenName>
+    <schema:name>David Grene</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/947146">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Greek drama (Tragedy)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/54935941#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>grc</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/54935941#PublicationEvent/chicago_university_of_chicago_press_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/4241318268#Agent/university_of_chicago_press"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4241318268#Agent/university_of_chicago_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>University of Chicago Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/882.082/e21/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/97989746">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lattimore</schema:familyName>
+    <schema:givenName>Richmond</schema:givenName>
+    <schema:name>Richmond Lattimore</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+    <schema:deathDate>1984</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/54935941">
+    <schema:name xml:lang="en">The complete Greek tragedies : vol. 4, Euripides</schema:name>
+    <schema:productID>54935941</schema:productID>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/4241318268#Person/euripides"/>
+    <schema:about rdf:resource="http://dewey.info/class/882.082/e21/"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/947146"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/54935941#PublicationEvent/chicago_university_of_chicago_press_1959"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/54935941#CreativeWork/unidentifiedOriginalWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4241318268"/>
+    <library:oclcnum>54935941</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/4241318268#Agent/university_of_chicago_press"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:description xml:lang="en">Introduction to Ion / Ronald Frederick Willetts -- Introduction to Rhesus / Richmond Lattimore -- Rhesus / Richmond Lattimore -- Introduction to the Suppliant women / Frank William Jones -- Introduction to Orestes / William Arrowsmith -- Orestes / William Arrowsmith -- Introduction to Iphigenia in Aulis / Charles R. Walker -- Iphigenia in Aulis / Charles R. Walker -- Introduction to Electra / Emily Townsend Vermeule -- Electra translated by Emily Townsend Vermeule -- Introduction to the Phoenician women / Elizabeth Wyckoff -- The Phoencian women / translated by Elizabeth Wyckoff -- Introduction to the Bacchae / William Arrowsmith -- The Bacchae / translated by William Arrowsmith -- Chronological note on the plays of Euripides / Richmond Lattimore.</schema:description>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/97989746"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:genre xml:lang="en">Translations</schema:genre>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/4241318268#Person/grene_david"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/54935941"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/54935941">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/54935941"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4241318268#Person/euripides">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Euripides</schema:givenName>
+    <schema:name>Euripides.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

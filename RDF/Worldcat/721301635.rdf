@@ -1,0 +1,86 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:schema="http://schema.org/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/163887105#Agent/modern_library_random_house">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Modern Library Random House</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/163887105#CreativeWork/kritik_der_reinen_vernunft">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Kritik der reinen Vernunft</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/721301635">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/721301635"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/721301635">
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/163887105#Series/the_modern_library_of_the_world_s_best_books"/>
+    <schema:productID>721301635</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>de</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/721301635"/>
+    <umbel:isLike rdf:resource="http://d-nb.info/577825925"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/gw"/>
+    <schema:name xml:lang="de">Critique of pure reason</schema:name>
+    <schema:bookEdition>Abridged ed.</schema:bookEdition>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/721301635#PublicationEvent/new_yorkmodern_library_random_house1958"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/163887105#CreativeWork/kritik_der_reinen_vernunft"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/163887105"/>
+    <schema:author rdf:resource="http://viaf.org/viaf/82088490"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/51772529"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/163887105#Agent/modern_library_random_house"/>
+    <library:oclcnum>721301635</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/82088490">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kant</schema:familyName>
+    <schema:givenName>Immanuel</schema:givenName>
+    <schema:name>Immanuel Kant</schema:name>
+    <schema:birthDate>1724</schema:birthDate>
+    <schema:deathDate>1804</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/gw">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>gw</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/51772529">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Smith</schema:familyName>
+    <schema:givenName>Norman Kemp</schema:givenName>
+    <schema:name>Norman Kemp Smith</schema:name>
+    <schema:birthDate>1872</schema:birthDate>
+    <schema:deathDate>1958</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/163887105#Series/the_modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/721301635"/>
+    <schema:name>The modern library of the world's best books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/721301635#PublicationEvent/new_yorkmodern_library_random_house1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/163887105#Agent/modern_library_random_house"/>
+    <schema:startDate>1958</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

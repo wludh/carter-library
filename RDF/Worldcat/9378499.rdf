@@ -1,0 +1,84 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829657862#Person/ovid_43_b_c_17_a_d_or_18_a_d">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Ovid</schema:givenName>
+    <schema:name>Ovid</schema:name>
+    <schema:birthDate>43 B.C.</schema:birthDate>
+    <schema:deathDate>17 AD or 18 AD</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829657862#Agent/j_m_dent">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>J.M. Dent</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829657862#Agent/e_p_dutton">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>E.P. Dutton</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/871.01/e19/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/9378499#PublicationEvent/london_j_m_dent_new_york_e_p_dutton_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2829657862#Agent/j_m_dent"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2829657862#Agent/e_p_dutton"/>
+    <schema:startDate>1948</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/9378499">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/9378499"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829657862#Series/everyman_s_library_classical">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/9378499"/>
+    <schema:name>Everyman's library. Classical ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/9378499">
+    <schema:genre xml:lang="en">Biography</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2829657862#Person/ovid_43_b_c_17_a_d_or_18_a_d"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/9378499#PublicationEvent/london_j_m_dent_new_york_e_p_dutton_1948"/>
+    <schema:name xml:lang="en">Ovid : selected works</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>9378499</library:oclcnum>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2829657862#Agent/j_m_dent"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2829657862#Series/everyman_s_library_classical"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/9378499"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2829657862#Agent/e_p_dutton"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2829657862"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:about rdf:resource="http://dewey.info/class/871.01/e19/"/>
+    <schema:productID>9378499</schema:productID>
+    <schema:datePublished>1948</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+</rdf:RDF>

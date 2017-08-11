@@ -1,0 +1,68 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/494391#Person/cory_daniel">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Cory</schema:familyName>
+    <schema:givenName>Daniel</schema:givenName>
+    <schema:name>Daniel Cory</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/491770714">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name>The Life of Reason or the phases of human progress ...</schema:name>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/494391"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>491770714</library:oclcnum>
+    <schema:creator rdf:resource="http://viaf.org/viaf/59098309"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/494391#Agent/constable"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/491770714"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>491770714</schema:productID>
+    <schema:bookEdition>One-Volume edition. /</schema:bookEdition>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/494391#Person/cory_daniel"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/491770714#PublicationEvent/london_constable_1954"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/494391#Agent/constable">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Constable</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/491770714#PublicationEvent/london_constable_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/494391#Agent/constable"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/491770714">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/491770714"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/59098309">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Santayana</schema:familyName>
+    <schema:givenName>George</schema:givenName>
+    <schema:name>George Santayana</schema:name>
+  </rdf:Description>
+</rdf:RDF>

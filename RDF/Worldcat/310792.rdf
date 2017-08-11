@@ -1,0 +1,110 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/76154025">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Godolphin</schema:familyName>
+    <schema:givenName>Francis R. B.</schema:givenName>
+    <schema:givenName>Francis Richard Borroum</schema:givenName>
+    <schema:name>Francis Richard Borroum Godolphin</schema:name>
+    <schema:birthDate>1903</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/310792">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1371169"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/614512460"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/76154025"/>
+    <schema:description xml:lang="en">Translators include Alba Warren, William Ewart Gladstone, Richard Crashaw, F.A. Wright, Theodore Martin, Horace Gregory, Jonathan Swift, Walter Savage Landor, Arthur Symons, Aubrey Beardsley, George Lamb, Abraham Cowley, Leigh Hunt, Alexander Fraser Tytler, G.F. Ottey, John Dryden, John Conington, John Milton, Thomas Charles Baring, Roswell Martin Field, Barklie Henry, William Falconer Murison, Stephen Edward DeVere, J.H. Deazeley, Margaret M. Fitzgerald, William Sinclair Marris, Enola Brandt, John Parke, Charles Stuart Claverley, Hugh Vibart MacNaghten, Robert Herrick, A.E. Housman, Philip Francis, Francis Hower, Henry Harmon Chamberlin, James Cranstoun, Charles Abraham Elton, James Grainger, Seymour G. Tremenheere, E.H.W. Meyerstein, Kirby Flower Smith, Brookes More, Thomas Creech, William Gifford, Frank Justus Miller, Ella Isabel Harris, Edward Ridley, Sir William Hamilton Fyfe, George Gordon Byron, and Thomas Parnell.</schema:description>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name xml:lang="en">The Latin poets.</schema:name>
+    <schema:about rdf:resource="http://dewey.info/class/871.082/"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204885"/>
+    <schema:genre xml:lang="en">Translations</schema:genre>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/993373"/>
+    <schema:productID>310792</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1371169#Place/rome"/>
+    <schema:genre xml:lang="en">Poetry</schema:genre>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:datePublished>1949</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1371169#Agent/modern_library"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/310792"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1371169#Topic/latin_poetry"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1371169#Series/the_modern_library_of_the_world_s_best_books"/>
+    <library:oclcnum>310792</library:oclcnum>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1371169#Series/modern_library_of_the_world_s_best_books"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/310792#PublicationEvent/new_york_modern_library1949"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1371169#Place/rome">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Rome</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1371169#Topic/latin_poetry">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh2008106713"/>
+    <schema:name xml:lang="en">Latin poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1371169#Agent/modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Modern Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1371169#Series/modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/310792"/>
+    <schema:name>Modern library of the world's best books.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/310792#PublicationEvent/new_york_modern_library1949">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1371169#Agent/modern_library"/>
+    <schema:startDate>1949</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/614512460">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/310792"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Latin poets.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/993373">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Latin poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/871.082/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1371169#Series/the_modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/310792"/>
+    <schema:name>The Modern library of the world's best books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/310792">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/310792"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204885">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Rome (Empire)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>
