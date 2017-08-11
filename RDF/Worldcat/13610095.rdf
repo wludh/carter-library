@@ -1,0 +1,105 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dewey.info/class/429/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/13610095">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/13610095"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/miu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>miu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/205556083#Topic/english_language_old_english_ca_450_1100_grammar">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English language--Old English, ca. 450-1100--Grammar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1711300">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English language--Old English--Grammar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/205556083#Agent/george_wahr">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>George Wahr</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/205556083#Place/altenglisch">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Altenglisch.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/35779202">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Knott</schema:familyName>
+    <schema:givenName>Thomas A.</schema:givenName>
+    <schema:givenName>Thomas Albert</schema:givenName>
+    <schema:name>Thomas Albert Knott</schema:name>
+    <schema:birthDate>1880</schema:birthDate>
+    <schema:deathDate>1945,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/645032339">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/13610095"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Elements of Old English.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/13610095">
+    <schema:datePublished>1960</schema:datePublished>
+    <schema:author rdf:resource="http://viaf.org/viaf/35779202"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/205556083#Agent/george_wahr"/>
+    <schema:name xml:lang="en">The elements of Old English : elementary grammar, reference grammar and reading selections</schema:name>
+    <schema:productID>13610095</schema:productID>
+    <schema:creator rdf:resource="http://viaf.org/viaf/78929392"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/13610095"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/645032339"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/205556083#Topic/english_language_old_english_ca_450_1100_grammar"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:bookEdition>10th ed., rev., enl., and corrected.</schema:bookEdition>
+    <schema:about rdf:resource="http://dewey.info/class/429/"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/13610095#PublicationEvent/ann_arbor_mich_george_wahr_1960"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1711300"/>
+    <library:oclcnum>13610095</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/miu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/205556083#Topic/grammatik"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/205556083#Place/altenglisch"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/205556083#Place/ann_arbor_mich"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/205556083"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/13610095#PublicationEvent/ann_arbor_mich_george_wahr_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/205556083#Place/ann_arbor_mich"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/205556083#Agent/george_wahr"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/205556083#Topic/grammatik">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Grammatik</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/78929392">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Moore</schema:familyName>
+    <schema:givenName>Samuel</schema:givenName>
+    <schema:name>Samuel Moore</schema:name>
+    <schema:birthDate>1877</schema:birthDate>
+    <schema:deathDate>1934</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/205556083#Place/ann_arbor_mich">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Ann Arbor, Mich.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

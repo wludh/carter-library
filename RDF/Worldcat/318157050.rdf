@@ -1,0 +1,85 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dewey.info/class/801.951/e18/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1067682">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Poesía--Historia y crítica</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1384229#Topic/poetica">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Poética</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1384229#Topic/poesia_historia_y_critica">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Poesía--Historia y crítica</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1384229#Person/kenner_hugh">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kenner</schema:familyName>
+    <schema:givenName>Hugh</schema:givenName>
+    <schema:name>Hugh Kenner</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/318157050">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/318157050"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/318157050#PublicationEvent/new_york_holt_rinehart_and_winston_1959">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1384229#Agent/holt_rinehart_and_winston"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/318157050">
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/318157050#PublicationEvent/new_york_holt_rinehart_and_winston_1959"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1384229#Agent/holt_rinehart_and_winston"/>
+    <library:oclcnum>318157050</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1067682"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/318157050"/>
+    <schema:about rdf:resource="http://dewey.info/class/801.951/e18/"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:numberOfPages>357</schema:numberOfPages>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1384229#Topic/poetics"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1384229#Topic/poetica"/>
+    <schema:datePublished>1959</schema:datePublished>
+    <schema:name>The art of poetry</schema:name>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1384229#Topic/poesia_historia_y_critica"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1384229"/>
+    <schema:copyrightYear>1959</schema:copyrightYear>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1384229#Person/kenner_hugh"/>
+    <schema:productID>318157050</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1384229#Topic/poetics">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Poetics</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1384229#Agent/holt_rinehart_and_winston">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Holt, Rinehart and Winston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,117 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1710960">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English literature--Early modern</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/355733936#Event/1500_1700">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1500-1700</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780804614108">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780804614108</schema:isbn>
+    <schema:isbn>0804614105</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/779717">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/779717"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/355733936#Place/indianapolis">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Indianapolis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/inu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>inu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/111272853">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hanford</schema:familyName>
+    <schema:givenName>James Holly</schema:givenName>
+    <schema:name>James Holly Hanford</schema:name>
+    <schema:birthDate>1882</schema:birthDate>
+    <schema:deathDate>1969,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/355733936#Place/great_britain">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Great Britain</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204623">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Great Britain.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/355733936#Agent/bobbs_merrill_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Bobbs-Merrill Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/779717#PublicationEvent/indianapolis_bobbs_merrill_co_1954">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/355733936#Place/indianapolis"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/355733936#Agent/bobbs_merrill_co"/>
+    <schema:startDate>1954</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/576534088">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/779717"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Restoration reader.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85043780">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English literature--Early modern, 1500-1700</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/779717">
+    <schema:bookEdition>[1st ed.].</schema:bookEdition>
+    <schema:description xml:lang="en">Chronicles of the realm. $g Happy return. $t England's joy / $r Anonymous -- $t Astraea redux / $r John Dryden -- $t The year 1660 ; $t The year 1661 ; $t The year 1662 ; $t The year 1663 / $r Samuel Pepys -- $t Hudibras / $r Samuel Butler -- $t The ways of God to man / $r John Milton -- $t The problem of toleration ; $t The suppression of dissent / $r Richard Baxter.</schema:description>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">A Restoration reader.</schema:name>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780804614108"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/inu"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204623"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1710960"/>
+    <schema:description xml:lang="en">$g Wit's recreations. $g The stage. $t Letters patent for erecting a new theatre / $r Charles II -- $t Diary of a playgoer / $r Samuel Pepys -- $t The country wife / $r William Wycherley -- $t The way of the world ; $t Love for love / $r William Congreve -- $t The provoked wife / $r Sir John Vanbrugh.</schema:description>
+    <schema:description xml:lang="en">$g Grace abounding. $t Margaret Fell ; $t Fox in New England / $r George Fox -- $t Letter to the Indians ; $t Prayer for Philadelphia / $r William Penn -- $t Father and son ; $t A visit to John Milton / $r Thomas Ellwood -- $t Grace abounding ; $t The pilgrim's progress / $r John Bunyan -- $t Centuries of meditation ; $t Wonder / $r Thomas Traherne.</schema:description>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/779717"/>
+    <schema:datePublished>1954</schema:datePublished>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85043780"/>
+    <library:oclcnum>779717</library:oclcnum>
+    <schema:description xml:lang="en">$g Old and new science. $t A trial of witches / $r Anonymous -- $t The case for witchcraft : objections answered / $r Joseph Glanvill -- $t Religious origins / $r Thomas Hobbes -- $t Letter to a friend / $r Sir Thomas Browne -- $t Discourse of health and long life / $r Sir William Temple -- $t The improvement of physic ; $t Observations on the gout / $r Thomas Sydenham -- $t The elephant and the moon / $r Samuel Butler -- $t The virtuoso / $r Thomas Shadwell -- $t Sir Wiliam Petty / $r John Evelyn -- $t Political arithmetic / $r Sir William Petty.</schema:description>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/355733936#Event/1500_1700"/>
+    <schema:productID>779717</schema:productID>
+    <schema:description xml:lang="en">G Chronicles of the realm. $g Three horsemen : war, plague, fire. $t Britain's shame / $r Andrew Marvell -- $t The year 1664 ; $t The year 1665 ; $t The year 1666 ; $t The year 1667 ; $t The year 1668 / $r Samuel Pepys -- $t The flight from London ; $t Death rides triumphant ; $t The plague among God's people ; $t God's hand in plague and fire ; $t A catalogue of London's sins / $r Thomas Vincent -- $t Autopsy on a victim of the plague / $r George Thomson -- $t London redivivus / $r John Dryden.</schema:description>
+    <schema:about rdf:resource="http://dewey.info/class/820.82/"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:description xml:lang="en">$g Chronicles of the realm. $g Plot and counterplot : the end of an era. $t The year 1671 ; $t The year 1672 ; $t The year 1673 ; $t The year 1678 ; $t The year 1679 ; $t The year 1680 ; $t The year 1683 ; $t The year 1685 ; $t The year 1688 / $r John Evelyn -- $g Letters. $t To the Lord Chancellor Clarendon ; $t To his sister Henrietta ; $t To Prince Rupert ; $t Proclamation to prohibit the rebuilding of houses after the Great Fire ; $t Speech to both Houses on opening the session / $r Charles II -- $t Plain speech to royalty / $r Gilbert Burnet -- $t Ambassador's report / $r Paul Barillon, Marquis de Brange -- $t The paper delivered by Lord Russell to the sheriffs / $r William, Lord Russell -- $t Absalom ; $t The Jebusites ; $t Achitophel ; $t Zimri ; $t The hind and the panther / $r John Dryden -- $t The prince of darkness / $r Anonymous -- $t Escape of a white slave / $r Henry Pitman.</schema:description>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/779717#PublicationEvent/indianapolis_bobbs_merrill_co_1954"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/111272853"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/355733936#Place/great_britain"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/576534088"/>
+    <schema:genre xml:lang="en">Literary collections</schema:genre>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/355733936"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:description xml:lang="en">$g Hic jacet. $t Epitaphs. $t Charles II ; $t James II ; $t Buckingham ; $t John Dryden ; $t A clockmaker-mayor ; $t A cook ; $t A soldier of the king ; $t Three children ; $t William Wheatly, obit 1683 / $r Anonymous.</schema:description>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/355733936#Place/indianapolis"/>
+    <schema:description xml:lang="en">$g Wit's recreations. $g Belles-Lettres. $t Of war and poetry ; $t Of modern wit / $r John Dryden -- $t The Restoration, or the history of insipids ; $t Song, My dear mistress has a heart ; Constancy ; $t The bowl ; $t Song, Injurious charmer of my vanquished heart ; $t Song, When on those lovely looks I gaze ; $t Song, absent from thee I languish still ; $t Song, All my past life is mine no more ; $t Letters to Mrs. Barry ; $t The maimed debauchee ; $t A satire against mankind / $r John Wilmot, Earl of Rochester -- $t The conversion of a rake / $r Gilbert Burnet -- $t To Chloris ; $t The indifference ; $t Song, Not, Celia, that I juster am ; $t Song, Love still has something of the sea ; $t The knotting song ; $t Song, Phyllis is my only joy / $r Sir Charles Sedley -- $t A song of Belial / $r Anthony Wood -- $t Oroonoko, or, The royal slave ; $t Letters of Aphra. $t To Mr. Klligrew ; $t To a gentleman ; $t To Jacob Tonson, publisher ; $t Poems of Aphra ; $t Love armed ; $t The willing mistress ; $t On Mr. Dryden, renegade ; $t A Pindaric poem / $r Aphra Behn -- $t Of solitude / $r Abraham Cowley -- The morning quatrains / $r Charles Cotton -- $t Alexander's feast / $r John Dryden -- $t Song written at sea / $r Charles Sackville.</schema:description>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/355733936#Agent/bobbs_merrill_co"/>
+    <schema:description xml:lang="en">$g The empire of love. $t The Devil makes a slip ; $t Lady Muskerry's pillow ; $t King's gambit declined / $r Anthony Hamilton -- $t Some account of Mrs. Gwyn / $r William Oldys -- $g Letters $t To Lawrence Hyde ; $t To Mrs. Francis Jennings / $r Eleanor Gwyn -- $t A panegyric on Nelly / $r Anonymous -- $t The affaire Deb Willett / $r Samuel Pepys -- $t Hail wedded love / $r John Milton -- $t A hoyting girl ; $t What news? ; $t That Passion / $r Lady Anne Fanshawe -- $g Letters. $t To Lord Russell ; $t To Dr. Fitzwilliam / $r Lady Rachael Russell -- $t Of my Lord's natural wit and understanding ; $t Of his natural humor and disposition ; $t Of his outward shape and behavior ; $t Of his diet / $r The Duchess of Newscastle.</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/820.82/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

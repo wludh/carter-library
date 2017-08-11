@@ -1,0 +1,86 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/164579132">
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>164579132</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2922182"/>
+    <schema:alternateName>Smith's new grammar</schema:alternateName>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/911209"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/164579132"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2922182#Place/philadelphia"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/164579132#PublicationEvent/philadelphia_e_h_butler_1883_1882"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:datePublished>1883</schema:datePublished>
+    <schema:copyrightYear>1882</schema:copyrightYear>
+    <schema:name xml:lang="en">English grammar, on the productive system : designed for schools and academics</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2922182#Event/1800_1870"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/pau"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/72730400"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2922182#Topic/english_language_grammar_1800_1870"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2922182#Agent/e_h_butler"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2922182#Topic/english_language_grammar"/>
+    <schema:productID>164579132</schema:productID>
+    <schema:genre xml:lang="en">Textbooks</schema:genre>
+    <schema:bookEdition>New and rev. ed.</schema:bookEdition>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/911209">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English language--Grammar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/72730400">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Smith</schema:familyName>
+    <schema:givenName>Roswell Chamberlain</schema:givenName>
+    <schema:name>Roswell Chamberlain Smith</schema:name>
+    <schema:birthDate>1797</schema:birthDate>
+    <schema:deathDate>1875</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2922182#Topic/english_language_grammar">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English language--Grammar</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2922182#Place/philadelphia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Philadelphia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2922182#Event/1800_1870">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1800-1870</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/pau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>pau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/164579132">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/164579132"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2922182#Agent/e_h_butler">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>E.H. Butler</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/164579132#PublicationEvent/philadelphia_e_h_butler_1883_1882">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2922182#Place/philadelphia"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2922182#Agent/e_h_butler"/>
+    <schema:startDate>1883</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2922182#Topic/english_language_grammar_1800_1870">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">English language--Grammar--1800-1870</schema:name>
+  </rdf:Description>
+</rdf:RDF>
