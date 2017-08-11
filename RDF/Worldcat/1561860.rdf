@@ -1,0 +1,143 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85057191">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Greek prose literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54762799#Person/dio_cocceianuus_chrysostomus_of_prusa">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dio Cocceianuus</schema:familyName>
+    <schema:givenName>Chrysostomus</schema:givenName>
+    <schema:name>of Prusa. Chrysostomus Dio Cocceianuus</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/888/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54762799#CreativeWork/hunters_of_euboea">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Hunters of Euboea.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/54762799#Person/dio_cocceianuus_chrysostomus_of_prusa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54762799#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/947525">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Greek prose literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1561860#PublicationEvent/garden_city_n_y_doubleday_1953">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/54762799#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/54762799#Agent/doubleday"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/9847466">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hadas</schema:familyName>
+    <schema:givenName>Moses</schema:givenName>
+    <schema:name>Moses Hadas</schema:name>
+    <schema:birthDate>1900</schema:birthDate>
+    <schema:deathDate>1966,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/947441">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Greek literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54762799#Series/a_doubleday_anchor_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1561860"/>
+    <schema:name>A Doubleday Anchor book</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54762799#CreativeWork/ephesiaca">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Ephesiaca.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/54762799#Person/xenophon_of_ephesus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1561860">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/54762799#Person/dio_cocceianuus_chrysostomus_of_prusa"/>
+    <schema:name xml:lang="en">Three Greek romances.</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://dewey.info/class/888/"/>
+    <schema:bookEdition>[1st ed.].</schema:bookEdition>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/54762799#Person/longus"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:alternateName>Ephesian tale</schema:alternateName>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/54762799#CreativeWork/daphnis_and_chloe"/>
+    <schema:datePublished>1953</schema:datePublished>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/54762799#Person/xenophon_of_ephesus"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/54762799#Place/garden_city_n_y"/>
+    <schema:alternateName>Hunters of Euboea</schema:alternateName>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1561860"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1561860#PublicationEvent/garden_city_n_y_doubleday_1953"/>
+    <schema:genre xml:lang="en">Translations</schema:genre>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/54762799#Series/doubleday_anchor_books"/>
+    <library:oclcnum>1561860</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>1561860</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/947525"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/9847466"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/54762799#CreativeWork/ephesiaca"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/54762799#Topic/english_literature_translations_from_greek"/>
+    <schema:alternateName>Daphnis and Chloe</schema:alternateName>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/947441"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/54762799#Series/a_doubleday_anchor_book"/>
+    <schema:description xml:lang="en">Daphnis and Chloe, by Longus.--An Ephesian tale, by Xenophon.--The hunters of Euboea, by Dio Chrysostom.</schema:description>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/54762799"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85057191"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/54762799#Agent/doubleday"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/54762799#CreativeWork/hunters_of_euboea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54762799#Topic/english_literature_translations_from_greek">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85043777"/>
+    <schema:name xml:lang="en">English literature--Translations from Greek</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54762799#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54762799#Person/longus">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Longus</schema:givenName>
+    <schema:name>Longus.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54762799#CreativeWork/daphnis_and_chloe">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Daphnis and Chloe.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/54762799#Person/longus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54762799#Person/xenophon_of_ephesus">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Xenophon</schema:givenName>
+    <schema:name>of Ephesus. Xenophon</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/54762799#Series/doubleday_anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/1561860"/>
+    <schema:name>Doubleday anchor books.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1561860">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1561860"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,99 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/89798474">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Nietzsche</schema:familyName>
+    <schema:givenName>Friedrich Wilhelm</schema:givenName>
+    <schema:name>Friedrich Wilhelm Nietzsche</schema:name>
+    <schema:birthDate>1844</schema:birthDate>
+    <schema:deathDate>1900</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/246054#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:language>und</dcterms:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4088075861#Person/golffing_francis">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Golffing</schema:familyName>
+    <schema:givenName>Francis</schema:givenName>
+    <schema:name>Francis Golffing</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/613080596">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/246054"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Birth of tragedy and the genealogy of morals.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/246054">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/246054"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/4088075861#Series/doubleday_anchor_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/246054"/>
+    <schema:name>Doubleday anchor books ;</schema:name>
+    <schema:name>Doubleday anchor books.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1060777">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Philosophy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/193.9/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/B3312">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/246054">
+    <schema:creator rdf:resource="http://viaf.org/viaf/89798474"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1060777"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/4088075861#Series/doubleday_anchor_books"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:alternateName>Genealogy of morals</schema:alternateName>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:productID>246054</schema:productID>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/915833"/>
+    <schema:description xml:lang="en">The Birth of Tragedy (1872) was Nietzsche's first book; The Genealogy of Morals (1887) one of his last. Both are about the conflict between the moral and aesthetic approaches to life, the impact of Christianity on human values, the meaning of science, the famous contrast between the Apollonian and Dionysian spirits, and the other themes that dominated Nietzsche's life and have made him a figure of the first magnitude for contemporary thought.</schema:description>
+    <schema:about rdf:resource="http://dewey.info/class/193.9/"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/613080596"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/246054#CreativeWork/unidentifiedOriginalWork"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/246054"/>
+    <schema:name xml:lang="en">The birth of tragedy and the genealogy of morals</schema:name>
+    <library:oclcnum>246054</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/4088075861"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/4088075861#Person/golffing_francis"/>
+    <schema:bookEdition>Anchor Boods edition.</schema:bookEdition>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/B3312"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1154355"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:description xml:lang="en">The birth of tragedy -- The genealogy of morals.</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/915833">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Ethics</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1154355">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Tragedy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

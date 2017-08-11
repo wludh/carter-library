@@ -1,0 +1,77 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/53652927#Person/dubois_marguerite_marie">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dubois</schema:familyName>
+    <schema:givenName>Marguerite Marie</schema:givenName>
+    <schema:name>Marguerite Marie Dubois</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/862228907">
+    <schema:inLanguage>fr</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>862228907</schema:productID>
+    <schema:name>Larousse's French-English, English-French dictionary</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/53652927"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/862228907#PublicationEvent/new_york_pocket_books_1955"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/53652927#Topic/english_language_french"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/53652927#Person/dubois_marguerite_marie"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/53652927#CreativeWork/dictionnaire_larousse_francais_anglais_anglias_francais"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>862228907</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/53652927#Topic/french_language_english"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/862228907"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/53652927#Agent/pocket_books"/>
+    <schema:bookEdition>Cardinal ed.</schema:bookEdition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/53652927#CreativeWork/dictionnaire_larousse_francais_anglais_anglias_francais">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Dictionnaire Larousse Francais-Anglais, Anglias-Francais.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/53652927#Agent/pocket_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Pocket Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/862228907">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/862228907"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/53652927#Topic/english_language_french">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>English language--French</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/53652927#Topic/french_language_english">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>French language--English</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/862228907#PublicationEvent/new_york_pocket_books_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/53652927#Agent/pocket_books"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

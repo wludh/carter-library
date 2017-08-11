@@ -1,0 +1,104 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3061636218#Series/an_evergreen_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/604019416"/>
+    <schema:name>An Evergreen book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/3061636218">
+    <schema:name>Works.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3061636218#Agent/grove_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Grove Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/152418237">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Grove Press,</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3061636218#Person/catullus_gaius_valerius">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Catullus</schema:familyName>
+    <schema:givenName>Gaius Valerius</schema:givenName>
+    <schema:name>Gaius Valerius Catullus</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3061636218#Series/evergreen_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/604019416"/>
+    <schema:name>Evergreen book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/604019416">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/604019416"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/604019416#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Works.</schema:name>
+    <schema:inLanguage>la</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/993373">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Latin poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/110610574">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Gregory</schema:familyName>
+    <schema:givenName>Horace</schema:givenName>
+    <schema:name>Horace Gregory</schema:name>
+    <schema:birthDate>1898</schema:birthDate>
+    <schema:deathDate>1982,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/604019416#PublicationEvent/new_york_grove_press_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3061636218#Agent/grove_press"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/604019416">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3061636218#Series/evergreen_book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3061636218#Agent/grove_press"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:publisher rdf:resource="http://viaf.org/viaf/152418237"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:copyrightYear>1956</schema:copyrightYear>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/604019416#PublicationEvent/new_york_grove_press_1956"/>
+    <schema:about rdf:resource="http://dewey.info/class/874.01/"/>
+    <schema:productID>604019416</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/604019416"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/604019416#CreativeWork/unidentifiedOriginalWork"/>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/3061636218#Person/catullus_gaius_valerius"/>
+    <library:oclcnum>604019416</library:oclcnum>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3061636218#Series/an_evergreen_book"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/110610574"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/993373"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name xml:lang="en">The poems of Catullus</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3061636218"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/874.01/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

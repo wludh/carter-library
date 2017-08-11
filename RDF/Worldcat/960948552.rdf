@@ -1,0 +1,98 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/504808128#Person/roche_paul_1916_2007">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Roche</schema:familyName>
+    <schema:givenName>Paul</schema:givenName>
+    <schema:name>Paul Roche</schema:name>
+    <schema:birthDate>1916</schema:birthDate>
+    <schema:deathDate>2007</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/504808128#Person/sophocles">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Sophocles</schema:givenName>
+    <schema:name>Sophocles</schema:name>
+    <schema:name>Sophocles.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/504808128#Series/a_mentor_classic">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/960948552"/>
+    <schema:name>A Mentor classic</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/504808128#Person/antigone_mythological_character">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Antigone</schema:givenName>
+    <schema:name>(Mythological character) Antigone</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/504808128">
+    <schema:name>Works. 1958</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/504808128#CreativeWork/antigone">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Antigone.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/504808128#Person/oedipus_greek_mythological_figure">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Oedipus</schema:givenName>
+    <schema:name>(Greek mythological figure) Oedipus</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/960948552">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/960948552"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/960948552#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Works. 1958</schema:name>
+    <dcterms:language>und</dcterms:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/960948552">
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/504808128#CreativeWork/oedipus_at_colonus"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/504808128"/>
+    <schema:genre xml:lang="en">Translations</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/960948552"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/504808128#Person/antigone_mythological_character"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/504808128#Person/sophocles"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/504808128#CreativeWork/oedipus_the_king"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/504808128#Person/roche_paul_1916_2007"/>
+    <schema:productID>960948552</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/504808128#CreativeWork/antigone"/>
+    <schema:genre xml:lang="en">Drama</schema:genre>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/960948552#CreativeWork/unidentifiedOriginalWork"/>
+    <library:oclcnum>960948552</library:oclcnum>
+    <schema:name xml:lang="en">The Oedipus plays of Sophocles : Oedipus the King, Oedipus at Colonus, Antigone</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/504808128#Person/sophocles"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/504808128#Person/oedipus_greek_mythological_figure"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/504808128#Series/a_mentor_classic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/504808128#CreativeWork/oedipus_at_colonus">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Oedipus at Colonus.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/504808128#CreativeWork/oedipus_the_king">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Oedipus the king.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,78 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/729078558">
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/1589412#Place/new_york_ny"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/729078558"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1589412#Series/meridian_books_m"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/729078558#PublicationEvent/new_york_ny_meridian_1956"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1589412#Person/kaufmann_walter"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>729078558</library:oclcnum>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1589412#Thing/kulturkritik_im_spaten_19_jahrhundert"/>
+    <schema:datePublished>1956</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1589412#Agent/meridian"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1589412"/>
+    <schema:productID>729078558</schema:productID>
+    <schema:name>Nietzsche : philosopher, psychologist, antichrist</schema:name>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1589412#Series/meridian_books"/>
+    <schema:bookEdition>Cop. 1950, first Meridian ed.</schema:bookEdition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1589412#Person/kaufmann_walter">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kaufmann</schema:familyName>
+    <schema:givenName>Walter</schema:givenName>
+    <schema:name>Walter Kaufmann</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1589412#Place/new_york_ny">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York, NY</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/729078558#PublicationEvent/new_york_ny_meridian_1956">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/1589412#Place/new_york_ny"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1589412#Agent/meridian"/>
+    <schema:startDate>1956</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1589412#Thing/kulturkritik_im_spaten_19_jahrhundert">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>Kulturkritik im späten 19. Jahrhundert</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/729078558">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/729078558"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1589412#Agent/meridian">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Meridian</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1589412#Series/meridian_books_m">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/729078558"/>
+    <schema:name>Meridian books : M ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1589412#Series/meridian_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/729078558"/>
+    <schema:name>Meridian books /</schema:name>
+  </rdf:Description>
+</rdf:RDF>

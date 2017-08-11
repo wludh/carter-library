@@ -1,0 +1,86 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2790442812#Person/apuleio_ca_125_ca_180">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Apuleio</schema:givenName>
+    <schema:name>Apuleio</schema:name>
+    <schema:birthDate>ca. 125</schema:birthDate>
+    <schema:deathDate>ca 180</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/987750951#PublicationEvent/new_york_pocket_books_1953">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2790442812#Agent/pocket_books"/>
+    <schema:startDate>1953</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2790442812#Person/graves_robert_1895_1985">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Graves</schema:familyName>
+    <schema:givenName>Robert</schema:givenName>
+    <schema:name>Robert Graves</schema:name>
+    <schema:birthDate>1895</schema:birthDate>
+    <schema:deathDate>1985</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2790442812#Series/cardinal_edition">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/987750951"/>
+    <schema:name>Cardinal edition ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/2790442812">
+    <schema:name>Metamorphoses.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/987750951">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/987750951"/>
+    <schema:dateModified>2017-08-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/987750951">
+    <schema:name>The golden ass of Apuleius</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/987750951#PublicationEvent/new_york_pocket_books_1953"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2790442812#Series/cardinal_edition"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2790442812"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/2790442812#Person/graves_robert_1895_1985"/>
+    <schema:productID>987750951</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2790442812#Person/apuleio_ca_125_ca_180"/>
+    <schema:datePublished>1953</schema:datePublished>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2790442812#Agent/pocket_books"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:numberOfPages>264</schema:numberOfPages>
+    <library:oclcnum>987750951</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/987750951"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/987750951#CreativeWork/unidentifiedOriginalWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2790442812#Agent/pocket_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Pocket Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/987750951#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Metamorphoses.</schema:name>
+    <schema:inLanguage>la</schema:inLanguage>
+  </rdf:Description>
+</rdf:RDF>

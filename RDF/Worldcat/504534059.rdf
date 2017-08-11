@@ -1,0 +1,69 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/504534059">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:name xml:lang="en">The Satyricon ... Translated, with an introduction, by William Arrowsmith.</schema:name>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3770183597#Series/mentor_book_no_md283"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3770183597#Place/pp_192_new_american_library"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3770183597#Person/petronius_arbiter"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3770183597#Agent/new_york"/>
+    <library:oclcnum>504534059</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:productID>504534059</schema:productID>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/3770183597#Person/arrowsmith_william"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/504534059#PublicationEvent/pp_192_new_american_library_new_york_1960"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3770183597"/>
+    <schema:datePublished>1960</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/504534059"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/504534059">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/504534059"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3770183597#Person/arrowsmith_william">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>ARROWSMITH</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William ARROWSMITH</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3770183597#Agent/new_york">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/504534059#PublicationEvent/pp_192_new_american_library_new_york_1960">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3770183597#Place/pp_192_new_american_library"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3770183597#Agent/new_york"/>
+    <schema:startDate>1960</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3770183597#Series/mentor_book_no_md283">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/504534059"/>
+    <schema:name>[Mentor Book. no. MD283.]</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3770183597#Person/petronius_arbiter">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Petronius Arbiter</schema:givenName>
+    <schema:name>Petronius Arbiter.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/3770183597">
+    <schema:name>English</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3770183597#Place/pp_192_new_american_library">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Pp. 192. New American Library</schema:name>
+  </rdf:Description>
+</rdf:RDF>

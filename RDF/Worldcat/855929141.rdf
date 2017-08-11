@@ -1,0 +1,78 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/BF408">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/7393855">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Maritain</schema:familyName>
+    <schema:givenName>Jacques</schema:givenName>
+    <schema:name>Jacques Maritain</schema:name>
+    <schema:birthDate>1882</schema:birthDate>
+    <schema:deathDate>1973</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/855929141#PublicationEvent/new_york_meridian_books_1955_1953">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1335200#Agent/meridian_books"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/855929141">
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/BF408"/>
+    <library:oclcnum>855929141</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/7393855"/>
+    <schema:productID>855929141</schema:productID>
+    <schema:datePublished>1955</schema:datePublished>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/882393"/>
+    <schema:name xml:lang="en">Creative intuition in art and poetry : the A.W. Mellon lectures in the Fine Arts</schema:name>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/855929141#PublicationEvent/new_york_meridian_books_1955_1953"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1335200#Agent/meridian_books"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/855929141"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1335200#Series/a_w_mellon_lectures_in_the_fine_arts"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1335200"/>
+    <schema:copyrightYear>1953</schema:copyrightYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1335200#Agent/meridian_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Meridian Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/882393">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Creation (Literary, artistic, etc.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/855929141">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/855929141"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1335200#Series/a_w_mellon_lectures_in_the_fine_arts">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/855929141"/>
+    <schema:name>A.W. Mellon lectures in the fine arts ;</schema:name>
+  </rdf:Description>
+</rdf:RDF>

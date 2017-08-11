@@ -1,0 +1,74 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/809146881#PublicationEvent/london_u_a_penguin_books_1952">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2643480494#Place/london_u_a"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2643480494#Agent/penguin_books"/>
+    <schema:startDate>1952</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/809146881">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/809146881"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2643480494#Place/london_u_a">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London u.a.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2643480494#Person/lucretius_carus_titus_v94_v55">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Lucretius Carus</schema:familyName>
+    <schema:givenName>Titus</schema:givenName>
+    <schema:name>Titus Lucretius Carus</schema:name>
+    <schema:birthDate>v94</schema:birthDate>
+    <schema:deathDate>v55</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2643480494#Series/the_penguin_classics">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/809146881"/>
+    <schema:name>The Penguin Classics</schema:name>
+    <schema:name>The Penguin classics</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/2643480494">
+    <schema:name>De rerum natura.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2643480494#Person/latham_ronald">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Latham</schema:familyName>
+    <schema:givenName>Ronald</schema:givenName>
+    <schema:name>Ronald Latham</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/809146881">
+    <schema:bookEdition>repr.</schema:bookEdition>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2643480494#Series/the_penguin_classics"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2643480494#Place/london_u_a"/>
+    <schema:productID>809146881</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2643480494#Agent/penguin_books"/>
+    <library:oclcnum>809146881</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1952</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/809146881#PublicationEvent/london_u_a_penguin_books_1952"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/809146881"/>
+    <schema:name>On the nature of the universe</schema:name>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2643480494"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/2643480494#Person/latham_ronald"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2643480494#Person/lucretius_carus_titus_v94_v55"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2643480494#Agent/penguin_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Penguin Books</schema:name>
+  </rdf:Description>
+</rdf:RDF>

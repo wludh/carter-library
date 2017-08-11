@@ -1,0 +1,101 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/224427161">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/21632423"/>
+    <schema:bookEdition>An English version [by Dudley Fitts and Robert Fitzgerald].</schema:bookEdition>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/21632423#CreativeWork/oedipus_at_colonus"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/21632423#CreativeWork/antigone"/>
+    <schema:datePublished>1949</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/111370364"/>
+    <schema:description xml:lang="en">Oedipus rex.- Oedipus at Colonis.- Antigone.</schema:description>
+    <schema:productID>224427161</schema:productID>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/21632423#Series/harvest_book"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/224427161"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/224427161#PublicationEvent/new_york_harcourt_brace_&amp;_world1949"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/21632423#Person/sophocles"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/100912383"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/21632423#Agent/harcourt_brace_&amp;_world"/>
+    <library:oclcnum>224427161</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:name xml:lang="en">The Oedipus cycle.</schema:name>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/21632423#CreativeWork/oedipus_rex"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21632423#CreativeWork/oedipus_rex">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Oedipus Rex.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21632423#Person/sophocles">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Sophocles</schema:givenName>
+    <schema:name>Sophocles.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21632423#CreativeWork/oedipus_at_colonus">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Oedipus at Colonus.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/224427161">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/224427161"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21632423#Series/harvest_book">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/224427161"/>
+    <schema:name>Harvest book ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/100912383">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fitzgerald</schema:familyName>
+    <schema:givenName>Robert</schema:givenName>
+    <schema:name>Robert Fitzgerald</schema:name>
+    <schema:birthDate>1910</schema:birthDate>
+    <schema:deathDate>1985</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21632423#CreativeWork/antigone">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Antigone.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/224427161#PublicationEvent/new_york_harcourt_brace_&amp;_world1949">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/21632423#Agent/harcourt_brace_&amp;_world"/>
+    <schema:startDate>1949</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21632423#Agent/harcourt_brace_&amp;_world">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harcourt, Brace &amp; World</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/111370364">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Fitts</schema:familyName>
+    <schema:givenName>Dudley</schema:givenName>
+    <schema:name>Dudley Fitts</schema:name>
+    <schema:birthDate>1903</schema:birthDate>
+    <schema:deathDate>1968</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>
