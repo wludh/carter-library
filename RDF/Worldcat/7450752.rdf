@@ -1,0 +1,90 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502536#Place/san_joaquin_valley_calif">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>San Joaquin Valley (Calif.)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/609887951">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/7450752"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Octopus.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502536#Series/epic_of_the_wheat">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/7450752"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/502536#Person/norris_frank_1870_1902"/>
+    <schema:name>Epic of the wheat ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/12341457">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Norris</schema:familyName>
+    <schema:givenName>Frank</schema:givenName>
+    <schema:name>Frank Norris</schema:name>
+    <schema:birthDate>1870</schema:birthDate>
+    <schema:deathDate>1902,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/Fic/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502536#Person/norris_frank_1870_1902">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Norris</schema:familyName>
+    <schema:givenName>Frank</schema:givenName>
+    <schema:name>Frank Norris</schema:name>
+    <schema:birthDate>1870</schema:birthDate>
+    <schema:deathDate>1902</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/7450752">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/7450752"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/7450752">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/502536"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/502536#Place/san_joaquin_valley_calif"/>
+    <schema:datePublished>1903</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://dewey.info/class/Fic/"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:productID>7450752</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/502536#Series/his_the_epic_of_the_wheat"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>7450752</library:oclcnum>
+    <schema:copyrightYear>1901</schema:copyrightYear>
+    <schema:author rdf:resource="http://viaf.org/viaf/12341457"/>
+    <schema:name xml:lang="en">The octopus : a story of California</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1270333"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/609887951"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/7450752"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/502536#Series/epic_of_the_wheat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/502536#Series/his_the_epic_of_the_wheat">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/7450752"/>
+    <schema:name>His The epic of the wheat ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1270333">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>California--San Joaquin Valley.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

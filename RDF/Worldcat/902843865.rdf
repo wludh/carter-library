@@ -1,0 +1,104 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/392450#Person/wister_owen_1860_1938">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wister</schema:familyName>
+    <schema:givenName>Owen</schema:givenName>
+    <schema:name>Owen Wister</schema:name>
+    <schema:birthDate>1860</schema:birthDate>
+    <schema:deathDate>1938</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/392450#Topic/cowboys">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Cowboys</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/392450#Agent/the_macmillan_company">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>The Macmillan company</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/392450#Topic/cattle_stealing">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Cattle stealing</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/392450#Topic/cowboys_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Cowboys--Fiction</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/902843865">
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/392450#Topic/cowboys"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/392450#Agent/the_macmillan_company"/>
+    <schema:name>The Virginian : a horseman of the plains</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/902843865"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/392450#Topic/cattle_stealing"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:datePublished>1902</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/902843865#PublicationEvent/london_the_macmillan_company_1902"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>902843865</library:oclcnum>
+    <schema:numberOfPages>504</schema:numberOfPages>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/392450#Topic/troupeaux_roman"/>
+    <schema:illustrator rdf:resource="http://experiment.worldcat.org/entity/work/data/392450#Person/keller_arthur_ignatius_1866_1924"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/392450#Topic/cow_boys_roman"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/392450#Topic/cattle_stealing_fiction"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/392450"/>
+    <schema:productID>902843865</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/392450#Topic/cowboys_fiction"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:genre>Fiction</schema:genre>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/392450#Person/wister_owen_1860_1938"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/902843865#PublicationEvent/london_the_macmillan_company_1902">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/392450#Agent/the_macmillan_company"/>
+    <schema:startDate>1902</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/392450#Topic/cow_boys_roman">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Cow-boys--Roman</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/392450#Topic/troupeaux_roman">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Troupeaux--Roman</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/392450#Person/keller_arthur_ignatius_1866_1924">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Keller</schema:familyName>
+    <schema:givenName>Arthur Ignatius</schema:givenName>
+    <schema:name>Arthur Ignatius Keller</schema:name>
+    <schema:birthDate>1866</schema:birthDate>
+    <schema:deathDate>1924</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/902843865">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/902843865"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/392450#Topic/cattle_stealing_fiction">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Cattle stealing--Fiction</schema:name>
+  </rdf:Description>
+</rdf:RDF>
