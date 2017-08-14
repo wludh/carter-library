@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1285488#Agent/gnome_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Gnome Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1969178">
+    <schema:name xml:lang="en">The thirty-first of February</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1285488#Agent/gnome_press"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1969178"/>
+    <schema:datePublished>1949</schema:datePublished>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://viaf.org/viaf/79499129"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/1285488#CreativeWork/31st_of_february"/>
+    <library:oclcnum>1969178</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1285488"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/655089343"/>
+    <schema:genre xml:lang="en">Science fiction</schema:genre>
+    <schema:bookEdition>1st ed.</schema:bookEdition>
+    <schema:description xml:lang="en">The sportsman -- The mask of Medusa -- My nephew Norvell -- The ring -- The gripes of wraith -- The cunning of the beast -- The five lives of Robert Jordan -- Take my drum to England -- Saint Mulligan -- The monster from nowhere -- The man who walked through glass -- The enchanted pencil -- Pilgrimage.</schema:description>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:copyrightYear>1949</schema:copyrightYear>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1108635"/>
+    <schema:productID>1969178</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1969178#PublicationEvent/new_york_gnome_press_1949"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1108635">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Science fiction, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1285488#CreativeWork/31st_of_february">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>31st of February.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1969178#PublicationEvent/new_york_gnome_press_1949">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1285488#Agent/gnome_press"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/79499129">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bond</schema:familyName>
+    <schema:givenName>Nelson Slade</schema:givenName>
+    <schema:name>Nelson Slade Bond</schema:name>
+    <schema:birthDate>1908</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1969178">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1969178"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/655089343">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1969178"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Thirty-first of February.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+</rdf:RDF>

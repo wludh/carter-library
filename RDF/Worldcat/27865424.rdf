@@ -1,0 +1,88 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/124417222">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Rugby School.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/27865424">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/27865424"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/27865424#PublicationEvent/new_york_john_w_lovell_co_18">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3461#Agent/john_w_lovell_co"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/903906716">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/27865424"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Tom Brown's school days.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3461#Agent/john_w_lovell_co">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>John W. Lovell Co.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/41888346">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hughes</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Hughes</schema:name>
+    <schema:birthDate>1822</schema:birthDate>
+    <schema:deathDate>1896</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/3461">
+    <schema:name>Tom Brown's schooldays</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/27865424#Audience">
+    <rdf:type rdf:resource="http://schema.org/PeopleAudience"/>
+    <schema:audienceType xml:lang="en">Juvenile</schema:audienceType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3461#Organization/rugby_school">
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <schema:name>Rugby School.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/27865424">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3461"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/41888346"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/27865424"/>
+    <library:oclcnum>27865424</library:oclcnum>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/27865424#PublicationEvent/new_york_john_w_lovell_co_18"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/124417222"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:name xml:lang="en">Tom Brown's school days</schema:name>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>27865424</schema:productID>
+    <schema:datePublished>18uu</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3461#Organization/rugby_school"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3461#Agent/john_w_lovell_co"/>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/903906716"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:audience rdf:resource="http://www.worldcat.org/title/-/oclc/27865424#Audience"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+</rdf:RDF>
