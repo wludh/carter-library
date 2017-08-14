@@ -1,0 +1,72 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/892962568">
+    <schema:datePublished>1924</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2836455021#Agent/the_st_botolph_society"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2836455021#Person/melville_herman_1819_1891"/>
+    <schema:copyrightYear>1924</schema:copyrightYear>
+    <schema:datePublished>imr. 1924</schema:datePublished>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/2836455021#Person/merrill_frank_t"/>
+    <library:oclcnum>892962568</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/mau"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/892962568#PublicationEvent/boston_the_st_botolph_society_impr_1924_cop_1924"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>892962568</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2836455021"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/892962568"/>
+    <schema:name>Redburn his first voyage : being the sailor boy confessions and reminiscences of the son-of-a-gentleman in the merchant service</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/mau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>mau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2836455021#Person/merrill_frank_t">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Merrill</schema:familyName>
+    <schema:givenName>Frank T.</schema:givenName>
+    <schema:name>Frank T. Merrill</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boston">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Boston</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2836455021#Person/melville_herman_1819_1891">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Melville</schema:familyName>
+    <schema:givenName>Herman</schema:givenName>
+    <schema:name>Herman Melville</schema:name>
+    <schema:birthDate>1819</schema:birthDate>
+    <schema:deathDate>1891,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/892962568#PublicationEvent/boston_the_st_botolph_society_impr_1924_cop_1924">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Boston"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2836455021#Agent/the_st_botolph_society"/>
+    <schema:startDate>imr. 1924</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2836455021#Agent/the_st_botolph_society">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>The St. Botolph Society</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/892962568">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/892962568"/>
+    <schema:dateModified>2017-07-07</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

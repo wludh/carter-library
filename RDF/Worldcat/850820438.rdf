@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/850820438">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/133141169"/>
+    <schema:name xml:lang="tr">The English philosophers from Bacon to Mill</schema:name>
+    <schema:inLanguage>tr</schema:inLanguage>
+    <library:oclcnum>850820438</library:oclcnum>
+    <schema:productID>850820438</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/133141169#Topic/felsefe_ingiliz"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/77233014"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/850820438#PublicationEvent/new_york_the_modern_library1939"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/850820438"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/133141169#Series/modern_library_of_the_world_s_best_books"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/133141169#Agent/the_modern_library"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/tu"/>
+    <schema:datePublished>1939</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/133141169#Topic/philosophy_english"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/B1111"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/77233014">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Burtt</schema:familyName>
+    <schema:givenName>Edwin A.</schema:givenName>
+    <schema:givenName>Edwin Arthur</schema:givenName>
+    <schema:name>Edwin Arthur Burtt</schema:name>
+    <schema:birthDate>1892</schema:birthDate>
+    <schema:deathDate>1989</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/850820438#PublicationEvent/new_york_the_modern_library1939">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/133141169#Agent/the_modern_library"/>
+    <schema:startDate>1939</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/850820438">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/850820438"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/133141169#Agent/the_modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>The Modern library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/133141169#Topic/felsefe_ingiliz">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="tr">Felsefe, İngiliz</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/133141169#Series/modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/850820438"/>
+    <schema:name>Modern library of the world's best books.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/tu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>tu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/B1111">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/133141169#Topic/philosophy_english">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="tr">Philosophy, English</schema:name>
+  </rdf:Description>
+</rdf:RDF>

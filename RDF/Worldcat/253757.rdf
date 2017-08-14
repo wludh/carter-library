@@ -1,0 +1,88 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/56625773">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>James</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William James</schema:name>
+    <schema:birthDate>1842</schema:birthDate>
+    <schema:deathDate>1910,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/253757">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/253757"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/B945">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1447872#Series/modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/253757"/>
+    <schema:name>Modern library of the world's best books</schema:name>
+    <schema:name>Modern library of the world's best books.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1074582">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Pragmatism</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/253757">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1074582"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/646984325"/>
+    <schema:description xml:lang="en">Philosophy and the philosopher -- The world we live in -- The self -- How we know -- The powers and limitations of science -- The realities of religion -- The individual and society -- Education -- The American scene -- Death and the value of life.</schema:description>
+    <schema:name xml:lang="en">The philosophy of William James : selected from his chief works</schema:name>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/44314950"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/B945"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1447872#Series/modern_library_of_the_world_s_best_books"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1953</schema:datePublished>
+    <library:oclcnum>253757</library:oclcnum>
+    <schema:author rdf:resource="http://viaf.org/viaf/56625773"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/253757"/>
+    <schema:productID>253757</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://dewey.info/class/191.9/"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1447872"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1060777"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/191.9/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/646984325">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/253757"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Philosophy of William James.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1060777">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Philosophy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/44314950">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Kallen</schema:familyName>
+    <schema:givenName>Horace Meyer</schema:givenName>
+    <schema:name>Horace Meyer Kallen</schema:name>
+    <schema:birthDate>1882</schema:birthDate>
+    <schema:deathDate>1974,</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>

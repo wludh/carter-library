@@ -1,0 +1,102 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1391778#Agent/modern_library">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Modern Library</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/B945">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/66545076">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Ratner</schema:familyName>
+    <schema:givenName>Joseph</schema:givenName>
+    <schema:name>Joseph Ratner</schema:name>
+    <schema:birthDate>1901</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1391778#Series/the_modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/252719211"/>
+    <schema:name>The Modern library of the world's best books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/252719211">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1391778"/>
+    <schema:name xml:lang="en">Intelligence in the modern world : John Dewey's philosophy</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/252719211"/>
+    <schema:description xml:lang="en">The Meanings of Philosophy : Philosophy and Culture ; Philosophy and the Education of Man ; The Critical Function of Philosophy -- The Great Philosophic Separation : The Quest for Certainty ; The Historic Mission of Philosophy -- Philosophy And Science : The Modern Crisis ; Ancient and Modern Science Contrasted ; Philosophic Implications of Modern Science -- Science And The Future Of Society -- The Modes Of Societal Life : The Private and the Public ; Government and State ; State and Society ; Communication and Communal Living ; The Democratic Form -- The Individual In The New Society : The Individual in the Cultural Crisis ; The Economic Basis of the New Society -- Intelligence In Social Action : Classes, Groups and Masses ; The Class Struggle ; The Meaning and Office of Liberalism ; Socializing Intelligence -- Nationalism And Internationalism : Nationalism and Its Fruits ; Ethics and International Relations ; Force, Violence and Law -- International Law And The Security Of Nations : On International Cooperation ; On America's Responsibility ; Preconditions of the Security of Nations ; International Law and the War-System ; Editor's Note ; Sanctions and the Security of Nations -- Fundamentals Of The Educational Process : The Art of Education ; Learning and Doing ; The Training of Thinking ; Individuality and Freedom ; The Continuity of the Educational Process. Science And Philosophy Of Education : Education as a Science ; Sources of a Science of Education ; Traditional vs. Progressive Education ; Philosophy of Experience ; The Organization of Study ; Means and End of Education -- The Schools And The Social Welfare : The Schools in the Social Order ; Education and Social Change ; Educators and the Class Struggle ; The Schools and Religions ; Democracy in the Schools ; Academic Freedom ; Education and American Culture -- The Psychology Of Conduct : Habits and Will ; Impulses and Instincts ; Intelligence -- Intelligence In Morals : Individual and Social Morality ; Reflection in the Moral Situation ; Experimentalism in Moral Theory ; Endings in Nature and Ends for Man ; The Satisfying and the Valuable -- Perception, Language and Mind : Theory of Perception ; Physical, Psychophysical and Mental ; Language and Mind ; Mind and Consciousness ; The Unity of the Human Being -- Thinking And Meaning : The Natural History of Thinking ; The Pattern of Reflective Thinking ; The Development of Meanings ; Systems of Meanings and Symbols -- Principles Of Logic : The Genesis of Logical Forms ; Explanation of Situation ; Judgment and Proposition ; Interpretation of the Syllogism ; Induction and Deduction -- Knowledge, Science And Truth : Meanings: Valid and Invalid ; Knowledge as Instrumental and Hypothetical ; Experimental Verification and Truth ; Pure and Applied Science ; Social Science and Social Control -- The Artistic-Esthetic In Experience : The Roots of Esthetic Experience ; The Experience of Esthetic Quality ; The Work of Art and Esthetic Perception ; Substance and Form ; Art, Philosophy and Morals -- The Religious In Experience -- Comprehensive Working Ideas : Continuities in Nature ; The Methods of Philosophy ; Precarious and Stable Events ; Process and Structure ; Causes and Effects (Means and Ends) ; The Social.</schema:description>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/66545076"/>
+    <schema:datePublished>1939</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1391778#Person/dewey_john_1859_1952"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/B945"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/252719211#PublicationEvent/new_york_modern_library_1939"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:description xml:lang="en">Selections from writings of John Dewey, with a 241 p. introduction by the editor.</schema:description>
+    <library:oclcnum>252719211</library:oclcnum>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1391778#Series/the_modern_library_of_the_world_s_best_books"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/1391778#Series/modern_library_of_the_world_s_best_books"/>
+    <schema:about rdf:resource="http://viaf.org/viaf/76314623"/>
+    <schema:productID>252719211</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/76314623"/>
+    <schema:about rdf:resource="http://dewey.info/class/191.9/"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1391778#Agent/modern_library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/191.9/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1391778#Series/modern_library_of_the_world_s_best_books">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/252719211"/>
+    <schema:name>Modern library of the world's best books.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/252719211">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/252719211"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1391778#Person/dewey_john_1859_1952">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dewey</schema:familyName>
+    <schema:givenName>John</schema:givenName>
+    <schema:name>John Dewey</schema:name>
+    <schema:birthDate>1859</schema:birthDate>
+    <schema:deathDate>1952</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/76314623">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dewey</schema:familyName>
+    <schema:givenName>John</schema:givenName>
+    <schema:name>John Dewey</schema:name>
+    <schema:birthDate>1859</schema:birthDate>
+    <schema:deathDate>1952</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/252719211#PublicationEvent/new_york_modern_library_1939">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1391778#Agent/modern_library"/>
+    <schema:startDate>1939</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

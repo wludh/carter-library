@@ -1,0 +1,77 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/146453630#Agent/columbia_university_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Columbia University Press</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/146453630#Person/hanna_thomas_1928_1990">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hanna</schema:familyName>
+    <schema:givenName>Thomas</schema:givenName>
+    <schema:name>Thomas Hanna</schema:name>
+    <schema:birthDate>1928</schema:birthDate>
+    <schema:deathDate>1990,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/493452589#PublicationEvent/new_york_london_columbia_university_press_1962">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/146453630#Agent/columbia_university_press"/>
+    <schema:startDate>1962</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/493452589">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/493452589"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/146453630#Person/bergson_henri_1859_1941">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bergson</schema:familyName>
+    <schema:givenName>Henri</schema:givenName>
+    <schema:name>Henri Bergson</schema:name>
+    <schema:birthDate>1859</schema:birthDate>
+    <schema:deathDate>1941</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/493452589">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/146453630#Agent/columbia_university_press"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:oclcnum>493452589</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name>The Bergsonian heritage</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:productID>493452589</schema:productID>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/146453630#Person/bergson_henri_1859_1941"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/493452589"/>
+    <schema:datePublished>1962</schema:datePublished>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/493452589#PublicationEvent/new_york_london_columbia_university_press_1962"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/146453630#Person/hanna_thomas_1928_1990"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/146453630"/>
+  </rdf:Description>
+</rdf:RDF>
