@@ -1,0 +1,60 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/17929959#Agent/lewellen_press">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>[Lewellen Press]</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/18980037">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/17929959"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/17929959#Place/torrance_calif"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/18980037#PublicationEvent/torrance_calif_lewellen_press_1953"/>
+    <schema:datePublished>1953</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>18980037</library:oclcnum>
+    <schema:productID>18980037</schema:productID>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/cau"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/17929959#Agent/lewellen_press"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/18980037"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:name xml:lang="en">Quatrains of a desperate man &amp; other pōms.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/17929959#Person/hiner_j"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/17929959#Place/torrance_calif">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Torrance, Calif.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/cau">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>cau</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/18980037">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/18980037"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/18980037#PublicationEvent/torrance_calif_lewellen_press_1953">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/17929959#Place/torrance_calif"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/17929959#Agent/lewellen_press"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/17929959#Person/hiner_j">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hiner</schema:familyName>
+    <schema:givenName>J.</schema:givenName>
+    <schema:name>J. Hiner</schema:name>
+  </rdf:Description>
+</rdf:RDF>

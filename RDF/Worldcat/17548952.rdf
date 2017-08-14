@@ -1,0 +1,101 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:umbel="http://umbel.org/umbel#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780600554097">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780600554097</schema:isbn>
+    <schema:isbn>0600554090</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/17548952">
+    <schema:name xml:lang="en">The best of Beardsley</schema:name>
+    <schema:about rdf:resource="http://viaf.org/viaf/88739636"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:about rdf:resource="http://dewey.info/class/741.942/e19/"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/17548952"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/17548952#PublicationEvent/london_spring_1987_1948"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/2186700#Person/walker_r_a_rainforth_armitage"/>
+    <schema:datePublished>1987</schema:datePublished>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/classification/NC242"/>
+    <schema:productID>17548952</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2186700"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2186700#Person/beardsley_aubrey_1872_1898"/>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780600554097"/>
+    <umbel:isLike rdf:resource="http://bnb.data.bl.uk/id/resource/GB8811938"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/88739636"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2186700#Agent/spring"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2186700#Thing/english_drawings"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>17548952</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/17548952#PublicationEvent/london_spring_1987_1948">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2186700#Agent/spring"/>
+    <schema:startDate>1987</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2186700#Person/walker_r_a_rainforth_armitage">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Walker</schema:familyName>
+    <schema:givenName>R. A.</schema:givenName>
+    <schema:givenName>Rainforth Armitage</schema:givenName>
+    <schema:name>Rainforth Armitage Walker</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/88739636">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Beardsley</schema:familyName>
+    <schema:givenName>Aubrey</schema:givenName>
+    <schema:name>Aubrey Beardsley</schema:name>
+    <schema:birthDate>1872</schema:birthDate>
+    <schema:deathDate>1898</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/741.942/e19/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2186700#Agent/spring">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Spring</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2186700#Person/beardsley_aubrey_1872_1898">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Beardsley</schema:familyName>
+    <schema:givenName>Aubrey</schema:givenName>
+    <schema:name>Aubrey Beardsley</schema:name>
+    <schema:birthDate>1872</schema:birthDate>
+    <schema:deathDate>1898</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2186700#Thing/english_drawings">
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:name>English drawings</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/17548952">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/17548952"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/NC242">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+</rdf:RDF>

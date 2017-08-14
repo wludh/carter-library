@@ -1,0 +1,98 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/12087580#PublicationEvent/london_t_n_foulis_philadelphia_j_b_lippincott_1910">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/21371#Place/philadelphia"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/21371#Agent/t_n_foulis"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/21371#Agent/j_b_lippincott"/>
+    <schema:startDate>1910</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21371#Agent/t_n_foulis">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>T.N. Foulis</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/12087580#CreativeWork/unidentifiedOriginalWork">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Rubāʻīyāt.</schema:name>
+    <schema:inLanguage>fa</schema:inLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/entity/work/id/21371">
+    <schema:name>Rubāʻīyāt.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21371#Person/omar_khayyam">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:givenName>Omar Khayyam</schema:givenName>
+    <schema:name>Omar Khayyam.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/12087580">
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/21371#Agent/j_b_lippincott"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/54420453"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <bgn:translationOfWork rdf:resource="http://www.worldcat.org/title/-/oclc/12087580#CreativeWork/unidentifiedOriginalWork"/>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/21371#Place/philadelphia"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>12087580</library:oclcnum>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/12087580"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/12087580#PublicationEvent/london_t_n_foulis_philadelphia_j_b_lippincott_1910"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/21371#Agent/t_n_foulis"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/59091022"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/21371"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <schema:datePublished>1910</schema:datePublished>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/21371#Person/omar_khayyam"/>
+    <schema:productID>12087580</schema:productID>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:name xml:lang="en">Rubáiyát of Omar Khayyám</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21371#Agent/j_b_lippincott">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>J.B. Lippincott</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/21371#Place/philadelphia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Philadelphia</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/54420453">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Brangwyn</schema:familyName>
+    <schema:givenName>Frank</schema:givenName>
+    <schema:name>Frank Brangwyn</schema:name>
+    <schema:birthDate>1867</schema:birthDate>
+    <schema:deathDate>1956</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/59091022">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>FitzGerald</schema:familyName>
+    <schema:givenName>Edward</schema:givenName>
+    <schema:name>Edward FitzGerald</schema:name>
+    <schema:birthDate>1809</schema:birthDate>
+    <schema:deathDate>1883</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/12087580">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/12087580"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

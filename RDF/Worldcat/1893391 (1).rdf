@@ -1,0 +1,92 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3426844#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3426844#Event/1939_1945">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <schema:name>1939-1945</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1893391">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1180924"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:datePublished>1955</schema:datePublished>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1893391"/>
+    <schema:productID>1893391</schema:productID>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:about rdf:resource="http://dewey.info/class/813/"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3426844#Topic/world_war_1939_1945"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1893391#PublicationEvent/garden_city_n_y_doubleday_1955"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3426844#Agent/doubleday"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/564636667"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/3426844#Place/garden_city_n_y"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/47647264"/>
+    <library:oclcnum>1893391</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3426844"/>
+    <schema:name xml:lang="en">The trumpet unblown.</schema:name>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3426844#Event/1939_1945"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookEdition>1st ed.</schema:bookEdition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/564636667">
+    <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/1893391"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdfs:label>Trumpet unblown.</rdfs:label>
+    <schema:description>Online version:</schema:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1180924">
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+    <rdf:type rdf:resource="http://bibliograph.net/Meeting"/>
+    <schema:name>World War (1939-1945)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3426844#Topic/world_war_1939_1945">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/subjects/sh87008024"/>
+    <schema:name xml:lang="en">World War, 1939-1945</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/813/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/47647264">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hoffman</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Hoffman</schema:name>
+    <schema:birthDate>1925</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1893391">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1893391"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1893391#PublicationEvent/garden_city_n_y_doubleday_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/3426844#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3426844#Agent/doubleday"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3426844#Agent/doubleday">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Doubleday</schema:name>
+  </rdf:Description>
+</rdf:RDF>

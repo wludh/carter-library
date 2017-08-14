@@ -1,0 +1,79 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829775686#Agent/penguin_books">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Penguin Books</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/891.73/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/933782768">
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2829775686#Agent/penguin_books"/>
+    <schema:about rdf:resource="http://dewey.info/class/891.73/"/>
+    <schema:name xml:lang="en">The brothers Karamazov</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2829775686#Person/dostoyevsky_fyodor_1821_1881"/>
+    <schema:productID>933782768</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/2829775686#Person/magarshack_david"/>
+    <schema:datePublished>1958</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2829775686"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2829775686#Series/penguin_classics"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxk"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/933782768"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:oclcnum>933782768</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2829775686#Place/harmondsworth"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/933782768#PublicationEvent/harmondsworth_penguin_books_1958"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829775686#Place/harmondsworth">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Harmondsworth</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829775686#Person/magarshack_david">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Magarshack</schema:familyName>
+    <schema:givenName>David</schema:givenName>
+    <schema:name>David Magarshack</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/933782768#PublicationEvent/harmondsworth_penguin_books_1958">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2829775686#Place/harmondsworth"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2829775686#Agent/penguin_books"/>
+    <schema:startDate></schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829775686#Series/penguin_classics">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/933782768"/>
+    <schema:name>Penguin classics ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/933782768">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/933782768"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2829775686#Person/dostoyevsky_fyodor_1821_1881">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dostoyevsky</schema:familyName>
+    <schema:givenName>Fyodor</schema:givenName>
+    <schema:name>Fyodor Dostoyevsky</schema:name>
+    <schema:birthDate>1821</schema:birthDate>
+    <schema:deathDate>1881</schema:deathDate>
+  </rdf:Description>
+</rdf:RDF>
