@@ -1,0 +1,61 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/xxu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>xxu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/249329992">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/249329992"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3901180657#Person/schachner_nathan">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Schachner</schema:familyName>
+    <schema:givenName>Nathan</schema:givenName>
+    <schema:name>Nathan Schachner</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/249329992">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3901180657"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3901180657#Agent/barnes_&amp;_comp"/>
+    <schema:bookEdition>A perpetua book</schema:bookEdition>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/3901180657#Person/schachner_nathan"/>
+    <schema:productID>249329992</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/249329992#PublicationEvent/new_yorkbarnes_&amp;_comp_1961"/>
+    <library:oclcnum>249329992</library:oclcnum>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name>Alexander Hamilton</schema:name>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/xxu"/>
+    <schema:datePublished>1961</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/249329992"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/249329992#PublicationEvent/new_yorkbarnes_&amp;_comp_1961">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3901180657#Agent/barnes_&amp;_comp"/>
+    <schema:startDate>1961</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3901180657#Agent/barnes_&amp;_comp">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Barnes &amp; Comp.</schema:name>
+  </rdf:Description>
+</rdf:RDF>

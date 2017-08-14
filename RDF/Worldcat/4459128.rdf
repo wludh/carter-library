@@ -1,0 +1,95 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/4459128">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/19857602"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85080301"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/19857602#Agent/faber_and_faber"/>
+    <schema:description xml:lang="en">Eight Neanderthals encounter another race of beings like themselves, yet strangely different. This new race, Homo sapiens, fascinating in their skills and sophistication, terrifying in their cruelty, sense of guilt, and incipient corruption, spell doom for the more gentle folk whose world they will inherit.</schema:description>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1035285"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:about rdf:resource="http://dewey.info/class/823.91/e18/"/>
+    <library:oclcnum>4459128</library:oclcnum>
+    <schema:workExample rdf:resource="http://worldcat.org/isbn/9780571070022"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/4459128"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/4459128#PublicationEvent/london_faber_and_faber_1955"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/enk"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/89500102"/>
+    <schema:about rdf:resource="http://id.loc.gov/authorities/subjects/sh85090493"/>
+    <schema:productID>4459128</schema:productID>
+    <schema:datePublished>1955</schema:datePublished>
+    <schema:name xml:lang="en">The inheritors.</schema:name>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/962855"/>
+    <schema:genre xml:lang="en">Classic</schema:genre>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/89500102">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Golding</schema:familyName>
+    <schema:givenName>William</schema:givenName>
+    <schema:name>William Golding</schema:name>
+    <schema:birthDate>1911</schema:birthDate>
+    <schema:deathDate>1993</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4459128#PublicationEvent/london_faber_and_faber_1955">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/19857602#Agent/faber_and_faber"/>
+    <schema:startDate>1955</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://worldcat.org/isbn/9780571070022">
+    <rdf:type rdf:resource="http://schema.org/ProductModel"/>
+    <schema:isbn>9780571070022</schema:isbn>
+    <schema:isbn>0571070027</schema:isbn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/19857602#Agent/faber_and_faber">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Faber and Faber</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/823.91/e18/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/962855">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Human beings--Origin</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/4459128">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/4459128"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>enk</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85080301">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Human beings--Origin</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1035285">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Neanderthals</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85090493">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Neanderthals</schema:name>
+  </rdf:Description>
+</rdf:RDF>

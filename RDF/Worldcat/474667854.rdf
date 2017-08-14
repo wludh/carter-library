@@ -1,0 +1,70 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/947503">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name>Greek poetry</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/474667854">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/947503"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/474667854"/>
+    <schema:name>Others abide : Greek anthology</schema:name>
+    <library:oclcnum>474667854</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/uik"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3901834230#Topic/greek_poetry_translations_into_english"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3901834230"/>
+    <schema:about rdf:resource="http://dewey.info/class/881/"/>
+    <schema:genre>Translations</schema:genre>
+    <schema:productID>474667854</schema:productID>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/474667854#PublicationEvent/london_1927"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/3901834230#Person/wolfe_humbert"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:datePublished>1927</schema:datePublished>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/uik">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>uik</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3901834230#Topic/greek_poetry_translations_into_english">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85057187"/>
+    <schema:name>Greek poetry--Translations into English</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3901834230#Person/wolfe_humbert">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Wolfe</schema:familyName>
+    <schema:givenName>Humbert</schema:givenName>
+    <schema:name>Humbert Wolfe</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/474667854#PublicationEvent/london_1927">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/London"/>
+    <schema:startDate>1927</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/881/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/474667854">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/474667854"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>London</schema:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,87 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3755937#Topic/private_investigators">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Private investigators</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3755937#Topic/hunter_ed_fictitious_character">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Hunter, Ed (Fictitious character)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3755937#Place/illinois_chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Illinois--Chicago.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/976434525">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/976434525"/>
+    <schema:dateModified>2017-07-07</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3755937#Topic/hunter_am_fictitious_character">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Hunter, Am (Fictitious character)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/976434525">
+    <schema:genre xml:lang="en">Detective and mystery fiction</schema:genre>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/976434525"/>
+    <schema:copyrightYear>1947</schema:copyrightYear>
+    <library:oclcnum>976434525</library:oclcnum>
+    <schema:productID>976434525</schema:productID>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3755937"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3755937#Topic/hunter_am_fictitious_character"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3755937#Place/chicago_ill"/>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/3755937#Person/brown_fredric_1906_1972"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3755937#Series/a_bantam_mystery"/>
+    <schema:bookEdition>Bantam edition.</schema:bookEdition>
+    <schema:name xml:lang="en">The fabulous clipjoint</schema:name>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3755937#Place/illinois_chicago"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3755937#Topic/private_investigators"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/3755937#Series/bantam_mystery"/>
+    <schema:bookEdition>3rd printing (new edition).</schema:bookEdition>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/3755937#Topic/hunter_ed_fictitious_character"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3755937#Person/brown_fredric_1906_1972">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Brown</schema:familyName>
+    <schema:givenName>Fredric</schema:givenName>
+    <schema:name>Fredric Brown</schema:name>
+    <schema:birthDate>1906</schema:birthDate>
+    <schema:deathDate>1972,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3755937#Series/bantam_mystery">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/976434525"/>
+    <schema:name>Bantam mystery ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3755937#Series/a_bantam_mystery">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/976434525"/>
+    <schema:name>A Bantam mystery ;</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3755937#Place/chicago_ill">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago (Ill.)</schema:name>
+  </rdf:Description>
+</rdf:RDF>

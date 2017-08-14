@@ -1,0 +1,61 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/876217636">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/3591660"/>
+    <schema:datePublished>1860</schema:datePublished>
+    <library:oclcnum>876217636</library:oclcnum>
+    <schema:productID>876217636</schema:productID>
+    <schema:numberOfPages>486</schema:numberOfPages>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/876217636#PublicationEvent/new_york_w_a_townsend_1860"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/876217636"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/3591660#Agent/w_a_townsend"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:name>The chainbearer or, The littlepage manuscripts</schema:name>
+    <schema:author rdf:resource="http://experiment.worldcat.org/entity/work/data/3591660#Person/cooper_james_fenimore"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3591660#Person/cooper_james_fenimore">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Cooper</schema:familyName>
+    <schema:givenName>James Fenimore</schema:givenName>
+    <schema:name>James Fenimore Cooper</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/876217636#PublicationEvent/new_york_w_a_townsend_1860">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/3591660#Agent/w_a_townsend"/>
+    <schema:startDate>1860</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/876217636">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/876217636"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/3591660#Agent/w_a_townsend">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>W.A. Townsend</schema:name>
+  </rdf:Description>
+</rdf:RDF>

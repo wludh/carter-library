@@ -1,0 +1,86 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/543509">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/543509"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/920725">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Fantasy fiction, American</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1573802#Agent/new_collectors_group">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>New Collectors Group</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1573802#Person/bok_hannes_1914_1964">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bok</schema:familyName>
+    <schema:givenName>Hannes</schema:givenName>
+    <schema:name>Hannes Bok</schema:name>
+    <schema:birthDate>1914</schema:birthDate>
+    <schema:deathDate>1964</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/9850578">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Merritt</schema:familyName>
+    <schema:givenName>Abraham</schema:givenName>
+    <schema:name>Abraham Merritt</schema:name>
+    <schema:birthDate>1884</schema:birthDate>
+    <schema:deathDate>1943</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1573802#CreativeWork/blue_pagoda">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>Blue pagoda.</schema:name>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1573802#Person/bok_hannes_1914_1964"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/543509#PublicationEvent/new_york_new_collectors_group_1946">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1573802#Agent/new_collectors_group"/>
+    <schema:startDate>1946</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/543509">
+    <schema:hasPart rdf:resource="http://experiment.worldcat.org/entity/work/data/1573802#CreativeWork/blue_pagoda"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/920725"/>
+    <schema:genre xml:lang="en">Fiction</schema:genre>
+    <schema:productID>543509</schema:productID>
+    <schema:genre xml:lang="en">Fantasy fiction</schema:genre>
+    <schema:datePublished>1946</schema:datePublished>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1573802"/>
+    <schema:name xml:lang="en">The fox woman</schema:name>
+    <library:oclcnum>543509</library:oclcnum>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/543509#PublicationEvent/new_york_new_collectors_group_1946"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1573802#Agent/new_collectors_group"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/1573802#CreativeWork/blue_pagoda"/>
+    <schema:creator rdf:resource="http://viaf.org/viaf/9850578"/>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1573802#Person/bok_hannes_1914_1964"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/543509"/>
+    <schema:inLanguage>en</schema:inLanguage>
+  </rdf:Description>
+</rdf:RDF>
