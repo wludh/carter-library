@@ -1,0 +1,53 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197964310#Agent/rutgers_university_press_new_brunswick">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Rutgers University Press, New Brunswick</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/959524033">
+    <schema:inLanguage>en</schema:inLanguage>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/959524033#PublicationEvent/rutgers_university_press_new_brunswick_1957"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/197964310"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/197964310#Agent/rutgers_university_press_new_brunswick"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/197964310#Topic/james_henry_1843_1916_criticism_and_interpretation"/>
+    <schema:name xml:lang="en">The American Henry James.</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/959524033"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/197964310#Person/anderson_quentin"/>
+    <schema:datePublished>1957</schema:datePublished>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>959524033</schema:productID>
+    <library:oclcnum>959524033</library:oclcnum>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/959524033">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/959524033"/>
+    <schema:dateModified>2017-07-08</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197964310#Person/anderson_quentin">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Anderson</schema:familyName>
+    <schema:givenName>Quentin</schema:givenName>
+    <schema:name>Quentin Anderson</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/959524033#PublicationEvent/rutgers_university_press_new_brunswick_1957">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/197964310#Agent/rutgers_university_press_new_brunswick"/>
+    <schema:startDate>1957</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/197964310#Topic/james_henry_1843_1916_criticism_and_interpretation">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">James, Henry, 1843-1916--Criticism and interpretation</schema:name>
+  </rdf:Description>
+</rdf:RDF>

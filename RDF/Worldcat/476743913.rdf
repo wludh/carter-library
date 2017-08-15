@@ -1,0 +1,73 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1380647#Agent/harper_&amp;_row">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Harper &amp; Row</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1380647#CreativeWork/7_days_in_may">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name>7 days in May</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1380647#Person/knebel_fletcher">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Knebel</schema:familyName>
+    <schema:givenName>Fletcher</schema:givenName>
+    <schema:name>Fletcher Knebel</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/476743913">
+    <schema:datePublished>1962</schema:datePublished>
+    <schema:contributor rdf:resource="http://experiment.worldcat.org/entity/work/data/1380647#Person/bailey_charles_w"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1380647#Agent/harper_&amp;_row"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:name>Seven days in May</schema:name>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/476743913"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/1380647#Person/knebel_fletcher"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1380647"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdfs:seeAlso rdf:resource="http://experiment.worldcat.org/entity/work/data/1380647#CreativeWork/7_days_in_may"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <library:oclcnum>476743913</library:oclcnum>
+    <schema:productID>476743913</schema:productID>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/476743913#PublicationEvent/new_york_harper_&amp;_row_1962"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1380647#Person/bailey_charles_w">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Bailey</schema:familyName>
+    <schema:givenName>Charles W.</schema:givenName>
+    <schema:name>Charles W. Bailey</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/476743913">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/476743913"/>
+    <schema:dateModified>2017-07-10</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/476743913#PublicationEvent/new_york_harper_&amp;_row_1962">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1380647#Agent/harper_&amp;_row"/>
+    <schema:startDate>1962</schema:startDate>
+  </rdf:Description>
+</rdf:RDF>

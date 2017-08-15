@@ -1,0 +1,87 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://viaf.org/viaf/27539431">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Hoffman</schema:familyName>
+    <schema:givenName>Sylvan</schema:givenName>
+    <schema:name>Sylvan Hoffman</schema:name>
+    <schema:birthDate>1891</schema:birthDate>
+    <schema:deathDate>1970,</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1870867#PublicationEvent/garden_city_n_y_garden_city_pub_co_inc_1943">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://experiment.worldcat.org/entity/work/data/2424026#Place/garden_city_n_y"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2424026#Agent/garden_city_pub_co_inc"/>
+    <schema:startDate>1943</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2424026#Place/united_states">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1204155">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>United States.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dewey.info/class/973/">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://viaf.org/viaf/45111024">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Grattan</schema:familyName>
+    <schema:givenName>C. Hartley</schema:givenName>
+    <schema:givenName>Clinton Hartley</schema:givenName>
+    <schema:name>Clinton Hartley Grattan</schema:name>
+    <schema:birthDate>1902</schema:birthDate>
+    <schema:deathDate>1980</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2424026#Agent/garden_city_pub_co_inc">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>Garden city Pub. Co., Inc.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/1870867">
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2424026"/>
+    <schema:contributor rdf:resource="http://viaf.org/viaf/45111024"/>
+    <schema:editor rdf:resource="http://viaf.org/viaf/27539431"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1204155"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2424026#Place/united_states"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/1870867#PublicationEvent/garden_city_n_y_garden_city_pub_co_inc_1943"/>
+    <library:oclcnum>1870867</library:oclcnum>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>1870867</schema:productID>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/1870867"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2424026#Agent/garden_city_pub_co_inc"/>
+    <schema:genre xml:lang="en">History</schema:genre>
+    <schema:name xml:lang="en">News of the nation, a newspaper history of the United States;</schema:name>
+    <library:placeOfPublication rdf:resource="http://experiment.worldcat.org/entity/work/data/2424026#Place/garden_city_n_y"/>
+    <schema:datePublished>1943</schema:datePublished>
+    <schema:about rdf:resource="http://dewey.info/class/973/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2424026#Place/garden_city_n_y">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Garden City, N.Y.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/1870867">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/1870867"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,85 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_York_City">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>New York</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2070246805#Person/james_henry_1843_1916">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>James</schema:familyName>
+    <schema:givenName>Henry</schema:givenName>
+    <schema:name>Henry James</schema:name>
+    <schema:birthDate>1843</schema:birthDate>
+    <schema:deathDate>1916</schema:deathDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2070246805#Series/american_men_of_letters_series">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/851164028"/>
+    <schema:name>American Men of Letters Series.</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/851164028#PublicationEvent/new_york_william_sloane_associates_1951">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/2070246805#Agent/william_sloane_associates"/>
+    <schema:startDate>1951</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/851164028">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/851164028"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <schema:productID>851164028</schema:productID>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/2070246805#Agent/william_sloane_associates"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2070246805#Series/american_men_of_letters_series"/>
+    <schema:numberOfPages>301</schema:numberOfPages>
+    <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/2070246805#Person/james_henry_1843_1916"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/851164028#PublicationEvent/new_york_william_sloane_associates_1951"/>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/2070246805#Person/dupee_f_w_frederick_wilcox_1904"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/nyu"/>
+    <schema:isPartOf rdf:resource="http://experiment.worldcat.org/entity/work/data/2070246805#Series/the_american_men_of_letters_series"/>
+    <schema:name>Henry James.</schema:name>
+    <schema:datePublished>1951</schema:datePublished>
+    <library:oclcnum>851164028</library:oclcnum>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/2070246805"/>
+    <schema:genre xml:lang="en">Biography</schema:genre>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2070246805#Series/the_american_men_of_letters_series">
+    <rdf:type rdf:resource="http://bibliograph.net/PublicationSeries"/>
+    <schema:hasPart rdf:resource="http://www.worldcat.org/oclc/851164028"/>
+    <schema:name>The American Men of Letters Series</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2070246805#Person/dupee_f_w_frederick_wilcox_1904">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Dupee</schema:familyName>
+    <schema:givenName>F. W.</schema:givenName>
+    <schema:givenName>Frederick Wilcox</schema:givenName>
+    <schema:name>Frederick Wilcox Dupee</schema:name>
+    <schema:birthDate>1904</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/nyu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>nyu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/851164028">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/851164028"/>
+    <schema:dateModified>2017-07-21</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/2070246805#Agent/william_sloane_associates">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>William Sloane Associates</schema:name>
+  </rdf:Description>
+</rdf:RDF>
