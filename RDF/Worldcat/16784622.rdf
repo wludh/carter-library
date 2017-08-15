@@ -1,0 +1,70 @@
+<rdf:RDF
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:library="http://purl.org/library/"
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:schema="http://schema.org/"
+    xmlns:bgn="http://bibliograph.net/" > 
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/16784622#Audience">
+    <rdf:type rdf:resource="http://schema.org/PeopleAudience"/>
+    <schema:audienceType xml:lang="en">Juvenile</schema:audienceType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/16784622">
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    <schema:about rdf:resource="http://www.worldcat.org/oclc/16784622"/>
+    <schema:dateModified>2017-07-09</schema:dateModified>
+    <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.worldcat.org/fast/1759351">
+    <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    <schema:name xml:lang="en">Children's literature</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/13827836#Agent/l_p_miller">
+    <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+    <schema:name>L.P. Miller</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <schema:name>Chicago</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/16784622#PublicationEvent/chicago_l_p_miller_1890">
+    <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+    <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/13827836#Agent/l_p_miller"/>
+    <schema:startDate>1890</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <dcterms:identifier>ilu</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.worldcat.org/oclc/16784622">
+    <schema:about rdf:resource="http://id.worldcat.org/fast/1759351"/>
+    <schema:audience rdf:resource="http://www.worldcat.org/title/-/oclc/16784622#Audience"/>
+    <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+    <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+    <schema:datePublished>1890</schema:datePublished>
+    <library:oclcnum>16784622</library:oclcnum>
+    <schema:productID>16784622</schema:productID>
+    <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/16784622"/>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:creator rdf:resource="http://experiment.worldcat.org/entity/work/data/13827836#Person/townsend_grace"/>
+    <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/13827836#Agent/l_p_miller"/>
+    <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/13827836"/>
+    <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/16784622#PublicationEvent/chicago_l_p_miller_1890"/>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+    <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema:name xml:lang="en">Baby lays : a first book for the little ones</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/13827836#Person/townsend_grace">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <schema:familyName>Townsend</schema:familyName>
+    <schema:givenName>Grace</schema:givenName>
+    <schema:name>Grace Townsend</schema:name>
+  </rdf:Description>
+</rdf:RDF>
